@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Accepts_Unsolicited_Proposals__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether or not philanthropic entities accept unsolicited proposals.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether or not philanthropic entities accept unsolicited proposals.</inlineHelpText>
+        <label>Accepts Unsolicited Proposals</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Active_Recurring_Gift__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>**System Calculated Fields** Automatically flagged to true when the account is related to an active recurring gift.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated Fields** Automatically flagged to true when the account is related to an active recurring gift.</inlineHelpText>
+        <label>Active Recurring Gift</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Annual_Giving_Total__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A range of values available to quickly classify philanthropic entities by annual giving totals to all grantees. Useful for projecting grant application amounts.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A range of values available to quickly classify philanthropic entities by annual giving totals to all grantees. Useful for projecting grant application amounts.</inlineHelpText>
+        <label>Annual Giving Total</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Less than $100k</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>$100k - $500k</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>$500k - $1mil.</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>$1mil. - $3mil.</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>$3mil. - $5mil.</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>$5mil. - $10mil.</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>$10mil. - $25mil.</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>$25mil. - $50mil.</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>$50mil. - $100mil.</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>$100mil. - $500mil.</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>More than $500mil.</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Auto_Calculate_Household_Greetings__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If flagged as true the account will automatically update the household greetings based on DonorNation&apos;s default household greeting format.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If flagged as true the account will automatically update the household greetings based on DonorNation&apos;s default household greeting format.</inlineHelpText>
+        <label>Auto Calculate Household Greetings</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Classification__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Classifies the account as a business organization or household.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Classifies the account as a business organization or household.</inlineHelpText>
+        <label>Classification</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Household</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Organization</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Person</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Do_Not_Solicit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Do not solicit this organization for donations/grants.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Do not solicit this organization for donations/grants.</inlineHelpText>
+        <label>Do Not Solicit</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>First_Gift_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>First Gift Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Funding_Cycle__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates how often a philanthropic entity accepts LOIs/Proposals.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates how often a philanthropic entity accepts LOIs/Proposals.</inlineHelpText>
+        <label>Funding Cycle</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Monthly</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Quarterly</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Biannual</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Annual</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Gift_Opportunities__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated Field** Counts the number of related gift opportunities.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated Field** Counts the number of related gift opportunities.</inlineHelpText>
+        <label>Gift Opportunities</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Gifts_Outstanding__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated Field** Summarizes the total amount of all related gifts with a status of &quot;Scheduled&quot;.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated Field** Summarizes the total amount of all related gifts with a status of &quot;Scheduled&quot;.</inlineHelpText>
+        <label>Gifts Outstanding</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Gifts_Received__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated Field** Summarizes the total amount of all related gifts with a status of &quot;Collected&quot;.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated Field** Summarizes the total amount of all related gifts with a status of &quot;Collected&quot;.</inlineHelpText>
+        <label>Gifts Received</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Gifts_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>Gifts_Received__c + Gifts_Outstanding__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Gifts Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Gives_Anonymously__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether or not philanthropic entities give anonymously for ALL Donations associated with them.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether or not philanthropic entities give anonymously for ALL Donations associated with them.</inlineHelpText>
+        <label>Gives Anonymously</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Has_Open_Gift_Opportunity__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>**System Calculated Field** Automatically flagged to true when the account has an open gift opportunity.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated Field** Automatically flagged to true when the account has an open gift opportunity.</inlineHelpText>
+        <label>Has Open Gift Opportunity</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Household_Default_Greeting_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>*DO NOT CHANGE*</description>
+        <externalId>false</externalId>
+        <inlineHelpText>*DO NOT CHANGE*</inlineHelpText>
+        <label>Household Default Greeting Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Household Informal Greeting</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Household Formal Greeting</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Household_Default_Greeting__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated Field** Automatically sets the default greeting for the household based upon the selected value in the Household Default Greeting Type picklist.</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Household_Default_Greeting_Type__c,&quot;Household Informal Greeting&quot;), Household_Informal_Greeting__c, 
+IF(ISPICKVAL(Household_Default_Greeting_Type__c,&quot;Household Formal Greeting&quot;), Household_Formal_Greeting__c, Household_Informal_Greeting__c))</formula>
+        <inlineHelpText>**System Calculated Field** Automatically sets the default greeting for the household based upon the selected value in the Household Default Greeting Type picklist.</inlineHelpText>
+        <label>Household Default Greeting</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Household_Email__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Household Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Household_Formal_Greeting__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Household Formal Greeting</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Household_Informal_Greeting__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Household Informal Greeting</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Largest_Gift__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated Field** Calculates the largest gift amount from all related gifts.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated Field** Calculates the largest gift amount from all related gifts.</inlineHelpText>
+        <label>Largest Gift</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Last_Gift_Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated Field** Calculates the amount of the last gift from the account&apos;s related gifts list.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated Field** Calculates the amount of the last gift from the account&apos;s related gifts list.</inlineHelpText>
+        <label>Last Gift Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Last_Gift_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Last Gift Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Matches_Employee_Giving__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Does this organization match employee gifts?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Does this organization match employee gifts?</inlineHelpText>
+        <label>Matches Employee Giving</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Next_Funding_Cycle_Month__c</fullName>
+        <deprecated>false</deprecated>
+        <description>What is the (next) month a proposal/LOI is due to this philanthropic entity?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>What is the (next) month a proposal/LOI is due to this philanthropic entity?</inlineHelpText>
+        <label>Next Funding Cycle Month</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>January</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>February</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>March</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>April</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>May</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>June</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>July</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>August</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>September</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>October</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>November</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>December</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Num_Open_Gift_Opportunities__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated Field** Calculates the total number of open gift opportunities related to the account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated Field** Calculates the total number of open gift opportunities related to the account.</inlineHelpText>
+        <label>Num Open Gift Opportunities</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Organizational_Recognition_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>If this organization/philanthropic entity gives anonymously, or preferrs to be recognized by a different name in donor acknowledgement materials, what is it?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If this organization/philanthropic entity gives anonymously, or preferrs to be recognized by a different name in donor acknowledgement materials, what is it?</inlineHelpText>
+        <label>Organizational Recognition Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Primary_Relationship_Manager__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Primary relationship manage for this con..... to be done later.</inlineHelpText>
+        <label>Primary Relationship Manager</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Accounts (Primary Relationship Manager)</relationshipLabel>
+        <relationshipName>Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

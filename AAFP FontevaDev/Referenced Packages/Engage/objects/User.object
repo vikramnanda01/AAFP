@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Is_Federated_User__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Is Federated User</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Profile_Cover_Image__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The secure (&quot;https://&quot;) url where the profile cover image file is located. We recommend uploaded a logo that has a width of 1100px and height of 300px.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The secure (&quot;https://&quot;) url where the profile cover image file is located. We recommend uploaded a logo that has a width of 1100px and height of 300px.</inlineHelpText>
+        <label>Profile Cover Image</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>

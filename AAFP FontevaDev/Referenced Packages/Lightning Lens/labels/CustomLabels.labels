@@ -1,0 +1,4338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Abandon_Registration</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Text displayed when back button is clicked during reg.</shortDescription>
+        <value>Are you sure you want to abandon the registration process?</value>
+    </labels>
+    <labels>
+        <fullName>Accept_Invitation</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Accept_Invitation</shortDescription>
+        <value>Accept Invitation</value>
+    </labels>
+    <labels>
+        <fullName>Account_Label</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account_Label</shortDescription>
+        <value>Company/Organization</value>
+    </labels>
+    <labels>
+        <fullName>Add_All_Sessions_Conflict_Message</fullName>
+        <categories>Login_Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Add_All_Sessions_Conflict_Message</shortDescription>
+        <value>One or more sessions conflict with other sessions. Please select the individual session you would like to attend.</value>
+    </labels>
+    <labels>
+        <fullName>Add_Group_Ticket_New_Attendees</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Add_Group_Ticket_New_Attendees</shortDescription>
+        <value>New Ticket</value>
+    </labels>
+    <labels>
+        <fullName>Add_Payment_Method</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Add_Payment_Method</shortDescription>
+        <value>Add Payment Method</value>
+    </labels>
+    <labels>
+        <fullName>Add_Ticket_New_Attendee</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Add_Ticket_New_Attendee</shortDescription>
+        <value>New Attendee</value>
+    </labels>
+    <labels>
+        <fullName>Add_To_Calendar</fullName>
+        <categories>event_calendar</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Add_To_Calendar</shortDescription>
+        <value>Add to Calendar</value>
+    </labels>
+    <labels>
+        <fullName>Add_To_Order</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Add_To_Order</shortDescription>
+        <value>Add to Order</value>
+    </labels>
+    <labels>
+        <fullName>Address_Book</fullName>
+        <categories>profile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Address_Book</shortDescription>
+        <value>Address Book</value>
+    </labels>
+    <labels>
+        <fullName>Address_Information</fullName>
+        <categories>event_payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Address_Information</shortDescription>
+        <value>Address Information</value>
+    </labels>
+    <labels>
+        <fullName>Agenda_Room</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Agenda_Room</shortDescription>
+        <value>Room</value>
+    </labels>
+    <labels>
+        <fullName>Agenda_Speaker</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Agenda_Speaker</shortDescription>
+        <value>Speaker</value>
+    </labels>
+    <labels>
+        <fullName>Agenda_Speakers</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Agenda_Speakers</shortDescription>
+        <value>Speakers</value>
+    </labels>
+    <labels>
+        <fullName>All_Attendees_Required</fullName>
+        <categories>attendee selection</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>All_Attendees_Required</shortDescription>
+        <value>All Attendees Required!</value>
+    </labels>
+    <labels>
+        <fullName>All_Tickets_On_Waitlist</fullName>
+        <categories>event_payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>All_Tickets_On_Waitlist</shortDescription>
+        <value>Please confirm waitlist tickets.</value>
+    </labels>
+    <labels>
+        <fullName>Apply_Sales_Order</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Apply_Sales_Order</shortDescription>
+        <value>Apply</value>
+    </labels>
+    <labels>
+        <fullName>Assign_Seats</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Assign_Seats</shortDescription>
+        <value>All seats must be assigned in order to save.</value>
+    </labels>
+    <labels>
+        <fullName>At_Least_One_Ticket_Not_Selected</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>At_Least_One_Ticket_Not_Selected</shortDescription>
+        <value>At Least One Ticket Should Be Selected.</value>
+    </labels>
+    <labels>
+        <fullName>Attendee_Information_Add_Button_label</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Attendee_Information_Add_Button_label</shortDescription>
+        <value>Add Attendee</value>
+    </labels>
+    <labels>
+        <fullName>Attendee_Information_Header_Label</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Attendee_Information_Header_Label</shortDescription>
+        <value>Attendee Information</value>
+    </labels>
+    <labels>
+        <fullName>Attendee_No_Information_Needed</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Attendee_No_Information_Needed</shortDescription>
+        <value>No additional information required.</value>
+    </labels>
+    <labels>
+        <fullName>Attendee_Reg_Action_Cancel</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Attendee_Reg_Action_Cancel</shortDescription>
+        <value>Cancellation Request</value>
+    </labels>
+    <labels>
+        <fullName>Attendee_Reg_Action_Transfer</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Attendee_Reg_Action_Transfer</shortDescription>
+        <value>Transfer Registration</value>
+    </labels>
+    <labels>
+        <fullName>Attendee_Selection_Title</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Attendee_Selection_Title</shortDescription>
+        <value>Attendee Selection</value>
+    </labels>
+    <labels>
+        <fullName>Attendee_Selector_Information</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Attendee_Selector_Information</shortDescription>
+        <value>Select your attendee and fill out any additional information required.</value>
+    </labels>
+    <labels>
+        <fullName>Attendee_Selector_Label</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Attendee_Selector_Label</shortDescription>
+        <value>Attendee</value>
+    </labels>
+    <labels>
+        <fullName>Attendee_Selector_Message</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Attendee_Selector_Message</shortDescription>
+        <value>To change the attendee, delete this attendee from your order and add a new one.</value>
+    </labels>
+    <labels>
+        <fullName>Attention</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Attention</shortDescription>
+        <value>Attention</value>
+    </labels>
+    <labels>
+        <fullName>Auto_Renew</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Auto_Renew</shortDescription>
+        <value>Auto Renew</value>
+    </labels>
+    <labels>
+        <fullName>Badges_None_Found</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Badges_None_Found</shortDescription>
+        <value>No Badges Found.</value>
+    </labels>
+    <labels>
+        <fullName>Browse_Catalogs</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Browse_Catalogs</shortDescription>
+        <value>Browse Catalogs</value>
+    </labels>
+    <labels>
+        <fullName>Cancel_Add_Tickets_Message</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel_Add_Tickets_Message</shortDescription>
+        <value>Are you sure you wish to leave this screen? You will lose any unsaved changes.</value>
+    </labels>
+    <labels>
+        <fullName>Cancel_Add_Tickets_Message_First</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel_Add_Tickets_Message</shortDescription>
+        <value>Are you sure you wish to leave this screen?</value>
+    </labels>
+    <labels>
+        <fullName>Cancel_Add_Tickets_Message_Second</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel_Add_Tickets_Message</shortDescription>
+        <value>You will lose any unsaved changes.</value>
+    </labels>
+    <labels>
+        <fullName>Cancel_Attendee_Information_My_Reg</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel_Attendee_Information_My_Reg</shortDescription>
+        <value>Close</value>
+    </labels>
+    <labels>
+        <fullName>Cancel_Auto_Renew</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel_Auto_Renew</shortDescription>
+        <value>Cancel Auto Renew</value>
+    </labels>
+    <labels>
+        <fullName>Cancel_Auto_Renew_Message</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel_Auto_Renew_Message</shortDescription>
+        <value>Are you sure you want to cancel auto renew? Your &lt;strong&gt;{0}&lt;/strong&gt; will expire on &lt;strong&gt;{1}&lt;/strong&gt;, if you do not renew.</value>
+    </labels>
+    <labels>
+        <fullName>Cancel_Auto_Renew_Modal_Cancel</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel_Auto_Renew_Modal_Cancel</shortDescription>
+        <value>No</value>
+    </labels>
+    <labels>
+        <fullName>Cancel_Auto_Renew_Modal_Submit</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel_Auto_Renew_Modal_Submit</shortDescription>
+        <value>Yes</value>
+    </labels>
+    <labels>
+        <fullName>Cancel_Auto_Renew_Modal_Title</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel_Auto_Renew_Modal_Title</shortDescription>
+        <value>Cancel Auto Renew</value>
+    </labels>
+    <labels>
+        <fullName>Cancel_Reg_First</fullName>
+        <categories>Cancel Registration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel_Reg_First</shortDescription>
+        <value>Are you sure you want to cancel your registration process?</value>
+    </labels>
+    <labels>
+        <fullName>Cancel_Reg_No</fullName>
+        <categories>Cancel Registration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel_Reg_No</shortDescription>
+        <value>No</value>
+    </labels>
+    <labels>
+        <fullName>Cancel_Reg_Second</fullName>
+        <categories>Cancel Registration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel_Reg_Second</shortDescription>
+        <value>All information you have entered will be lost.</value>
+    </labels>
+    <labels>
+        <fullName>Cancel_Reg_Yes</fullName>
+        <categories>Cancel Registration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel_Reg_Yes</shortDescription>
+        <value>Yes</value>
+    </labels>
+    <labels>
+        <fullName>Cancel_Registration_Header</fullName>
+        <categories>cancel reg</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel_Registration_Header</shortDescription>
+        <value>Attention</value>
+    </labels>
+    <labels>
+        <fullName>Cancellation_Requested</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancellation_Requested</shortDescription>
+        <value>CANCELLATION REQUESTED</value>
+    </labels>
+    <labels>
+        <fullName>Cancelled</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancelled</shortDescription>
+        <value>CANCELLED</value>
+    </labels>
+    <labels>
+        <fullName>Cannot_Register_Contact_Multiple_Times</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cannot_Register_Contact_Multiple_Times</shortDescription>
+        <value>Cannot register using the same contact multiple times.</value>
+    </labels>
+    <labels>
+        <fullName>Cannot_Register_Contact_Twice</fullName>
+        <categories>event_registration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cannot_Register_Contact_Twice</shortDescription>
+        <value>Cannot register same attendee multiple times</value>
+    </labels>
+    <labels>
+        <fullName>Cant_Invite_More_Guests</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cant_Invite_More_Guests</shortDescription>
+        <value>Can&apos;t invite more guests</value>
+    </labels>
+    <labels>
+        <fullName>Cant_Load_Reg_Process</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cant_Load_Reg_Process</shortDescription>
+        <value>Error loading registration process. Please try again.</value>
+    </labels>
+    <labels>
+        <fullName>Cant_Remove_Invited_Attendee</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cant_Remove_Invited_Attendee</shortDescription>
+        <value>Can&apos;t remove invited attendee</value>
+    </labels>
+    <labels>
+        <fullName>Card_Ending_In</fullName>
+        <categories>profile subscriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Card_Ending_In</shortDescription>
+        <value>{0} ending in {1}</value>
+    </labels>
+    <labels>
+        <fullName>Cart_Component_Cancel</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cart_Component_Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Cart_Component_Continue_Shopping</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cart_Component_Continue_Shopping</shortDescription>
+        <value>Continue Shopping</value>
+    </labels>
+    <labels>
+        <fullName>Cart_Component_Delete</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cart_Component_Delete</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>Cart_Component_Delete_Message</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cart_Component_Delete_Message</shortDescription>
+        <value>This action will remove all items related to this item. Do you wish to continue?</value>
+    </labels>
+    <labels>
+        <fullName>Cart_Component_Delete_Message_Event</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cart_Component_Delete_Message_Event</shortDescription>
+        <value>This action will remove all items related to this event. Do you wish to continue?</value>
+    </labels>
+    <labels>
+        <fullName>Cart_Component_Delete_Title</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cart_Component_Delete_Title</shortDescription>
+        <value>Delete Item</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Filter_Title</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Filter_Title</shortDescription>
+        <value>Catalogs</value>
+    </labels>
+    <labels>
+        <fullName>Checkout_Browser_Title</fullName>
+        <categories>browser_title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Checkout_Browser_Title</shortDescription>
+        <value>Checkout</value>
+    </labels>
+    <labels>
+        <fullName>Checkout_Component_Return</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Checkout_Component_Return</shortDescription>
+        <value>Shopping Cart</value>
+    </labels>
+    <labels>
+        <fullName>Checkout_Component_Title</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Checkout_Component_Title</shortDescription>
+        <value>Checkout</value>
+    </labels>
+    <labels>
+        <fullName>Checkout_No_Selected_Items</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Checkout_No_Selected_Items</shortDescription>
+        <value>No Selected Items</value>
+    </labels>
+    <labels>
+        <fullName>Complete_Label</fullName>
+        <categories>profile subscriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Complete_Label</shortDescription>
+        <value>Complete</value>
+    </labels>
+    <labels>
+        <fullName>Confirm_Order</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Confirm_Order</shortDescription>
+        <value>Confirm Order</value>
+    </labels>
+    <labels>
+        <fullName>Confirm_Waitlist</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Confirm_Waitlist</shortDescription>
+        <value>Confirm Waitlist</value>
+    </labels>
+    <labels>
+        <fullName>Contact_Already_Registered</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact_Already_Registered</shortDescription>
+        <value>Contact already registered</value>
+    </labels>
+    <labels>
+        <fullName>Contact_Fieldset</fullName>
+        <categories>site</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact_Fieldset</shortDescription>
+        <value>Fieldset should be mapped to contact</value>
+    </labels>
+    <labels>
+        <fullName>Contact_No_Access</fullName>
+        <categories>event_registration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact_No_Access</shortDescription>
+        <value>Selected Contact does not have necessary privileges for this ticket</value>
+    </labels>
+    <labels>
+        <fullName>Create_User_Account_Override_Button</fullName>
+        <categories>login</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Create_User_Account_Override_Button</shortDescription>
+        <value>Create User Account</value>
+    </labels>
+    <labels>
+        <fullName>Decline_Invitation</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Decline_Invitation</shortDescription>
+        <value>Decline Invitation</value>
+    </labels>
+    <labels>
+        <fullName>Delete_Item_First_Line</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete_Item_First_Line</shortDescription>
+        <value>Are you sure you want to delete</value>
+    </labels>
+    <labels>
+        <fullName>Delete_Item_Second_Line</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete_Item_First_Line</shortDescription>
+        <value>This will remove any associated recommended items.</value>
+    </labels>
+    <labels>
+        <fullName>Delete_Ticket_First_Line</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete_Ticket_First_Line</shortDescription>
+        <value>Are you sure you want to delete</value>
+    </labels>
+    <labels>
+        <fullName>Delete_Ticket_Second_Line</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete_Ticket_Second_Line</shortDescription>
+        <value>This will remove any associated sessions and recommended items.</value>
+    </labels>
+    <labels>
+        <fullName>Disabled</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Disabled</shortDescription>
+        <value>Disabled</value>
+    </labels>
+    <labels>
+        <fullName>Discount_Applied_Text</fullName>
+        <categories>subscription_manage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Term_Picklist_Label</shortDescription>
+        <value>Discount Applied</value>
+    </labels>
+    <labels>
+        <fullName>Discount_Code_LTE_Checkout</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Discount_Code_LTE_Checkout</shortDescription>
+        <value>Discount Code</value>
+    </labels>
+    <labels>
+        <fullName>Discount_Code_Lightning_Checkout</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Discount_Code_Lightning_Checkout</shortDescription>
+        <value>Discount Code</value>
+    </labels>
+    <labels>
+        <fullName>Discount_Code_Sales_Order</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Discount_Code_Sales_Order</shortDescription>
+        <value>Discount</value>
+    </labels>
+    <labels>
+        <fullName>Donate</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Donate</shortDescription>
+        <value>Donate</value>
+    </labels>
+    <labels>
+        <fullName>Donation_Amount</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Donation_Amount</shortDescription>
+        <value>Donation Amount</value>
+    </labels>
+    <labels>
+        <fullName>Donation_Validation_Message</fullName>
+        <categories>item_detail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Donation_Validation_Message</shortDescription>
+        <value>Donation Amount cannot be less than 0 or equal to 0.</value>
+    </labels>
+    <labels>
+        <fullName>Download_Invoice</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Download_Invoice</shortDescription>
+        <value>Download Invoice</value>
+    </labels>
+    <labels>
+        <fullName>Download_Proforma</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Download_Proforma</shortDescription>
+        <value>Download Proforma</value>
+    </labels>
+    <labels>
+        <fullName>Download_Receipt</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Download_Receipt</shortDescription>
+        <value>Download Receipt</value>
+    </labels>
+    <labels>
+        <fullName>Edit_Attendee_Information_My_Reg</fullName>
+        <categories>event my reg</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Edit_Attendee_Information_My_Reg</shortDescription>
+        <value>Edit Attendee Information</value>
+    </labels>
+    <labels>
+        <fullName>Edit_Order_Summary</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Edit_Order_Summary</shortDescription>
+        <value>Edit</value>
+    </labels>
+    <labels>
+        <fullName>Email_Attendee_Information_My_Reg</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email_Attendee_Information_My_Reg</shortDescription>
+        <value>Email</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Auto_Renew</fullName>
+        <categories>profile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Auto_Renew</shortDescription>
+        <value>Enable Auto Renew</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Auto_Renew_Message</fullName>
+        <categories>profile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Auto_Renew_Message</shortDescription>
+        <value>Enabling auto renew will automatically charge your saved payment method the renewal fee upon the next scheduled payment date.</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Auto_Renew_Modal_Cancel</fullName>
+        <categories>profile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Auto_Renew_Modal_Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Auto_Renew_Modal_Submit</fullName>
+        <categories>profile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Auto_Renew_Modal_Submit</shortDescription>
+        <value>Enable</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Auto_Renew_Modal_Title</fullName>
+        <categories>profile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Auto_Renew_Modal_Title</shortDescription>
+        <value>Enable Auto Renew</value>
+    </labels>
+    <labels>
+        <fullName>Enabled</fullName>
+        <categories>profile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enabled</shortDescription>
+        <value>Enabled</value>
+    </labels>
+    <labels>
+        <fullName>Event_Add_All_Button</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Add_All_Button</shortDescription>
+        <value>Add All</value>
+    </labels>
+    <labels>
+        <fullName>Event_Add_All_Description</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Add_All_Description</shortDescription>
+        <value>To add all sessions displayed to the selected attendee, click the “Add All” button.</value>
+    </labels>
+    <labels>
+        <fullName>Event_Add_Individual_Description</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Add_Individual_Description</shortDescription>
+        <value>To individually add session(s) to the selected attendee, click the “Add” button for that session(s).</value>
+    </labels>
+    <labels>
+        <fullName>Event_Add_To_Order</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Add_To_Order</shortDescription>
+        <value>Add To Order</value>
+    </labels>
+    <labels>
+        <fullName>Event_Add_To_Waitlist</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Add_To_Waitlist</shortDescription>
+        <value>Add to Waitlist</value>
+    </labels>
+    <labels>
+        <fullName>Event_Agenda</fullName>
+        <categories>Event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Agenda</shortDescription>
+        <value>Agenda</value>
+    </labels>
+    <labels>
+        <fullName>Event_Attendee_AddTicket_Button</fullName>
+        <categories>event_manage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Attendee_AddTicket_Button</shortDescription>
+        <value>Add</value>
+    </labels>
+    <labels>
+        <fullName>Event_Attendee_Remove</fullName>
+        <categories>event_manage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Attendee_Remove</shortDescription>
+        <value>Remove</value>
+    </labels>
+    <labels>
+        <fullName>Event_Attendee_Remove_Ticket</fullName>
+        <categories>event_manage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Attendee_Remove_Ticket</shortDescription>
+        <value>Remove Ticket</value>
+    </labels>
+    <labels>
+        <fullName>Event_Attendee_Selection_Ticket_Select</fullName>
+        <categories>event_manage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Attendee_Selection_Ticket_Select</shortDescription>
+        <value>Add Attendee</value>
+    </labels>
+    <labels>
+        <fullName>Event_Attendee_Waitlist</fullName>
+        <categories>event_manage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Attendee_Waitlist</shortDescription>
+        <value>Waitlist</value>
+    </labels>
+    <labels>
+        <fullName>Event_Cancel_Button</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Cancel_Button</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Event_Cancel_Order</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Cancel_Order</shortDescription>
+        <value>Cancel Order</value>
+    </labels>
+    <labels>
+        <fullName>Event_Checkout</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Checkout</shortDescription>
+        <value>Checkout</value>
+    </labels>
+    <labels>
+        <fullName>Event_Featured_Speakers</fullName>
+        <categories>event,venue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Featured_Speakers</shortDescription>
+        <value>Featured Speakers</value>
+    </labels>
+    <labels>
+        <fullName>Event_Featured_Sponsors</fullName>
+        <categories>event,venue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Featured_Sponsors</shortDescription>
+        <value>Featured Sponsors</value>
+    </labels>
+    <labels>
+        <fullName>Event_Filters_Exception_Message</fullName>
+        <categories>validation</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Filters_Exception_Message</shortDescription>
+        <value>Only the following filter fields are supported: Number, Currency, Date, Picklist, Multi-Select Picklist, Percentage, and Checkbox</value>
+    </labels>
+    <labels>
+        <fullName>Event_Filters_Field_Api_Name_Exception</fullName>
+        <categories>validation</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Filters_Field_Api_Name_Exception</shortDescription>
+        <value>Please verify the Field Api names.</value>
+    </labels>
+    <labels>
+        <fullName>Event_Forms_Title</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Forms_Title</shortDescription>
+        <value>Event Forms</value>
+    </labels>
+    <labels>
+        <fullName>Event_Invitation_Response</fullName>
+        <categories>event_payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Invitation_Response</shortDescription>
+        <value>Invitation Response</value>
+    </labels>
+    <labels>
+        <fullName>Event_Invitation_Waitlisted</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Invitation_Waitlisted</shortDescription>
+        <value>will be added to the waitlist</value>
+    </labels>
+    <labels>
+        <fullName>Event_Invitation_Waitlisted_And</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Invitation_Waitlisted_And</shortDescription>
+        <value>and</value>
+    </labels>
+    <labels>
+        <fullName>Event_Invitation_Waitlisted_Guests</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Invitation_Waitlisted_Guests</shortDescription>
+        <value>guest(s)</value>
+    </labels>
+    <labels>
+        <fullName>Event_Invitation_Waitlisted_You</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Invitation_Waitlisted_You</shortDescription>
+        <value>You</value>
+    </labels>
+    <labels>
+        <fullName>Event_Manage_Reg_Details_Cancel</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Manage_Reg_Details_Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Event_Manage_Reg_Details_Save</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Manage_Reg_Details_Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>Event_Manage_Reg_Details_Validation_Header</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Manage_Reg_Details_Validation_Header</shortDescription>
+        <value>Validation Failed</value>
+    </labels>
+    <labels>
+        <fullName>Event_Manage_Reg_Details_Validation_Message</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Manage_Reg_Details_Validation_Message</shortDescription>
+        <value>All required fields must be completed before saving.</value>
+    </labels>
+    <labels>
+        <fullName>Event_Manage_Registration_Button</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Manage_Registration_Button</shortDescription>
+        <value>Manage Registration</value>
+    </labels>
+    <labels>
+        <fullName>Event_Next_Button</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Next_Button</shortDescription>
+        <value>Continue</value>
+    </labels>
+    <labels>
+        <fullName>Event_Not_Found</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Not_Found</shortDescription>
+        <value>Event Not Found</value>
+    </labels>
+    <labels>
+        <fullName>Event_Not_Found_Message</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Not_Found_Message</shortDescription>
+        <value>The selected event was not found.</value>
+    </labels>
+    <labels>
+        <fullName>Event_Overview</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Overview</shortDescription>
+        <value>Event Overview</value>
+    </labels>
+    <labels>
+        <fullName>Event_Package_Because_Purchase</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Package_Because_Purchase</shortDescription>
+        <value>Because you purchased</value>
+    </labels>
+    <labels>
+        <fullName>Event_Package_Item_Success</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Package_Item_Success</shortDescription>
+        <value>{0} was successfully added</value>
+    </labels>
+    <labels>
+        <fullName>Event_Previous_Button</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Previous_Button</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>Event_Purchase_Date</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Purchase_Date</shortDescription>
+        <value>Date:</value>
+    </labels>
+    <labels>
+        <fullName>Event_Purchase_Summary_Title</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Purchase_Summary_Title</shortDescription>
+        <value>Event Purchase Summary</value>
+    </labels>
+    <labels>
+        <fullName>Event_Recommend_Items</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Recommend_Items</shortDescription>
+        <value>Recommend Items</value>
+    </labels>
+    <labels>
+        <fullName>Event_Recommend_Items_Description</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Recommend_Items_Description</shortDescription>
+        <value>Add recommended items to the selected attendee.</value>
+    </labels>
+    <labels>
+        <fullName>Event_Recommended_Items</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Recommended_Items</shortDescription>
+        <value>Recommended Items</value>
+    </labels>
+    <labels>
+        <fullName>Event_Register_Button</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Register_Button</shortDescription>
+        <value>Register</value>
+    </labels>
+    <labels>
+        <fullName>Event_Register_Now_Button</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Register_Now_Button</shortDescription>
+        <value>Register Now</value>
+    </labels>
+    <labels>
+        <fullName>Event_Registration_Selection_Header</fullName>
+        <categories>event_manage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Registration_Selection_Header</shortDescription>
+        <value>Please provide all attendee information for the selected tickets.</value>
+    </labels>
+    <labels>
+        <fullName>Event_Required_Recommend_Message</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Required_Recommend_Message</shortDescription>
+        <value>Before continuing to checkout, The following attendees must purchase atleast one item from:</value>
+    </labels>
+    <labels>
+        <fullName>Event_Schedule_Item_Conflicts_Detected</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Schedule_Item_Conflicts_Detected</shortDescription>
+        <value>Conflicts Detected</value>
+    </labels>
+    <labels>
+        <fullName>Event_Schedule_Item_NotAvailableforPurchase</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Schedule_Item_NotAvailableforPurchase</shortDescription>
+        <value>Not available for Purchase</value>
+    </labels>
+    <labels>
+        <fullName>Event_Schedule_Item_RequiredWithPurchase</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Schedule_Item_RequiredWithPurchase</shortDescription>
+        <value>Required with Purchase</value>
+    </labels>
+    <labels>
+        <fullName>Event_Schedule_Item_Soldout</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Schedule_Item_Soldout</shortDescription>
+        <value>Sold Out</value>
+    </labels>
+    <labels>
+        <fullName>Event_Schedule_Item_Waitlist</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Schedule_Item_Waitlist</shortDescription>
+        <value>Waitlist</value>
+    </labels>
+    <labels>
+        <fullName>Event_Seating_Navigation</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Seating_Navigation</shortDescription>
+        <value>Seating</value>
+    </labels>
+    <labels>
+        <fullName>Event_Seating_Save_Button</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Seating_Save_Button</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>Event_Session_Day</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Session_Day</shortDescription>
+        <value>Day</value>
+    </labels>
+    <labels>
+        <fullName>Event_Session_Search</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Session_Search</shortDescription>
+        <value>Session Search</value>
+    </labels>
+    <labels>
+        <fullName>Event_Session_Track</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Session_Track</shortDescription>
+        <value>Track</value>
+    </labels>
+    <labels>
+        <fullName>Event_Sessions</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Sessions</shortDescription>
+        <value>Sessions</value>
+    </labels>
+    <labels>
+        <fullName>Event_Sold_Out</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Sold_Out</shortDescription>
+        <value>Sold Out!</value>
+    </labels>
+    <labels>
+        <fullName>Event_Speakers</fullName>
+        <categories>Event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Speakers</shortDescription>
+        <value>Speakers</value>
+    </labels>
+    <labels>
+        <fullName>Event_Sponsor_Package</fullName>
+        <categories>event,venue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Sponsor_Package</shortDescription>
+        <value>Sponsor Package</value>
+    </labels>
+    <labels>
+        <fullName>Event_Sponsors</fullName>
+        <categories>Event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Sponsors</shortDescription>
+        <value>Sponsors</value>
+    </labels>
+    <labels>
+        <fullName>Event_Ticket_Registration</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Ticket_Registration</shortDescription>
+        <value>Registration</value>
+    </labels>
+    <labels>
+        <fullName>Event_Ticket_Registration_Instructions</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Ticket_Registration_Instructions</shortDescription>
+        <value>Registration Instructions</value>
+    </labels>
+    <labels>
+        <fullName>Event_Ticket_Remaining</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Ticket_Remaining</shortDescription>
+        <value>ticket remaining</value>
+    </labels>
+    <labels>
+        <fullName>Event_Ticket_Selection_Price</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Ticket_Selection_Price</shortDescription>
+        <value>Price</value>
+    </labels>
+    <labels>
+        <fullName>Event_Ticket_Selection_Quantity</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Ticket_Selection_Quantity</shortDescription>
+        <value>Quantity</value>
+    </labels>
+    <labels>
+        <fullName>Event_Tickets_Remaining</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Tickets_Remaining</shortDescription>
+        <value>tickets remaining</value>
+    </labels>
+    <labels>
+        <fullName>Event_Update_Order</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Add_To_Order</shortDescription>
+        <value>Update Order</value>
+    </labels>
+    <labels>
+        <fullName>Event_Waitlist_Multiple_Overflow</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Waitlist_Multiple_Overflow</shortDescription>
+        <value>attendees will be added to the waitlist</value>
+    </labels>
+    <labels>
+        <fullName>Event_Waitlist_Single_Overflow</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event_Waitlist_Single_Overflow</shortDescription>
+        <value>attendee will be added to the waitlist</value>
+    </labels>
+    <labels>
+        <fullName>Events_Browser_Title</fullName>
+        <categories>browser_title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Events_Browser_Title</shortDescription>
+        <value>Events</value>
+    </labels>
+    <labels>
+        <fullName>Events_Listing_Header</fullName>
+        <categories>listing</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Events_Listing_Header</shortDescription>
+        <value>Events</value>
+    </labels>
+    <labels>
+        <fullName>Filters_Applied</fullName>
+        <categories>listing</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filters_Applied</shortDescription>
+        <value>Applied Filters:</value>
+    </labels>
+    <labels>
+        <fullName>Filters_Clear</fullName>
+        <categories>listing</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filters_Clear</shortDescription>
+        <value>Clear All</value>
+    </labels>
+    <labels>
+        <fullName>Filters_Header</fullName>
+        <categories>listing</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filters_Header</shortDescription>
+        <value>Filters</value>
+    </labels>
+    <labels>
+        <fullName>First_Name_Attendee_Information_My_Reg</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>First_Name_Attendee_Information_My_Reg</shortDescription>
+        <value>First Name</value>
+    </labels>
+    <labels>
+        <fullName>Form_Add_Entry</fullName>
+        <categories>event,venue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Form Add Entry</shortDescription>
+        <value>Add Entry</value>
+    </labels>
+    <labels>
+        <fullName>Form_Entries</fullName>
+        <categories>event,venue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Form Entries</shortDescription>
+        <value>Entries</value>
+    </labels>
+    <labels>
+        <fullName>Form_Update_Entry</fullName>
+        <categories>event,venue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Form Update Entry</shortDescription>
+        <value>Update Entry</value>
+    </labels>
+    <labels>
+        <fullName>Forms</fullName>
+        <categories>Forms</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Form</shortDescription>
+        <value>Forms</value>
+    </labels>
+    <labels>
+        <fullName>Full_Name_Attendee_Information_My_Reg</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Full_Name_Attendee_Information_My_Reg</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Component_Directions</fullName>
+        <categories>venue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Geo_Component_Directions</shortDescription>
+        <value>Directions</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Component_Map_Url</fullName>
+        <categories>venue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Geo_Component_Map_Url</shortDescription>
+        <value>http://www.google.com/maps/place/{0} {1}/@{2} {3}&amp;f=q</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Component_No_Results</fullName>
+        <categories>venue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Geo_Component_No_Results</shortDescription>
+        <value>No results match your filter</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Component_Show_Map</fullName>
+        <categories>venue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Geo_Component_Show_Map</shortDescription>
+        <value>Show Map</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Component_Show_Results</fullName>
+        <categories>venue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Geo_Component_Show_Results</shortDescription>
+        <value>Show Results</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Component_View_Event</fullName>
+        <categories>venue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Geo_Component_View_Event</shortDescription>
+        <value>View Event</value>
+    </labels>
+    <labels>
+        <fullName>Google_Maps_Address_Error</fullName>
+        <categories>venue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Google_Maps_Address_Error</shortDescription>
+        <value>Google Maps is Unable to Get Location Information</value>
+    </labels>
+    <labels>
+        <fullName>Guest_Prefix</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Guest_Prefix</shortDescription>
+        <value>(Guest)</value>
+    </labels>
+    <labels>
+        <fullName>Invalid_Network_ID_Exception_Message</fullName>
+        <categories>site template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid_Network_ID_Exception_Message</shortDescription>
+        <value>The site configuration is not linked to a Salesforce Community!</value>
+    </labels>
+    <labels>
+        <fullName>Invitation_Only_Already_Declined</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invitation_Only_Already_Declined</shortDescription>
+        <value>You have declined the invitation.</value>
+    </labels>
+    <labels>
+        <fullName>Invitation_Only_Already_Registered</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invitation_Only_Already_Registered</shortDescription>
+        <value>You are registered for this event.</value>
+    </labels>
+    <labels>
+        <fullName>Invitation_Only_Already_Responded</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invitation_Only_Already_Responded</shortDescription>
+        <value>Attendee has already responded to the invitation</value>
+    </labels>
+    <labels>
+        <fullName>Invitation_Only_Button</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invitation_Only_Button</shortDescription>
+        <value>RSVP</value>
+    </labels>
+    <labels>
+        <fullName>Invitation_Only_Decline_Description_Text</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invitation_Only_Decline_Description_Text</shortDescription>
+        <value>If you change your mind and would like to attend &lt;br&gt; please call 888-888-8888 for assistance.</value>
+    </labels>
+    <labels>
+        <fullName>Invitation_Only_Decline_Header_Text</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invitation_Only_Decline_Header_Text</shortDescription>
+        <value>We are sorry you cannot attend the event</value>
+    </labels>
+    <labels>
+        <fullName>Invitation_Only_Guests_Exceeded</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invitation_Only_Guests_Exceeded</shortDescription>
+        <value>Maximum number of guests is</value>
+    </labels>
+    <labels>
+        <fullName>Invitation_Only_Guests_Number</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invitation_Only_Guests_Number</shortDescription>
+        <value>Number Of Guests</value>
+    </labels>
+    <labels>
+        <fullName>Invitation_Only_Guests_Prompt</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invitation_Only_Guests_Prompt</shortDescription>
+        <value>Would you like to add any guests?</value>
+    </labels>
+    <labels>
+        <fullName>Invoice_Already_Paid</fullName>
+        <categories>store_checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice_Already_Paid</shortDescription>
+        <value>One or more Invoice(s) are unable to be paid. Please contact the administrator for further assistance.</value>
+    </labels>
+    <labels>
+        <fullName>Invoice_Amount_Paid</fullName>
+        <categories>invoice</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice_Amount_Paid</shortDescription>
+        <value>Amount Paid</value>
+    </labels>
+    <labels>
+        <fullName>Invoice_Automatic_Payment</fullName>
+        <categories>profile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice_Automatic_Payment</shortDescription>
+        <value>Invoice Automatic Payment:</value>
+    </labels>
+    <labels>
+        <fullName>Invoice_Balance_Due</fullName>
+        <categories>invoice</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice_Balance_Due</shortDescription>
+        <value>Balance Due</value>
+    </labels>
+    <labels>
+        <fullName>Invoice_Confirmation_Part1</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice_Confirmation_Part1</shortDescription>
+        <value>An invoice for</value>
+    </labels>
+    <labels>
+        <fullName>Invoice_Confirmation_Part2</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice_Confirmation_Part2</shortDescription>
+        <value>was successfully created.</value>
+    </labels>
+    <labels>
+        <fullName>Invoice_Created</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice_Created</shortDescription>
+        <value>Invoice Created</value>
+    </labels>
+    <labels>
+        <fullName>Invoice_Due_Date</fullName>
+        <categories>invoice</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice_Due_Date</shortDescription>
+        <value>Due Date</value>
+    </labels>
+    <labels>
+        <fullName>Invoice_Invoice_Number</fullName>
+        <categories>invoice</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice_Invoice_Number</shortDescription>
+        <value>Invoice #</value>
+    </labels>
+    <labels>
+        <fullName>Invoice_Make_Payment</fullName>
+        <categories>invoice</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice_Make_Payment</shortDescription>
+        <value>Make Payment</value>
+    </labels>
+    <labels>
+        <fullName>Invoice_Me_Payment</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice_Me_Payment</shortDescription>
+        <value>Submit Invoice</value>
+    </labels>
+    <labels>
+        <fullName>Invoice_Payment</fullName>
+        <categories>invoice payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice_Payment</shortDescription>
+        <value>Payment</value>
+    </labels>
+    <labels>
+        <fullName>Invoice_Payment_Balance_Due</fullName>
+        <categories>invoice payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice_Payment_Balance_Due</shortDescription>
+        <value>Balance Due</value>
+    </labels>
+    <labels>
+        <fullName>Invoice_Payment_Checkout_Header</fullName>
+        <categories>invoice payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice_Payment_Checkout_Header</shortDescription>
+        <value>Invoices</value>
+    </labels>
+    <labels>
+        <fullName>Invoice_Payment_Choose_A_Payment_Method</fullName>
+        <categories>invoice payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice_Payment_Choose_A_Payment_Method</shortDescription>
+        <value>Choose a Payment Method</value>
+    </labels>
+    <labels>
+        <fullName>Invoice_Payment_Item_Name</fullName>
+        <categories>invoice payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice_Payment_Item_Name</shortDescription>
+        <value>Item Name</value>
+    </labels>
+    <labels>
+        <fullName>Invoice_Payment_Label</fullName>
+        <categories>invoice payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice_Payment_Label</shortDescription>
+        <value>Invoice Payment</value>
+    </labels>
+    <labels>
+        <fullName>Invoice_Payment_Overpayment_Text</fullName>
+        <categories>invoice payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice_Payment_Overpayment_Text</shortDescription>
+        <value>Over Payment</value>
+    </labels>
+    <labels>
+        <fullName>Invoice_Payment_Overpayment_Validation</fullName>
+        <categories>invoice payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice_Payment_Overpayment_Validation</shortDescription>
+        <value>Your payment amount exceeds the Order Total. Please update the amount to be paid.</value>
+    </labels>
+    <labels>
+        <fullName>Invoice_Payment_Process_Payment_Button</fullName>
+        <categories>invoice payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice_Payment_Process_Payment_Button</shortDescription>
+        <value>Process Payment</value>
+    </labels>
+    <labels>
+        <fullName>Invoice_Payment_Remaining_Balance</fullName>
+        <categories>invoice payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice_Payment_Remaining_Balance</shortDescription>
+        <value>Remaining Balance</value>
+    </labels>
+    <labels>
+        <fullName>Invoice_Payment_Scheduled_Message</fullName>
+        <categories>invoice payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice_Payment_Scheduled_Message</shortDescription>
+        <value>You have selected invoices that have payments scheduled to process. Are you sure you would like to continue to the payment page?</value>
+    </labels>
+    <labels>
+        <fullName>Invoice_Payment_Scheduled_Title</fullName>
+        <categories>invoice payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice_Payment_Scheduled_Title</shortDescription>
+        <value>Invoice Payment Scheduled</value>
+    </labels>
+    <labels>
+        <fullName>Invoice_Payment_Shipping</fullName>
+        <categories>invoice payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice_Payment_Shipping</shortDescription>
+        <value>Shipping</value>
+    </labels>
+    <labels>
+        <fullName>Invoice_Payment_UnderPayment_Validation</fullName>
+        <categories>invoice payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice_Payment_UnderPayment_Validation</shortDescription>
+        <value>Your payment amount is less than the total. Would you like to continue and Process Payment?</value>
+    </labels>
+    <labels>
+        <fullName>Invoice_Payment_Underpayment_Text</fullName>
+        <categories>invoice payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice_Payment_Underpayment_Text</shortDescription>
+        <value>Under Payment</value>
+    </labels>
+    <labels>
+        <fullName>Invoice_Payment_View_Details</fullName>
+        <categories>invoice payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice_Payment_View_Details</shortDescription>
+        <value>View Details</value>
+    </labels>
+    <labels>
+        <fullName>Invoice_Receipt_Number</fullName>
+        <categories>invoice</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice_Receipt_Number</shortDescription>
+        <value>Receipt #</value>
+    </labels>
+    <labels>
+        <fullName>Invoice_Total_Amount</fullName>
+        <categories>invoice</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice_Total_Amount</shortDescription>
+        <value>Total Amount</value>
+    </labels>
+    <labels>
+        <fullName>Invoices_Title</fullName>
+        <categories>invoice</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoices_Title</shortDescription>
+        <value>Invoices</value>
+    </labels>
+    <labels>
+        <fullName>Item_Added_To_Cart</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Item_Added_To_Cart</shortDescription>
+        <value>Successfully added to your order.</value>
+    </labels>
+    <labels>
+        <fullName>Item_Detail_Total</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Item_Detail_Total</shortDescription>
+        <value>Total</value>
+    </labels>
+    <labels>
+        <fullName>Item_Price</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Item_Price</shortDescription>
+        <value>Price:</value>
+    </labels>
+    <labels>
+        <fullName>Item_Quantity</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Item_Quantity</shortDescription>
+        <value>Quantity:</value>
+    </labels>
+    <labels>
+        <fullName>Known_Addresses_Title</fullName>
+        <categories>address</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Known_Addresses_Title</shortDescription>
+        <value>Known Addresses</value>
+    </labels>
+    <labels>
+        <fullName>LastName_Fieldset</fullName>
+        <categories>site</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LastName_Fieldset</shortDescription>
+        <value>LastName is required with fieldset</value>
+    </labels>
+    <labels>
+        <fullName>Last_Name_Attendee_Information_My_Reg</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Last_Name_Attendee_Information_My_Reg</shortDescription>
+        <value>Last Name</value>
+    </labels>
+    <labels>
+        <fullName>Loading</fullName>
+        <categories>Loading</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Loading</shortDescription>
+        <value>Loading...</value>
+    </labels>
+    <labels>
+        <fullName>Login_Checkout_Login_Section_Title</fullName>
+        <categories>Loading</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Checkout_Login_Section_Title</shortDescription>
+        <value>Already a member? Login here.</value>
+    </labels>
+    <labels>
+        <fullName>Login_Component_Access_Benefits</fullName>
+        <categories>Login_Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Component_Access_Benefits</shortDescription>
+        <value>to access your benefits</value>
+    </labels>
+    <labels>
+        <fullName>Login_Component_Already_An_Account</fullName>
+        <categories>Login_Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Component_Already_An_Account</shortDescription>
+        <value>Already have an account?</value>
+    </labels>
+    <labels>
+        <fullName>Login_Component_Cancel</fullName>
+        <categories>Login_Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Component_Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Login_Component_Continue_as_Guest</fullName>
+        <categories>Login_Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Component_Continue_as_Guest</shortDescription>
+        <value>Continue as Guest</value>
+    </labels>
+    <labels>
+        <fullName>Login_Component_Create_Account</fullName>
+        <categories>Login_Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Component_Create_Account</shortDescription>
+        <value>Create Account</value>
+    </labels>
+    <labels>
+        <fullName>Login_Component_Create_User_Account</fullName>
+        <categories>Login_Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Component_Create_User_Account</shortDescription>
+        <value>Create a user account</value>
+    </labels>
+    <labels>
+        <fullName>Login_Component_Email</fullName>
+        <categories>Login_Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Component_Email</shortDescription>
+        <value>Email</value>
+    </labels>
+    <labels>
+        <fullName>Login_Component_Email_Sent</fullName>
+        <categories>Login_Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Component_Email_Sent</shortDescription>
+        <value>Please check your email.</value>
+    </labels>
+    <labels>
+        <fullName>Login_Component_FirstName</fullName>
+        <categories>Login_Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Component_FirstName</shortDescription>
+        <value>First Name</value>
+    </labels>
+    <labels>
+        <fullName>Login_Component_ForgotPassword</fullName>
+        <categories>Login_Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Component_ForgotPassword</shortDescription>
+        <value>Forgot Password?</value>
+    </labels>
+    <labels>
+        <fullName>Login_Component_ForgotPassword_Email_Label</fullName>
+        <categories>Login_Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Component_ForgotPassword_Email_Label</shortDescription>
+        <value>Please enter your username below. We will email you with instructions on how to reset your password.</value>
+    </labels>
+    <labels>
+        <fullName>Login_Component_ForgotPassword_Header</fullName>
+        <categories>Login_Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Component_ForgotPassword_Header</shortDescription>
+        <value>Forgot Password</value>
+    </labels>
+    <labels>
+        <fullName>Login_Component_Forgot_Password_Submit_Label</fullName>
+        <categories>Login_Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Component_Forgot_Password_Submit_Label</shortDescription>
+        <value>Submit</value>
+    </labels>
+    <labels>
+        <fullName>Login_Component_Guest_Checkout_Section</fullName>
+        <categories>Login_Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Component_Guest_Checkout_Section</shortDescription>
+        <value>Continue as Guest</value>
+    </labels>
+    <labels>
+        <fullName>Login_Component_Header</fullName>
+        <categories>Login_Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Component_Header</shortDescription>
+        <value>Login</value>
+    </labels>
+    <labels>
+        <fullName>Login_Component_LastName</fullName>
+        <categories>Login_Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Component_LastName</shortDescription>
+        <value>Last Name</value>
+    </labels>
+    <labels>
+        <fullName>Login_Component_Login_BTN</fullName>
+        <categories>Login_Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Component_Login_BTN</shortDescription>
+        <value>Login</value>
+    </labels>
+    <labels>
+        <fullName>Login_Component_Login_Section_Header</fullName>
+        <categories>Login_Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Component_Login_Section_Header</shortDescription>
+        <value>Log In to Your Account</value>
+    </labels>
+    <labels>
+        <fullName>Login_Component_No_Uname_Pwd</fullName>
+        <categories>Login_Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Component_No_Uname_Pwd</shortDescription>
+        <value>No username and password?</value>
+    </labels>
+    <labels>
+        <fullName>Login_Component_Password</fullName>
+        <categories>Login_Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Component_Password</shortDescription>
+        <value>Password</value>
+    </labels>
+    <labels>
+        <fullName>Login_Component_Password_Validation</fullName>
+        <categories>Login_Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Component_Password_Validation</shortDescription>
+        <value>Your password must contain at least one digit, one lower case, one upper case, one symbol from ths list @#$%!, and at least 8 characters</value>
+    </labels>
+    <labels>
+        <fullName>Login_Component_Register_Section</fullName>
+        <categories>Login_Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Component_Register_Section</shortDescription>
+        <value>Register as Guest</value>
+    </labels>
+    <labels>
+        <fullName>Login_Component_Register_Submit_Button</fullName>
+        <categories>Login_Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Component_Register_Submit_Button</shortDescription>
+        <value>Register</value>
+    </labels>
+    <labels>
+        <fullName>Login_Component_UserName</fullName>
+        <categories>Login_Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Component_UserName</shortDescription>
+        <value>Username</value>
+    </labels>
+    <labels>
+        <fullName>Login_Failed_Username</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Failed_Username</shortDescription>
+        <value>Your login attempt has failed. Make sure the username and password are correct.</value>
+    </labels>
+    <labels>
+        <fullName>Login_Guest_Tab_Name</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Guest_Tab_Name</shortDescription>
+        <value>Login / Continue As Guest</value>
+    </labels>
+    <labels>
+        <fullName>Login_Header_Nav_Bar</fullName>
+        <categories>Login_Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Header_Nav_Bar</shortDescription>
+        <value>Log In</value>
+    </labels>
+    <labels>
+        <fullName>Login_Override_Button</fullName>
+        <categories>login</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Override_Button</shortDescription>
+        <value>Login</value>
+    </labels>
+    <labels>
+        <fullName>Login_Tab_Name</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Tab_Name</shortDescription>
+        <value>Login</value>
+    </labels>
+    <labels>
+        <fullName>Login_checkout_Account_Section_Title</fullName>
+        <categories>Loading</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_checkout_Account_Section_Title</shortDescription>
+        <value>Don&apos;t want to be a member? Continue as Guest here.</value>
+    </labels>
+    <labels>
+        <fullName>Login_checkout_Guest_Section_Title</fullName>
+        <categories>Loading</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_checkout_Guest_Section_Title</shortDescription>
+        <value>Not a member? Create Account here.</value>
+    </labels>
+    <labels>
+        <fullName>Logout_Header_Nav_Bar</fullName>
+        <categories>Login_Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Logout_Header_Nav_Bar</shortDescription>
+        <value>Log Out</value>
+    </labels>
+    <labels>
+        <fullName>Logout_Label</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Logout_Label</shortDescription>
+        <value>Logout</value>
+    </labels>
+    <labels>
+        <fullName>Logout_Tab_Name</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Logout_Tab_Name</shortDescription>
+        <value>Logout</value>
+    </labels>
+    <labels>
+        <fullName>Manage_Registration_Forms</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Manage_Registration_Forms</shortDescription>
+        <value>Manage Registration Form</value>
+    </labels>
+    <labels>
+        <fullName>Manage_Registration_Tab_Name</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Manage_Registration_Tab_Name</shortDescription>
+        <value>Manage Registration</value>
+    </labels>
+    <labels>
+        <fullName>Max_Quantity_Validation_Message</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Max_Quantity_Validation_Message</shortDescription>
+        <value>Maximum quantity allowed:</value>
+    </labels>
+    <labels>
+        <fullName>MenuItem_Builder_Cancel</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MenuItem_Builder_Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>MenuItem_Builder_Enable_AccessPermissions</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MenuItem_Builder_Enable_AccessPermissions</shortDescription>
+        <value>Enable Access Permissions</value>
+    </labels>
+    <labels>
+        <fullName>MenuItem_Builder_External_URL</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MenuItem_Builder_External_URL</shortDescription>
+        <value>External URL</value>
+    </labels>
+    <labels>
+        <fullName>MenuItem_Builder_Is_Profile</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MenuItem_Builder_Is_Profile</shortDescription>
+        <value>Is Profile Menu Item</value>
+    </labels>
+    <labels>
+        <fullName>MenuItem_Builder_Menu_Label</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MenuItem_Builder_Menu_Label</shortDescription>
+        <value>Menu Label</value>
+    </labels>
+    <labels>
+        <fullName>MenuItem_Builder_Name</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MenuItem_Builder_Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>MenuItem_Builder_New_Menu_Item</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MenuItem_Builder_New_Menu_Item</shortDescription>
+        <value>New Menu Item</value>
+    </labels>
+    <labels>
+        <fullName>MenuItem_Builder_New_Tab</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MenuItem_Builder_New_Tab</shortDescription>
+        <value>Open Link in New Tab</value>
+    </labels>
+    <labels>
+        <fullName>MenuItem_Builder_Publicly_Available</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MenuItem_Builder_Publicly_Available</shortDescription>
+        <value>Publicly Available</value>
+    </labels>
+    <labels>
+        <fullName>MenuItem_Builder_Save</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MenuItem_Builder_Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>MenuItem_Builder_Sort_Order</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MenuItem_Builder_Sort_Order</shortDescription>
+        <value>Display Order</value>
+    </labels>
+    <labels>
+        <fullName>MenuItem_Builder_Type</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MenuItem_Builder_Type</shortDescription>
+        <value>Type</value>
+    </labels>
+    <labels>
+        <fullName>MenuItem_Builder_URL</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MenuItem_Builder_URL</shortDescription>
+        <value>URL</value>
+    </labels>
+    <labels>
+        <fullName>Menu_Item_Validation</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Menu_Item_Validation</shortDescription>
+        <value>is required for your selection</value>
+    </labels>
+    <labels>
+        <fullName>More_Pages</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>More_Pages</shortDescription>
+        <value>More</value>
+    </labels>
+    <labels>
+        <fullName>Multiple_Accounts_Found</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Multiple_Accounts_Found</shortDescription>
+        <value>Multiple accounts found with the same name please choose the right one.</value>
+    </labels>
+    <labels>
+        <fullName>My_Attendees_Edit_Form</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>My_Attendees_Edit_Form</shortDescription>
+        <value>Edit Form</value>
+    </labels>
+    <labels>
+        <fullName>My_Info</fullName>
+        <categories>profile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>My_Info</shortDescription>
+        <value>My Info</value>
+    </labels>
+    <labels>
+        <fullName>My_Info_Cancel</fullName>
+        <categories>profile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>My_Info_Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>My_Info_Save</fullName>
+        <categories>profile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>My_Info_Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>My_Reg_View_Ticket</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>My_Reg_View_Ticket</shortDescription>
+        <value>View Ticket</value>
+    </labels>
+    <labels>
+        <fullName>My_Registration_Cancel_Button</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>My_Registration_Cancel_Button</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>My_Registration_Cancel_Header</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>My_Registration_Cancel_Header</shortDescription>
+        <value>Cancellation Request</value>
+    </labels>
+    <labels>
+        <fullName>My_Registration_Cancel_Success_Body</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>My_Registration_Cancel_Success_Body</shortDescription>
+        <value>Ticket cancellation has been successfully requested.</value>
+    </labels>
+    <labels>
+        <fullName>My_Registration_Cancel_Success_Header</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>My_Registration_Cancel_Success_Header</shortDescription>
+        <value>Cancellation Requested</value>
+    </labels>
+    <labels>
+        <fullName>My_Registration_Close_Button</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>My_Registration_Close_Button</shortDescription>
+        <value>Close</value>
+    </labels>
+    <labels>
+        <fullName>My_Registration_Request_Button</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>My_Registration_Request_Button</shortDescription>
+        <value>Request</value>
+    </labels>
+    <labels>
+        <fullName>Navbar_Header_Change_Password</fullName>
+        <categories>invoice payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Navbar_Header_Change_Password</shortDescription>
+        <value>Change Password</value>
+    </labels>
+    <labels>
+        <fullName>Navbar_Header_Login_Create</fullName>
+        <categories>invoice payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Navbar_Header_Login_Create</shortDescription>
+        <value>Login/Create Account</value>
+    </labels>
+    <labels>
+        <fullName>Navbar_Header_Logout</fullName>
+        <categories>invoice payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Navbar_Header_Logout</shortDescription>
+        <value>Logout</value>
+    </labels>
+    <labels>
+        <fullName>Navbar_Header_Profile</fullName>
+        <categories>invoice payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Navbar_Header_Profile</shortDescription>
+        <value>Profile</value>
+    </labels>
+    <labels>
+        <fullName>New_Payment_Method_Message</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No_Payment_Method</shortDescription>
+        <value>Create a new saved payment method</value>
+    </labels>
+    <labels>
+        <fullName>New_Payment_Method_URL</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No_Payment_Method</shortDescription>
+        <value>here.</value>
+    </labels>
+    <labels>
+        <fullName>Next_Scheduled_Payment</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Next_Scheduled_Payment</shortDescription>
+        <value>Next Scheduled Payment:</value>
+    </labels>
+    <labels>
+        <fullName>No_Accounts_Found</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No_Accounts_Found</shortDescription>
+        <value>No accounts found.</value>
+    </labels>
+    <labels>
+        <fullName>No_Actions_Available</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No_Actions_Available</shortDescription>
+        <value>No Actions Available</value>
+    </labels>
+    <labels>
+        <fullName>No_Attendee_Exception_Message</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>No_Attendee_Exception_Message</shortDescription>
+        <value>Sorry, but you can no longer register for the event.</value>
+    </labels>
+    <labels>
+        <fullName>No_Available_Sessions</fullName>
+        <categories>session_builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No_Available_Sessions</shortDescription>
+        <value>No Available Sessions</value>
+    </labels>
+    <labels>
+        <fullName>No_Available_Sessions_Description</fullName>
+        <categories>session_builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No_Available_Sessions_Description</shortDescription>
+        <value>There is no available sessions to purchase for this attendee.</value>
+    </labels>
+    <labels>
+        <fullName>No_Available_Sessions_Submit</fullName>
+        <categories>session_builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No_Available_Sessions_Submit</shortDescription>
+        <value>Close</value>
+    </labels>
+    <labels>
+        <fullName>No_Community_Validation</fullName>
+        <categories>site</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No_Community_Validation</shortDescription>
+        <value>No Community exists with this Name</value>
+    </labels>
+    <labels>
+        <fullName>No_Items_In_Order</fullName>
+        <categories>event registration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No_Items_In_Cart</shortDescription>
+        <value>You currently have no items in your order.</value>
+    </labels>
+    <labels>
+        <fullName>No_More_Tickets_Available</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No_More_Tickets_Available</shortDescription>
+        <value>Sorry, No More Tickets Available.</value>
+    </labels>
+    <labels>
+        <fullName>No_Payment_Method</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No_Payment_Method</shortDescription>
+        <value>No payment method added.</value>
+    </labels>
+    <labels>
+        <fullName>No_Payment_text</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No_Payment_text</shortDescription>
+        <value>There is no payment due. Click the button below to complete your order.</value>
+    </labels>
+    <labels>
+        <fullName>No_Tickets_For_Purchase</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No_Tickets_For_Purchase</shortDescription>
+        <value>No tickets available for purchase.</value>
+    </labels>
+    <labels>
+        <fullName>No_Tracks_Available</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No_Tracks_Available</shortDescription>
+        <value>No Tracks Available</value>
+    </labels>
+    <labels>
+        <fullName>Not_Attending_Invitation_Event</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Not_Attending_Invitation_Event</shortDescription>
+        <value>No, I am not attending this event.</value>
+    </labels>
+    <labels>
+        <fullName>Order_Summary</fullName>
+        <categories>shopping_cart</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order_Summary</shortDescription>
+        <value>Order Summary</value>
+    </labels>
+    <labels>
+        <fullName>Order_Summary_Delivery</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order_Summary_Delivery</shortDescription>
+        <value>Delivery:</value>
+    </labels>
+    <labels>
+        <fullName>Order_Summary_Estimated_Tax</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order_Summary_Estimated_Tax</shortDescription>
+        <value>Estimated Tax:</value>
+    </labels>
+    <labels>
+        <fullName>Order_Summary_Free</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order_Summary_Free</shortDescription>
+        <value>FREE</value>
+    </labels>
+    <labels>
+        <fullName>Order_Summary_Item</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order_Summary_Item</shortDescription>
+        <value>Items</value>
+    </labels>
+    <labels>
+        <fullName>Order_Summary_Item_Suffix</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order_Summary_Item_Suffix</shortDescription>
+        <value>):</value>
+    </labels>
+    <labels>
+        <fullName>Order_Summary_Order_Total</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order_Summary_Order_Total</shortDescription>
+        <value>Order Total:</value>
+    </labels>
+    <labels>
+        <fullName>Order_Summary_Prefix</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order_Summary_Prefix</shortDescription>
+        <value>(</value>
+    </labels>
+    <labels>
+        <fullName>Order_Summary_Tax</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order_Summary_Tax</shortDescription>
+        <value>Tax</value>
+    </labels>
+    <labels>
+        <fullName>Package_Item_Update_Order</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Package_Item_Update_Order</shortDescription>
+        <value>Update Order</value>
+    </labels>
+    <labels>
+        <fullName>Payment_Confirmation_Part1</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Payment_Confirmation_Part1</shortDescription>
+        <value>Your payment of</value>
+    </labels>
+    <labels>
+        <fullName>Payment_Confirmation_Part2</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Payment_Confirmation_Part2</shortDescription>
+        <value>was successfully completed.</value>
+    </labels>
+    <labels>
+        <fullName>Payment_Continue_To_Event</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Payment_Continue_To_Event</shortDescription>
+        <value>Continue to Event</value>
+    </labels>
+    <labels>
+        <fullName>Payment_Details_Title</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Payment_Details_Title</shortDescription>
+        <value>Payment Details</value>
+    </labels>
+    <labels>
+        <fullName>Payment_Download_Invoice</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Payment_Download_Invoice</shortDescription>
+        <value>View Invoice</value>
+    </labels>
+    <labels>
+        <fullName>Payment_Download_Receipt</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Payment_Download_Receipt</shortDescription>
+        <value>View Receipt</value>
+    </labels>
+    <labels>
+        <fullName>Payment_Information</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Payment Information</shortDescription>
+        <value>Payment Information</value>
+    </labels>
+    <labels>
+        <fullName>Payment_Method</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Payment Method</shortDescription>
+        <value>Payment Method:</value>
+    </labels>
+    <labels>
+        <fullName>Payment_Method_Modal_Cancel</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Payment_Method_Modal_Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Payment_Method_Modal_Submit</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Payment_Method_Modal_Submit</shortDescription>
+        <value>Done</value>
+    </labels>
+    <labels>
+        <fullName>Payment_Method_Modal_Title</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Payment_Method_Modal_Title</shortDescription>
+        <value>Select Saved Payment Method</value>
+    </labels>
+    <labels>
+        <fullName>Payment_Methods_Title</fullName>
+        <categories>payment methods</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Payment_Methods_Title</shortDescription>
+        <value>Payment Methods</value>
+    </labels>
+    <labels>
+        <fullName>Payment_Successful</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Payment_Successful</shortDescription>
+        <value>Payment Successful</value>
+    </labels>
+    <labels>
+        <fullName>Plan_Name</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Plan_Name</shortDescription>
+        <value>Plan:</value>
+    </labels>
+    <labels>
+        <fullName>Primary_Venue</fullName>
+        <categories>event,venue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Primary Venue Component Label</shortDescription>
+        <value>Primary Venue</value>
+    </labels>
+    <labels>
+        <fullName>Process_Payment</fullName>
+        <categories>event_payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Process_Payment</shortDescription>
+        <value>Process Payment</value>
+    </labels>
+    <labels>
+        <fullName>Process_Payment_Title</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Process_Payment_Title</shortDescription>
+        <value>Process Payment</value>
+    </labels>
+    <labels>
+        <fullName>Processing_Changes</fullName>
+        <categories>event_payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Processing_Changes</shortDescription>
+        <value>Processing Changes</value>
+    </labels>
+    <labels>
+        <fullName>Profile_Badges</fullName>
+        <categories>event_payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Profile_Badges</shortDescription>
+        <value>Badges</value>
+    </labels>
+    <labels>
+        <fullName>Profile_Browser_Title</fullName>
+        <categories>browser_title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Profile_Browser_Title</shortDescription>
+        <value>Profile</value>
+    </labels>
+    <labels>
+        <fullName>Profile_Contact_FieldSet_CSV_Validation_Message</fullName>
+        <categories>site</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Profile_Contact_FieldSet_CSV_Validation_Message</shortDescription>
+        <value>Value must be valid field set(s) only.</value>
+    </labels>
+    <labels>
+        <fullName>Profile_Edit_Profile</fullName>
+        <categories>event_payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Profile_Edit_Profile</shortDescription>
+        <value>Edit Profile</value>
+    </labels>
+    <labels>
+        <fullName>Profile_Payment_Methods</fullName>
+        <categories>event_payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Profile_Payment_Methods</shortDescription>
+        <value>Payment Methods</value>
+    </labels>
+    <labels>
+        <fullName>Profile_Payments</fullName>
+        <categories>event_payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Profile_Payments</shortDescription>
+        <value>Payments</value>
+    </labels>
+    <labels>
+        <fullName>Profile_Subscriptions</fullName>
+        <categories>event_payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Profile_Subscriptions</shortDescription>
+        <value>Subscriptions</value>
+    </labels>
+    <labels>
+        <fullName>Profile_Transactions</fullName>
+        <categories>event_payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Profile_Transactions</shortDescription>
+        <value>Transactions</value>
+    </labels>
+    <labels>
+        <fullName>Proforma</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Proforma</shortDescription>
+        <value>Proforma</value>
+    </labels>
+    <labels>
+        <fullName>Proforma_Invoice_Confirmation_Part1</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Proforma_Invoice_Confirmation_Part1</shortDescription>
+        <value>A proforma invoice for</value>
+    </labels>
+    <labels>
+        <fullName>Purchase_More_Sessions</fullName>
+        <categories>event_manage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Purchase_More_Sessions</shortDescription>
+        <value>Purchase New Sessions</value>
+    </labels>
+    <labels>
+        <fullName>Quantity_Validation_Message</fullName>
+        <categories>item_detail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quantity_Validation_Message</shortDescription>
+        <value>Quantity cannot be less than 1.</value>
+    </labels>
+    <labels>
+        <fullName>RSVP_Ticket_Cancelled</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel_Add_Tickets_Message</shortDescription>
+        <value>You cannot register at this time.</value>
+    </labels>
+    <labels>
+        <fullName>Receipt_Title</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Receipt_Title</shortDescription>
+        <value>Receipt</value>
+    </labels>
+    <labels>
+        <fullName>Recommended_Item_Quantity</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Recommended_Item_Quantity</shortDescription>
+        <value>Recommended Item Quantity:</value>
+    </labels>
+    <labels>
+        <fullName>Reg_Process_Agenda</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reg_Process_Agenda</shortDescription>
+        <value>Agenda</value>
+    </labels>
+    <labels>
+        <fullName>Reg_Process_Payment</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reg_Process_Payment</shortDescription>
+        <value>Checkout</value>
+    </labels>
+    <labels>
+        <fullName>Reg_Process_Select_Tickets</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reg_Process_Select_Tickets</shortDescription>
+        <value>Select Tickets</value>
+    </labels>
+    <labels>
+        <fullName>Registration_Edit_Order_Detail</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Registration_Edit_Order_Detail</shortDescription>
+        <value>Edit Order Detail</value>
+    </labels>
+    <labels>
+        <fullName>Registration_Form_Incomplete_Message</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Registration_Form_Incomplete_Message</shortDescription>
+        <value>Please fill out all required fields</value>
+    </labels>
+    <labels>
+        <fullName>Registration_Form_My_Reg</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Registration_Form_My_Reg</shortDescription>
+        <value>Edit Registration Form</value>
+    </labels>
+    <labels>
+        <fullName>Registration_Forms</fullName>
+        <categories>event,venue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Registration Forms Component Label</shortDescription>
+        <value>Registration Form</value>
+    </labels>
+    <labels>
+        <fullName>Registration_Forms_Email_Forms</fullName>
+        <categories>event,venue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Registration Forms Component Email Forms Checkbox Label</shortDescription>
+        <value>Email all forms for attendees to fill out</value>
+    </labels>
+    <labels>
+        <fullName>Registration_Forms_Total</fullName>
+        <categories>event,venue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Registration Forms Total Price Label Short</shortDescription>
+        <value>Total</value>
+    </labels>
+    <labels>
+        <fullName>Registration_Forms_Total_Price</fullName>
+        <categories>event,venue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Registration Forms Total Price Label</shortDescription>
+        <value>Total</value>
+    </labels>
+    <labels>
+        <fullName>Registration_Manage_Side_Bar</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Registration_Manage_Side_Bar</shortDescription>
+        <value>Manage Registration</value>
+    </labels>
+    <labels>
+        <fullName>Registration_Selection</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Registration_Selection</shortDescription>
+        <value>Registration Selection</value>
+    </labels>
+    <labels>
+        <fullName>Registration_Summary</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Registration_Summary</shortDescription>
+        <value>Registration Summary</value>
+    </labels>
+    <labels>
+        <fullName>Registration_Table_Attendee_Name</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Registration_Table_Attendee_Name</shortDescription>
+        <value>Attendee Name</value>
+    </labels>
+    <labels>
+        <fullName>Registration_Table_Edit_Attendee</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Registration_Table_Edit_Attendee</shortDescription>
+        <value>Edit Attendee</value>
+    </labels>
+    <labels>
+        <fullName>Registration_Table_Email</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Registration_Table_Email</shortDescription>
+        <value>Email</value>
+    </labels>
+    <labels>
+        <fullName>Registration_Table_Form_Name</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Registration_Table_Form_Name</shortDescription>
+        <value>Form Name</value>
+    </labels>
+    <labels>
+        <fullName>Registration_Table_Ticket_Type</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Registration_Table_Ticket_Type</shortDescription>
+        <value>Ticket Name</value>
+    </labels>
+    <labels>
+        <fullName>Registration_Timed_Out</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Registration_Timed_Out</shortDescription>
+        <value>Registration Session Expired</value>
+    </labels>
+    <labels>
+        <fullName>Registration_Timed_Out_Close_Button</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Registration_Timed_Out_Close_Button</shortDescription>
+        <value>Close</value>
+    </labels>
+    <labels>
+        <fullName>Registration_Timed_Out_Message</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Registration_Timed_Out_Message</shortDescription>
+        <value>Your registration session has expired.</value>
+    </labels>
+    <labels>
+        <fullName>Remove_Discount_Code_Text</fullName>
+        <categories>subscription_manage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Remove_Discount_Code_Text</shortDescription>
+        <value>Remove</value>
+    </labels>
+    <labels>
+        <fullName>Renew_Additional_Items_Continue</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Renew_Additional_Items_Continue</shortDescription>
+        <value>Continue</value>
+    </labels>
+    <labels>
+        <fullName>Renew_Assigned_Members_Continue</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Renew_Assigned_Members_Continue</shortDescription>
+        <value>Continue</value>
+    </labels>
+    <labels>
+        <fullName>Renew_Forms_Add_to_Cart</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Renew_Forms_Add_to_Cart</shortDescription>
+        <value>Add to Cart</value>
+    </labels>
+    <labels>
+        <fullName>Renew_Forms_Cancel</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Renew_Forms_Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Renew_Forms_Previous</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Renew_Forms_Previous</shortDescription>
+        <value>Previous</value>
+    </labels>
+    <labels>
+        <fullName>Renewal_Flow_Additional_Items</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Renewal_Flow_Additional_Items</shortDescription>
+        <value>Additional Items</value>
+    </labels>
+    <labels>
+        <fullName>Renewal_Flow_Assign_Members</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Renewal_Flow_Assign_Members</shortDescription>
+        <value>Assign Members</value>
+    </labels>
+    <labels>
+        <fullName>Renewal_Flow_Forms</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Renewal_Flow_Forms</shortDescription>
+        <value>Forms</value>
+    </labels>
+    <labels>
+        <fullName>Renewal_Flow_Renewal_Form</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Renewal_Flow_Renewal_Form</shortDescription>
+        <value>Renewal Form</value>
+    </labels>
+    <labels>
+        <fullName>Renewal_Flow_Step_Change</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Renewal_Flow_Step_Change</shortDescription>
+        <value>Change</value>
+    </labels>
+    <labels>
+        <fullName>Renewal_Flow_Subscriptions_to_Renew</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Renewal_Flow_Subscriptions_to_Renew</shortDescription>
+        <value>Subscriptions to Renew</value>
+    </labels>
+    <labels>
+        <fullName>Requires_Payment_Method</fullName>
+        <categories>profile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Requires_Payment_Method</shortDescription>
+        <value>Requires a saved payment method to enable.</value>
+    </labels>
+    <labels>
+        <fullName>Results_Label</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Results_Label</shortDescription>
+        <value>Results</value>
+    </labels>
+    <labels>
+        <fullName>Return_To_Cart_On_Expire</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Return_To_Cart_On_Expire</shortDescription>
+        <value>Your event registration has expired. The event items have been removed from your order. You will be taken back to the shopping cart to review your order.</value>
+    </labels>
+    <labels>
+        <fullName>Return_To_Event_On_Expire</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Return_To_Event_On_Expire</shortDescription>
+        <value>Your event registration has expired, would you like to return to the event page to re-register?</value>
+    </labels>
+    <labels>
+        <fullName>Return_To_Group</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Return_To_Group</shortDescription>
+        <value>Return To Group</value>
+    </labels>
+    <labels>
+        <fullName>Return_To_Item_Detail</fullName>
+        <categories>renewal store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Return_To_Item_Detail</shortDescription>
+        <value>Item Detail</value>
+    </labels>
+    <labels>
+        <fullName>Return_To_Results</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Return_To_Results</shortDescription>
+        <value>Results</value>
+    </labels>
+    <labels>
+        <fullName>Return_To_Subscriptions</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Return_To_Subscriptions</shortDescription>
+        <value>Subscriptions</value>
+    </labels>
+    <labels>
+        <fullName>SalesOrder_Already_Posted</fullName>
+        <categories>store_checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SalesOrder_Already_Posted</shortDescription>
+        <value>This order has been completed. Please click the back button in your browser to return to previous page.</value>
+    </labels>
+    <labels>
+        <fullName>Same_Information_As_Parent</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Same_Information_As_Parent</shortDescription>
+        <value>Same information as {0}</value>
+    </labels>
+    <labels>
+        <fullName>Save_Attendee_Information_My_Reg</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save_Attendee_Information_My_Reg</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>Schedule_Item_Update_Order</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Schedule_Item_Update_Order</shortDescription>
+        <value>Update Order</value>
+    </labels>
+    <labels>
+        <fullName>Search_Attendee_Field_Label</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Attendee_Field_Label</shortDescription>
+        <value>Search Attendee</value>
+    </labels>
+    <labels>
+        <fullName>Seats_Assigned</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Seats_Assigned</shortDescription>
+        <value>Seats Assigned</value>
+    </labels>
+    <labels>
+        <fullName>Seats_Assigned_Count</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Seats_Assigned_Count</shortDescription>
+        <value>Assigned :</value>
+    </labels>
+    <labels>
+        <fullName>Seats_Remaining_Count</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Seats_Remaining_Count</shortDescription>
+        <value>Remaining :</value>
+    </labels>
+    <labels>
+        <fullName>Seats_To_Assign</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Seats_to_Assign</shortDescription>
+        <value>Seats to Assign</value>
+    </labels>
+    <labels>
+        <fullName>Secondary_Venues</fullName>
+        <categories>event,venue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Secondary Venues Component Label</shortDescription>
+        <value>Secondary Venues</value>
+    </labels>
+    <labels>
+        <fullName>Sections</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sections</shortDescription>
+        <value>Sections</value>
+    </labels>
+    <labels>
+        <fullName>Select_Ticket_To_Assign_Seats</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select_Ticket_To_Assign_Seats</shortDescription>
+        <value>Select tickets to assign seats</value>
+    </labels>
+    <labels>
+        <fullName>Select_Ticket_To_Assign_Seats_Second_Line</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select_Ticket_To_Assign_Seats_Second_Line</shortDescription>
+        <value>You must assign all seats before continuing.</value>
+    </labels>
+    <labels>
+        <fullName>Session_Quantity</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Session_Quantity</shortDescription>
+        <value>Session Quantity:</value>
+    </labels>
+    <labels>
+        <fullName>Shopping_Cart</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Shopping_Cart</shortDescription>
+        <value>Shopping Cart</value>
+    </labels>
+    <labels>
+        <fullName>Shopping_Cart_Browser_Title</fullName>
+        <categories>browser_title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Shopping_Cart_Browser_Title</shortDescription>
+        <value>Shopping Cart</value>
+    </labels>
+    <labels>
+        <fullName>Shopping_Cart_Delivery_At_Checkout</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Shopping_Cart_Delivery_At_Checkout</shortDescription>
+        <value>Calculated at checkout</value>
+    </labels>
+    <labels>
+        <fullName>Shopping_Cart_Empty_Message</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Shopping_Cart_Empty_Message</shortDescription>
+        <value>You have no items in your bag.</value>
+    </labels>
+    <labels>
+        <fullName>Show_Menu</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Show_Menu</shortDescription>
+        <value>Show Menu</value>
+    </labels>
+    <labels>
+        <fullName>Site_Cookie_Prompt_Accept</fullName>
+        <categories>cookie_prompt</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Cookie_Prompt_Accept</shortDescription>
+        <value>Accept</value>
+    </labels>
+    <labels>
+        <fullName>Site_Cookie_Prompt_Body</fullName>
+        <categories>cookie_prompt</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Cookie_Prompt_Body</shortDescription>
+        <value>This site uses cookies to function. Please accept use of cookies to proceed.</value>
+    </labels>
+    <labels>
+        <fullName>Site_Cookie_Prompt_Decline</fullName>
+        <categories>cookie_prompt</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Cookie_Prompt_Decline</shortDescription>
+        <value>Decline</value>
+    </labels>
+    <labels>
+        <fullName>Site_Cookie_Prompt_Header</fullName>
+        <categories>cookie_prompt</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Cookie_Prompt_Header</shortDescription>
+        <value>Accept Cookie Usage</value>
+    </labels>
+    <labels>
+        <fullName>Site_Create_Button_Site_Wizard</fullName>
+        <categories>form</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Create_Button_Site_Wizard</shortDescription>
+        <value>Create Site</value>
+    </labels>
+    <labels>
+        <fullName>Site_Description_Site_Wizard</fullName>
+        <categories>form</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Description_Site_Wizard</shortDescription>
+        <value>Site Description</value>
+    </labels>
+    <labels>
+        <fullName>Site_Name_Site_Wizard</fullName>
+        <categories>form</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Name_Site_Wizard</shortDescription>
+        <value>Site Name</value>
+    </labels>
+    <labels>
+        <fullName>Site_Wizard_Community_Available</fullName>
+        <categories>site wizard</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Wizard_Community_Available</shortDescription>
+        <value>In order to create a new site, Please make sure to have atleast one community with no associated site in your organization.</value>
+    </labels>
+    <labels>
+        <fullName>Site_Wizard_Step_1_Instructions</fullName>
+        <categories>site wizard</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Wizard_Step_1_Instructions</shortDescription>
+        <value>In order to create a new site, at least one Salesforce Community must be set up in your organization.</value>
+    </labels>
+    <labels>
+        <fullName>Site_Wizard_Step_1_Title</fullName>
+        <categories>site wizard</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Wizard_Step_1_Title</shortDescription>
+        <value>Select a Salesforce Community</value>
+    </labels>
+    <labels>
+        <fullName>Site_Wizard_Step_2_Title</fullName>
+        <categories>site wizard</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Wizard_Step_2_Title</shortDescription>
+        <value>Choose a Template</value>
+    </labels>
+    <labels>
+        <fullName>Site_Wizard_Title</fullName>
+        <categories>site wizard</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Wizard_Title</shortDescription>
+        <value>Site Setup</value>
+    </labels>
+    <labels>
+        <fullName>Store</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Store</shortDescription>
+        <value>Store</value>
+    </labels>
+    <labels>
+        <fullName>Store_Add_Item</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Store_Add_Item</shortDescription>
+        <value>Add Item</value>
+    </labels>
+    <labels>
+        <fullName>Store_All_Catalogs</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Store_All_Catalogs</shortDescription>
+        <value>All Catalogs</value>
+    </labels>
+    <labels>
+        <fullName>Store_Browse_Catalogs</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Store_Browse_Catalogs</shortDescription>
+        <value>Browse Catalogs</value>
+    </labels>
+    <labels>
+        <fullName>Store_Browser_Title</fullName>
+        <categories>browser_title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Store_Browser_Title</shortDescription>
+        <value>Store</value>
+    </labels>
+    <labels>
+        <fullName>Store_Detail_Description</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Store_Detail_Description</shortDescription>
+        <value>Description</value>
+    </labels>
+    <labels>
+        <fullName>Store_Detail_Recommendation</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Store_Detail_Recommendations</shortDescription>
+        <value>You May Also Like</value>
+    </labels>
+    <labels>
+        <fullName>Store_No_Results_Found</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Store_No_Results_Found</shortDescription>
+        <value>No Results Found</value>
+    </labels>
+    <labels>
+        <fullName>Store_Sort_By</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Store_Sort_By</shortDescription>
+        <value>Sort By</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Active</fullName>
+        <categories>subscription</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Active</shortDescription>
+        <value>Active</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Amount</fullName>
+        <categories>profile subscriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Amount</shortDescription>
+        <value>Amount</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Amount_Paid</fullName>
+        <categories>profile subscriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Amount_Paid</shortDescription>
+        <value>Amount Paid</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Assigned_Members</fullName>
+        <categories>profile subscriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Assigned_Members</shortDescription>
+        <value>{0} Members Assigned</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Auto_Renew</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Auto_Renew</shortDescription>
+        <value>Auto Renew:</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Auto_Renew_Checkbox</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Auto_Renew_Checkbox</shortDescription>
+        <value>Auto Renew</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Auto_Renew_Checkbox_Not_Available</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Auto_Renew_Checkbox_Not_Available</shortDescription>
+        <value>Auto Renew Not Available</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Balance_Due</fullName>
+        <categories>profile subscriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Balance_Due</shortDescription>
+        <value>Balance Due</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Cancel</fullName>
+        <categories>subscription</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Cancel_Description</fullName>
+        <categories>subscription</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Cancel_Description</shortDescription>
+        <value>Are you sure you want to request to cancel this membership?</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Cancel_Modal_Cancel</fullName>
+        <categories>subscription</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Cancel_Modal_Cancel</shortDescription>
+        <value>No</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Cancel_Modal_Delete</fullName>
+        <categories>subscription</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Cancel_Modal_Delete</shortDescription>
+        <value>Yes</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Cancel_Modal_Title</fullName>
+        <categories>subscription</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Cancel_Modal_Title</shortDescription>
+        <value>Cancellation Request</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Cancellation_Requested</fullName>
+        <categories>profile subscriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Cancellation_Requested</shortDescription>
+        <value>Cancellation Requested</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Cancelled</fullName>
+        <categories>subscription</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Cancelled</shortDescription>
+        <value>Cancelled</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Change</fullName>
+        <categories>subscription</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Change</shortDescription>
+        <value>Change</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Click_Here</fullName>
+        <categories>subscription</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Click_Here</shortDescription>
+        <value>Click here to</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Current_Subscription_Badge</fullName>
+        <categories>subscription</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Current_Subscription_Badge</shortDescription>
+        <value>Current Subscription</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Description</fullName>
+        <categories>subscription</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Description</shortDescription>
+        <value>Description text</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Due_Date</fullName>
+        <categories>profile subscriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Due_Date</shortDescription>
+        <value>Due Date</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_End_Date</fullName>
+        <categories>subscription</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_End_Date</shortDescription>
+        <value>End Date:</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Expired</fullName>
+        <categories>subscription</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Expired</shortDescription>
+        <value>Expired</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Expiry_Date</fullName>
+        <categories>subscription</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Expiry_Date</shortDescription>
+        <value>Expires On:</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Hide_Inactive</fullName>
+        <categories>subscription</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Hide_Inactive</shortDescription>
+        <value>Hide Inactive Subscriptions</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Invoice_Number</fullName>
+        <categories>profile subscriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Invoice_Number</shortDescription>
+        <value>Invoice #</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Invoices</fullName>
+        <categories>profile subscriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Invoices</shortDescription>
+        <value>Invoice(s)</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Invoices_Header</fullName>
+        <categories>profile subscriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Invoices_Header</shortDescription>
+        <value>Invoice(s)</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Make_Payment</fullName>
+        <categories>profile subscriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Make_Payment</shortDescription>
+        <value>Make Payment</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Manage</fullName>
+        <categories>subscription</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Manage</shortDescription>
+        <value>Manage</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Members</fullName>
+        <categories>subscription</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Members</shortDescription>
+        <value>Members</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Members_Assign</fullName>
+        <categories>profile subscriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Members_Assign</shortDescription>
+        <value>Assign Members ({0})</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Members_Assigned</fullName>
+        <categories>profile subscriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Members_Assigned</shortDescription>
+        <value>{0} of {1} Members Assigned</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_No_Active</fullName>
+        <categories>subscription</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_No_Active</shortDescription>
+        <value>You have no active subscriptions.</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_No_Invoices_Found</fullName>
+        <categories>profile subscriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_No_Invoices_Found</shortDescription>
+        <value>No Outstanding Invoices Found.</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_No_Scheduled_Payments_Found</fullName>
+        <categories>profile subscriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_No_Scheduled_Payments_Found</shortDescription>
+        <value>No upcoming scheduled payments</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_None_Found</fullName>
+        <categories>subscription</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_None_Found</shortDescription>
+        <value>No Subscriptions Found.</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Payment_Date</fullName>
+        <categories>profile subscriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Payment_Date</shortDescription>
+        <value>Payment Date</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Payment_Method</fullName>
+        <categories>profile subscriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Payment_Method</shortDescription>
+        <value>Payment Method</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Payment_Settings</fullName>
+        <categories>subscription</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Payment_Settings</shortDescription>
+        <value>Payment Settings</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Pending</fullName>
+        <categories>subscription</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Pending</shortDescription>
+        <value>Pending</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Receipt_Number</fullName>
+        <categories>profile subscriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Receipt_Number</shortDescription>
+        <value>Receipt #</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Renew</fullName>
+        <categories>subscription</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Renew</shortDescription>
+        <value>Renew</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Renew_Members_Assigned</fullName>
+        <categories>profile subscriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Renew_Members_Assigned</shortDescription>
+        <value>Members Assigned</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Schedule_Payment</fullName>
+        <categories>profile subscriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Schedule_Payment</shortDescription>
+        <value>Schedule Payment</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Scheduled_Payment</fullName>
+        <categories>profile subscriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Scheduled_Payment</shortDescription>
+        <value>Scheduled Payments</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Show_Less</fullName>
+        <categories>profile subscriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Show_Less</shortDescription>
+        <value>Show Less</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Start_Date</fullName>
+        <categories>subscription</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Start_Date</shortDescription>
+        <value>Start Date:</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Title</fullName>
+        <categories>subscription</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_Title</shortDescription>
+        <value>Subscriptions</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_View_All</fullName>
+        <categories>profile subscriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_View_All</shortDescription>
+        <value>View All</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_View_Inactive</fullName>
+        <categories>subscription</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_View_Inactive</shortDescription>
+        <value>View Inactive Subscriptions</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_View_Item</fullName>
+        <categories>subscription</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription_View_Item</shortDescription>
+        <value>View Item</value>
+    </labels>
+    <labels>
+        <fullName>Subtotal</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subtotal</shortDescription>
+        <value>Subtotal</value>
+    </labels>
+    <labels>
+        <fullName>Successful_Invoice</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Successful_Invoice</shortDescription>
+        <value>Your invoice has been successfully processed.</value>
+    </labels>
+    <labels>
+        <fullName>Successful_Payment</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Successful_Payment</shortDescription>
+        <value>Your payment has been successfully processed.</value>
+    </labels>
+    <labels>
+        <fullName>Successful_Processing_Payment</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Successful_Processing_Payment</shortDescription>
+        <value>Your order is being processed.</value>
+    </labels>
+    <labels>
+        <fullName>Summary_End_Date</fullName>
+        <categories>subscription</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Summary_End_Date</shortDescription>
+        <value>End Date:</value>
+    </labels>
+    <labels>
+        <fullName>Summary_Plan</fullName>
+        <categories>subscription</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Summary_Plan</shortDescription>
+        <value>Plan:</value>
+    </labels>
+    <labels>
+        <fullName>Summary_Price</fullName>
+        <categories>subscription</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Summary_Price</shortDescription>
+        <value>Price:</value>
+    </labels>
+    <labels>
+        <fullName>Summary_Start_Date</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Summary_Start_Date</shortDescription>
+        <value>Start Date:</value>
+    </labels>
+    <labels>
+        <fullName>Summary_Subscription</fullName>
+        <categories>subscription</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Summary_Subscription</shortDescription>
+        <value>Subscription:</value>
+    </labels>
+    <labels>
+        <fullName>Tax_Required_Field_Missing</fullName>
+        <categories>event_payment</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tax_Required_Field_Missing</shortDescription>
+        <value>Tax address required field missing.</value>
+    </labels>
+    <labels>
+        <fullName>Term_Picklist_Label</fullName>
+        <categories>subscription_manage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Term_Picklist_Label</shortDescription>
+        <value>Term</value>
+    </labels>
+    <labels>
+        <fullName>Theme_Not_Found</fullName>
+        <categories>base_component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Theme_Not_Found</shortDescription>
+        <value>Could not query Theme.</value>
+    </labels>
+    <labels>
+        <fullName>Ticket_Max_Capacity_reached</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ticket_Max_Capacity_reached</shortDescription>
+        <value>Ticket has reached its maximum capacity.</value>
+    </labels>
+    <labels>
+        <fullName>Ticket_Max_Sales_Quantity_reached</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ticket_Max_Sales_Quantity_reached</shortDescription>
+        <value>Ticket has reached its maximum sales quantity per order.</value>
+    </labels>
+    <labels>
+        <fullName>Ticket_Quantity</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ticket_Quantity</shortDescription>
+        <value>Ticket Quantity:</value>
+    </labels>
+    <labels>
+        <fullName>Ticket_Selection_Title</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ticket_Selection_Title</shortDescription>
+        <value>Ticket Selection</value>
+    </labels>
+    <labels>
+        <fullName>Ticket_Selection_Validation</fullName>
+        <categories>registration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ticket_Selection_Validation</shortDescription>
+        <value>Invalid ticket selection. Please review errors below.</value>
+    </labels>
+    <labels>
+        <fullName>Ticket_Type_Update_Order</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ticket_Type_Update_Order</shortDescription>
+        <value>Update Order</value>
+    </labels>
+    <labels>
+        <fullName>Timer_Line_1_Message</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Timer_Line_1_Message</shortDescription>
+        <value>Please complete registration within TIME_TOKEN:00 minutes.</value>
+    </labels>
+    <labels>
+        <fullName>Timer_Line_2_Message</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Timer_Line_2_Message</shortDescription>
+        <value>After TIME_TOKEN:00 minutes, the ticket reservation we&apos;re holding will be released for others to purchase.</value>
+    </labels>
+    <labels>
+        <fullName>Total_Price</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total_Price</shortDescription>
+        <value>Total</value>
+    </labels>
+    <labels>
+        <fullName>Total_Summary_Field</fullName>
+        <categories>summary</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total_Summary_Field</shortDescription>
+        <value>Total</value>
+    </labels>
+    <labels>
+        <fullName>Transactions_Header</fullName>
+        <categories>profile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Transactions_Header</shortDescription>
+        <value>Transactions</value>
+    </labels>
+    <labels>
+        <fullName>Transactions_Header_Date</fullName>
+        <categories>profile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Transactions_Header_Date</shortDescription>
+        <value>Date</value>
+    </labels>
+    <labels>
+        <fullName>Transactions_Header_Payment_Method</fullName>
+        <categories>profile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Transactions_Header_Payment_Method</shortDescription>
+        <value>Payment Method</value>
+    </labels>
+    <labels>
+        <fullName>Transactions_Header_Receipt_Number</fullName>
+        <categories>profile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Transactions_Header_Receipt_Number</shortDescription>
+        <value>Receipt #</value>
+    </labels>
+    <labels>
+        <fullName>Transactions_Header_Total</fullName>
+        <categories>profile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Transactions_Header_Total</shortDescription>
+        <value>Total</value>
+    </labels>
+    <labels>
+        <fullName>Transactions_None_Found</fullName>
+        <categories>profile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Transactions_None_Found</shortDescription>
+        <value>No Transactions Found.</value>
+    </labels>
+    <labels>
+        <fullName>Transfer_Button</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Transfer_Button</shortDescription>
+        <value>Transfer</value>
+    </labels>
+    <labels>
+        <fullName>Transfer_Registration</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Transfer_Registration</shortDescription>
+        <value>Transfer Registration</value>
+    </labels>
+    <labels>
+        <fullName>Transfer_Registration_Confirm_Message</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Transfer_Registration_Confirm_Message</shortDescription>
+        <value>Are you sure you want to transfer registration?</value>
+    </labels>
+    <labels>
+        <fullName>Transfer_Registration_Confirm_Title</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Transfer_Registration_Confirm_Title</shortDescription>
+        <value>Confirm Transfer Registration</value>
+    </labels>
+    <labels>
+        <fullName>Transfer_Registration_Description</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Transfer_Registration_Description</shortDescription>
+        <value>Search for the attendee receiving this registration transfer.</value>
+    </labels>
+    <labels>
+        <fullName>Update_Payment_Method</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Update_Payment_Method</shortDescription>
+        <value>Update Payment Method</value>
+    </labels>
+    <labels>
+        <fullName>User_Login_Already_Exists</fullName>
+        <categories>event,venue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>User_Login_Already_Exists</shortDescription>
+        <value>User with provided email already exists. Please try logging in or resetting your password</value>
+    </labels>
+    <labels>
+        <fullName>User_Not_Found_Query</fullName>
+        <categories>base_component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>User_Not_Found_Query</shortDescription>
+        <value>Could not query user. Please contact System Administrator</value>
+    </labels>
+    <labels>
+        <fullName>View_All</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>View_All</shortDescription>
+        <value>View All</value>
+    </labels>
+    <labels>
+        <fullName>View_Cart</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>View_Cart</shortDescription>
+        <value>View Cart</value>
+    </labels>
+    <labels>
+        <fullName>View_Proforma</fullName>
+        <categories>checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>View_Proforma</shortDescription>
+        <value>View Proforma</value>
+    </labels>
+    <labels>
+        <fullName>View_Sessions</fullName>
+        <categories>event_manage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>View_Sessions</shortDescription>
+        <value>View My Agenda</value>
+    </labels>
+    <labels>
+        <fullName>Waitlist_Attendees_Heading</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Waitlist_Attendees_Heading</shortDescription>
+        <value>attendees</value>
+    </labels>
+    <labels>
+        <fullName>Waitlist_Confirmation_Text</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Waitlist_Confirmation_Text</shortDescription>
+        <value>Successfully added to the event&apos;s waitlist</value>
+    </labels>
+    <labels>
+        <fullName>Waitlist_Confirmation_Text_Community</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Waitlist_Confirmation_Text_Community</shortDescription>
+        <value>Successfully added to the event&apos;s waitlist</value>
+    </labels>
+    <labels>
+        <fullName>Waitlist_Confirmation_Title</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Waitlist_Confirmation_Title</shortDescription>
+        <value>Waitlist Confirmed</value>
+    </labels>
+    <labels>
+        <fullName>Waitlist_Confirmation_Title_Community</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Waitlist_Confirmation_Text_Community</shortDescription>
+        <value>Waitlist Confirmed!</value>
+    </labels>
+    <labels>
+        <fullName>Waitlist_Heading</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Waitlist_Heading</shortDescription>
+        <value>Waitlist</value>
+    </labels>
+    <labels>
+        <fullName>Waitlist_Quantity</fullName>
+        <categories>store</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Waitlist_Quantity</shortDescription>
+        <value>Waitlist Quantity</value>
+    </labels>
+    <labels>
+        <fullName>Yes_Attending_Invitation_Event</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Yes_Attending_Invitation_Event</shortDescription>
+        <value>Yes, I am attending this event.</value>
+    </labels>
+</CustomLabels>

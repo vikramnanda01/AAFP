@@ -1,0 +1,2731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Access_Permissions</fullName>
+        <categories>Directories</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Access_Permissions</shortDescription>
+        <value>Access Permissions</value>
+    </labels>
+    <labels>
+        <fullName>Access_Permissions_Drag_Drop_Help_Text</fullName>
+        <categories>Directories</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Access_Permissions_Drag_Drop_Help_Text</shortDescription>
+        <value>Drag badges to the right to grant access</value>
+    </labels>
+    <labels>
+        <fullName>Action_Button</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Action_Button</shortDescription>
+        <value>Action Button</value>
+    </labels>
+    <labels>
+        <fullName>Action_Button_Description</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Action_Button_Description</shortDescription>
+        <value>Enable and configure record&apos;s action button that will redirect the users to the configured field. The record value field will generally be a URL.</value>
+    </labels>
+    <labels>
+        <fullName>Action_Button_Field</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Action_Button_Field</shortDescription>
+        <value>Action Button Field</value>
+    </labels>
+    <labels>
+        <fullName>Action_Button_Field_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Action_Button_Field_Help_Text</shortDescription>
+        <value>This field contains the api name of the action field to be displayed in the Detail view.</value>
+    </labels>
+    <labels>
+        <fullName>Action_Button_Label</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Action_Button_Label</shortDescription>
+        <value>Action Button Label</value>
+    </labels>
+    <labels>
+        <fullName>Action_Button_Label_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Action_Button_Label_Help_Text</shortDescription>
+        <value>Enter the text to display on the action button. Limited to 10 characters.</value>
+    </labels>
+    <labels>
+        <fullName>Additional_Fields</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Additional_Fields</shortDescription>
+        <value>Additional Fields</value>
+    </labels>
+    <labels>
+        <fullName>Additional_Fields_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Additional_Fields_Help_Text</shortDescription>
+        <value>Select the additional fields you want to include</value>
+    </labels>
+    <labels>
+        <fullName>Authenticated_Users_Only</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Authenticated_Users_Only</shortDescription>
+        <value>Authenticated Users Only</value>
+    </labels>
+    <labels>
+        <fullName>Available</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Available</shortDescription>
+        <value>Available</value>
+    </labels>
+    <labels>
+        <fullName>Available_Fields</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Available Fields</shortDescription>
+        <value>Available Fields</value>
+    </labels>
+    <labels>
+        <fullName>Back_to_Results</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Back_to_Results</shortDescription>
+        <value>Back to Results</value>
+    </labels>
+    <labels>
+        <fullName>Badge_Modal_Drag_Drop_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Badge_Modal_Drag_Drop_Text</shortDescription>
+        <value>Drag badges to the right to display in directory</value>
+    </labels>
+    <labels>
+        <fullName>Badge_Type</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Badge_Type</shortDescription>
+        <value>Badge Type</value>
+    </labels>
+    <labels>
+        <fullName>Badge_Types</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Badge_Types</shortDescription>
+        <value>Badge Types</value>
+    </labels>
+    <labels>
+        <fullName>Banner_Image</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Banner_Image</shortDescription>
+        <value>Banner Image</value>
+    </labels>
+    <labels>
+        <fullName>Banner_Image_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Banner_Image_Help_Text</shortDescription>
+        <value>Upload the image that will be displayed as the related directory&apos;s banner. Recommended images size of 1400px by 250px.</value>
+    </labels>
+    <labels>
+        <fullName>Body</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Body</shortDescription>
+        <value>Body</value>
+    </labels>
+    <labels>
+        <fullName>Body_Background_Color</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Body_Background_Color</shortDescription>
+        <value>Body Background Color</value>
+    </labels>
+    <labels>
+        <fullName>Body_Background_Color_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Body_Background_Color_Help_Text</shortDescription>
+        <value>The color of the overall background. Valid hexadecimal notation required.</value>
+    </labels>
+    <labels>
+        <fullName>Button_Group_Validation_Message</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Button_Group_Validation_Message</shortDescription>
+        <value>Selected view is not enabled.</value>
+    </labels>
+    <labels>
+        <fullName>Cancel</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Clear</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Clear</shortDescription>
+        <value>Clear</value>
+    </labels>
+    <labels>
+        <fullName>Close</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Close</shortDescription>
+        <value>Close</value>
+    </labels>
+    <labels>
+        <fullName>Column_Headers</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Column_Headers</shortDescription>
+        <value>Column Headers</value>
+    </labels>
+    <labels>
+        <fullName>Column_Headers_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Column_Headers_Help_Text</shortDescription>
+        <value>The selected column headers to display</value>
+    </labels>
+    <labels>
+        <fullName>Component_Header</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Component_Header</shortDescription>
+        <value>Component Header</value>
+    </labels>
+    <labels>
+        <fullName>Component_Header_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Component_Header_Help_Text</shortDescription>
+        <value>Name is displayed as header of the related list.</value>
+    </labels>
+    <labels>
+        <fullName>Contact_Me</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact_Me</shortDescription>
+        <value>Contact Me</value>
+    </labels>
+    <labels>
+        <fullName>Contact_Me_Button_Label</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact_Me_Button_Label</shortDescription>
+        <value>Contact Me Button Label</value>
+    </labels>
+    <labels>
+        <fullName>Contact_Me_Button_Label_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact_Me_Button_Label_Help_Text</shortDescription>
+        <value>Enter the text to display on the contact me button. Limited to 10 characters.</value>
+    </labels>
+    <labels>
+        <fullName>Contact_Me_Description</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact_Me_Description</shortDescription>
+        <value>Enable and configure the record’s contact me settings to allow users to directly contact any contact.</value>
+    </labels>
+    <labels>
+        <fullName>Create_Filter</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Create_Filter</shortDescription>
+        <value>Filter Criteria</value>
+    </labels>
+    <labels>
+        <fullName>Create_New_Directory</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Create_New_Directory</shortDescription>
+        <value>Create New Directory</value>
+    </labels>
+    <labels>
+        <fullName>Custom_CSS</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom_CSS</shortDescription>
+        <value>Custom CSS</value>
+    </labels>
+    <labels>
+        <fullName>Custom_Components</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom_Components</shortDescription>
+        <value>Custom Components</value>
+    </labels>
+    <labels>
+        <fullName>Data</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Data</shortDescription>
+        <value>Data</value>
+    </labels>
+    <labels>
+        <fullName>Data_Description</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Data_Description</shortDescription>
+        <value>Use filters (and if applicable, badges) to control the records that will display from the primary object.</value>
+    </labels>
+    <labels>
+        <fullName>Default_Components</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Default_Components</shortDescription>
+        <value>Default Components</value>
+    </labels>
+    <labels>
+        <fullName>Default_View</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Default_View</shortDescription>
+        <value>Default View</value>
+    </labels>
+    <labels>
+        <fullName>Default_View_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Default_View_Help_Text</shortDescription>
+        <value>Defines the initial result view displayed for the directory.</value>
+    </labels>
+    <labels>
+        <fullName>Default_View_Validation</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Default_View_Validation</shortDescription>
+        <value>Selected Default View must be enabled in order to save.</value>
+    </labels>
+    <labels>
+        <fullName>Description</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Description</shortDescription>
+        <value>Description</value>
+    </labels>
+    <labels>
+        <fullName>Description_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Description_Help_Text</shortDescription>
+        <value>Describes the directory. This is an internal field and does not display in the community.</value>
+    </labels>
+    <labels>
+        <fullName>Detail</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail</shortDescription>
+        <value>Detail</value>
+    </labels>
+    <labels>
+        <fullName>Detail_Configuration</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail Configuration</shortDescription>
+        <value>Detail Configuration</value>
+    </labels>
+    <labels>
+        <fullName>Detail_Description</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail_Description</shortDescription>
+        <value>Configure the general display settings for a record&apos;s detail page.</value>
+    </labels>
+    <labels>
+        <fullName>Detail_Enable_Image</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail_Enable_Image</shortDescription>
+        <value>Enable Image</value>
+    </labels>
+    <labels>
+        <fullName>Detail_Enable_Image_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail_Enable_Image_Help_Text</shortDescription>
+        <value>When checked, each result will display an image in the detail view.</value>
+    </labels>
+    <labels>
+        <fullName>Detail_Enable_Map</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail_Enable_Map</shortDescription>
+        <value>Enable Map</value>
+    </labels>
+    <labels>
+        <fullName>Detail_Enable_Map_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail_Enable_Map_Help_Text</shortDescription>
+        <value>When checked, a map will display on the detail page with the location of the selected record.</value>
+    </labels>
+    <labels>
+        <fullName>Detail_Image_Field</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail_Image_Field</shortDescription>
+        <value>Detail Image Field</value>
+    </labels>
+    <labels>
+        <fullName>Detail_Image_Field_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail_Image_Field_Help_Text</shortDescription>
+        <value>Select the field to be displayed as the image of an enhanced list result.</value>
+    </labels>
+    <labels>
+        <fullName>Detail_Placeholder_Image</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail_Placeholder_Image</shortDescription>
+        <value>Placeholder Image</value>
+    </labels>
+    <labels>
+        <fullName>Detail_Placeholder_Image_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail_Placeholder_Image_Help_Text</shortDescription>
+        <value>If image is enabled and the record does not have an image, record will display image from this field.  Browse for files or paste in a URL.</value>
+    </labels>
+    <labels>
+        <fullName>Detail_Show_Field_Labels</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail_Show_Field_Labels</shortDescription>
+        <value>Show Additional Field Labels</value>
+    </labels>
+    <labels>
+        <fullName>Detail_Show_Field_Labels_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail_Show_Field_Labels_Help_Text</shortDescription>
+        <value>When checked, this will enable the field labels for all the fields the user drags and drops for the additional fields component in the detail view.</value>
+    </labels>
+    <labels>
+        <fullName>Detail_Subtitle</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail_Subtitle</shortDescription>
+        <value>Detail Subtitle</value>
+    </labels>
+    <labels>
+        <fullName>Detail_Subtitle_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail_Subtitle_Help_Text</shortDescription>
+        <value>The subtitle on the detail page</value>
+    </labels>
+    <labels>
+        <fullName>Detail_View</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail_View</shortDescription>
+        <value>Detail View</value>
+    </labels>
+    <labels>
+        <fullName>Directories</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Directories</shortDescription>
+        <value>Directories</value>
+    </labels>
+    <labels>
+        <fullName>Directory_Not_Found_Message</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Directory_Not_Found_Message</shortDescription>
+        <value>Directory Not Found</value>
+    </labels>
+    <labels>
+        <fullName>Disable_Detail_View</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Disable_Detail_View</shortDescription>
+        <value>Disable Detail View</value>
+    </labels>
+    <labels>
+        <fullName>Disable_Detail_View_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Disable_Detail_View_Help_Text</shortDescription>
+        <value>Checking this will disable the on-click capability on all the views and wont be redirected to detail page</value>
+    </labels>
+    <labels>
+        <fullName>Disable_Filter</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Disable_Filter</shortDescription>
+        <value>Disable Filter</value>
+    </labels>
+    <labels>
+        <fullName>Disable_Filter_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Disable_Filter_Help_Text</shortDescription>
+        <value>Select to disable the filter feature</value>
+    </labels>
+    <labels>
+        <fullName>Disable_Search</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Disable_Search</shortDescription>
+        <value>Disable Search</value>
+    </labels>
+    <labels>
+        <fullName>Disable_Search_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Disable_Search_Help_Text</shortDescription>
+        <value>Select to disable the search feature</value>
+    </labels>
+    <labels>
+        <fullName>Disable_Sort</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Disable_Sort</shortDescription>
+        <value>Disable Sort</value>
+    </labels>
+    <labels>
+        <fullName>Disable_Sort_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Disable_Sort_Help_Text</shortDescription>
+        <value>Select to disable the sort feature</value>
+    </labels>
+    <labels>
+        <fullName>Display</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Display</shortDescription>
+        <value>Display</value>
+    </labels>
+    <labels>
+        <fullName>Display_Description</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Display_Description</shortDescription>
+        <value>Configure the general display settings for a directory.</value>
+    </labels>
+    <labels>
+        <fullName>Display_Name</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Display_Name</shortDescription>
+        <value>Display Name</value>
+    </labels>
+    <labels>
+        <fullName>Display_Name_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Display_Name_Help_Text</shortDescription>
+        <value>This field will display as the directory name in the community.</value>
+    </labels>
+    <labels>
+        <fullName>Display_Results</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Display_Results</shortDescription>
+        <value>Display Results</value>
+    </labels>
+    <labels>
+        <fullName>Display_Results_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Display_Results_Help_Text</shortDescription>
+        <value>Enter the number of results to display</value>
+    </labels>
+    <labels>
+        <fullName>Drag_Drop_Component_Directories_Builder</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Drag_Drop_Component_Directories_Builder</shortDescription>
+        <value>Drag and Drop Lightning Component</value>
+    </labels>
+    <labels>
+        <fullName>Edit_In_Salesforce</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Edit_In_Salesforce</shortDescription>
+        <value>Edit In Salesforce</value>
+    </labels>
+    <labels>
+        <fullName>Edit_Listing_Profile</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Edit_Listing_Profile</shortDescription>
+        <value>Edit Listing Profile</value>
+    </labels>
+    <labels>
+        <fullName>Editable_Fields</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Editable_Fields</shortDescription>
+        <value>Editable Fields</value>
+    </labels>
+    <labels>
+        <fullName>Editable_Fields_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Editable_Fields_Help_Text</shortDescription>
+        <value>The fields on listing profile which the user can edit</value>
+    </labels>
+    <labels>
+        <fullName>Editable_Profile_Fields</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Edit_Listing_Profile</shortDescription>
+        <value>Editable Profile Fields</value>
+    </labels>
+    <labels>
+        <fullName>Editable_Profile_Fields_Description</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Editable_Profile_Fields_Description</shortDescription>
+        <value>Configure whether the contact has the ability to edit their personal record and which fields they will be able to edit.</value>
+    </labels>
+    <labels>
+        <fullName>Email</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email</shortDescription>
+        <value>Email</value>
+    </labels>
+    <labels>
+        <fullName>EmailTemplate_Validation</fullName>
+        <categories>Directories</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EmailTemplate_Validation</shortDescription>
+        <value>Required tag missing: {{message_body}}. In order to use the Email Template for emails, please add this tag.</value>
+    </labels>
+    <labels>
+        <fullName>Email_From_Field</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email_From_Field</shortDescription>
+        <value>Email From Field</value>
+    </labels>
+    <labels>
+        <fullName>Email_From_Field_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email_From_Field_Help_Text</shortDescription>
+        <value>If &quot;Org Wide Email&quot; is selected, defined Organizational Emails will be available in the drop down. If &quot;Email&quot; is selected, all email fields from the Contact, Account, or User records will be available for selection.</value>
+    </labels>
+    <labels>
+        <fullName>Email_Template</fullName>
+        <categories>Directories</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email_Template</shortDescription>
+        <value>Email Template</value>
+    </labels>
+    <labels>
+        <fullName>Email_Template_Help_Text</fullName>
+        <categories>Directories</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email_Template_Help_Text</shortDescription>
+        <value>Provide the Email Template you wish to use for directory communication &lt;br&gt; Note: Please add this tag in the Email Template: {{message_body}}</value>
+    </labels>
+    <labels>
+        <fullName>Email_Template_Warning</fullName>
+        <categories>Directories</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email_Template_Warning</shortDescription>
+        <value>Selected Email Template is Inactive</value>
+    </labels>
+    <labels>
+        <fullName>Email_To_Field</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email_To_Field</shortDescription>
+        <value>Email To Field</value>
+    </labels>
+    <labels>
+        <fullName>Email_To_Field_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email_To_Field_Help_Text</shortDescription>
+        <value>Select the field that contains the record’s email to be contacted.</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Access_Permissions</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Access_Permissions</shortDescription>
+        <value>Enable Access Permissions</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Action_Button</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Action_Button</shortDescription>
+        <value>Enable Action Button</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Action_Button_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Action_Button_Help_Text</shortDescription>
+        <value>When checked, this will enable the action button</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Contact_Me</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Contact_Me</shortDescription>
+        <value>Enable Contact Me</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Contact_Me_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Contact_Me_Help_Text</shortDescription>
+        <value>When checked, this will enable the contact me link</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Contact_Preferences</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Contact_Preferences</shortDescription>
+        <value>Enable Contact Preferences</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Contact_Preferences_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Contact_Preferences_Help_Text</shortDescription>
+        <value>When checked, this will have the ability for the user to show/hide profile fields when they are Authenticated.</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Detail_View</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Detail_View</shortDescription>
+        <value>Enable Detail View</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Detail_View_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Detail_View_Help_Text</shortDescription>
+        <value>When checked, this will enable the on-click capability on all the views and will be redirected to detail page</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Enhanced_List</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Enhanced_List</shortDescription>
+        <value>Enable Enhanced List</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Enhanced_List_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Enhanced_List_Help_Text</shortDescription>
+        <value>When checked, this will enable the enhanced list view.</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Filter</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Filter</shortDescription>
+        <value>Enable Filter</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Filter_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Filter_Help_Text</shortDescription>
+        <value>When checked, the directory filter feature will be enabled for all result views.</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Geo_Location_Display</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Geo_Location_Display</shortDescription>
+        <value>Enable Geo Location Display</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Geo_Location_Display_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Geo_Location_Display_Help_Text</shortDescription>
+        <value>When checked, this will enable the geo location display</value>
+    </labels>
+    <labels>
+        <fullName>Enable_List_Print</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_List_Print</shortDescription>
+        <value>Enable Print</value>
+    </labels>
+    <labels>
+        <fullName>Enable_List_Print_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_List_Print_Help</shortDescription>
+        <value>When checked, this will display a print button that allows the user to print the table view results in PDF format.</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Listing_Profile_Edit</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Listing_Profile_Edit</shortDescription>
+        <value>Enable Profile Edit</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Listing_Profile_Edit_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Listing_Profile_Edit_Help_Text</shortDescription>
+        <value>When checked, this will enable the user to edit their own listing</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Map</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable Map</shortDescription>
+        <value>Enable Map</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Search</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Search</shortDescription>
+        <value>Enable Search</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Search_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Search_Help_Text</shortDescription>
+        <value>When checked, the directory search feature will be enabled for all result views. The top three fields will display in the search bar to show the users what some of the possible fields are searchable.</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Sort</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Sort</shortDescription>
+        <value>Enable Sort</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Sort_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Sort_Help_Text</shortDescription>
+        <value>When checked, the directory sort feature will be enabled for the enhanced list, tile, and geo location views.</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Table_Display</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Table_Display</shortDescription>
+        <value>Enable Table View</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Table_Display_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Table_Display_Help_Text</shortDescription>
+        <value>When checked, this will enable the table view.</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Tile_Flip</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Tile_Flip</shortDescription>
+        <value>Enable Tile Flip</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Tile_Flip_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Tile_Flip_Help_Text</shortDescription>
+        <value>When checked, tile will now flip on hover in the frontend.</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Tile_List</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Tile_List</shortDescription>
+        <value>Enable Tile List</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Tile_List_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Tile_List_Help_Text</shortDescription>
+        <value>When checked, this will enable the tile list display.</value>
+    </labels>
+    <labels>
+        <fullName>End_Date</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>End Date</shortDescription>
+        <value>End Date</value>
+    </labels>
+    <labels>
+        <fullName>Enhanced_ActionButtonField_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enhanced_ActionButtonField_HelpText</shortDescription>
+        <value>Select the field to be used for redirecting users when clicking the action button. The record field value will generally be a URL.</value>
+    </labels>
+    <labels>
+        <fullName>Enhanced_ActionButtonLabel_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enhanced_ActionButtonLabel_HelpText</shortDescription>
+        <value>This field displays as the label of the related action button. Limited to 10 characters.</value>
+    </labels>
+    <labels>
+        <fullName>Enhanced_Action_Button_Description</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enhanced_Action_Button_Description</shortDescription>
+        <value>Enable and configure the action button for enhanced list result&apos;s that will redirect users to the configured field. The record field value will generally be a URL.</value>
+    </labels>
+    <labels>
+        <fullName>Enhanced_Action_Button_Field</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enhanced_Action_Button_Field</shortDescription>
+        <value>Action Button Field</value>
+    </labels>
+    <labels>
+        <fullName>Enhanced_Action_Button_Label</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enhanced_Action_Button_Label</shortDescription>
+        <value>Action Button Label</value>
+    </labels>
+    <labels>
+        <fullName>Enhanced_Enable_Action_Button</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enhanced_Enable_Action_Button</shortDescription>
+        <value>Enable Action Button</value>
+    </labels>
+    <labels>
+        <fullName>Enhanced_Enable_Action_Button_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enhanced_Enable_Action_Button_Help_Text</shortDescription>
+        <value>When checked, this will enable action buttons for enhanced list results.</value>
+    </labels>
+    <labels>
+        <fullName>Enhanced_Enable_Image</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enhanced_Enable_Image</shortDescription>
+        <value>Enable Image</value>
+    </labels>
+    <labels>
+        <fullName>Enhanced_Enable_Image_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enhanced_Enable_Image_HelpText</shortDescription>
+        <value>When checked, this will enable images for enhanced list results.</value>
+    </labels>
+    <labels>
+        <fullName>Enhanced_ImageField_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enhanced_ImageField_HelpText</shortDescription>
+        <value>Select the field to be displayed as the image of an enhanced list result.</value>
+    </labels>
+    <labels>
+        <fullName>Enhanced_Image_Description</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enhanced_Image_Description</shortDescription>
+        <value>Enable and configure the image displayed on enhanced list results.</value>
+    </labels>
+    <labels>
+        <fullName>Enhanced_Image_Field</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enhanced_Image_Field</shortDescription>
+        <value>Image Field</value>
+    </labels>
+    <labels>
+        <fullName>Enhanced_List</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enhanced_List</shortDescription>
+        <value>Enhanced List</value>
+    </labels>
+    <labels>
+        <fullName>Enhanced_List_Description</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enhanced_List_Description</shortDescription>
+        <value>Configure the fields that will be displayed in the directory&apos;s enhanced list view.</value>
+    </labels>
+    <labels>
+        <fullName>Enhanced_Placeholder_Image</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enhanced_Placeholder_Image</shortDescription>
+        <value>Placeholder Image</value>
+    </labels>
+    <labels>
+        <fullName>Enhanced_Position1</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enhanced_Position1</shortDescription>
+        <value>Position 1</value>
+    </labels>
+    <labels>
+        <fullName>Enhanced_Position1_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enhanced_Position1_HelpText</shortDescription>
+        <value>Select the field to be displayed at position 1 of an enhanced list result.</value>
+    </labels>
+    <labels>
+        <fullName>Enhanced_Position2</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enhanced_Position2</shortDescription>
+        <value>Position 2</value>
+    </labels>
+    <labels>
+        <fullName>Enhanced_Position2_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enhanced_Position2_HelpText</shortDescription>
+        <value>Select the field to be displayed at position 2 of an enhanced list result.</value>
+    </labels>
+    <labels>
+        <fullName>Enhanced_Position3</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enhanced_Position3</shortDescription>
+        <value>Position 3</value>
+    </labels>
+    <labels>
+        <fullName>Enhanced_Position3_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enhanced_Position3_HelpText</shortDescription>
+        <value>Select the field to be displayed at position 3 of an enhanced list result.</value>
+    </labels>
+    <labels>
+        <fullName>Enhanced_Position4</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enhanced_Position4</shortDescription>
+        <value>Position 4</value>
+    </labels>
+    <labels>
+        <fullName>Enhanced_Position4_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enhanced_Position4_HelpText</shortDescription>
+        <value>Select the field to be displayed at position 4 of an enhanced list result.</value>
+    </labels>
+    <labels>
+        <fullName>Enhanced_Position5</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enhanced_Position5</shortDescription>
+        <value>Position 5</value>
+    </labels>
+    <labels>
+        <fullName>Enhanced_Position5_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enhanced_Position5_HelpText</shortDescription>
+        <value>Select the field to be displayed at position 5 of an enhanced list result.</value>
+    </labels>
+    <labels>
+        <fullName>Enhanced_Position6</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enhanced_Position6</shortDescription>
+        <value>Position 6</value>
+    </labels>
+    <labels>
+        <fullName>Enhanced_Position6_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enhanced_Position6_HelpText</shortDescription>
+        <value>Select the field to be displayed at position 6 of an enhanced list result.</value>
+    </labels>
+    <labels>
+        <fullName>Enhanced_ResultsPerPage_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enhanced_ResultsPerPage_HelpText</shortDescription>
+        <value>The value entered in this field defines the number of results returned for each page of the enhanced list view.</value>
+    </labels>
+    <labels>
+        <fullName>Enhanced_Results_Per_Page</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enhanced_Results_Per_Page</shortDescription>
+        <value>Results Per Page</value>
+    </labels>
+    <labels>
+        <fullName>Enhanced_Show_Label</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enhanced_Show_Label</shortDescription>
+        <value>Show Label</value>
+    </labels>
+    <labels>
+        <fullName>Filter</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filter</shortDescription>
+        <value>Filter</value>
+    </labels>
+    <labels>
+        <fullName>Filter_By</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filter_By</shortDescription>
+        <value>Filter By</value>
+    </labels>
+    <labels>
+        <fullName>Filter_Condition</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filter_Condition</shortDescription>
+        <value>Filter Condition</value>
+    </labels>
+    <labels>
+        <fullName>Filter_Condition_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filter_Condition_Help_Text</shortDescription>
+        <value>Directory results will be filtered based on the filter criteria format AND/OR. [(1 AND 2) OR 3 (4 AND 5)]</value>
+    </labels>
+    <labels>
+        <fullName>Filter_Criteria</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filter_Criteria</shortDescription>
+        <value>Filter Criteria</value>
+    </labels>
+    <labels>
+        <fullName>Filter_Criteria_Field_Label</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filter Criteria Field Label</shortDescription>
+        <value>Field</value>
+    </labels>
+    <labels>
+        <fullName>Filter_Criteria_Object_Label</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filter Criteria Operator Label</shortDescription>
+        <value>Object</value>
+    </labels>
+    <labels>
+        <fullName>Filter_Criteria_Operator_Label</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filter Criteria Operator Label</shortDescription>
+        <value>Operator</value>
+    </labels>
+    <labels>
+        <fullName>Filter_Criteria_Title</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filter_Criteria_Title</shortDescription>
+        <value>Create Filter</value>
+    </labels>
+    <labels>
+        <fullName>Filter_Criteria_Value_Label</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filter Criteria Value Label</shortDescription>
+        <value>Value</value>
+    </labels>
+    <labels>
+        <fullName>Filter_Description</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filter_Description</shortDescription>
+        <value>Drag and drop the fields a user can utilize to filter the results.</value>
+    </labels>
+    <labels>
+        <fullName>Filters</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filters</shortDescription>
+        <value>Filters</value>
+    </labels>
+    <labels>
+        <fullName>From</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>From</shortDescription>
+        <value>From</value>
+    </labels>
+    <labels>
+        <fullName>General</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>General</shortDescription>
+        <value>General</value>
+    </labels>
+    <labels>
+        <fullName>Geo_ActionButtonField_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Geo_ActionButtonField_HelpText</shortDescription>
+        <value>This field contains the api name of the field used for the action button on Geo view.</value>
+    </labels>
+    <labels>
+        <fullName>Geo_ActionButtonLabel_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Geo_ActionButtonLabel_HelpText</shortDescription>
+        <value>This field defines what is displayed for the button label on Geo view. Limited to 10 characters.</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Action_Button_Field</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Action Button Field</shortDescription>
+        <value>Action Button Field</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Action_Button_Label</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Action Button Label</shortDescription>
+        <value>Action Button Label</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Enable_Action_Button</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable Action Button</shortDescription>
+        <value>Enable Action Button</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Enable_Action_Button_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Geo_Enable_Action_Button_Help_Text</shortDescription>
+        <value>When checked, this will enable the action button on the front end.</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Enable_Image</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable Image</shortDescription>
+        <value>Enable Image</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Enable_Image_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Geo_Enable_Image_HelpText</shortDescription>
+        <value>When checked, this will enable images for geo list results.</value>
+    </labels>
+    <labels>
+        <fullName>Geo_ImageField_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Geo_ImageField_HelpText</shortDescription>
+        <value>This field contains the api name of the image field to be displayed in the Geo view.</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Image_Field</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Image Field</shortDescription>
+        <value>Image Field</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Latitude</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Latitude</shortDescription>
+        <value>Latitude</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Latitude_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Geo_Latitude_HelpText</shortDescription>
+        <value>Corresponding Latitude field from the primary object</value>
+    </labels>
+    <labels>
+        <fullName>Geo_List</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Geo_List</shortDescription>
+        <value>Geo List</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Location</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Geo_Location</shortDescription>
+        <value>Geo Location</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Location_Description</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Geo_Location_Description</shortDescription>
+        <value>Configure the fields that will be displayed in the directory&apos;s geo location list view.</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Longitude</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Longitude</shortDescription>
+        <value>Longitude</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Longitude_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Geo_Longitude_HelpText</shortDescription>
+        <value>Corresponding Longitude field from the primary object</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Placeholder_Image</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Placeholder Image</shortDescription>
+        <value>Placeholder Image</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Placeholder_Image_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Geo_Placeholder_Image_HelpText</shortDescription>
+        <value>If image is enabled and the record does not have an image, record will display image from this field.  Browse for files or paste in a URL.</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Position1</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Position 1</shortDescription>
+        <value>Position 1</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Position1_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Geo_Position1_HelpText</shortDescription>
+        <value>This field contains the api name of the field used for the name position in the geo-location view.</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Position2</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Position 2</shortDescription>
+        <value>Position 2</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Position2_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Geo_Position2_HelpText</shortDescription>
+        <value>This field contains the api name of the field used for the title position in the geo-location view.</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Position3</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Position 3</shortDescription>
+        <value>Position 3</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Position3_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Geo_Position3_HelpText</shortDescription>
+        <value>This field contains the api name of the field used for the left column position 3 in the geo-location view.</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Position4</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Position 4</shortDescription>
+        <value>Position 4</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Position4_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Geo_Position4_HelpText</shortDescription>
+        <value>This field contains the api name of the field used for the left column position 4 in the geo-location view.</value>
+    </labels>
+    <labels>
+        <fullName>Geo_ResultsPerPage_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Geo_ResultsPerPage_HelpText</shortDescription>
+        <value>The value entered in this field is the number of results returned for each page on the Geo view</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Results_Per_Page</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Results Per Page</shortDescription>
+        <value>Results Per Page</value>
+    </labels>
+    <labels>
+        <fullName>Geo_Show_Label</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Show Label</shortDescription>
+        <value>Show Label</value>
+    </labels>
+    <labels>
+        <fullName>Google_Maps_Address_Error</fullName>
+        <categories>venue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Google_Maps_Address_Error</shortDescription>
+        <value>Google Maps is Unable to Get Location Information</value>
+    </labels>
+    <labels>
+        <fullName>HTML_Component</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HTML_Component</shortDescription>
+        <value>HTML Component</value>
+    </labels>
+    <labels>
+        <fullName>Heading_Color</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Heading_Color</shortDescription>
+        <value>Heading Color</value>
+    </labels>
+    <labels>
+        <fullName>Heading_Color_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Heading_Color_Help_Text</shortDescription>
+        <value>Color of all heading text. Valid hexadecimal notation required.</value>
+    </labels>
+    <labels>
+        <fullName>Hero_Text_Color</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Hero_Text_Color</shortDescription>
+        <value>Hero Text Color</value>
+    </labels>
+    <labels>
+        <fullName>Hero_Text_Color_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Hero_Text_Color_Help_Text</shortDescription>
+        <value>Color used for the directory banner text. Valid hexadecimal notation required.</value>
+    </labels>
+    <labels>
+        <fullName>Image</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Image</shortDescription>
+        <value>Image</value>
+    </labels>
+    <labels>
+        <fullName>Image_Description</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Image_Description</shortDescription>
+        <value>Enable and configure record’s image.</value>
+    </labels>
+    <labels>
+        <fullName>Image_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Image</shortDescription>
+        <value>Update your current image.</value>
+    </labels>
+    <labels>
+        <fullName>Latitude</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Latitude</shortDescription>
+        <value>Latitude</value>
+    </labels>
+    <labels>
+        <fullName>Latitude_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Latitude_Help_Text</shortDescription>
+        <value>The address latitude</value>
+    </labels>
+    <labels>
+        <fullName>Less</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Less</shortDescription>
+        <value>Less</value>
+    </labels>
+    <labels>
+        <fullName>Link_Color</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Link_Color</shortDescription>
+        <value>Link Color</value>
+    </labels>
+    <labels>
+        <fullName>Link_Color_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Link_Color_Help_Text</shortDescription>
+        <value>Color of all text links. Valid hexadecimal notation required.</value>
+    </labels>
+    <labels>
+        <fullName>Link_Highlight_Color</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Link_Highlight_Color</shortDescription>
+        <value>Link Highlight Color</value>
+    </labels>
+    <labels>
+        <fullName>Link_Highlight_Color_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Link_Highlight_Color_Help_Text</shortDescription>
+        <value>Color of all highlighted text links. Valid hexadecimal notation required.</value>
+    </labels>
+    <labels>
+        <fullName>Loading</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Loading</shortDescription>
+        <value>Loading...</value>
+    </labels>
+    <labels>
+        <fullName>Location</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Location</shortDescription>
+        <value>Location</value>
+    </labels>
+    <labels>
+        <fullName>Location_Configuration</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Location_Configuration</shortDescription>
+        <value>Location Configuration</value>
+    </labels>
+    <labels>
+        <fullName>Location_Configuration_Description</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Location_Configuration_Description</shortDescription>
+        <value>Select the fields geo location will be referencing when dropping the record’s pin</value>
+    </labels>
+    <labels>
+        <fullName>Logo_Image</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Logo_Image</shortDescription>
+        <value>Logo Image</value>
+    </labels>
+    <labels>
+        <fullName>Logo_Image_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Logo_Image_Help_Text</shortDescription>
+        <value>Upload the image that will be displayed as the related directory&apos;s logo. Recommended images height of 30px. (Width is variable)</value>
+    </labels>
+    <labels>
+        <fullName>Longitude</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Longitude</shortDescription>
+        <value>Longitude</value>
+    </labels>
+    <labels>
+        <fullName>Longitude_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Longitude_Help_Text</shortDescription>
+        <value>The address longitude.</value>
+    </labels>
+    <labels>
+        <fullName>Map</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Map</shortDescription>
+        <value>Map</value>
+    </labels>
+    <labels>
+        <fullName>Map_Configuration</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Map_Configuration</shortDescription>
+        <value>Map Configuration</value>
+    </labels>
+    <labels>
+        <fullName>Map_Configuration_Description</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Map_Configuration_Description</shortDescription>
+        <value>Select the fields geo location will be referencing when dropping a record&apos;s pin and determining a result locaiton in a radius search.</value>
+    </labels>
+    <labels>
+        <fullName>Max</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Max</shortDescription>
+        <value>Max</value>
+    </labels>
+    <labels>
+        <fullName>Min</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Min</shortDescription>
+        <value>Min</value>
+    </labels>
+    <labels>
+        <fullName>More</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>More</shortDescription>
+        <value>More</value>
+    </labels>
+    <labels>
+        <fullName>Name_Field</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Name_Field</shortDescription>
+        <value>Title</value>
+    </labels>
+    <labels>
+        <fullName>Name_Field_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Name_Field_Help_Text</shortDescription>
+        <value>Select the name field</value>
+    </labels>
+    <labels>
+        <fullName>NavBar_Background_Color</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NavBar_Background_Color</shortDescription>
+        <value>NavBar Background Color</value>
+    </labels>
+    <labels>
+        <fullName>NavBar_Background_Color_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NavBar_Background_Color_Help_Text</shortDescription>
+        <value>Background color of the detail navigation bar.</value>
+    </labels>
+    <labels>
+        <fullName>NavBar_Highlight_Color</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NavBar_Highlight_Color</shortDescription>
+        <value>NavBar Highlight Color</value>
+    </labels>
+    <labels>
+        <fullName>NavBar_Highlight_Color_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NavBar_Highlight_Color_Help_Text</shortDescription>
+        <value>Color of the detail navigation highlight text bottom. Valid hexadecimal notation required.</value>
+    </labels>
+    <labels>
+        <fullName>NavBar_Text_Color</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NavBar_Text_Color</shortDescription>
+        <value>NavBar Text Color</value>
+    </labels>
+    <labels>
+        <fullName>NavBar_Text_Color_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NavBar_Text_Color_Help_Text</shortDescription>
+        <value>Color of the directories detail navigation text. Valid hexadecimal notation required</value>
+    </labels>
+    <labels>
+        <fullName>NavBar_Text_Highlight_Color</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NavBar_Text_Highlight_Color</shortDescription>
+        <value>NavBar Highlight Text Color</value>
+    </labels>
+    <labels>
+        <fullName>NavBar_Text_Highlight_Color_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NavBar_Text_Highlight_Color_Help_Text</shortDescription>
+        <value>Color of the directories filter highlight text and detail navigation highlight text. Valid hexadecimal notation required.</value>
+    </labels>
+    <labels>
+        <fullName>Navigation_Button_Background_Color</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Navigation_Button_Background_Color</shortDescription>
+        <value>Navigation Button Background Color</value>
+    </labels>
+    <labels>
+        <fullName>Navigation_Button_Background_Color_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Navigation_Button_Background_Color_Help_Text</shortDescription>
+        <value>Background color of the directories navigation buttons. Valid hexadecimal notation required.</value>
+    </labels>
+    <labels>
+        <fullName>New_Filter</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New_Button</shortDescription>
+        <value>New Filter</value>
+    </labels>
+    <labels>
+        <fullName>No_Email_Options</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No_Email_Options</shortDescription>
+        <value>No email options exist</value>
+    </labels>
+    <labels>
+        <fullName>No_Results_Found</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No_Results_Found</shortDescription>
+        <value>No Results Found</value>
+    </labels>
+    <labels>
+        <fullName>Object</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Object</shortDescription>
+        <value>Object</value>
+    </labels>
+    <labels>
+        <fullName>Object_Help_Text</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Object_Help_Text</shortDescription>
+        <value>The API name of the object that is to be displayed in the directory.</value>
+    </labels>
+    <labels>
+        <fullName>Primary_Button_Color</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Primary_Button_Color</shortDescription>
+        <value>Primary Button Color</value>
+    </labels>
+    <labels>
+        <fullName>Primary_Button_Color_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Primary_Button_Color_Help_Text</shortDescription>
+        <value>Background color of all primary buttons. Valid hexadecimal notation required.</value>
+    </labels>
+    <labels>
+        <fullName>Primary_Button_Text_Color</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Primary_Button_Text_Color</shortDescription>
+        <value>Primary Button Text Color</value>
+    </labels>
+    <labels>
+        <fullName>Primary_Button_Text_Color_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Primary_Button_Text_Color_Help_Text</shortDescription>
+        <value>Color of the text on primary buttons. Valid hexadecimal notation required</value>
+    </labels>
+    <labels>
+        <fullName>Primary_Object</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Primary_Object</shortDescription>
+        <value>Primary Object</value>
+    </labels>
+    <labels>
+        <fullName>Profile_Fields</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Editable_Fields</shortDescription>
+        <value>Profile Fields</value>
+    </labels>
+    <labels>
+        <fullName>Profile_Fields_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Editable_Fields_Help_Text</shortDescription>
+        <value>The fields on listing profile which the user can edit</value>
+    </labels>
+    <labels>
+        <fullName>Profile_Image</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Profile_Image</shortDescription>
+        <value>Update Profile Image</value>
+    </labels>
+    <labels>
+        <fullName>Radius</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Radius</shortDescription>
+        <value>Radius</value>
+    </labels>
+    <labels>
+        <fullName>Radius_Values</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Radius_Values</shortDescription>
+        <value>Radius Values</value>
+    </labels>
+    <labels>
+        <fullName>Radius_Values_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Radius_Values_Help_Text</shortDescription>
+        <value>This field contains the numerical values (CSV) to be presented as options to refine my search. Use comma separated values. Eg. 5,10,25.</value>
+    </labels>
+    <labels>
+        <fullName>Record_Text_Color</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Text_Color</shortDescription>
+        <value>Record Text Color</value>
+    </labels>
+    <labels>
+        <fullName>Record_Text_Color_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Record_Text_Color_Help_Text</shortDescription>
+        <value>Color of return record text. Valid hexadecimal notation required.</value>
+    </labels>
+    <labels>
+        <fullName>Refine_By</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Refine_By</shortDescription>
+        <value>Refine By</value>
+    </labels>
+    <labels>
+        <fullName>Related_Filter</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Related_Filter</shortDescription>
+        <value>Filter</value>
+    </labels>
+    <labels>
+        <fullName>Related_Filter_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Related_Filter_Help_Text</shortDescription>
+        <value>This field contains the filter for the related lists.</value>
+    </labels>
+    <labels>
+        <fullName>Related_List</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Related_List</shortDescription>
+        <value>Related List</value>
+    </labels>
+    <labels>
+        <fullName>Related_List_Description</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Related_List_Description</shortDescription>
+        <value>Drag and drop lightning components and order them the way you want them to display on the detail page.</value>
+    </labels>
+    <labels>
+        <fullName>Related_List_Map_Configuration_Description</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Related_List_Map_Configuration_Description</shortDescription>
+        <value>Select the fields geo location will be referencing when dropping a record&apos;s pin.</value>
+    </labels>
+    <labels>
+        <fullName>Reset_All</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reset_All</shortDescription>
+        <value>Reset All</value>
+    </labels>
+    <labels>
+        <fullName>Restricted_Page_Error</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Restricted_Page_Error</shortDescription>
+        <value>You do not have access to this Directory</value>
+    </labels>
+    <labels>
+        <fullName>Save</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>Save_and_Continue</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save_and_Continue</shortDescription>
+        <value>Save &amp; Continue</value>
+    </labels>
+    <labels>
+        <fullName>Save_and_Exit</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save_and_Exit</shortDescription>
+        <value>Save &amp; Exit</value>
+    </labels>
+    <labels>
+        <fullName>Saving</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Saving</shortDescription>
+        <value>Saving...</value>
+    </labels>
+    <labels>
+        <fullName>Search</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search</shortDescription>
+        <value>Search</value>
+    </labels>
+    <labels>
+        <fullName>Search_Bar_Background_Color</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Bar_Background_Color</shortDescription>
+        <value>Search Bar Background Color</value>
+    </labels>
+    <labels>
+        <fullName>Search_Bar_Background_Color_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Bar_Background_Color_Help_Text</shortDescription>
+        <value>Background color of the search bar. Valid hexadecimal notation required.</value>
+    </labels>
+    <labels>
+        <fullName>Search_Bar_Text_Color</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Hero_Text_Color</shortDescription>
+        <value>Search Bar Text Color</value>
+    </labels>
+    <labels>
+        <fullName>Search_Bar_Text_Color_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Hero_Text_Color_Help_Text</shortDescription>
+        <value>Color used for the directory search bar text. Valid hexadecimal notation required.</value>
+    </labels>
+    <labels>
+        <fullName>Search_Description</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_Description</shortDescription>
+        <value>Drag and drop the fields used for the searchable values in the directory.</value>
+    </labels>
+    <labels>
+        <fullName>Search_and_Filter</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search_and_Filter</shortDescription>
+        <value>Search, Filter &amp; Sort</value>
+    </labels>
+    <labels>
+        <fullName>Searchable_Fields_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Searchable_Fields_Help_Text</shortDescription>
+        <value>The top three fields will display in the search bar to show the users what some of the possible fields are searchable.</value>
+    </labels>
+    <labels>
+        <fullName>Select_Access_Permissions</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select_Access_Permissions</shortDescription>
+        <value>Selected Access Permissions</value>
+    </labels>
+    <labels>
+        <fullName>Select_All</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select_All</shortDescription>
+        <value>Select All</value>
+    </labels>
+    <labels>
+        <fullName>Select_Badges</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select_Badges</shortDescription>
+        <value>Select Badges</value>
+    </labels>
+    <labels>
+        <fullName>Selected</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Selected</shortDescription>
+        <value>Selected</value>
+    </labels>
+    <labels>
+        <fullName>Selected_Badge_Types</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Selected_Badge_Types</shortDescription>
+        <value>Selected Badge Types</value>
+    </labels>
+    <labels>
+        <fullName>Selected_Fields</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Selected Fields</shortDescription>
+        <value>Selected Fields</value>
+    </labels>
+    <labels>
+        <fullName>Selected_Filter_Criteria</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Selected_Filter_Criteria</shortDescription>
+        <value>Selected Filter Criteria</value>
+    </labels>
+    <labels>
+        <fullName>Send</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Send</value>
+    </labels>
+    <labels>
+        <fullName>Sort</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sort</shortDescription>
+        <value>Sort</value>
+    </labels>
+    <labels>
+        <fullName>Sort_By</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sort_By</shortDescription>
+        <value>Sort by</value>
+    </labels>
+    <labels>
+        <fullName>Sort_Description</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sort_Description</shortDescription>
+        <value>Drag and drop the fields a user can use to sort the results.</value>
+    </labels>
+    <labels>
+        <fullName>Sort_Fields</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sort_Fields</shortDescription>
+        <value>Sort Fields</value>
+    </labels>
+    <labels>
+        <fullName>Sort_Fields_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sort_Fields_Help_Text</shortDescription>
+        <value>Select the required Sort Fields</value>
+    </labels>
+    <labels>
+        <fullName>Start_Date</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Start Date</shortDescription>
+        <value>Start Date</value>
+    </labels>
+    <labels>
+        <fullName>Subject</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subject</shortDescription>
+        <value>Subject</value>
+    </labels>
+    <labels>
+        <fullName>Table</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Table</shortDescription>
+        <value>Table</value>
+    </labels>
+    <labels>
+        <fullName>Table_Description</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Table_Description</shortDescription>
+        <value>Configure the fields that will be displayed in the directory&apos;s table view.</value>
+    </labels>
+    <labels>
+        <fullName>Table_List</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Table_List</shortDescription>
+        <value>Table List</value>
+    </labels>
+    <labels>
+        <fullName>Table_ResultsPerPage_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Table_ResultsPerPage_HelpText</shortDescription>
+        <value>The value entered in this field defines the number of results returned for each page of the table view.</value>
+    </labels>
+    <labels>
+        <fullName>Table_Results_Per_Page</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Table_Results_Per_Page</shortDescription>
+        <value>Results Per Page</value>
+    </labels>
+    <labels>
+        <fullName>Text_Button_Color</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Text_Button_Color</shortDescription>
+        <value>Text Button Color</value>
+    </labels>
+    <labels>
+        <fullName>Text_Button_Color_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Text_Button_Color_Help_Text</shortDescription>
+        <value>Color of all text buttons. Valid hexadecimal notation required.</value>
+    </labels>
+    <labels>
+        <fullName>Text_Color</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Text_Color</shortDescription>
+        <value>Text Color</value>
+    </labels>
+    <labels>
+        <fullName>Text_Color_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Text_Color_Help_Text</shortDescription>
+        <value>Color of body text. Valid hexadecimal notation required.</value>
+    </labels>
+    <labels>
+        <fullName>Theme</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Theme</shortDescription>
+        <value>Theme</value>
+    </labels>
+    <labels>
+        <fullName>Tile_Action_Button_Field</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tile_Action_Button_Field</shortDescription>
+        <value>Action Button Field</value>
+    </labels>
+    <labels>
+        <fullName>Tile_Action_Button_Field_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tile_Action_Button_Field_HelpText</shortDescription>
+        <value>This field contains the api name of the field used for the action button on Tile List view.</value>
+    </labels>
+    <labels>
+        <fullName>Tile_Back</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tile_Back</shortDescription>
+        <value>Tile Back</value>
+    </labels>
+    <labels>
+        <fullName>Tile_Back_Description</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tile_Back_Description</shortDescription>
+        <value>Enable and configure the back of the record&apos;s tile.</value>
+    </labels>
+    <labels>
+        <fullName>Tile_Enable_Action_Button</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tile_Enable_Action_Button</shortDescription>
+        <value>Enable Action Button</value>
+    </labels>
+    <labels>
+        <fullName>Tile_Enable_Action_Button_Help_Text</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tile_Enable_Action_Button_Help_Text</shortDescription>
+        <value>When checked, this will enable the action button on the front end.</value>
+    </labels>
+    <labels>
+        <fullName>Tile_ImageField_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tile_ImageField_HelpText</shortDescription>
+        <value>This field contains the api name of the image field to be displayed in the Tile List view.</value>
+    </labels>
+    <labels>
+        <fullName>Tile_Image_Description</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tile_Image_Description</shortDescription>
+        <value>Configure record’s image.</value>
+    </labels>
+    <labels>
+        <fullName>Tile_Image_Field</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tile_Image_Field</shortDescription>
+        <value>Image Field</value>
+    </labels>
+    <labels>
+        <fullName>Tile_List</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tile List</shortDescription>
+        <value>Tile List</value>
+    </labels>
+    <labels>
+        <fullName>Tile_List_Description</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tile List Description</shortDescription>
+        <value>Configure the fields that will be displayed in the directory&apos;s tile list view.</value>
+    </labels>
+    <labels>
+        <fullName>Tile_Placeholder_Image</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tile_Placeholder_Image</shortDescription>
+        <value>Placeholder Image</value>
+    </labels>
+    <labels>
+        <fullName>Tile_Placeholder_Image_Helptext</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tile_Placeholder_Image_Helptext</shortDescription>
+        <value>Browse for files or paste in a URL.</value>
+    </labels>
+    <labels>
+        <fullName>Tile_Position1</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tile_Position1</shortDescription>
+        <value>Position 1</value>
+    </labels>
+    <labels>
+        <fullName>Tile_Position1_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tile_Position1_HelpText</shortDescription>
+        <value>This field contains the api name of the field used for the position 1 in the Tile List view.</value>
+    </labels>
+    <labels>
+        <fullName>Tile_Position2</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tile_Position2</shortDescription>
+        <value>Position 2</value>
+    </labels>
+    <labels>
+        <fullName>Tile_Position2_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tile_Position2_HelpText</shortDescription>
+        <value>This field contains the api name of the field used for the position 2 in the Tile List view.</value>
+    </labels>
+    <labels>
+        <fullName>Tile_Position3</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tile_Position3</shortDescription>
+        <value>Position 3</value>
+    </labels>
+    <labels>
+        <fullName>Tile_Position3_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tile_Position3_HelpText</shortDescription>
+        <value>This field contains the api name of the field used for position 3 in the Tile List view.</value>
+    </labels>
+    <labels>
+        <fullName>Tile_Position4</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tile_Position4</shortDescription>
+        <value>Position 4</value>
+    </labels>
+    <labels>
+        <fullName>Tile_Position4_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tile_Position4_HelpText</shortDescription>
+        <value>This field contains the api name of the field used for position 4 in the Tile List view.</value>
+    </labels>
+    <labels>
+        <fullName>Tile_ResultsPerPage_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tile_ResultsPerPage_HelpText</shortDescription>
+        <value>The value entered in this field is the number of results returned for each page on the Tile List view.</value>
+    </labels>
+    <labels>
+        <fullName>Tile_Results_Per_Page</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tile_Results_Per_Page</shortDescription>
+        <value>Results Per Page</value>
+    </labels>
+    <labels>
+        <fullName>Tile_Show_Label</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tile_Show_Label</shortDescription>
+        <value>Show Label</value>
+    </labels>
+    <labels>
+        <fullName>To</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>To</shortDescription>
+        <value>To</value>
+    </labels>
+    <labels>
+        <fullName>Views</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Views</shortDescription>
+        <value>Views</value>
+    </labels>
+    <labels>
+        <fullName>Visibility</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visibility</shortDescription>
+        <value>Visibility</value>
+    </labels>
+    <labels>
+        <fullName>Visibility_Description</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visibility_Description</shortDescription>
+        <value>Control who has access to the directory.</value>
+    </labels>
+    <labels>
+        <fullName>With_In</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>With_In</shortDescription>
+        <value>Within</value>
+    </labels>
+    <labels>
+        <fullName>Within</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Within</shortDescription>
+        <value>Within</value>
+    </labels>
+    <labels>
+        <fullName>default_sort_field</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>default_sort_field</shortDescription>
+        <value>Default Sort Field</value>
+    </labels>
+    <labels>
+        <fullName>default_sort_field_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>default_sort_field_HelpText</shortDescription>
+        <value>This is the field that will be used as the default sort option for all result views.</value>
+    </labels>
+    <labels>
+        <fullName>default_sort_field_order</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>default_sort_field_order</shortDescription>
+        <value>Default Sort Field Order</value>
+    </labels>
+    <labels>
+        <fullName>default_sort_field_order_HelpText</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>default_sort_field_order_HelpText</shortDescription>
+        <value>Defines the default sort field as ascending or descending.</value>
+    </labels>
+    <labels>
+        <fullName>enhanced_Placeholder_Image_Helptext</fullName>
+        <categories>DRCTS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>enhanced_Placeholder_Image_Helptext</shortDescription>
+        <value>Enhanced list results will display the image from this field if the &quot;Image Field&quot; is not populated or the record&apos;s &quot;Image Field&quot; value is empty.</value>
+    </labels>
+    <labels>
+        <fullName>of</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>of</shortDescription>
+        <value>of</value>
+    </labels>
+    <labels>
+        <fullName>page</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>page</shortDescription>
+        <value>page</value>
+    </labels>
+</CustomLabels>

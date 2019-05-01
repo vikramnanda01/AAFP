@@ -1,0 +1,551 @@
+<apex:page tabStyle="Framework__tab" sidebar="false" docType="html-5.0" controller="Framework.AdminApiWizardController">
+    <apex:composition template="Framework__admin_template">
+        <apex:define name="styles">
+            <style type="text/css">
+                .popover > .popover-title {
+                display: block!important;
+                border-bottom: 1px solid #eee;
+                }
+                .framework .sf-sea {
+                position: relative;
+                top: -30px;
+                }
+                .framework li.parsley-required {
+                list-style: none!important;
+                font-weight: 300;
+                font-size: 10px;
+                color: red;
+                }
+                .framework li.parsley-conditionalrequired {
+                list-style: none!important;
+                font-weight: 300;
+                font-size: 10px;
+                color: red;
+                }
+                .framework li.parsley-type {
+                list-style: none!important;
+                font-weight: 300;
+                font-size: 10px;
+                color: red;
+                }
+            </style>
+        </apex:define>
+        <apex:define name="title">{!$Label.New} {!$Label.API_Service}</apex:define>
+        <apex:define name="main">
+            <div class="row">
+                <div class="col-md-12">
+                    <apex:form html-data-parsley-validate="true"
+                        id="wizard"
+                        styleClass="api-wizard form-horizontal form-horizontal-compact lux-form">
+                        <div style="text-align:right">
+                             <apex:outputLink rendered="{!NOT(ISBLANK(service.Id))}" styleClass="btn btn-wide btn-default"
+                                 value="{!$Page.admin_api_service}?key={!service.name}"
+                                 id="cancel">Cancel</apex:outputlink>
+                        </div>
+                        <!-- BLOCK[1] #CREATE -->
+                        <fieldset class="block1">
+                            <legend>{!$Label.Create}</legend>
+                            <!-- API Service Key (Api_Service__c.Name) -->
+                            <div class="form-group">
+                                <label class="control-label col-sm-4">
+                                {!$Label.API_Service_Key}
+                                <span title="{!$Label.API_Service}"
+                                    data-content="{!$Label.Help_API_Service_Key}"
+                                    class="help-text">
+
+                                </span>
+                                </label>
+                                <div class="col-sm-3">
+                                    <apex:inputField value="{!service.Name}"
+                                        html-data-parsley-required="true"
+                                        html-data-parsley-type="alphanum"
+                                        html-data-parsley-group="block1"
+                                        html-data-parsley-minlength="2"
+                                        html-data-parsley-maxlength="8"
+                                        styleClass="form-control" id="service_name"/>
+                                </div>
+                            </div>
+                            <!-- API Service Name (Api_Service__c.Display_Name__c) -->
+                            <div class="form-group">
+                                <label class="control-label col-sm-4">
+                                {!$Label.API_Service_Name}
+                                <span title="{!$Label.API_Service_Name}"
+                                    data-content="{!$Label.Help_API_Service_Name}"
+                                    class="help-text">
+                                </span>
+                                </label>
+                                <div class="col-sm-6">
+                                    <apex:inputField value="{!service.Display_Name__c}"
+                                        html-data-parsley-group="block1"
+                                        html-data-parsley-maxlength="80"
+                                        html-data-parsley-required="true"
+                                        styleClass="form-control" id="service_display_name"/>
+                                </div>
+                            </div>
+                            <!-- API Service Name (Api_Service__c.Description__c) -->
+                            <div class="form-group">
+                                <label class="control-label col-sm-4">
+                                Description
+                                <span title="Description"
+                                    data-content="A brief description of the service."
+                                    class="help-text">
+                                </span>
+                                </label>
+                                <div class="col-sm-6">
+                                    <apex:inputTextarea value="{!service.Description__c}"
+                                        html-data-parsley-group="block1"
+                                        html-data-parsley-maxlength="255"
+                                        styleClass="form-control" id="service_description"/>
+                                </div>
+                            </div>
+                            <!-- API Service Endpoint (Api_Service__c.Endpoint__c) -->
+                            <div class="form-group">
+                                <label class="control-label col-sm-4">
+                                {!$Label.API_Endpoint}
+                                <span title="{!$Label.API_Endpoint}" data-content="{!$Label.Help_API_Endpoint}" class="help-text">
+                                </span>
+                                </label>
+                                <div class="col-sm-6">
+                                    <apex:inputField value="{!service.Endpoint__c}"
+                                        html-data-parsley-type="url"
+                                        html-data-parsley-required="true"
+                                        html-data-parsley-group="block1"
+                                        styleClass="form-control" id="service_endpoint"/>
+                                </div>
+                            </div>
+                            <!-- API Service Registered App (Api_Service__c.Registered_App__c) -->
+                            <div class="form-group">
+                                <label class="control-label col-sm-4">
+                                {!$Label.Registered_App}
+                                <span title="{!$Label.Registered_App}"
+                                    data-content="{!$Label.Help_Registered_App}"
+                                    class="help-text">
+                                </span>
+                                </label>
+                                <div class="col-sm-4">
+                                    <apex:selectList value="{!service.Namespace__c}"
+                                        size="0"
+                                        multiselect="false"
+                                        html-data-parsely-group="block1"
+                                        styleClass="form-control" id="service_namespace">
+                                        <apex:selectOption itemValue="" itemLabel="{!$Label.Select_None}"/>
+                                        <apex:selectOptions value="{!registeredApps}"/>
+                                    </apex:selectList>
+                                </div>
+                            </div>
+                            <!-- API Service Authentication Service (Conditionally: Api_Service__c.Apex_Class__c) -->
+                            <div class="form-group">
+                                <label class="control-label col-sm-4">Authentication Service<span title="Authentication Service" data-content="Select &quot;Default&quot; to use the standard vendor authentication service in Framework. Or &quot;Custom&quot; to specify a custom apex class that extends the default service." class="help-text"></span></label>
+                                <div class="col-sm-2">
+                                    <select
+                                        data-parsley-required="true"
+                                        data-parsley-group="block1"
+                                        onchange="evalAuthService(this.value)"
+                                        class="form-control"
+                                        id="auth_service_type">
+                                        <option value="DEFAULT">Default</option>
+                                        <option value="CUSTOM">Custom</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- API Service Authentication Service (Conditionally: Api_Service__c.Apex_Class__c) -->
+                            <div id="custom-auth-service" style="display:none" class="form-group">
+                                <label class="control-label col-sm-4">
+                                Custom Vendor Authentication Class
+                                <span
+                                    title="Custom Vendor Authentication Class"
+                                    data-content="The fully qualified name of the Apex Class that extends the default vendor authentication service. For example: &quot;MyNamespace.MyAuthClass&quot;"
+                                    class="help-text">
+                                </span>
+                                </label>
+                                <div class="col-sm-6">
+                                    <apex:inputField value="{!service.Apex_Class__c}"
+                                        html-data-parsley-group="block1"
+                                        html-placeholder="AppNamespace.CustomVendorAuthClass"
+                                        html-rel="jvFloat"
+                                        styleClass="form-control"
+                                        id="apexClass"/>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <!-- BLOCK[2] #CONNECT -->
+                        <fieldset class="block2">
+                            <legend>{!$Label.Connect}</legend>
+                            <div class="form-group">
+                                <label class="control-label col-sm-4">Authentication Type
+                                <span
+                                    title="Authentication Type"
+                                    data-content="The method of authentication that is required by the vendor."
+                                    class="help-text">
+
+                                </span>
+                                </label>
+                                <div class="col-sm-3">
+                                    <select id="authtypes" class="form-control">
+                                        <option value="NONE">-- None --</option>
+                                        <option value="OAuth2">OAuth 2.0</option>
+                                        <option value="OAuth1A">OAuth 1.a</option>
+                                        <option value="Basic">Basic</option>
+                                        <option value="NONE">None</option>
+                                    </select>
+                                    <apex:inputHidden value="{!authtype}" id="authtype"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-sm-4">Service Access Rule
+                                <span
+                                    title="Service Access Rule"
+                                    data-content="The level of access for this particular connection. If global all users in the system have access.
+                                    If set to user, only the creating user has access to this particular connection"
+                                    class="help-text">
+
+                                </span>
+                                </label>
+                                <div class="col-sm-2">
+                                    <apex:selectList id="connectionAccessLevel" value="{!connectionAccessLevel}" size="1" styleClass="form-control">
+                                        <apex:selectOption itemValue="GLOBAL" itemLabel="Global"/>
+                                        <apex:selectOption itemValue="USER" itemLabel="User"/>
+                                    </apex:selectList>
+                                </div>
+                            </div>
+                            <div class="NONE"></div>
+                            <div class="OAuth2 OAuth1A">
+                                <div class="form-group">
+                                    <label class="control-label col-sm-4">Client Id
+                                    <span
+                                        title="Client Id"
+                                        data-content="Client Id that is provided by the API vendor for executing the OAuth login flow"
+                                        class="help-text">
+
+                                    </span>
+                                    </label>
+                                    <div class="col-sm-6">
+                                        <apex:inputField html-placeholder="Client ID provided by the Vendor"
+                                            value="{!connection.Client_Id__c}"
+                                            html-data-parsley-group="block2"
+                                            html-data-parsley-maxlength="80"
+                                            html-rel="jvFloat"
+                                            html-data-parsley-conditionalrequired="authtypes,OAUTH"
+                                            html-data-parsley-validate-if-empty="html-data-parsley-validate-if-empty"
+                                            html-data-parsley-conditionalrequired-message="This value is required based on your selection of Auth Type"
+                                            styleClass="form-control" id="connection_client_id"/>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-4">Client Secret
+                                    <span
+                                        title="Client Secret"
+                                        data-content="Client Secret that is provided by the API vendor for executing the OAuth login flow."
+                                        class="help-text">
+
+                                    </span>
+                                    </label>
+                                    <div class="col-sm-6">
+                                        <apex:inputSecret html-placeholder="Client Secret provided by the Vendor"
+                                            value="{!connection.Client_Secret__c}"
+                                            html-data-parsley-group="block2"
+                                            html-data-parsley-maxlength="80"
+                                            html-rel="jvFloat"
+                                            html-data-parsley-conditionalrequired="authtypes,OAUTH"
+                                            html-data-parsley-validate-if-empty="html-data-parsley-validate-if-empty"
+                                            html-data-parsley-conditionalrequired-message="This value is required based on your selection of Auth Type"
+                                            styleClass="form-control" id="connection_client_password"
+                                            redisplay="true"/>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-4">Scope
+                                    <span
+                                        title="Scope"
+                                        data-content="The set of permissions that need to be provided to this connection. Space delimited."
+                                        class="help-text">
+
+                                    </span>
+                                    </label>
+                                    <div class="col-sm-6">
+                                        <apex:inputField html-placeholder="Scope (Optional)"
+                                            value="{!connection.Scope__c}"
+                                            html-data-parsley-group="block2"
+                                            html-data-parsley-maxlength="80"
+                                            html-rel="jvFloat"
+                                            styleClass="form-control" id="connection_scope"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="Basic">
+                                <div class="form-group">
+                                    <label class="control-label col-sm-4">Username
+                                    <span
+                                        title="Username"
+                                        data-content="Username to be encoded into the Authorization header for Basic authentication."
+                                        class="help-text">
+
+                                    </span>
+                                    </label>
+                                    <div class="col-sm-6">
+                                        <apex:inputField html-placeholder="Username"
+                                            value="{!connection.Username__c}"
+                                            html-data-parsley-group="block2"
+                                            html-data-parsley-maxlength="80"
+                                            html-rel="jvFloat"
+                                            html-data-parsley-conditionalrequired="authtypes,Basic"
+                                            html-data-parsley-validate-if-empty="html-data-parsley-validate-if-empty"
+                                            html-data-parsley-conditionalrequired-message="This value is required based on your selection of Auth Type"
+                                            styleClass="form-control" id="connection_username"/>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-4">Password
+                                    <span
+                                        title="Password"
+                                        data-content="Password to be encoded into the Authorization header for Basic authentication."
+                                        class="help-text">
+
+                                    </span>
+                                    </label>
+                                    <div class="col-sm-6">
+                                        <apex:inputSecret html-placeholder="Password"
+                                            value="{!connection.Password__c}"
+                                            html-data-parsley-group="block2"
+                                            html-data-parsley-maxlength="80"
+                                            html-rel="jvFloat"
+                                            html-data-parsley-conditionalrequired="authtypes,Basic"
+                                            html-data-parsley-validate-if-empty="html-data-parsley-validate-if-empty"
+                                            html-data-parsley-conditionalrequired-message="This value is required based on your selection of Auth Type"
+                                            styleClass="form-control" id="connection_password"
+                                            redisplay="true"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="OAuth1A">
+                                <div class="form-group">
+                                    <label class="control-label col-sm-4">Request Token URL
+                                    <span
+                                        title="Request Token URL"
+                                        data-content="The URL to call to get unauthorized access token to be used in the login dialog"
+                                        class="help-text">
+
+                                    </span>
+                                    </label>
+                                    <div class="col-sm-6">
+                                        <apex:inputText html-placeholder="Request Token URL"
+                                            value="{!requestTokenConfig}"
+                                            html-data-parsley-group="block2"
+                                            html-data-parsley-maxlength="80"
+                                            html-rel="jvFloat"
+                                            html-data-parsley-conditionalrequired="authtypes,OAuth1A"
+                                            html-data-parsley-validate-if-empty="html-data-parsley-validate-if-empty"
+                                            html-data-parsley-conditionalrequired-message="This value is required based on your selection of Auth Type"
+                                            styleClass="form-control" id="request_url_config"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="OAuth2 OAuth1A">
+                                <div class="form-group">
+                                    <label class="control-label col-sm-4">Login Dialog URL
+                                    <span
+                                        title="Login Dialog URL"
+                                        data-content="The URL that will redirect the user to the vendor that will prompt the user to login."
+                                        class="help-text">
+
+                                    </span>
+                                    </label>
+                                    <div class="col-sm-6">
+                                        <apex:inputText html-placeholder="Login Dialog URL"
+                                            value="{!loginDialogConfig}"
+                                            html-data-parsley-group="block2"
+                                            html-data-parsley-maxlength="80"
+                                            html-rel="jvFloat"
+                                            html-data-parsley-priority-enabled="true"
+                                            html-data-parsley-conditionalrequired="authtypes,Oauth"
+                                            html-data-parsley-validate-if-empty="html-data-parsley-validate-if-empty"
+                                            html-data-parsley-conditionalrequired-message="This value is required based on your selection of Auth Type"
+                                            styleClass="form-control" id="login_url_config"/>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-4">Authorization Code URL
+                                    <span
+                                        title="Authorization Code URL"
+                                        data-content="The URL to call after OAuth login flow is complete to get access token."
+                                        class="help-text">
+
+                                    </span>
+                                    </label>
+                                    <div class="col-sm-6">
+                                        <apex:inputText html-placeholder="Authorization Code URL"
+                                            value="{!authCodeConfig}"
+                                            html-data-parsley-group="block2"
+                                            html-data-parsley-maxlength="80"
+                                            html-rel="jvFloat"
+                                            html-data-parsley-conditionalrequired="authtypes,Oauth"
+                                            html-data-parsley-validate-if-empty="html-data-parsley-validate-if-empty"
+                                            html-data-parsley-conditionalrequired-message="This value is required based on your selection of Auth Type"
+                                            styleClass="form-control" id="auth_code_config"/>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-4">HTTP Method To Get Token
+                                    <span
+                                        title="HTTP Method To Get Token"
+                                        data-content="The HTTP method to use to get the access token from the vendor."
+                                        class="help-text">
+
+                                    </span>
+                                    </label>
+                                    <div class="col-sm-6">
+                                        <apex:selectList id="httpMethodGetToken" value="{!httpMethodGetToken}" size="1" styleClass="form-control">
+                                            <apex:selectOption itemValue="GET" itemLabel="GET"/>
+                                            <apex:selectOption itemValue="POST" itemLabel="POST"/>
+                                        </apex:selectList>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="OAuth2">
+                                <div class="form-group">
+                                    <label class="control-label col-sm-4">Refresh Token URL
+                                    <span
+                                        title="Refresh Token URL"
+                                        data-content="The URL to call when the access token is expired and needs to be refreshed."
+                                        class="help-text">
+
+                                    </span>
+                                    </label>
+                                    <div class="col-sm-6">
+                                        <apex:inputText html-placeholder="Refresh Token URL"
+                                            value="{!refreshTokenConfig}"
+                                            html-data-parsley-group="block2"
+                                            html-data-parsley-maxlength="80"
+                                            html-rel="jvFloat"
+                                            html-data-parsley-type="url"
+                                            styleClass="form-control" id="refresh_token_config"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <!-- BLOCK[4] #DEPLOY -->
+                        <fieldset class="block4">
+                            <legend>{!$Label.Deploy}</legend>
+                            <!-- @requires label -->
+                            <!-- @requires help text -->
+                            <div class="form-group">
+                                <label class="control-label col-sm-4">Turn on Debug Mode
+                                <span
+                                    title="Turn on Debug Mode"
+                                    data-content="Enable/Disable debug mode to get more granular logging which will help diagnose issues."
+                                    class="help-text">
+
+                                </span>
+                                </label>
+                                <div class="col-sm-6">
+                                    <apex:inputField value="{!service.Debug_Mode__c}" styleClass="checkbox"/>
+                                </div>
+                            </div>
+                            <!-- @requires label -->
+                            <!-- @requires help text -->
+                            <div class="form-group">
+                                <label class="control-label col-sm-4">Activate {!$Label.API_Service}
+                                <span
+                                    title="Activate Service"
+                                    data-content="Enable/Disable the service. If disabled no outgoing calls will be possible."
+                                    class="help-text">
+
+                                </span>
+                                </label>
+                                <div class="col-sm-6">
+                                    <apex:inputField value="{!service.Is_Enabled__c}" styleClass="checkbox"/>
+                                </div>
+                            </div>
+                            <!-- @requires help text -->
+                            <div class="form-group">
+                                <label class="control-label col-sm-4">{!$ObjectType.API_Service__c.Fields.Image_Path__c.Label}
+                                <span
+                                    title="Image Path"
+                                    data-content="Image path for a service icon in the form of a public URL."
+                                    class="help-text">
+
+                                </span>
+                                </label>
+                                <div class="col-sm-6">
+                                    <apex:inputField value="{!service.Image_Path__c}"
+                                        html-data-parsley-type="url"
+                                        styleClass="form-control"/>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <apex:actionFunction name="save" action="{!save}" />
+                    </apex:form>
+                </div>
+            </div>
+        </apex:define>
+        <apex:define name="scripts">
+            <script type="text/javascript">
+                function submitForm()  { save(); }
+                $(function() {
+                  $(".api-wizard").stepFormWizard({
+                    showNav: 'left',
+                    height: 'tallest',
+                    theme: 'sea',
+                    nextBtn: $(
+                      '<a class="next-btn btn btn-default btn-long sf-right" href="#">Next <i class="fa fa-angle-double-right"></i></a>'
+                    ),
+                    prevBtn: $(
+                      '<a class="prev-btn btn btn-default btn-long sf-left" href="#"><i class="fa fa-angle-double-left"></i> Previous</a>'
+                    ),
+                    finishBtn: $(
+                      '<a id="submit" class="finish-btn btn btn-success btn-long pull-center" href="#" onclick="submitForm();">Submit</a>'
+                    ),
+                    onNext: function(i, wizard) {
+                      return $('form', wizard).parsley().validate('block' + (i+1));
+                    },
+                    onFinish: function(i, wizard) {
+                      return $('form', wizard).parsley().validate();
+                    },
+                    markPrevSteps: true
+                  });
+                });
+                $(function() {
+                   $('#authtypes').value = "{!JSENCODE(service.Auth_Type__c)}";
+                   document.getElementById('{!$Component.wizard.authtype}').value = "{!JSENCODE(service.Auth_Type__c)}";
+                    $('.NONE').hide();
+                    $('.OAuth2').hide();
+                    $('.OAuth1A').hide();
+                    $('.Basic').hide();
+                    $('#authtypes').change(function() {
+                      $('.NONE').hide();
+                      $('.OAuth2').hide();
+                      $('.OAuth1A').hide();
+                      $('.Basic').hide();
+                      $('.' + $(this).val()).show(300);
+                      document.getElementById('{!$Component.wizard.authtype}').value = $(this).val();
+                    });
+                });
+                $(function() {
+                    var authType = "{!JSENCODE(service.Auth_Type__c)}";
+                    if(authType != null) {
+                        $('#authtypes').val(authType);
+                        $('.'+authType).show();
+                    }
+                });
+                function evalAuthService(val) {
+                    var apexClassField = document.getElementById('{!$Component.wizard.apexClass}');
+                  if (val == 'CUSTOM') {
+                    apexClassField.value ='';
+                    $('#custom-auth-service').slideDown();
+                  } else {
+                    $('#custom-auth-service').slideUp();
+                    apexClassField.value ='{!JSENCODE(frameworkVendorAuthClass)}';
+                  }
+                }
+                window.ParsleyValidator
+                .addValidator('conditionalrequired', function (value,requirements) {
+                  var requirements = requirements.split(',');
+                  if (document.getElementById(requirements[0]).value.indexOf(requirements[1]) > -1
+                    && (value == null || value == ''))
+                      return false;
+                  return true;
+                },512);
+            </script>
+        </apex:define>
+    </apex:composition>
+</apex:page>

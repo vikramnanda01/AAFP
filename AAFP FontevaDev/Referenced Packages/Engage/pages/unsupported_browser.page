@@ -1,0 +1,84 @@
+<apex:page id="unsupported_browser"
+					 sideBar="false"
+					 showHeader="false"
+					 applyBodyTag="false"
+					 applyHtmlTag="false"
+					 standardStylesheets="false"
+					 docType="html-5.0"
+					 controller="PagesApi.DefaultTemplateController">
+
+	<!--[if lte IE 9]>
+    <link rel="stylesheet" media="screen" href="{!URLFOR($Resource.emerald_base_1_0,'css/styles.min.blessed.css')}"/>
+	<![endif]-->
+
+
+	<link rel="stylesheet" media="screen" href="{!URLFOR($Resource.emerald_base_1_0,'css/styles.min.css')}"/>
+	 <!--[if IE 7]>
+		<style>
+			.img-responsive {
+				max-width: 100%!important;
+				height: auto!important;
+			}
+			.col-sm-12 { padding-left: 0; }
+			.col-sm-12.text-center { margin: 0 auto; }
+			.col-sm-3 { max-width: 20%!important; margin: 0 auto; }
+		</style>
+    <![endif]-->
+    <style>
+    img.img-responsive.center {
+    	width: 100px;	
+    }
+    </style>
+    
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2 well p-25">
+					<div class="row">
+						<div class="col-sm-4 col-sm-offset-4 text-center">
+							<apex:image styleClass="img-responsive" rendered="{!NOT(ISBLANK(theme.PagesApi__Logo_Image__c))}" value="{!theme.PagesApi__Logo_Image__c}"/>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<h2><strong>{!$Label.pagesapi__browser_not_supported}</strong></h2>
+						</div>
+					</div>
+					<div class="row m-t-20">
+						<div class="col-sm-12 text-center">
+							<h4>{!$Label.pagesapi__browser_not_supported_message}</h4>
+						</div>
+					</div>
+					<div class="row m-t-30">
+                        <div class="col-sm-3 text-center">
+                    	  <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">
+	                          <apex:image styleClass="img-responsive center" value="{!URLFOR($Resource.PagesApi__emerald_base_1_0,'img/browser-logos/ffLogo.png')}"/>
+	                          <h6>{!$Label.pagesapi__firefox_browser_name} <br/><small>{!$Label.pagesapi__most_reset_stable_version}</small></h6>
+                          </a>
+                        </div>
+                        <div class="col-sm-3 text-center">
+                        	<a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" target="_blank">
+	                          <apex:image styleClass="img-responsive center" value="{!URLFOR($Resource.PagesApi__emerald_base_1_0,'img/browser-logos/ieLogo.jpg')}"/>
+	                          <h6>{!$Label.pagesapi__ie_browser_name} <br/><small>{!$Label.pagesapi__ie_browser_version}</small></h6>
+                          	</a>
+                        </div>
+                        <div class="col-sm-3 text-center">
+                        	<a href="http://www.apple.com/safari/" target="_blank">
+                          		<apex:image styleClass="img-responsive center" value="{!URLFOR($Resource.PagesApi__emerald_base_1_0,'img/browser-logos/safariLogo.png')}"/>
+                          		<h6>{!$Label.pagesapi__safari_browser_name} <br/><small>{!$Label.pagesapi__safari_browser_version}</small></h6>
+                          	</a>
+                        </div>
+                        <div class="col-sm-3 text-center">
+                          <a href="https://support.google.com/chrome/answer/95346?hl=en" target="_blank">
+                          	<apex:image styleClass="img-responsive center" value="{!URLFOR($Resource.PagesApi__emerald_base_1_0,'img/browser-logos/chromeLogo.png')}"/>
+                          	<h6>{!$Label.pagesapi__chrome_browser_name} <br/><small>{!$Label.pagesapi__most_reset_stable_version}</small></h6>
+                          </a>
+                        </div>
+					</div>
+			</div>
+		</div>
+	</div>
+	<!--[if lte IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</apex:page>

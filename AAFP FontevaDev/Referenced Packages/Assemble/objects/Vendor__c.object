@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Vendors track the various companies that provide services related to a Event.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Link to a CRM Account record related to the Vendor.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Link to a CRM Account record related to the Vendor.</inlineHelpText>
+        <label>CRM Account Link</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Events (Vendors)</relationshipLabel>
+        <relationshipName>Vendors</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Airports__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the nearest airport(s) for the hotel.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the nearest airport(s) for the hotel.</inlineHelpText>
+        <label>Nearest Airport(s)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ameneties__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Select the amenities that the hotel offers.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the amenenties that the hotel offers.</inlineHelpText>
+        <label>Amenities</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>24-hour Gym</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Barber Shop</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Cigar Lounge</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Concierge Services</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Dry Cleaning Services</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Full Service Spa</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Gift Shop</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Hair Salon</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>HDTV</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Indoor Pool(s)</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Laundry Services</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Outdoor Pool(s)</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Restaurant(s)</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Shoe Shine</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>City__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the city/province used to send payment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the city/province used to send payment.</inlineHelpText>
+        <label>City</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Concierge_Phone__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the phone number for the hotel&apos;s concierge.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the phone number for the hotel&apos;s concierge.</inlineHelpText>
+        <label>Concierge Phone</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Contact_Email__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** System Calculated Override ** Contact email for the Vendor. Derived from the related Primary Contact if defined.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated Override ** Contact email for the Vendor. Derived from the related Primary Contact if defined.</inlineHelpText>
+        <label>Contact Email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the full name of the primary contact.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the full name of the primary contact.</inlineHelpText>
+        <label>Contact Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact_Phone__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the primary contact&apos;s preferred phone number.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the primary contact&apos;s preferred phone number.</inlineHelpText>
+        <label>Contact Phone</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Contact_Title__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the title of the primary contact.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the title of the primary contact.</inlineHelpText>
+        <label>Contact Title</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Country__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The country used to send payment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The country used to send payment.</inlineHelpText>
+        <label>Country</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Optional description for the Vendor.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Optional description for the Vendor.</inlineHelpText>
+        <label>Description</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Double_Room_Rate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Estimated daily rate for a double room at the hotel.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Estimated daily rate for a double room at the hotel.</inlineHelpText>
+        <label>Double Room Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Event__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Link to the related Event.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Link to the related Event.</inlineHelpText>
+        <label>Event</label>
+        <referenceTo>Event__c</referenceTo>
+        <relationshipLabel>Vendors</relationshipLabel>
+        <relationshipName>Vendors</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Executive_Suite_Rate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Estimated daily rate for a executive suite at the hotel.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Estimated daily rate for a executive suite at the hotel.</inlineHelpText>
+        <label>Executive Suite Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Family_Room_Rate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Estimated daily rate for a family/triple room at the hotel.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Estimated daily rate for a family/triple room at the hotel.</inlineHelpText>
+        <label>Triple/Family Room Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Front_Desk_Phone__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the front desk phone number for the hotel.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the front desk phone number for the hotel.</inlineHelpText>
+        <label>Front Desk Phone</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Hotel_Ameneties_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Describe the various amenities the hotel offers.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Describe the various ameneties the hotel offers.</inlineHelpText>
+        <label>Hotel Amenities Description</label>
+        <length>2000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Hotel_Cancellation_Policy__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Describe the hotel&apos;s cancellation policy.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Describe the hotel&apos;s cancellation policy.</inlineHelpText>
+        <label>Hotel Cancellation Policy</label>
+        <length>1000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Hotel_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** Conditionally Required ** Select the most appropriate type for the hotel. Required for all &quot;Hotel&quot; vendors.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** Conditionally Required ** Select the most appropriate type for the hotel. Required for all &quot;Hotel&quot; vendors.</inlineHelpText>
+        <label>Hotel Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Boutique</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Economy full service</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Economy limited service</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Economy resort</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Extended stay</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Full service</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Historic inn</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Luxury</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Luxury resort</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Motel</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Timeshare</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Is_Published__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Display on the vendor page published on the event&apos;s website (if applicable).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Display on the vendor page published on the event&apos;s website (if applicable).</inlineHelpText>
+        <label>Publish to Website</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Local_Attractions__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Describe any local or historic attractions that are close to the hotel.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Describe any local or historic attractions that are close to the hotel.</inlineHelpText>
+        <label>Local/Historic Attractions</label>
+        <length>3000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Logo_Image_URL__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Secure (&quot;https://&quot;) location of a logo image to use for the Vendor on the event website (if applicable) and/or printed materials related to the event.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Secure (&quot;https://&quot;) location of a logo image to use for the Vendor on the event website (if applicable) and/or printed materials related to the event.</inlineHelpText>
+        <label>Logo Image URL</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_Rooms__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The number of rooms for the hotel.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The number of rooms for the hotel.</inlineHelpText>
+        <label>Number of Rooms</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Phone__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** System Calculated Override ** Contact phone for the Vendor. Derived from the related Primary Contact if defined.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated Override ** Contact phone for the Vendor. Derived from the related Primary Contact if defined.</inlineHelpText>
+        <label>Phone</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Postal_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The zip or postal code used to send payment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The zip or postal code used to send payment.</inlineHelpText>
+        <label>Zip/Postal Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Preferred_Vendor__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, the Vendor should be considered the &quot;Preffered Vendor&quot;. Best practice would be to limit the &quot;Preffered Vendor&quot; attribute to one Vendor per Vendor Category defined for an Event. Defaults unchecked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, the Vendor should be considered the &quot;Preffered Vendor&quot;. Best practice would be to limit the &quot;Preffered Vendor&quot; attribute to one Vendor per Vendor Category defined for an Event. Defaults unchecked.</inlineHelpText>
+        <label>Preferred Vendor</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Room_Rates_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Describe the rates and room options for the hotel.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Describe the rates and room options for the hotel.</inlineHelpText>
+        <label>Room Rate(s) Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Single_Room_Rate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Estimated daily rate for a single room at the hotel.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Estimated daily rate for a single room at the hotel.</inlineHelpText>
+        <label>Single Room Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Special_Discount_Information__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Describe any event discounts the vendor is offering as a special/promotion for event attendees.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Describe any event discounts the vendor is offering as a special/promotion for event attendees.</inlineHelpText>
+        <label>Special Discount Information</label>
+        <length>1000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Standard_Suite_Rate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Estimated daily rate for a standard suite at the hotel.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Estimated daily rate for a standard suite at the hotel.</inlineHelpText>
+        <label>Standard Suite Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>State__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the state or province used to send payment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the state or province used to send payment.</inlineHelpText>
+        <label>State/Province</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Street__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The mailing street address used to send payment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The mailing street address used to send payment.</inlineHelpText>
+        <label>Street</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** Required ** The Type of Vendor is used to categorize and plan for an Event&apos;s Budget.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** Required ** The Type of Vendor is used to categorize and plan for an Event&apos;s Budget.</inlineHelpText>
+        <label>Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Airline</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Car Rental Company</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Catering Service Provider</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Equipment Rental Company</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Event Planner</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Hotel</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Venue</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Vendor_Number__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <description>** Unique Case Insensitive ** Enter a code for the vendor for batch expense entry.</description>
+        <externalId>true</externalId>
+        <inlineHelpText>** Unique Case Insensitive ** Enter a code for the vendor for batch expense entry.</inlineHelpText>
+        <label>Vendor Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Walking_Distance_Event__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Check the box if the hotel is within walking distance to the event.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check the box if the hotel is within walking distance to the event.</inlineHelpText>
+        <label>Walking Distance to Event</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Vendor</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Vendor_Number__c</columns>
+        <columns>Phone__c</columns>
+        <columns>Type__c</columns>
+        <columns>Contact_Name__c</columns>
+        <columns>Contact_Email__c</columns>
+        <columns>Contact_Phone__c</columns>
+        <columns>Event__c</columns>
+        <columns>Preferred_Vendor__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>Vendor Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Vendors</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Event__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Contact_Name__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Contact_Title__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Contact_Email__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Contact_Phone__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>City__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>State__c</customTabListAdditionalFields>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Event__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Contact_Name__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Contact_Title__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Contact_Email__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Contact_Phone__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>City__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>State__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Event__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Contact_Name__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Contact_Title__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Contact_Email__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Contact_Phone__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>City__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>State__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Event__c</searchFilterFields>
+        <searchFilterFields>Contact_Name__c</searchFilterFields>
+        <searchFilterFields>City__c</searchFilterFields>
+        <searchFilterFields>State__c</searchFilterFields>
+        <searchFilterFields>Postal_Code__c</searchFilterFields>
+        <searchFilterFields>Country__c</searchFilterFields>
+        <searchFilterFields>Preferred_Vendor__c</searchFilterFields>
+        <searchResultsAdditionalFields>Event__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Contact_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Contact_Title__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Contact_Email__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Contact_Phone__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>City__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>State__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Preferred_Vendor__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

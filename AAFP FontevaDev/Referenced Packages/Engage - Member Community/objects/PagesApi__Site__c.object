@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Authorization_Required_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Description for the authorization required page of the site</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Description for the authorization required page of the site</inlineHelpText>
+        <label>Authorization Required Description</label>
+        <length>2048</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Authorization_Required_Title__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Title for the authorization required page of the site</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Title for the authorization required page of the site</inlineHelpText>
+        <label>Authorization Required Title</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Default_Event_Listing_Style__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Dictates which event listing style is presented by default within the Events page.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Dictates which event listing style is presented by default within the Events page.</inlineHelpText>
+        <label>Default Event Listing Style</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Tile</fullName>
+                    <color>#0B6FCE</color>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>List</fullName>
+                    <color>#78C953</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Calendar</fullName>
+                    <color>#E27001</color>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Event_Search_Filters_CSV__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field references the event field set that defines the attributes that a user can use to filter search results.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field references the event field set that defines the attributes that a user can use to filter search results.</inlineHelpText>
+        <label>Event Search Filters CSV</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Generic_Error_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Description for the generic error page of the site</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Description for the generic error page of the site</inlineHelpText>
+        <label>Generic Error Description</label>
+        <length>2048</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Generic_Error_Title__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Title for the generic error page of the site</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Title for the generic error page of the site</inlineHelpText>
+        <label>Generic Error Title</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Limit_Exceeded_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Description for the limit exceeded page of the site.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Description for the limit exceeded page of the site.</inlineHelpText>
+        <label>Limit Exceeded Description</label>
+        <length>2048</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Limit_Exceeded_Title__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Title for the limit exceeded page of the site.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Title for the limit exceeded page of the site</inlineHelpText>
+        <label>Limit Exceeded Title</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Maintenance_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Description for the maintainence page of the site</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Description for the maintainence page of the site</inlineHelpText>
+        <label>Maintenance Description</label>
+        <length>2048</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Maintenance_Title__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Title for the maintainence page of the site</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Title for the maintainence page of the site</inlineHelpText>
+        <label>Maintenance Title</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Page_Not_Found_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Description for the page not found page of the site</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Description for the page not found page of the site</inlineHelpText>
+        <label>Page Not Found Description</label>
+        <length>2048</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Page_Not_Found_Title__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Title for the page not found page of the site</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Title for the page not found page of the site</inlineHelpText>
+        <label>Page Not Found Title</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Profile_Contact_Fieldset_CSV__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Comma separated field set names that will be displayed on the profile page.</inlineHelpText>
+        <label>Profile Contact Fieldset(s) CSV</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Service_Not_Available_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Description for the Service Not Available page of the site</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Description for the Service Not Available page of the site</inlineHelpText>
+        <label>Service Not Available Description</label>
+        <length>2048</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Service_Not_Available_title__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Title for the Service Not Available page of the site</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Title for the Service Not Available page of the site</inlineHelpText>
+        <label>Service Not Available title</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>User_Info_Contact_Field_Set__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>A single field set that will show information about a User in the system.</inlineHelpText>
+        <label>User Info Contact Field Set</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>

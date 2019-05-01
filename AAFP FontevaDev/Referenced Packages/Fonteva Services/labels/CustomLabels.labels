@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Advanced_Item_Settings</fullName>
+        <categories>builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Advanced_Item_Settings</shortDescription>
+        <value>Advanced Item Settings</value>
+    </labels>
+    <labels>
+        <fullName>Builder_Add</fullName>
+        <categories>builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Builder_Add</shortDescription>
+        <value>Add</value>
+    </labels>
+    <labels>
+        <fullName>Builder_Delete</fullName>
+        <categories>builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Builder_Delete</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>Builder_Delete_Group</fullName>
+        <categories>builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Builder_Delete_Group</shortDescription>
+        <value>Delete Group</value>
+    </labels>
+    <labels>
+        <fullName>Builder_Delete_Group_Prompt</fullName>
+        <categories>builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Builder_Delete_Group_Prompt</shortDescription>
+        <value>Are you sure you want to delete this group?</value>
+    </labels>
+    <labels>
+        <fullName>Builder_Display_Item</fullName>
+        <categories>builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Builder_Display_Item</shortDescription>
+        <value>When checked, this item will appear in Checkout, Shopping Cart, and Receipt / Invoice PDF pages.</value>
+    </labels>
+    <labels>
+        <fullName>Builder_Included_Items</fullName>
+        <categories>builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Builder_Included_Items</shortDescription>
+        <value>Items(s) added here will be automatically added to the order along with the parent item.</value>
+    </labels>
+    <labels>
+        <fullName>Builder_Package_Items_Not_Included</fullName>
+        <categories>builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Builder_Package_Items_Not_Included</shortDescription>
+        <value>There are items present that have their own child items configured. Child items of these items will not
+            be added to the list. If those need to be included, please add those separately.</value>
+    </labels>
+    <labels>
+        <fullName>Builder_Recommended_Items</fullName>
+        <categories>builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Builder_Recommended_Items</shortDescription>
+        <value>Items(s) selected here will display on the parents item’s detail page in the recommended items component.</value>
+    </labels>
+    <labels>
+        <fullName>Builder_Select_Included_Items</fullName>
+        <categories>builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Builder_Select_Included_Items</shortDescription>
+        <value>Select the Item(s) to Include</value>
+    </labels>
+    <labels>
+        <fullName>Builder_Select_Recommended_Items</fullName>
+        <categories>builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Builder_Select_Recommended_Items</shortDescription>
+        <value>Select the Item(s) to Recommend</value>
+    </labels>
+    <labels>
+        <fullName>Cancel</fullName>
+        <categories>general</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Delete</fullName>
+        <categories>general</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete</shortDescription>
+        <value>Delete</value>
+    </labels>
+</CustomLabels>

@@ -1,0 +1,2930 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Advanced_Settings</fullName>
+        <categories>common,misc,theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Advanced_Settings</shortDescription>
+        <value>Advanced Settings</value>
+    </labels>
+    <labels>
+        <fullName>Allow_Delete_Mapped_Records</fullName>
+        <categories>Members</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Allow_Delete_Mapped_Records</shortDescription>
+        <value>Allow Users to Delete Mapped Records</value>
+    </labels>
+    <labels>
+        <fullName>Allow_Multiple_Entries</fullName>
+        <categories>Members</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Allow_Multiple_Entries</shortDescription>
+        <value>Allow Multiple Entries</value>
+    </labels>
+    <labels>
+        <fullName>Attachment_Form_Validation_Message</fullName>
+        <categories>form</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Attachment_Form_Validation_Message</shortDescription>
+        <value>Attachment Too Large. Must be less than 25 Mb.</value>
+    </labels>
+    <labels>
+        <fullName>Back_Label</fullName>
+        <categories>form</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Back_Label</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>Back_To_Login</fullName>
+        <categories>social_login</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Back_To_Login</shortDescription>
+        <value>Back To Login</value>
+    </labels>
+    <labels>
+        <fullName>Body_Background_Color</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Body_Background_Color</shortDescription>
+        <value>Body Background</value>
+    </labels>
+    <labels>
+        <fullName>Brand_Primary</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Brand_Primary</shortDescription>
+        <value>Brand Primary</value>
+    </labels>
+    <labels>
+        <fullName>Brand_Secondary</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Brand_Secondary</shortDescription>
+        <value>Brand Secondary</value>
+    </labels>
+    <labels>
+        <fullName>Browser_Not_Supported</fullName>
+        <categories>portal_browser</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Browser_Not_Supported</shortDescription>
+        <value>Please upgrade your browser</value>
+    </labels>
+    <labels>
+        <fullName>Browser_Not_Supported_Message</fullName>
+        <categories>portal_browser</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Browser_Not_Supported_Message</shortDescription>
+        <value>Unfortunately, your browser doesn&apos;t support the technologies we use for our pages. Download one of these browsers and you will be up to speed.</value>
+    </labels>
+    <labels>
+        <fullName>Calendar_Config_calendarInput_Description</fullName>
+        <categories>calendar,component descriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Calendar_Config_calendarInput_Description</shortDescription>
+        <value>** Required ** List of CalendarInput Type data to render on Calendar</value>
+    </labels>
+    <labels>
+        <fullName>Calendar_Config_calendarInput_Label</fullName>
+        <categories>calendar,component labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Calendar_Config_calendarInput_Label</shortDescription>
+        <value>Calendar Input</value>
+    </labels>
+    <labels>
+        <fullName>Calendar_Config_calendarStyleClass_Description</fullName>
+        <categories>calendar,component descriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Calendar_Config_calendarStyleClass_Description</shortDescription>
+        <value>** Optional ** The StyleClass for the Calendar</value>
+    </labels>
+    <labels>
+        <fullName>Calendar_Config_calendarStyleClass_Label</fullName>
+        <categories>calendar,component labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Calendar_Config_calendarStyleClass_Label</shortDescription>
+        <value>Calendar Styleclass</value>
+    </labels>
+    <labels>
+        <fullName>Calendar_Config_calendarType_Description</fullName>
+        <categories>calendar,component descriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Calendar_Config_calendarType_Description</shortDescription>
+        <value>** Optional ** - The type of calendar Default is full.</value>
+    </labels>
+    <labels>
+        <fullName>Calendar_Config_calendarType_Label</fullName>
+        <categories>calendar,component labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Calendar_Config_calendarType_Label</shortDescription>
+        <value>Calendar Type.</value>
+    </labels>
+    <labels>
+        <fullName>Calendar_Config_clickable_Description</fullName>
+        <categories>calendar,component descriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Calendar_Config_clickable_Description</shortDescription>
+        <value>** Optional ** If the list is clickable</value>
+    </labels>
+    <labels>
+        <fullName>Calendar_Config_clickable_Label</fullName>
+        <categories>calendar,component labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Calendar_Config_clickable_Label</shortDescription>
+        <value>Is Clickable?</value>
+    </labels>
+    <labels>
+        <fullName>Calendar_Config_contentHeight_Description</fullName>
+        <categories>calendar,component descriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Calendar_Config_contentHeight_Description</shortDescription>
+        <value>** Optional ** The ContentHeight of the Calendar Component</value>
+    </labels>
+    <labels>
+        <fullName>Calendar_Config_contentHeight_Label</fullName>
+        <categories>calendar,component labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Calendar_Config_contentHeight_Label</shortDescription>
+        <value>Content Height</value>
+    </labels>
+    <labels>
+        <fullName>Calendar_Config_height_Description</fullName>
+        <categories>calendar,component descriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Calendar_Config_height_Description</shortDescription>
+        <value>** Optional ** The Height of the Calendar Component</value>
+    </labels>
+    <labels>
+        <fullName>Calendar_Config_height_Label</fullName>
+        <categories>calendar,component labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Calendar_Config_height_Label</shortDescription>
+        <value>Height</value>
+    </labels>
+    <labels>
+        <fullName>Calendar_Config_pageTitle_Description</fullName>
+        <categories>calendar,component descriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Calendar_Config_pageTitle_Description</shortDescription>
+        <value>** Optional ** The page title that will be displayed on the Calendar</value>
+    </labels>
+    <labels>
+        <fullName>Calendar_Config_pageTitle_Label</fullName>
+        <categories>calendar,component labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Calendar_Config_pageTitle_Label</shortDescription>
+        <value>Page Totle</value>
+    </labels>
+    <labels>
+        <fullName>Calendar_Config_styleClass_Description</fullName>
+        <categories>calendar,component descriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Calendar_Config_styleClass_Description</shortDescription>
+        <value>** Optional ** The Styleclass for the Calendar Div</value>
+    </labels>
+    <labels>
+        <fullName>Calendar_Config_styleClass_Label</fullName>
+        <categories>calendar,component labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Calendar_Config_styleClass_Label</shortDescription>
+        <value>Style Class</value>
+    </labels>
+    <labels>
+        <fullName>Calendar_Config_width_Description</fullName>
+        <categories>calendar,component descriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Calendar_Config_width_Description</shortDescription>
+        <value>** Optional ** The Width of the Calendar Component</value>
+    </labels>
+    <labels>
+        <fullName>Calendar_Config_width_Label</fullName>
+        <categories>calendar,component labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Calendar_Config_width_Label</shortDescription>
+        <value>Width</value>
+    </labels>
+    <labels>
+        <fullName>Cancel</fullName>
+        <categories>misc</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Cancel_Theme_Builder</fullName>
+        <categories>Theme_Builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel_Theme_Builder</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Cannot_Insert_Community_Group_Member</fullName>
+        <categories>Community_Group</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cannot_Insert_Community_Group_Member</shortDescription>
+        <value>A active community group member with the same contact already exists.</value>
+    </labels>
+    <labels>
+        <fullName>Cannot_Publish_without_valid_Site</fullName>
+        <categories>Community_Group</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cannot_Publish_without_valid_Site</shortDescription>
+        <value>You cannot publish the group without a valid site.</value>
+    </labels>
+    <labels>
+        <fullName>Cannot_Show_without_Roster_Link</fullName>
+        <categories>media asset, admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cannot_Show_without_Roster_Link</shortDescription>
+        <value>Please fill in Group Roster Link and Label before showing it to the public.</value>
+    </labels>
+    <labels>
+        <fullName>Cannot_Update_Contact</fullName>
+        <categories>Community_Group</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cannot_Update_Contact</shortDescription>
+        <value>You cannot update Contact lookup.If you would like to change the contact please delete and create a new one.</value>
+    </labels>
+    <labels>
+        <fullName>Cannot_Update_Group_Owner</fullName>
+        <categories>media asset, admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cannot_Update_Group_Owner</shortDescription>
+        <value>Group owner has to be a community group member.</value>
+    </labels>
+    <labels>
+        <fullName>Cannot_Update_Site</fullName>
+        <categories>Community_Group</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cannot_Update_Site</shortDescription>
+        <value>You cannot update the site. you can delete the group and add it to the corresponding site.</value>
+    </labels>
+    <labels>
+        <fullName>Cannot_Update_User</fullName>
+        <categories>Community_Group</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cannot_Update_User</shortDescription>
+        <value>You cannot update User lookup.If you like to change the user update the contact.</value>
+    </labels>
+    <labels>
+        <fullName>Carousel_Config_assetsPerRow_Description</fullName>
+        <categories>Carousel, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Carousel_Config_assetsPerRow_Description</shortDescription>
+        <value>** Required ** The Assets per Row. Default is 2</value>
+    </labels>
+    <labels>
+        <fullName>Carousel_Config_collectionId_Description</fullName>
+        <categories>Carousel, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Carousel_Config_collectionId_Description</shortDescription>
+        <value>** Required ** The Media Collection Record.</value>
+    </labels>
+    <labels>
+        <fullName>Carousel_Config_collectionId_Label</fullName>
+        <categories>Carousel, Component Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Carousel_Config_collectionId_Label</shortDescription>
+        <value>Select Media Collection Record</value>
+    </labels>
+    <labels>
+        <fullName>Carousel_Config_styleClass_Description</fullName>
+        <categories>Carousel, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Carousel_Config_styleClass_Description</shortDescription>
+        <value>** Optional ** Carousel Style Class.</value>
+    </labels>
+    <labels>
+        <fullName>Carousel_Config_styleClass_Label</fullName>
+        <categories>Carousel, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Carousel_Config_styleClass_Label</shortDescription>
+        <value>The StyleClass for Carousel</value>
+    </labels>
+    <labels>
+        <fullName>Carousel_Config_title_Description</fullName>
+        <categories>Carousel, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Carousel_Config_title_Description</shortDescription>
+        <value>** Optional ** The Carousel Title.</value>
+    </labels>
+    <labels>
+        <fullName>Carousel_Config_title_Label</fullName>
+        <categories>Carousel, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Carousel_Config_title_Label</shortDescription>
+        <value>Enter the title</value>
+    </labels>
+    <labels>
+        <fullName>Characters_Remaining_Max</fullName>
+        <categories>media asset, admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Characters_Remaining_Max</shortDescription>
+        <value>Maximum Characters</value>
+    </labels>
+    <labels>
+        <fullName>Characters_Remaining_Prefix</fullName>
+        <categories>media asset, admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Characters_Remaining_Prefix</shortDescription>
+        <value>You have</value>
+    </labels>
+    <labels>
+        <fullName>Characters_Remaining_Suffix</fullName>
+        <categories>media asset, admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Characters_Remaining_Suffix</shortDescription>
+        <value>characters left.</value>
+    </labels>
+    <labels>
+        <fullName>Chrome_Browser_Name</fullName>
+        <categories>portal_browser</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Chrome_Browser_Name</shortDescription>
+        <value>Chrome</value>
+    </labels>
+    <labels>
+        <fullName>Clear_Destinations_Button</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Clear_Destinations_Button</shortDescription>
+        <value>Clear Destinations</value>
+    </labels>
+    <labels>
+        <fullName>Close</fullName>
+        <categories>media asset, admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Close</shortDescription>
+        <value>Close</value>
+    </labels>
+    <labels>
+        <fullName>Color_Scheme</fullName>
+        <categories>common,misc,theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Color_Scheme</shortDescription>
+        <value>Color Scheme</value>
+    </labels>
+    <labels>
+        <fullName>Comment</fullName>
+        <categories>Feed component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Comment</shortDescription>
+        <value>Comment</value>
+    </labels>
+    <labels>
+        <fullName>Communities</fullName>
+        <categories>common</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Communities</shortDescription>
+        <value>Communities</value>
+    </labels>
+    <labels>
+        <fullName>Community_Builder</fullName>
+        <categories>common</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Community_Builder</shortDescription>
+        <value>Community Builder</value>
+    </labels>
+    <labels>
+        <fullName>Community_Group_Name_Unique</fullName>
+        <categories>form</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Community_Group_Name_Unique</shortDescription>
+        <value>Community Group Name should be unique.</value>
+    </labels>
+    <labels>
+        <fullName>Community_Not_Found</fullName>
+        <categories>site</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Community_Not_Found</shortDescription>
+        <value>Community Not Found</value>
+    </labels>
+    <labels>
+        <fullName>Configuration_Options</fullName>
+        <categories>Page Element</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Configuration_Options</shortDescription>
+        <value>Settings</value>
+    </labels>
+    <labels>
+        <fullName>Contact_System_Admin_Login_Failed</fullName>
+        <categories>social_login</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact_System_Admin_Login_Failed</shortDescription>
+        <value>Please Contact System Administrator.</value>
+    </labels>
+    <labels>
+        <fullName>Create_User_Account_Override_Button</fullName>
+        <categories>override_login</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Create_User_Account_Override_Button</shortDescription>
+        <value>Create User Account</value>
+    </labels>
+    <labels>
+        <fullName>CustomHTML_Config_html_Description</fullName>
+        <categories>CustomHTML, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomHTML_Config_html_Description</shortDescription>
+        <value>** Required ** Custom HTML</value>
+    </labels>
+    <labels>
+        <fullName>CustomHTML_Config_html_Label</fullName>
+        <categories>CustomHTML, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomHTML_Config_html_Label</shortDescription>
+        <value>Enter Custom HTML</value>
+    </labels>
+    <labels>
+        <fullName>CustomHTML_Config_layout_Description</fullName>
+        <categories>CustomHTML, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomHTML_Config_layout_Description</shortDescription>
+        <value>** Optional ** Default is Block</value>
+    </labels>
+    <labels>
+        <fullName>CustomHTML_Config_layout_Label</fullName>
+        <categories>CustomHTML, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomHTML_Config_layout_Label</shortDescription>
+        <value>Choose the Layout</value>
+    </labels>
+    <labels>
+        <fullName>CustomHTML_Config_styleClass_Description</fullName>
+        <categories>CustomHTML, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomHTML_Config_styleClass_Description</shortDescription>
+        <value>** Optional ** Styleclass for Custom HTML</value>
+    </labels>
+    <labels>
+        <fullName>CustomHTML_Config_styleClass_Label</fullName>
+        <categories>CustomHTML, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomHTML_Config_styleClass_Label</shortDescription>
+        <value>Styleclass for Custom HTML</value>
+    </labels>
+    <labels>
+        <fullName>Custom_CSS</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom_CSS</shortDescription>
+        <value>Custom CSS</value>
+    </labels>
+    <labels>
+        <fullName>Custom_HTML_Default_Value</fullName>
+        <categories>CustomHTML, Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom_HTML_Default_Value</shortDescription>
+        <value>&lt;p&gt;Sample HTML for Custom Component&lt;/p&gt;</value>
+    </labels>
+    <labels>
+        <fullName>Custom_Print_Stylesheet_URL</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom_Print_Stylesheet_URL</shortDescription>
+        <value>Custom Print Stylesheet URL</value>
+    </labels>
+    <labels>
+        <fullName>Custom_Stylesheet_URL</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom_Stylesheet_URL</shortDescription>
+        <value>Custom Stylesheet URL</value>
+    </labels>
+    <labels>
+        <fullName>Database_Options</fullName>
+        <categories>Members</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Database_Options</shortDescription>
+        <value>Database Options</value>
+    </labels>
+    <labels>
+        <fullName>Datatable_Config_DefaultPageSize_Description</fullName>
+        <categories>datatable,component descriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Datatable_Config_DefaultPageSize_Description</shortDescription>
+        <value>The number of records rendered in the body of the table by default is 10.</value>
+    </labels>
+    <labels>
+        <fullName>Datatable_Config_DefaultPageSize_Label</fullName>
+        <categories>datatable,component descriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Datatable_Config_DefaultPageSize_Label</shortDescription>
+        <value>Default Page size.</value>
+    </labels>
+    <labels>
+        <fullName>Datatable_Config_FieldCSV_Description</fullName>
+        <categories>datatable,component descriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Datatable_Config_FieldCSV_Description</shortDescription>
+        <value>** Conditionally Required ** Fully qualified api name of the custom or standard fields you wish to display in the datatable. Each field should be separated by one comma and a space. If no Field Set Name configuration is given, this configuration is required in order to render the datatable correctly.</value>
+    </labels>
+    <labels>
+        <fullName>Datatable_Config_FieldCSV_Label</fullName>
+        <categories>datatable,component labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Datatable_Config_FieldCSV_Label</shortDescription>
+        <value>Comma Separated Fields.</value>
+    </labels>
+    <labels>
+        <fullName>Datatable_Config_FieldSetName_Description</fullName>
+        <categories>datatable,component descriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Datatable_Config_FieldSetName_Description</shortDescription>
+        <value>** Conditionally Required ** If fieldCSV is not defined use a Field Set  to define the columns of the datatable.</value>
+    </labels>
+    <labels>
+        <fullName>Datatable_Config_FieldSetName_Label</fullName>
+        <categories>datatable,component label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Datatable_Config_FieldSetName_Label</shortDescription>
+        <value>The Field Set  name for the Datatable</value>
+    </labels>
+    <labels>
+        <fullName>Datatable_Config_PanelStyle_Description</fullName>
+        <categories>datatable,component descriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Datatable_Config_PanelStyle_Description</shortDescription>
+        <value>Valid values include primary, warning, info, danger, and default. Based on Bootstrap 3 panel components.</value>
+    </labels>
+    <labels>
+        <fullName>Datatable_Config_PanelStyle_Label</fullName>
+        <categories>datatable,component descriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Datatable_Config_PanelStyle_Label</shortDescription>
+        <value>Panel Style</value>
+    </labels>
+    <labels>
+        <fullName>Datatable_Config_SObjectName_Description</fullName>
+        <categories>datatable,component descriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Datatable_Config_SObjectName_Description</shortDescription>
+        <value>** Required ** Fully qualified api name for the custom or standard object you wish to use as the subject for the datatable.</value>
+    </labels>
+    <labels>
+        <fullName>Datatable_Config_SObjectName_Label</fullName>
+        <categories>datatable,component label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Datatable_Config_SObjectName_Label</shortDescription>
+        <value>Name of the Object</value>
+    </labels>
+    <labels>
+        <fullName>Datatable_Config_Searchable_Description</fullName>
+        <categories>datatable,component descriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Datatable_Config_Searchable_Description</shortDescription>
+        <value>Select true to enable users to search through the results, otherwise select false.</value>
+    </labels>
+    <labels>
+        <fullName>Datatable_Config_Searchable_Label</fullName>
+        <categories>datatable,component labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Datatable_Config_Searchable_Label</shortDescription>
+        <value>Enable Search</value>
+    </labels>
+    <labels>
+        <fullName>Datatable_Config_StyleClass_Description</fullName>
+        <categories>datatable,component descriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Datatable_Config_StyleClass_Description</shortDescription>
+        <value>CSS class to add to the outer-most html div element in the component.</value>
+    </labels>
+    <labels>
+        <fullName>Datatable_Config_StyleClass_Label</fullName>
+        <categories>datatable,component label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Datatable_Config_StyleClass_Label</shortDescription>
+        <value>Style class for outer div</value>
+    </labels>
+    <labels>
+        <fullName>Datatable_Config_TableHeading_Description</fullName>
+        <categories>datatable,component descriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Datatable_Config_TableHeading_Description</shortDescription>
+        <value>Optional title for the panel that renders around the datatable.</value>
+    </labels>
+    <labels>
+        <fullName>Datatable_Config_TableHeading_Label</fullName>
+        <categories>datatable,component label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Datatable_Config_TableHeading_Label</shortDescription>
+        <value>Table Heading</value>
+    </labels>
+    <labels>
+        <fullName>Datatable_Config_TableStyleClass_Description</fullName>
+        <categories>datatable,component descriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Datatable_Config_TableStyleClass_Description</shortDescription>
+        <value>CSS class to add to the html table element that renders inside the component.</value>
+    </labels>
+    <labels>
+        <fullName>Datatable_Config_TableStyleClass_Label</fullName>
+        <categories>datatable,component labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Datatable_Config_TableStyleClass_Label</shortDescription>
+        <value>Table Style class</value>
+    </labels>
+    <labels>
+        <fullName>Description</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Description</shortDescription>
+        <value>Description</value>
+    </labels>
+    <labels>
+        <fullName>Detail_Config_StyleClass_Description</fullName>
+        <categories>detail, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail_Config_StyleClass_Description</shortDescription>
+        <value>** Optional ** The Adhoc Styleclass for the outer div</value>
+    </labels>
+    <labels>
+        <fullName>Detail_Config_StyleClass_Label</fullName>
+        <categories>detail, Component Labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail_Config_StyleClass_Label</shortDescription>
+        <value>Style Class</value>
+    </labels>
+    <labels>
+        <fullName>Detail_Config_columnsPerRow_Description</fullName>
+        <categories>detail, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail_Config_columnsPerRow_Description</shortDescription>
+        <value>** Required ** Number of columns per row</value>
+    </labels>
+    <labels>
+        <fullName>Detail_Config_columnsPerRow_Label</fullName>
+        <categories>detail, Component Labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail_Config_columnsPerRow_Label</shortDescription>
+        <value>Number of Columns per Row</value>
+    </labels>
+    <labels>
+        <fullName>Detail_Config_editable_Description</fullName>
+        <categories>detail, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail_Config_editable_Description</shortDescription>
+        <value>** Optional ** If the detail page is editable</value>
+    </labels>
+    <labels>
+        <fullName>Detail_Config_editable_Label</fullName>
+        <categories>detail, Component Labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail_Config_editable_Label</shortDescription>
+        <value>Is Editable?</value>
+    </labels>
+    <labels>
+        <fullName>Detail_Config_fieldSetNamesCSV_Description</fullName>
+        <categories>detail, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail_Config_fieldSetNamesCSV_Description</shortDescription>
+        <value>** Conditionally Required ** List of (or one) Field Set (s) to show up on detail page in the CSV Format.</value>
+    </labels>
+    <labels>
+        <fullName>Detail_Config_fieldSetNamesCSV_Label</fullName>
+        <categories>detail, Component Labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail_Config_fieldSetNamesCSV_Label</shortDescription>
+        <value>CSV format Field Set Names</value>
+    </labels>
+    <labels>
+        <fullName>Detail_Config_onSaveComplete_Description</fullName>
+        <categories>detail, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail_Config_onSaveComplete_Description</shortDescription>
+        <value>** Optional ** Javascript to execute onSaveComplete</value>
+    </labels>
+    <labels>
+        <fullName>Detail_Config_onSaveComplete_Label</fullName>
+        <categories>detail, Component Labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail_Config_onSaveComplete_Label</shortDescription>
+        <value>Javascript method to execute on Save</value>
+    </labels>
+    <labels>
+        <fullName>Detail_Config_onSubmit_Description</fullName>
+        <categories>detail, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail_Config_onSubmit_Description</shortDescription>
+        <value>** Optional ** Javascript to execute on Form Submit</value>
+    </labels>
+    <labels>
+        <fullName>Detail_Config_onSubmit_Label</fullName>
+        <categories>detail, Component Labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail_Config_onSubmit_Label</shortDescription>
+        <value>Javascript method to execute on submit</value>
+    </labels>
+    <labels>
+        <fullName>Detail_Config_subjectId_Description</fullName>
+        <categories>detail, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail_Config_subjectId_Description</shortDescription>
+        <value>** Required ** Record Id of the Sobject</value>
+    </labels>
+    <labels>
+        <fullName>Detail_Config_subjectId_Label</fullName>
+        <categories>detail, Component Labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Detail_Config_subjectId_Label</shortDescription>
+        <value>Record Id</value>
+    </labels>
+    <labels>
+        <fullName>Details</fullName>
+        <categories>common,misc</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Details</shortDescription>
+        <value>Details</value>
+    </labels>
+    <labels>
+        <fullName>Edit</fullName>
+        <categories>page builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Edit</shortDescription>
+        <value>Edit</value>
+    </labels>
+    <labels>
+        <fullName>Entity_type_cannot_be_changed</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Entity type cannot be changed</shortDescription>
+        <value>Entity of the group having members cannot be changed.</value>
+    </labels>
+    <labels>
+        <fullName>Error_Fieldset_Not_Provided</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error_Fieldset_Not_Provided</shortDescription>
+        <value>Fieldset Name provided is not found</value>
+    </labels>
+    <labels>
+        <fullName>Error_Retrieving_Groups</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error_Retrieving_Groups</shortDescription>
+        <value>Error retrieving the groups</value>
+    </labels>
+    <labels>
+        <fullName>Error_Search_has_atleast_two_Chars</fullName>
+        <categories>form builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error_Search_has_atleast_two_Chars</shortDescription>
+        <value>Search text must have a minimum of two characters.</value>
+    </labels>
+    <labels>
+        <fullName>Exit</fullName>
+        <categories>form</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Exit</shortDescription>
+        <value>Exit</value>
+    </labels>
+    <labels>
+        <fullName>Favicon_URL</fullName>
+        <categories>Members</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Favicon_URL</shortDescription>
+        <value>Favicon URL</value>
+    </labels>
+    <labels>
+        <fullName>Field_Required</fullName>
+        <categories>site</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Field_Required</shortDescription>
+        <value>This field is required.</value>
+    </labels>
+    <labels>
+        <fullName>File</fullName>
+        <categories>Feed component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>File</shortDescription>
+        <value>File</value>
+    </labels>
+    <labels>
+        <fullName>File_Upload</fullName>
+        <categories>media asset, admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>File_Upload</shortDescription>
+        <value>2. File Upload</value>
+    </labels>
+    <labels>
+        <fullName>Filters_Applied_Label</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filters_Applied_Label</shortDescription>
+        <value>Filters Applied</value>
+    </labels>
+    <labels>
+        <fullName>Firefox_Browser_Name</fullName>
+        <categories>portal_browser</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Firefox_Browser_Name</shortDescription>
+        <value>Firefox</value>
+    </labels>
+    <labels>
+        <fullName>Fonteva_Controller_Loading</fullName>
+        <categories>fonteva_controller</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fonteva_Controller_Loading</shortDescription>
+        <value>Loading...</value>
+    </labels>
+    <labels>
+        <fullName>Footer</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Footer</shortDescription>
+        <value>Footer</value>
+    </labels>
+    <labels>
+        <fullName>Form_Add_Response_Button_Label</fullName>
+        <categories>form builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Form_Add_Response_Button_Label</shortDescription>
+        <value>Add Entry</value>
+    </labels>
+    <labels>
+        <fullName>Form_Builder</fullName>
+        <categories>form builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Form_Builder</shortDescription>
+        <value>Form Builder</value>
+    </labels>
+    <labels>
+        <fullName>Form_Builder_Heading</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Form_Builder_Heading</shortDescription>
+        <value>Form Builder</value>
+    </labels>
+    <labels>
+        <fullName>Form_Builder_Page_Title</fullName>
+        <categories>Admin, Form Builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Form_Builder_Page_Title</shortDescription>
+        <value>Form Builder</value>
+    </labels>
+    <labels>
+        <fullName>Form_Close_Response_Button_Label</fullName>
+        <categories>form builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Form_Close_Response_Button_Label</shortDescription>
+        <value>Close</value>
+    </labels>
+    <labels>
+        <fullName>Form_Hidden_Value_Invalid_Format_Message</fullName>
+        <categories>form</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Form_Hidden_Value_Invalid_Format_Message</shortDescription>
+        <value>Invalid format for hidden field variable!</value>
+    </labels>
+    <labels>
+        <fullName>Form_Response_Table_Action_Column_Label</fullName>
+        <categories>form builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Form_Response_Table_Action_Column_Label</shortDescription>
+        <value>Action</value>
+    </labels>
+    <labels>
+        <fullName>Form_Response_Table_Empty_Message</fullName>
+        <categories>form builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Form_Response_Table_Empty_Message</shortDescription>
+        <value>No Entries Found</value>
+    </labels>
+    <labels>
+        <fullName>Form_Return_To_Form_Button_Label</fullName>
+        <categories>form</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Form_Return_To_Form_Button_Label</shortDescription>
+        <value>Go back to Form</value>
+    </labels>
+    <labels>
+        <fullName>Form_Submit</fullName>
+        <categories>forms</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Form_Submit</shortDescription>
+        <value>Submit</value>
+    </labels>
+    <labels>
+        <fullName>Form_Submit_Success_Message</fullName>
+        <categories>form</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Form_Submit_Success_Message</shortDescription>
+        <value>Your form was successfully submitted!</value>
+    </labels>
+    <labels>
+        <fullName>GroupMembers_Config_Searchable</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupMembers_Config_Searchable</shortDescription>
+        <value>Searchable</value>
+    </labels>
+    <labels>
+        <fullName>GroupMembers_Config_Searchable_Description</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupMembers_Config_Searchable_Description</shortDescription>
+        <value>If the component is searchable.</value>
+    </labels>
+    <labels>
+        <fullName>GroupMembers_Config_SubjectId</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupMembers_Config_SubjectId</shortDescription>
+        <value>SubjectId</value>
+    </labels>
+    <labels>
+        <fullName>GroupMembers_Config_SubjectId_Description</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupMembers_Config_SubjectId_Description</shortDescription>
+        <value>Id of the parent record id with which the search has to be filetered.</value>
+    </labels>
+    <labels>
+        <fullName>GroupMembers_Config_defaultpagesize</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupMembers_Config_defaultpagesize</shortDescription>
+        <value>Default Page Size</value>
+    </labels>
+    <labels>
+        <fullName>GroupMembers_Config_defaultpagesize_Description</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupMembers_Config_defaultpagesize_Description</shortDescription>
+        <value>** Optional ** The page size of a table.</value>
+    </labels>
+    <labels>
+        <fullName>GroupMembers_Config_defaultsortfield</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupMembers_Config_defaultsortfield</shortDescription>
+        <value>Default Sort Field</value>
+    </labels>
+    <labels>
+        <fullName>GroupMembers_Config_defaultsortfield_Description</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupMembers_Config_defaultsortfield_Description</shortDescription>
+        <value>** Optional ** The Sort field for members.</value>
+    </labels>
+    <labels>
+        <fullName>GroupMembers_Config_defaultsortorder</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupMembers_Config_defaultsortorder</shortDescription>
+        <value>Default Sort Order</value>
+    </labels>
+    <labels>
+        <fullName>GroupMembers_Config_defaultsortorder_Description</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupMembers_Config_defaultsortorder_Description</shortDescription>
+        <value>** Optional ** The Sort Order for members.</value>
+    </labels>
+    <labels>
+        <fullName>GroupMembers_Config_filterfieldset</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupMembers_Config_filterfieldset</shortDescription>
+        <value>Filter Field Set</value>
+    </labels>
+    <labels>
+        <fullName>GroupMembers_Config_filterfieldset_Description</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupMembers_Config_filterfieldset_Description</shortDescription>
+        <value>Fieldset which has the list of fields used for filters.</value>
+    </labels>
+    <labels>
+        <fullName>GroupMembers_Config_imageField</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupMembers_Config_imageField</shortDescription>
+        <value>Image field</value>
+    </labels>
+    <labels>
+        <fullName>GroupMembers_Config_imageField_Description</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupMembers_Config_imageField_Description</shortDescription>
+        <value>** Optional ** The image field</value>
+    </labels>
+    <labels>
+        <fullName>GroupMembers_Config_modaldescriptionfieldcsv</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupMembers_Config_modaldescriptionfieldcsv</shortDescription>
+        <value>Modal Description Field CSV</value>
+    </labels>
+    <labels>
+        <fullName>GroupMembers_Config_modaldescriptionfieldcsv_Description</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupMembers_Config_modaldescriptionfieldcsv_Description</shortDescription>
+        <value>Fields to be displayed in the modal popup.</value>
+    </labels>
+    <labels>
+        <fullName>GroupMembers_Config_modalsubtitlefield1</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupMembers_Config_modalsubtitlefield1</shortDescription>
+        <value>Modal Sub-Title Field1</value>
+    </labels>
+    <labels>
+        <fullName>GroupMembers_Config_modalsubtitlefield1_Description</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupMembers_Config_modalsubtitlefield1_Description</shortDescription>
+        <value>** Optional ** The sub title field1 on modal.</value>
+    </labels>
+    <labels>
+        <fullName>GroupMembers_Config_modalsubtitlefield2</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupMembers_Config_modalsubtitlefield2</shortDescription>
+        <value>Modal Sub-Title Field2</value>
+    </labels>
+    <labels>
+        <fullName>GroupMembers_Config_modalsubtitlefield2_Description</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupMembers_Config_modalsubtitlefield2_Description</shortDescription>
+        <value>** Optional ** The sub title field2 on modal.</value>
+    </labels>
+    <labels>
+        <fullName>GroupMembers_Config_modaltitlefield</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupMembers_Config_modaltitlefield</shortDescription>
+        <value>Modal Title Field</value>
+    </labels>
+    <labels>
+        <fullName>GroupMembers_Config_modaltitlefield_Description</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupMembers_Config_modaltitlefield_Description</shortDescription>
+        <value>** Optional ** The title field on modal.</value>
+    </labels>
+    <labels>
+        <fullName>GroupMembers_Config_no_results_found_message</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupMembers_Config_no_results_found_message</shortDescription>
+        <value>No Results Found Message</value>
+    </labels>
+    <labels>
+        <fullName>GroupMembers_Config_no_results_found_message_Description</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupMembers_Config_no_results_found_message_Description</shortDescription>
+        <value>Message Displayed when no results are found.</value>
+    </labels>
+    <labels>
+        <fullName>GroupMembers_Config_showfilters</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupMembers_Config_showfilters</shortDescription>
+        <value>Show Filters</value>
+    </labels>
+    <labels>
+        <fullName>GroupMembers_Config_showfilters_Description</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupMembers_Config_showfilters_Description</shortDescription>
+        <value>Shows the filters.</value>
+    </labels>
+    <labels>
+        <fullName>GroupMembers_Config_showmodalonclick</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupMembers_Config_showmodalonclick</shortDescription>
+        <value>Show Modal On Click</value>
+    </labels>
+    <labels>
+        <fullName>GroupMembers_Config_showmodalonclick_Description</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupMembers_Config_showmodalonclick_Description</shortDescription>
+        <value>** Optional ** Show the Modal when card is clicked.</value>
+    </labels>
+    <labels>
+        <fullName>GroupMembers_Config_titlefield</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupMembers_Config_titlefield</shortDescription>
+        <value>Title field</value>
+    </labels>
+    <labels>
+        <fullName>GroupMembers_Config_titlefield_Description</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GroupMembers_Config_titlefield_Description</shortDescription>
+        <value>** Optional ** The Table heading to be displayed.</value>
+    </labels>
+    <labels>
+        <fullName>Group_Owner_cannot_be_a_Member</fullName>
+        <categories>site</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Group_Owner_cannot_be_a_Member</shortDescription>
+        <value>Group Owner must have Is Manager checked.</value>
+    </labels>
+    <labels>
+        <fullName>Group_Plural_Label</fullName>
+        <categories>form builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Group_Plural_Label</shortDescription>
+        <value>Groups</value>
+    </labels>
+    <labels>
+        <fullName>Group_Singular_Label</fullName>
+        <categories>Groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Group_Singular_Label</shortDescription>
+        <value>Group</value>
+    </labels>
+    <labels>
+        <fullName>HTML_Head</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HTML_Head</shortDescription>
+        <value>HTML Head</value>
+    </labels>
+    <labels>
+        <fullName>Header</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Header</shortDescription>
+        <value>Header</value>
+    </labels>
+    <labels>
+        <fullName>IE_Browser_Name</fullName>
+        <categories>portal_browser</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IE_Browser_Name</shortDescription>
+        <value>Internet Explorer</value>
+    </labels>
+    <labels>
+        <fullName>IE_Browser_Version</fullName>
+        <categories>portal_browser</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IE_Browser_Version</shortDescription>
+        <value>IE 10+</value>
+    </labels>
+    <labels>
+        <fullName>Invalid_Banner_URL</fullName>
+        <categories>form</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid_Banner_URL</shortDescription>
+        <value>Banner URL is invalid. Please provide valid url.</value>
+    </labels>
+    <labels>
+        <fullName>Invalid_Phone_Format</fullName>
+        <categories>form</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid_Phone_Format</shortDescription>
+        <value>Invalid Phone Format</value>
+    </labels>
+    <labels>
+        <fullName>Invalid_Site_Id</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid_Site_Id</shortDescription>
+        <value>Site Id provided is not valid</value>
+    </labels>
+    <labels>
+        <fullName>Invalid_URL</fullName>
+        <categories>Community_Group</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid_URL</shortDescription>
+        <value>Please enter a valid URL.</value>
+    </labels>
+    <labels>
+        <fullName>Like</fullName>
+        <categories>Feed component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Like</shortDescription>
+        <value>Like</value>
+    </labels>
+    <labels>
+        <fullName>Link</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Link</shortDescription>
+        <value>Link</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_descriptionFieldsCSV_Description</fullName>
+        <categories>List, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_descriptionFieldsCSV_Description</shortDescription>
+        <value>** Optional ** Select the fields that show up on the description as comma separated list</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_descriptionFieldsCSV_Label</fullName>
+        <categories>List, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_descriptionFieldsCSV_Label</shortDescription>
+        <value>Enter the Description fields</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_detailStyleClass_Description</fullName>
+        <categories>List, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_detailStyleClass_Description</shortDescription>
+        <value>** Required ** detailStyleClass that needs to be displayed in the list</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_detailStyleClass_Label</fullName>
+        <categories>List, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_detailStyleClass_Label</shortDescription>
+        <value>Selected detailStyleClass for List</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_filter_Description</fullName>
+        <categories>List, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_filter_Description</shortDescription>
+        <value>** Required Conditionally ** The filter clause to filter the list records.</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_filter_Label</fullName>
+        <categories>List, Component Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_filter_Label</shortDescription>
+        <value>Filter Clause</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_headerStyleClass_Description</fullName>
+        <categories>List, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_headerStyleClass_Description</shortDescription>
+        <value>** Required ** headerStyleClass that needs to be displayed in the list</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_headerStyleClass_Label</fullName>
+        <categories>List, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_headerStyleClass_Label</shortDescription>
+        <value>Selected headerStyleClass for List</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_itemStyleClass_Description</fullName>
+        <categories>List, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_itemStyleClass_Description</shortDescription>
+        <value>** Required ** itemStyleClass that needs to be displayed in the list</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_itemStyleClass_Label</fullName>
+        <categories>List, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_itemStyleClass_Label</shortDescription>
+        <value>Selected itemStyleClass for List</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_listStyleClass_Description</fullName>
+        <categories>List, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_listStyleClass_Description</shortDescription>
+        <value>** Required ** listStyleClass that needs to be displayed in the list</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_listStyleClass_Label</fullName>
+        <categories>List, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_listStyleClass_Label</shortDescription>
+        <value>Selected listStyleClass for List</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_orderByFields_Description</fullName>
+        <categories>List, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_orderByFields_Description</shortDescription>
+        <value>** Optional ** The fields that are used to order the list</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_orderByFields_Label</fullName>
+        <categories>List, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_orderByFields_Label</shortDescription>
+        <value>The order by fields</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_ordered_Description</fullName>
+        <categories>List, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_ordered_Description</shortDescription>
+        <value>** Optional ** List is ordered by default</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_ordered_Label</fullName>
+        <categories>List, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_ordered_Label</shortDescription>
+        <value>Is list Ordered?</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_pageSize_Description</fullName>
+        <categories>List, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_pageSize_Description</shortDescription>
+        <value>** Optional ** List Page size</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_pageSize_Label</fullName>
+        <categories>List, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_pageSize_Label</shortDescription>
+        <value>Page Size</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_recordLimit_Description</fullName>
+        <categories>List, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_recordLimit_Description</shortDescription>
+        <value>** Conditionally Required ** Limit the number of records to query</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_recordLimit_Label</fullName>
+        <categories>List, Component Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_recordLimit_Label</shortDescription>
+        <value>Record Limit</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_refStyleClass_Description</fullName>
+        <categories>List, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_refStyleClass_Description</shortDescription>
+        <value>** Required ** refStyleClass that needs to be displayed in the list</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_refStyleClass_Label</fullName>
+        <categories>List, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_refStyleClass_Label</shortDescription>
+        <value>Selected refStyleClass for List</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_searchable_Description</fullName>
+        <categories>List, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_searchable_Description</shortDescription>
+        <value>** Optional ** Is the list Searchable default to true</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_searchable_Label</fullName>
+        <categories>List, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_searchable_Label</shortDescription>
+        <value>Is List Searchable?</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_sobjectName_Description</fullName>
+        <categories>List, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_sobjectName_Description</shortDescription>
+        <value>** Required ** The object name for which the list must be displayed</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_sobjectName_Label</fullName>
+        <categories>List, Component Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_sobjectName_Label</shortDescription>
+        <value>Object Name</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_sortOrder_Description</fullName>
+        <categories>List, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_sortOrder_Description</shortDescription>
+        <value>** Optional ** sortOrder either ASC or DESC</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_sortOrder_Label</fullName>
+        <categories>List, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_sortOrder_Label</shortDescription>
+        <value>Select the Sorting Order</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_styleClass_Description</fullName>
+        <categories>List, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_styleClass_Description</shortDescription>
+        <value>** Required ** styleClass that needs to be displayed in the list</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_styleClass_Label</fullName>
+        <categories>List, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_styleClass_Label</shortDescription>
+        <value>Selected styleClass for List</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_titleField_Description</fullName>
+        <categories>List, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_titleField_Description</shortDescription>
+        <value>** Optional ** The title field for the list</value>
+    </labels>
+    <labels>
+        <fullName>Listz_Config_titleField_Label</fullName>
+        <categories>List, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listz_Config_titleField_Label</shortDescription>
+        <value>Select the Title Field</value>
+    </labels>
+    <labels>
+        <fullName>Login_Override_Button</fullName>
+        <categories>override_login</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Override_Button</shortDescription>
+        <value>Login</value>
+    </labels>
+    <labels>
+        <fullName>Logo</fullName>
+        <categories>common,misc,theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Logo</shortDescription>
+        <value>Logo</value>
+    </labels>
+    <labels>
+        <fullName>Logo_Destination_URL</fullName>
+        <categories>Members</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Logo_Destination_URL</shortDescription>
+        <value>Logo Destination URL</value>
+    </labels>
+    <labels>
+        <fullName>Logo_Text</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Logo_Text</shortDescription>
+        <value>Logo Text</value>
+    </labels>
+    <labels>
+        <fullName>Logo_URL</fullName>
+        <categories>Members</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Logo_URL</shortDescription>
+        <value>Logo URL</value>
+    </labels>
+    <labels>
+        <fullName>Logout</fullName>
+        <categories>Community</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Logout</shortDescription>
+        <value>Logout</value>
+    </labels>
+    <labels>
+        <fullName>Media_Asset_Action</fullName>
+        <categories>media_asset</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Media_Asset_Action</shortDescription>
+        <value>ACTION</value>
+    </labels>
+    <labels>
+        <fullName>Media_Asset_Copy_Url</fullName>
+        <categories>media_asset</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Media_Asset_Copy_Url</shortDescription>
+        <value>Copy URL</value>
+    </labels>
+    <labels>
+        <fullName>Media_Asset_Exit</fullName>
+        <categories>media_asset</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Media_Asset_Exit</shortDescription>
+        <value>Exit</value>
+    </labels>
+    <labels>
+        <fullName>Media_Asset_Is_Public</fullName>
+        <categories>media_asset</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Media_Asset_Is_Public</shortDescription>
+        <value>Is publicly accessible?</value>
+    </labels>
+    <labels>
+        <fullName>Media_Asset_Path</fullName>
+        <categories>media_asset</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Media_Asset_Path</shortDescription>
+        <value>Media Asset</value>
+    </labels>
+    <labels>
+        <fullName>Media_Asset_Short_Description</fullName>
+        <categories>media_asset</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Media_Asset_Short_Description</shortDescription>
+        <value>Short Description</value>
+    </labels>
+    <labels>
+        <fullName>Media_Asset_Title</fullName>
+        <categories>media_asset</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Media_Asset_Title</shortDescription>
+        <value>Title</value>
+    </labels>
+    <labels>
+        <fullName>Media_Asset_Upload_To</fullName>
+        <categories>media_asset</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Media_Asset_Upload_To</shortDescription>
+        <value>Upload Media Asset to</value>
+    </labels>
+    <labels>
+        <fullName>Media_Asset_Uploaded_File_Url</fullName>
+        <categories>media_asset</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Media_Asset_Uploaded_File_Url</shortDescription>
+        <value>UPLOADED FILE URL</value>
+    </labels>
+    <labels>
+        <fullName>Member_Plural</fullName>
+        <categories>Members</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Member_Plural</shortDescription>
+        <value>Members</value>
+    </labels>
+    <labels>
+        <fullName>Member_Singular</fullName>
+        <categories>Members</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Member_Singular</shortDescription>
+        <value>Member</value>
+    </labels>
+    <labels>
+        <fullName>Menu</fullName>
+        <categories>common</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Menu</shortDescription>
+        <value>Menu</value>
+    </labels>
+    <labels>
+        <fullName>Most_Reset_Stable_Version</fullName>
+        <categories>portal_browser</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Most_Reset_Stable_Version</shortDescription>
+        <value>Most Recent Stable Version</value>
+    </labels>
+    <labels>
+        <fullName>Name</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>NavList_Config_displayInPanel_Description</fullName>
+        <categories>NavList, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NavList_Config_displayInPanel_Description</shortDescription>
+        <value>** Optional ** Brand Redirect</value>
+    </labels>
+    <labels>
+        <fullName>NavList_Config_displayInPanel_Label</fullName>
+        <categories>NavList, Component Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NavList_Config_displayInPanel_Label</shortDescription>
+        <value>Displayed in Panel?</value>
+    </labels>
+    <labels>
+        <fullName>NavList_Config_elementStyleClass_Description</fullName>
+        <categories>NavList, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NavList_Config_elementStyleClass_Description</shortDescription>
+        <value>** Optional ** Brand Redirect</value>
+    </labels>
+    <labels>
+        <fullName>NavList_Config_elementStyleClass_Label</fullName>
+        <categories>NavList, Component Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NavList_Config_elementStyleClass_Label</shortDescription>
+        <value>Element Styleclass</value>
+    </labels>
+    <labels>
+        <fullName>NavList_Config_name_Description</fullName>
+        <categories>NavList, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NavList_Config_name_Description</shortDescription>
+        <value>** Optional ** Brand Redirect</value>
+    </labels>
+    <labels>
+        <fullName>NavList_Config_name_Label</fullName>
+        <categories>NavList, Component Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NavList_Config_name_Label</shortDescription>
+        <value>Name for Navlist</value>
+    </labels>
+    <labels>
+        <fullName>NavList_Config_panelType_Description</fullName>
+        <categories>NavList, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NavList_Config_panelType_Description</shortDescription>
+        <value>** Optional ** Brand Redirect</value>
+    </labels>
+    <labels>
+        <fullName>NavList_Config_panelType_Label</fullName>
+        <categories>NavList, Component Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NavList_Config_panelType_Label</shortDescription>
+        <value>Panel Type</value>
+    </labels>
+    <labels>
+        <fullName>NavList_Config_styleClass_Description</fullName>
+        <categories>NavList, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NavList_Config_styleClass_Description</shortDescription>
+        <value>** Optional ** Brand Redirect</value>
+    </labels>
+    <labels>
+        <fullName>NavList_Config_styleClass_Label</fullName>
+        <categories>NavList, Component Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NavList_Config_styleClass_Label</shortDescription>
+        <value>Styleclass</value>
+    </labels>
+    <labels>
+        <fullName>NavList_Config_title_Description</fullName>
+        <categories>NavList, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NavList_Config_title_Description</shortDescription>
+        <value>** Optional ** Brand Redirect</value>
+    </labels>
+    <labels>
+        <fullName>NavList_Config_title_Label</fullName>
+        <categories>NavList, Component Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NavList_Config_title_Label</shortDescription>
+        <value>Title for Navlist</value>
+    </labels>
+    <labels>
+        <fullName>NavList_Config_ulStyleClass_Description</fullName>
+        <categories>NavList, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NavList_Config_ulStyleClass_Description</shortDescription>
+        <value>** Optional ** Brand Redirect</value>
+    </labels>
+    <labels>
+        <fullName>NavList_Config_ulStyleClass_Label</fullName>
+        <categories>NavList, Component Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NavList_Config_ulStyleClass_Label</shortDescription>
+        <value>The List Styleclass</value>
+    </labels>
+    <labels>
+        <fullName>Navbar_Background_Color</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Navbar_Background_Color</shortDescription>
+        <value>Navbar Background</value>
+    </labels>
+    <labels>
+        <fullName>Navbar_Config_brandLogo_Description</fullName>
+        <categories>Navbar, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Navbar_Config_brandLogo_Description</shortDescription>
+        <value>** Optional ** Brand Logo</value>
+    </labels>
+    <labels>
+        <fullName>Navbar_Config_brandLogo_Label</fullName>
+        <categories>Navbar, Component Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Navbar_Config_brandLogo_Label</shortDescription>
+        <value>Brand Logo URL</value>
+    </labels>
+    <labels>
+        <fullName>Navbar_Config_brandRedirect_Description</fullName>
+        <categories>Navbar, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Navbar_Config_brandRedirect_Description</shortDescription>
+        <value>** Optional ** Brand Redirect</value>
+    </labels>
+    <labels>
+        <fullName>Navbar_Config_brandRedirect_Label</fullName>
+        <categories>Navbar, Component Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Navbar_Config_brandRedirect_Label</shortDescription>
+        <value>Brand Redirect</value>
+    </labels>
+    <labels>
+        <fullName>Navbar_Config_brandTitle_Description</fullName>
+        <categories>Navbar, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Navbar_Config_brandTitle_Description</shortDescription>
+        <value>** Optional ** The Brand Title</value>
+    </labels>
+    <labels>
+        <fullName>Navbar_Config_brandTitle_Label</fullName>
+        <categories>Navbar, Component Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Navbar_Config_brandTitle_Label</shortDescription>
+        <value>Brand Title</value>
+    </labels>
+    <labels>
+        <fullName>Navbar_Config_name_Description</fullName>
+        <categories>Navbar, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Navbar_Config_name_Description</shortDescription>
+        <value>** Required ** The name of the Navbar Menu</value>
+    </labels>
+    <labels>
+        <fullName>Navbar_Config_name_Label</fullName>
+        <categories>Navbar, Component Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Navbar_Config_name_Label</shortDescription>
+        <value>Menu Name</value>
+    </labels>
+    <labels>
+        <fullName>Navbar_Config_navStyleClass_Description</fullName>
+        <categories>Navbar, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Navbar_Config_navStyleClass_Description</shortDescription>
+        <value>** Optional ** Nav Styleclass</value>
+    </labels>
+    <labels>
+        <fullName>Navbar_Config_navStyleClass_Label</fullName>
+        <categories>Navbar, Component Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Navbar_Config_navStyleClass_Label</shortDescription>
+        <value>Navbar Styleclass</value>
+    </labels>
+    <labels>
+        <fullName>Navbar_Config_styleClass_Description</fullName>
+        <categories>Navbar, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Navbar_Config_styleClass_Description</shortDescription>
+        <value>** Optional ** Styleclass</value>
+    </labels>
+    <labels>
+        <fullName>Navbar_Config_styleClass_Label</fullName>
+        <categories>Navbar, Component Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Navbar_Config_styleClass_Label</shortDescription>
+        <value>Menu Style class for Navbar</value>
+    </labels>
+    <labels>
+        <fullName>Navbar_Config_ulStyleClass_Description</fullName>
+        <categories>Navbar, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Navbar_Config_ulStyleClass_Description</shortDescription>
+        <value>** Required ** refStyleClass that needs to be displayed in the list</value>
+    </labels>
+    <labels>
+        <fullName>Navbar_Config_ulStyleClass_Label</fullName>
+        <categories>Navbar, Component Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Navbar_Config_ulStyleClass_Label</shortDescription>
+        <value>Unordered List Styleclass</value>
+    </labels>
+    <labels>
+        <fullName>Navbar_Link</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Navbar_Link</shortDescription>
+        <value>Navbar Link</value>
+    </labels>
+    <labels>
+        <fullName>New_Field</fullName>
+        <categories>Members</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New_Field</shortDescription>
+        <value>New Field</value>
+    </labels>
+    <labels>
+        <fullName>New_Field_Group</fullName>
+        <categories>Members</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New_Field_Group</shortDescription>
+        <value>New Field Group</value>
+    </labels>
+    <labels>
+        <fullName>No_Collection_Found</fullName>
+        <categories>media_asset</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No_Collection_Found</shortDescription>
+        <value>Media Asset Collection Not Found.</value>
+    </labels>
+    <labels>
+        <fullName>No_Preview_Available</fullName>
+        <categories>media_asset</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No_Preview_Available</shortDescription>
+        <value>No Preview Available</value>
+    </labels>
+    <labels>
+        <fullName>Percent_Form_Validation_Message</fullName>
+        <categories>form</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Percent_Form_Validation_Message</shortDescription>
+        <value>This value should be greater than or equal to 0.This value should be lower than or equal to 100.</value>
+    </labels>
+    <labels>
+        <fullName>Post</fullName>
+        <categories>Feed component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Post</shortDescription>
+        <value>Post</value>
+    </labels>
+    <labels>
+        <fullName>Preview</fullName>
+        <categories>misc</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Preview</shortDescription>
+        <value>Preview</value>
+    </labels>
+    <labels>
+        <fullName>Preview_Mode_Message_Body</fullName>
+        <categories>form</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Preview_Mode</shortDescription>
+        <value>Some features may not work as expected.</value>
+    </labels>
+    <labels>
+        <fullName>Preview_Mode_Message_Heading</fullName>
+        <categories>form</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Preview_Mode</shortDescription>
+        <value>You&apos;re currently in preview mode.</value>
+    </labels>
+    <labels>
+        <fullName>ProfileTabs_Config_fieldSetNamesCSV_Description</fullName>
+        <categories>ProfileTabs, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ProfileTabs_Config_fieldSetNamesCSV_Description</shortDescription>
+        <value>**Required** The Field Set names</value>
+    </labels>
+    <labels>
+        <fullName>ProfileTabs_Config_fieldSetNamesCSV_Label</fullName>
+        <categories>ProfileTabs, Component Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ProfileTabs_Config_fieldSetNamesCSV_Label</shortDescription>
+        <value>Comma seperated Field Set  names</value>
+    </labels>
+    <labels>
+        <fullName>ProfileTabs_Config_userId_Description</fullName>
+        <categories>ProfileTabs, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ProfileTabs_Config_userId_Description</shortDescription>
+        <value>**Required** User Id</value>
+    </labels>
+    <labels>
+        <fullName>ProfileTabs_Config_userId_Label</fullName>
+        <categories>ProfileTabs, Component Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ProfileTabs_Config_userId_Label</shortDescription>
+        <value>User Id</value>
+    </labels>
+    <labels>
+        <fullName>Profile_Page_Link_Anchor</fullName>
+        <categories>site</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Profile_Page_Link_Anchor</shortDescription>
+        <value>My Profile</value>
+    </labels>
+    <labels>
+        <fullName>Reference_Fields_Not_Supported</fullName>
+        <categories>form builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reference_Fields_Not_Supported</shortDescription>
+        <value>Reference Fields Not Currently Not Supported</value>
+    </labels>
+    <labels>
+        <fullName>Refresh</fullName>
+        <categories>misc</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Refresh</shortDescription>
+        <value>Refresh</value>
+    </labels>
+    <labels>
+        <fullName>Reply</fullName>
+        <categories>Feed component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reply</shortDescription>
+        <value>Reply</value>
+    </labels>
+    <labels>
+        <fullName>Required_Field_Validation_Field_Type</fullName>
+        <categories>form</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Required_Field_Validation_Field_Type</shortDescription>
+        <value>Type is a required field!</value>
+    </labels>
+    <labels>
+        <fullName>Safari_Browser_Name</fullName>
+        <categories>portal_browser</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Safari_Browser_Name</shortDescription>
+        <value>Safari</value>
+    </labels>
+    <labels>
+        <fullName>Safari_Browser_Version</fullName>
+        <categories>portal_browser</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Safari_Browser_Version</shortDescription>
+        <value>5.x+</value>
+    </labels>
+    <labels>
+        <fullName>Save</fullName>
+        <categories>misc</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>Save_Exit_Theme_Builder</fullName>
+        <categories>Theme_Builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save_Exit_Theme_Builder</shortDescription>
+        <value>Save &amp; Exit</value>
+    </labels>
+    <labels>
+        <fullName>Save_Theme_Builder</fullName>
+        <categories>Theme_Builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save_Theme_Builder</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>Share</fullName>
+        <categories>Feed component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Share</shortDescription>
+        <value>Share</value>
+    </labels>
+    <labels>
+        <fullName>Site_Cookie_Prompt_Accept</fullName>
+        <categories>cookie_prompt</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Cookie_Prompt_Accept</shortDescription>
+        <value>Accept</value>
+    </labels>
+    <labels>
+        <fullName>Site_Cookie_Prompt_Body</fullName>
+        <categories>cookie_prompt</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Cookie_Prompt_Body</shortDescription>
+        <value>This site uses cookies to function. Please accept use of cookies to proceed.</value>
+    </labels>
+    <labels>
+        <fullName>Site_Cookie_Prompt_Decline</fullName>
+        <categories>cookie_prompt</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Cookie_Prompt_Decline</shortDescription>
+        <value>Decline</value>
+    </labels>
+    <labels>
+        <fullName>Site_Cookie_Prompt_Header</fullName>
+        <categories>cookie_prompt</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Cookie_Prompt_Header</shortDescription>
+        <value>Accept Cookie Usage</value>
+    </labels>
+    <labels>
+        <fullName>Site_Cookie_Redirect_Url_Required</fullName>
+        <categories>cookie_prompt</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Cookie_Redirect_Url_Required</shortDescription>
+        <value>Site Cookie Redirect URL is required if cookie prompt is enabled</value>
+    </labels>
+    <labels>
+        <fullName>Site_Create_Button_Site_Wizard</fullName>
+        <categories>form</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Create_Button_Site_Wizard</shortDescription>
+        <value>Create Site</value>
+    </labels>
+    <labels>
+        <fullName>Site_Description_Site_Wizard</fullName>
+        <categories>form</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Description_Site_Wizard</shortDescription>
+        <value>Site Description</value>
+    </labels>
+    <labels>
+        <fullName>Site_Name_Site_Wizard</fullName>
+        <categories>form</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Name_Site_Wizard</shortDescription>
+        <value>Site Name</value>
+    </labels>
+    <labels>
+        <fullName>Site_Not_Found</fullName>
+        <categories>site</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Not_Found</shortDescription>
+        <value>Site Not Found</value>
+    </labels>
+    <labels>
+        <fullName>Site_Wizard_Error_Description</fullName>
+        <categories>site wizard</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Wizard_Error_Description</shortDescription>
+        <value>We have experienced a problem creating your site. Please contact your administrator and inform them of the following system message:</value>
+    </labels>
+    <labels>
+        <fullName>Site_Wizard_Error_Title</fullName>
+        <categories>site wizard</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Wizard_Error_Title</shortDescription>
+        <value>Error!</value>
+    </labels>
+    <labels>
+        <fullName>Site_Wizard_Failure_Description</fullName>
+        <categories>site wizard</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Wizard_Failure_Description</shortDescription>
+        <value>We have experienced a problem creating your site. Please contact your administrator and inform them of the following system message:</value>
+    </labels>
+    <labels>
+        <fullName>Site_Wizard_Failure_Title</fullName>
+        <categories>site wizard</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Wizard_Title</shortDescription>
+        <value>Failure!</value>
+    </labels>
+    <labels>
+        <fullName>Site_Wizard_Required_Field_Missing_Validation</fullName>
+        <categories>site wizard</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Wizard_Required_Field_Missing_Validation</shortDescription>
+        <value>Required field missing.</value>
+    </labels>
+    <labels>
+        <fullName>Site_Wizard_Step_1_Instructions</fullName>
+        <categories>site wizard</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Wizard_Step_1_Instructions</shortDescription>
+        <value>In order to create a new site, at least one Salesforce Community must be set up in your organization.</value>
+    </labels>
+    <labels>
+        <fullName>Site_Wizard_Step_1_Title</fullName>
+        <categories>site wizard</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Wizard_Step_1_Title</shortDescription>
+        <value>Select a Salesforce Community</value>
+    </labels>
+    <labels>
+        <fullName>Site_Wizard_Step_2_Instructions</fullName>
+        <categories>site wizard</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Wizard_Step_2_Instructions</shortDescription>
+        <value>Fonteva Sites can be created from scratch or from a template, select the option that best suits your needs from the list provided below.</value>
+    </labels>
+    <labels>
+        <fullName>Site_Wizard_Step_2_Title</fullName>
+        <categories>site wizard</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Wizard_Step_2_Title</shortDescription>
+        <value>Choose a Template</value>
+    </labels>
+    <labels>
+        <fullName>Site_Wizard_Step_3_Instructions</fullName>
+        <categories>site wizard</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Wizard_Step_3_Instructions</shortDescription>
+        <value>Enter a name (required), and description (optional), for your new site.</value>
+    </labels>
+    <labels>
+        <fullName>Site_Wizard_Step_3_Title</fullName>
+        <categories>site wizard</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Wizard_Step_3_Title</shortDescription>
+        <value>Name your Site</value>
+    </labels>
+    <labels>
+        <fullName>Site_Wizard_Step_4_Instructions</fullName>
+        <categories>site wizard</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Wizard_Step_4_Instructions</shortDescription>
+        <value>Fill out additional configurations for your site (optional).</value>
+    </labels>
+    <labels>
+        <fullName>Site_Wizard_Step_4_Title</fullName>
+        <categories>site wizard</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Wizard_Step_4_Title</shortDescription>
+        <value>Advanced Configuration Options</value>
+    </labels>
+    <labels>
+        <fullName>Site_Wizard_Success_Description</fullName>
+        <categories>site wizard</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Wizard_Success_Description</shortDescription>
+        <value>We are now creating your site. In a few moments you will be redirected to the site detail page.</value>
+    </labels>
+    <labels>
+        <fullName>Site_Wizard_Success_Title</fullName>
+        <categories>site wizard</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Wizard_Success_Title</shortDescription>
+        <value>Success!</value>
+    </labels>
+    <labels>
+        <fullName>Site_Wizard_Title</fullName>
+        <categories>site wizard</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Wizard_Title</shortDescription>
+        <value>Site Setup</value>
+    </labels>
+    <labels>
+        <fullName>SkipLogic_Field_Label_Validation_Message</fullName>
+        <categories>misc</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SkipLogic_Field_Label_Validation_Message</shortDescription>
+        <value>Field Label is required for this field to be used as a destination for skip logic.</value>
+    </labels>
+    <labels>
+        <fullName>Skip_Logic_Button</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Skip_Logic_Button</shortDescription>
+        <value>Skip Logic</value>
+    </labels>
+    <labels>
+        <fullName>Skip_Logic_Destination</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Skip_Logic_Destination</shortDescription>
+        <value>Destination</value>
+    </labels>
+    <labels>
+        <fullName>Skip_Logic_Modal_Header</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Skip_Logic_Modal_Header</shortDescription>
+        <value>Skip Logic</value>
+    </labels>
+    <labels>
+        <fullName>Skip_Logic_Question</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Skip_Logic_Question</shortDescription>
+        <value>Question</value>
+    </labels>
+    <labels>
+        <fullName>Skip_Logic_Warning</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Skip_Logic_Warning</shortDescription>
+        <value>This field has associated skip logic. Any changes made may affect the skip logic.</value>
+    </labels>
+    <labels>
+        <fullName>Social_Login_Failed</fullName>
+        <categories>social_login</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Social_Login_Failed</shortDescription>
+        <value>Login Failed</value>
+    </labels>
+    <labels>
+        <fullName>Submit_Button_Label</fullName>
+        <categories>form builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Submit_Button_Label</shortDescription>
+        <value>Submit</value>
+    </labels>
+    <labels>
+        <fullName>Supernav</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Supernav</shortDescription>
+        <value>Supernav</value>
+    </labels>
+    <labels>
+        <fullName>Supernav_Background</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Supernav_Background</shortDescription>
+        <value>Supernav Background</value>
+    </labels>
+    <labels>
+        <fullName>Supernav_HTML_Position_1</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Supernav_HTML_Position_1</shortDescription>
+        <value>Supernav HTML Position 1</value>
+    </labels>
+    <labels>
+        <fullName>Supernav_HTML_Position_2</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Supernav_HTML_Position_2</shortDescription>
+        <value>Supernav HTML Position 2</value>
+    </labels>
+    <labels>
+        <fullName>Supernav_HTML_Position_3</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Supernav_HTML_Position_3</shortDescription>
+        <value>Supernav HTML Position 3</value>
+    </labels>
+    <labels>
+        <fullName>Supernav_Link</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Supernav_Link</shortDescription>
+        <value>Supernav Link</value>
+    </labels>
+    <labels>
+        <fullName>Supernav_Login</fullName>
+        <categories>global,supernav</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Supernav_Login</shortDescription>
+        <value>Login</value>
+    </labels>
+    <labels>
+        <fullName>Supernav_Logout</fullName>
+        <categories>global,supernav</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Supernav_Logout</shortDescription>
+        <value>Logout</value>
+    </labels>
+    <labels>
+        <fullName>Supernav_Register</fullName>
+        <categories>global,supernav</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Supernav_Register</shortDescription>
+        <value>Register</value>
+    </labels>
+    <labels>
+        <fullName>Supernav_Text</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Supernav_Text</shortDescription>
+        <value>Supernav Text</value>
+    </labels>
+    <labels>
+        <fullName>Supported_Browsers</fullName>
+        <categories>portal_browser</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Supported_Browsers</shortDescription>
+        <value>The supported browsers are IE 9 and newer, Chrome and Firefox.</value>
+    </labels>
+    <labels>
+        <fullName>Text</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Text</shortDescription>
+        <value>Text</value>
+    </labels>
+    <labels>
+        <fullName>Theme</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Theme</shortDescription>
+        <value>Theme</value>
+    </labels>
+    <labels>
+        <fullName>Theme_Name</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Theme_Name</shortDescription>
+        <value>Theme Name</value>
+    </labels>
+    <labels>
+        <fullName>Theme_Not_Found</fullName>
+        <categories>base_component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Theme_Not_Found</shortDescription>
+        <value>Could not query Theme.</value>
+    </labels>
+    <labels>
+        <fullName>Toggle_Navigation</fullName>
+        <categories>template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Toggle_Navigation</shortDescription>
+        <value>Toggle Navigation</value>
+    </labels>
+    <labels>
+        <fullName>Unknown_Error_Login</fullName>
+        <categories>social_login</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Unknown_Error_Login</shortDescription>
+        <value>Unknown Error Occurred During Login</value>
+    </labels>
+    <labels>
+        <fullName>Unlike</fullName>
+        <categories>Feed component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Unlike</shortDescription>
+        <value>Unlike</value>
+    </labels>
+    <labels>
+        <fullName>Upload</fullName>
+        <categories>media asset, admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Upload</shortDescription>
+        <value>Upload</value>
+    </labels>
+    <labels>
+        <fullName>UserProfilePhoto_Config_height_Description</fullName>
+        <categories>UserProfilePhoto, Component Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UserProfilePhoto_Config_height_Description</shortDescription>
+        <value>**Optional** Height of Profile Photo</value>
+    </labels>
+    <labels>
+        <fullName>UserProfilePhoto_Config_height_Label</fullName>
+        <categories>UserProfilePhoto, Component Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UserProfilePhoto_Config_height_Label</shortDescription>
+        <value>Height</value>
+    </labels>
+    <labels>
+        <fullName>UserProfilePhoto_Config_inputFileStyleClass_Description</fullName>
+        <categories>UserProfilePhoto, Component Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UserProfilePhoto_Config_inputFileStyleClass_Description</shortDescription>
+        <value>**Optional** InputFile Styleclass</value>
+    </labels>
+    <labels>
+        <fullName>UserProfilePhoto_Config_inputFileStyleClass_Label</fullName>
+        <categories>UserProfilePhoto, Component Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UserProfilePhoto_Config_inputFileStyleClass_Label</shortDescription>
+        <value>Input File Styleclass</value>
+    </labels>
+    <labels>
+        <fullName>UserProfilePhoto_Config_styleClass_Description</fullName>
+        <categories>UserProfilePhoto, Component Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UserProfilePhoto_Config_styleClass_Description</shortDescription>
+        <value>**Optional** Styleclass</value>
+    </labels>
+    <labels>
+        <fullName>UserProfilePhoto_Config_styleClass_Label</fullName>
+        <categories>UserProfilePhoto, Component Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UserProfilePhoto_Config_styleClass_Label</shortDescription>
+        <value>StyleClass</value>
+    </labels>
+    <labels>
+        <fullName>UserProfilePhoto_Config_userId_Description</fullName>
+        <categories>UserProfilePhoto, Component Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UserProfilePhoto_Config_userId_Description</shortDescription>
+        <value>**Required** User Id</value>
+    </labels>
+    <labels>
+        <fullName>UserProfilePhoto_Config_userId_Label</fullName>
+        <categories>UserProfilePhoto, Component Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UserProfilePhoto_Config_userId_Label</shortDescription>
+        <value>User Id</value>
+    </labels>
+    <labels>
+        <fullName>UserProfilePhoto_Config_width_Description</fullName>
+        <categories>UserProfilePhoto, Component Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UserProfilePhoto_Config_width_Description</shortDescription>
+        <value>**Optional** Default is auto. Width of the Profile Photo</value>
+    </labels>
+    <labels>
+        <fullName>UserProfilePhoto_Config_width_Label</fullName>
+        <categories>UserProfilePhoto, Component Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UserProfilePhoto_Config_width_Label</shortDescription>
+        <value>Width of the Profile Photo</value>
+    </labels>
+    <labels>
+        <fullName>User_Not_Found_Query</fullName>
+        <categories>base_component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>User_Not_Found_Query</shortDescription>
+        <value>Could not query user. Please contact System Administrator</value>
+    </labels>
+    <labels>
+        <fullName>Validation_Filters_Required_Group</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validation_Filters_Required_Group</shortDescription>
+        <value>You must populate the Member Search Filter Fields (CSV) field prior to enabling search filters.</value>
+    </labels>
+    <labels>
+        <fullName>Validation_Filters_Required_Site</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validation_Filters_Required_Site</shortDescription>
+        <value>You must populate the Group Search Filters (CSV) field prior to enabling search filters.</value>
+    </labels>
+    <labels>
+        <fullName>Validation_Group_Search_Results_Greater_Than_zero</fullName>
+        <categories>media_asset</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validation_Group_Search_Results_Greater_Than_zero</shortDescription>
+        <value>Group search results should be greater than zero.</value>
+    </labels>
+    <labels>
+        <fullName>Validation_Invalid_group_Fields</fullName>
+        <categories>form builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validation_Invalid_group_Fields</shortDescription>
+        <value>An API name provided in this field is not a valid field for the Community Group custom object.  Please ensure that the field name is spelled correctly and is a valid field in the object.</value>
+    </labels>
+    <labels>
+        <fullName>Validation_Invalid_group_member_FieldSets</fullName>
+        <categories>form builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validation_Invalid_group_member_FieldSets</shortDescription>
+        <value>An API name provided in this field is not a valid Field Set  for the Community Group Member object.  Please ensure that the field name is spelled correctly and is a valid Field Set (without Namespace) in the object.</value>
+    </labels>
+    <labels>
+        <fullName>Validation_Invalid_group_member_Fields</fullName>
+        <categories>form builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validation_Invalid_group_member_Fields</shortDescription>
+        <value>An API name provided in this field is not a valid field for the Community Group Member object.  Please ensure that the field name is spelled correctly and is a valid field in the object.</value>
+    </labels>
+    <labels>
+        <fullName>Validation_Published_Site_Theme_Required</fullName>
+        <categories>theme</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validation_Published_Site_Theme_Required</shortDescription>
+        <value>Theme required when publishing Site</value>
+    </labels>
+    <labels>
+        <fullName>Validation_Site_Community_Network_Name_Required_Field</fullName>
+        <categories>calendar,component descriptions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validation_Site_Community_Network_Name_Required_Field</shortDescription>
+        <value>Community Network Name is required.</value>
+    </labels>
+    <labels>
+        <fullName>Validation_only_accounts_Allowed</fullName>
+        <categories>social_login</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validation_only_accounts_Allowed</shortDescription>
+        <value>Only a group member of type account is required.</value>
+    </labels>
+    <labels>
+        <fullName>Validation_only_contacts_Allowed</fullName>
+        <categories>social_login</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validation_only_contacts_Allowed</shortDescription>
+        <value>Only a group member of type contact is required.</value>
+    </labels>
+    <labels>
+        <fullName>Validation_only_groups_Allowed</fullName>
+        <categories>social_login</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validation_only_groups_Allowed</shortDescription>
+        <value>Only a group member of type group is required.</value>
+    </labels>
+    <labels>
+        <fullName>View</fullName>
+        <categories>common,misc</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>View</shortDescription>
+        <value>View</value>
+    </labels>
+    <labels>
+        <fullName>feed_default_text</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>feed_default_text</shortDescription>
+        <value>What are you working on?</value>
+    </labels>
+    <labels>
+        <fullName>feed_file_default_text</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>feed_file_default_text</shortDescription>
+        <value>Say Something</value>
+    </labels>
+    <labels>
+        <fullName>feed_load_more_comments</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>feed_load_more_comments</shortDescription>
+        <value>Load More</value>
+    </labels>
+    <labels>
+        <fullName>feed_load_more_comments_with_number</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>feed_load_more_comments_with_number</shortDescription>
+        <value>load all {0} comments</value>
+    </labels>
+    <labels>
+        <fullName>feed_load_more_feeds</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>feed_load_more_feeds</shortDescription>
+        <value>Load More</value>
+    </labels>
+    <labels>
+        <fullName>groupmembers_error</fullName>
+        <categories>form builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>groupmembers_error</shortDescription>
+        <value>Error retrieving the group members.</value>
+    </labels>
+    <labels>
+        <fullName>load_more</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>load_more</shortDescription>
+        <value>Load More</value>
+    </labels>
+    <labels>
+        <fullName>please_wait</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>please_wait</shortDescription>
+        <value>Please Wait..</value>
+    </labels>
+    <labels>
+        <fullName>please_wait_message</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>please_wait_message</shortDescription>
+        <value>Fetching Search Results</value>
+    </labels>
+    <labels>
+        <fullName>search_placeholder</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>search_placeholder</shortDescription>
+        <value>Search...</value>
+    </labels>
+    <labels>
+        <fullName>success</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>success</shortDescription>
+        <value>Success</value>
+    </labels>
+    <labels>
+        <fullName>success_message</fullName>
+        <categories>groups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>success_message</shortDescription>
+        <value>Your Search Results</value>
+    </labels>
+</CustomLabels>

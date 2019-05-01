@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Apex_Class__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Apex Class</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Fonteva_Service_Module__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Fonteva Service Module</label>
+        <referenceTo>Fonteva_Service_Module__mdt</referenceTo>
+        <relationshipLabel>Fonteva Service Module Classes</relationshipLabel>
+        <relationshipName>Fonteva_Service_Module_Classes</relationshipName>
+        <required>false</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Enabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Is Enabled</label>
+        <type>Checkbox</type>
+    </fields>
+    <label>Fonteva Service Module Class</label>
+    <pluralLabel>Fonteva Service Module Classes</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

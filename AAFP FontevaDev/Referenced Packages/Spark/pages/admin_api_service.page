@@ -1,0 +1,12 @@
+<apex:page showHeader="true"
+    controller="Framework.AdminApiServiceController"
+    sidebar="false"
+    docType="html-5.0"
+    title="{!service.displayName} - {!$Label.framework__api_service}">
+  <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+	<apex:composition template="Framework__admin_template">
+
+    </apex:composition>
+  </html>
+</apex:page>

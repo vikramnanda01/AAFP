@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Sales_Order__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Linked the to related Sales Order.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Linked the to related Sales Order.</inlineHelpText>
+        <label>SYSTEM</label>
+        <referenceTo>OrderApi__Sales_Order__c</referenceTo>
+        <relationshipName>Sales_Orders</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

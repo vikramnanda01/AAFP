@@ -1,0 +1,441 @@
+<apex:page showHeader="true" controller="Framework.AdminApiResourceController" sidebar="false" docType="html-5.0" title="{!resource.name} - {!$Label.framework__api_resource}">
+	<html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <apex:composition template="Framework__admin">
+            <!-- Breadcrumbs -->
+            <apex:define name="breadcrumbs">
+                <li class="slds-list__item slds-text-heading--label">
+                    <a href="{!$Page.admin}">{!$Label.Dashboard}</a>
+                </li>
+                <li class="slds-list__item slds-text-heading--label">
+                    <a href="{!$Page.admin_api_services}">{!$Label.API_Services}</a>
+                </li>
+                <li class="slds-list__item slds-text-heading--label">
+                    <a href="{!$Page.admin_api_service}?key={!service.name}">{!service.displayName}</a>
+                </li>
+                <li class="slds-list__item slds-text-heading--label">
+                    <a href="#">{!resource.name}</a>
+                </li>
+            </apex:define>
+            <apex:define name="title">{!resource.name}</apex:define>
+            <apex:define name="main">
+                <div class="slds-grid slds-wrap slds-p-around--large">
+                    <div class="slds-col slds-object--full__width">
+                        <div class="slds-media slds-media--responsive slds-media--top">
+
+                            <div class="slds-media__figure">
+                                <apex:image rendered="{!ISBLANK(service.imagePath)}"
+                                                        value="//fonteva-demo-assets.s3.amazonaws.com/rocket-demo/twitter.svg"
+                                                        style="height: 150px; width: auto;"
+                                                        styleClass="slds-avatar"/>
+                                <apex:image rendered="{!NOT(ISBLANK(service.imagePath))}"
+                                                        value="{!service.imagePath}"
+                                                        style="height: 150px; width: auto;"
+                                                        styleClass="slds-avatar"/>
+
+                            </div><!-- /.slds-media__figure -->
+
+                            <div class="slds-media__body">
+
+                                <table class="slds-table slds-table--bordered">
+                                    <tbody>
+                                    <tr>
+                                        <th><strong>{!$Label.API_Service_Key}</strong></th>
+                                        <td>{!service.name}</td>
+                                    </tr>
+                                    <tr>
+                                        <th><strong>{!$Label.API_Resource_Name}</strong></th>
+                                        <td>{!resource.name}</td>
+                                    </tr>
+                                    <tr>
+                                        <th><strong>{!$Label.API_Resource_Target_SObject}</strong></th>
+                                        <td>{!resource.targetSObject}</td>
+                                    </tr>
+                                    <tr>
+                                        <th><strong>{!$Label.API_Resource_Target_SObject_Key}</strong></th>
+                                        <td>{!resource.targetSObjectKey}</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th><strong>{!$Label.API_Resource_Api_Object}</strong></th>
+                                        <td>{!resource.apiObject}</td>
+                                    </tr>
+                                    <tr>
+                                        <th><strong>{!$Label.API_Resource_Api_Object_Key}</strong></th>
+                                        <td>{!resource.apiObjectKey}</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+
+                                <!-- <span class="slds-text-heading--small">{!app.Description__c}</span> -->
+                            </div><!-- /.slds-media__body -->
+
+                        </div><!-- /.slds-media -->
+                    </div><!-- /.slds-col -->
+                </div><!-- /.slds-grid -->
+
+							<div class="slds-col slds-p-around--large">
+								<div class="slds-page-header slds-object--full-width slds-grid slds-grid--align-spread">
+									<div class="slds-text-heading--medium">{!$Label.API_Mappings}</div>
+									<a href="#" class="slds-button slds-button--neutral new-api-mapping">
+                  {!$Label.Add} {!$Label.New} API Mapping
+									</a>
+								</div>
+      <span class="slds-scrollable--x slds-object--full__width">
+        <apex:form id="service_connections" prependId="true" rendered="{!mappings.size > 0}">
+					<apex:outputPanel rendered="{!mappings.size == 0}">
+						<span class="slds-text-heading--label">{!$Label.No} {!$Label.API_Mappings} {!$Label.Found}!</span>
+					</apex:outputPanel>
+					<apex:outputPanel rendered="{!mappings.size > 0}">
+						<table class="slds-table slds-table--bordered slds-max-medium-table--stacked-horizontal">
+							<thead>
+							<tr class="slds-text-heading--label">
+								<th>{!$ObjectType.API_Mapping__c.Fields.Api_Field__c.Label}</th>
+								<th>{!$ObjectType.API_Mapping__c.Fields.Target_Field__c.Label}</th>
+								<th>{!$Label.Action}</th>
+							</tr>
+							</thead>
+							<tbody>
+							<apex:repeat value="{!mappings}" var="mapping">
+								<tr>
+									<td>
+
+                            {!mapping.apiField}
+
+									</td>
+									<td>
+                            {!mapping.targetField}
+									</td>
+
+									<td>
+										<div class="slds-dropdown-trigger">
+											<button class="slds-button slds-button--icon-border-filled slds-button--icon-x-small" aria-haspopup="true">
+												<svg aria-hidden="true" class="slds-button__icon slds-button__icon--small">
+													<use xlink:href="{!URLFOR($Resource.SLDS_Icons, 'icons/utility-sprite/svg/symbols.svg#down')}"></use>
+												</svg>
+												<span class="slds-assistive-text">Close</span>
+											</button>
+											<div class="slds-dropdown slds-dropdown--right slds-dropdown--menu">
+												<ul class="slds-dropdown__list" role="menu">
+													<!--<li class="slds-dropdown__item">-->
+														<!--<a href="#" class="edit-api-mapping" data-id="{!mapping.configId}" data-sobject="{!mapping.targetSObject}">-->
+                                <!--<span class="slds-truncate" data-container="editReg" title="Edit Service Connection">-->
+                                  <!--Edit-->
+                                <!--</span>-->
+														<!--</a>-->
+													<!--</li>-->
+													<li class="slds-dropdown__item">
+														<apex:commandLink status="actionStatus" styleClass="text-danger" action="{!deleteMapping}" onComplete="location.reload();">
+                                <span class="slds-truncate" title="Delete  Service Connection">
+                                  Remove
+                                </span>
+															<apex:param name="mappingToDelete"
+																					value="{!mapping.configId}"
+																					assignTo="{!mappingToDelete}"/>
+														</apex:commandLink>
+													</li>
+												</ul>
+											</div><!-- /.slds-dropdown -->
+										</div><!-- /.slds-dropdown-trigger -->
+									</td>
+								</tr>
+							</apex:repeat>
+							</tbody>
+						</table>
+					</apex:outputPanel>
+				</apex:form>
+      </span><!-- /.slds-scrollable-x -->
+	</div><!-- /.slds-col -->
+
+							<div class="slds-col slds-p-around--large">
+								<div class="slds-page-header slds-object--full-width slds-grid slds-grid--align-spread">
+									<div class="slds-text-heading--medium">{!$Label.API_Variables}</div>
+									<a href="#" class="slds-button slds-button--neutral new-api-variable">
+                  {!$Label.Add} {!$Label.New} API Variables
+									</a>
+								</div>
+      <span class="slds-scrollable--x slds-object--full__width">
+        <apex:form id="variables-api" prependId="true" rendered="{!vars.size > 0}">
+					<apex:outputPanel rendered="{!vars.size == 0}">
+						<span class="slds-text-heading--label">{!$Label.No} {!$Label.API_Variables} {!$Label.Found}!</span>
+					</apex:outputPanel>
+					<apex:outputPanel rendered="{!vars.size > 0}">
+						<table class="slds-table slds-table--bordered slds-max-medium-table--stacked-horizontal">
+							<thead>
+							<tr class="slds-text-heading--label">
+								<th>{!$ObjectType.Api_Variable__c.Fields.Field_Api_Name__c.Label}</th>
+								<th>{!$ObjectType.Api_Variable__c.Fields.Field_Api_Value__c.Label}</th>
+								<th>{!$Label.Action}</th>
+							</tr>
+							</thead>
+							<tbody>
+							<apex:repeat value="{!vars}" var="var">
+								<tr>
+									<td>
+
+                          {!var.fieldName}
+
+									</td>
+									<td>
+                          {!var.fieldValue}
+									</td>
+
+									<td>
+										<div class="slds-dropdown-trigger">
+											<button class="slds-button slds-button--icon-border-filled slds-button--icon-x-small" aria-haspopup="true">
+												<svg aria-hidden="true" class="slds-button__icon slds-button__icon--small">
+													<use xlink:href="{!URLFOR($Resource.SLDS_Icons, 'icons/utility-sprite/svg/symbols.svg#down')}"></use>
+												</svg>
+												<span class="slds-assistive-text">Close</span>
+											</button>
+											<div class="slds-dropdown slds-dropdown--right slds-dropdown--menu">
+												<ul class="slds-dropdown__list" role="menu">
+													<!--<li class="slds-dropdown__item">-->
+														<!--<a href="#" class="edit-api-variable" data-id="{!var.configId}">-->
+                                <!--<span class="slds-truncate" data-container="editReg" title="Edit Service Connection">-->
+                                  <!--Edit-->
+                                <!--</span>-->
+														<!--</a>-->
+													<!--</li>-->
+													<li class="slds-dropdown__item">
+														<apex:commandLink status="actionStatus" styleClass="text-danger" action="{!deleteVariable}" onComplete="location.reload();">
+                                <span class="slds-truncate" title="Delete  Service Connection">
+                                  Remove
+                                </span>
+															<apex:param name="variableToDelete"
+																					value="{!var.configId}"
+																					assignTo="{!variableToDelete}"/>
+														</apex:commandLink>
+													</li>
+												</ul>
+											</div><!-- /.slds-dropdown -->
+										</div><!-- /.slds-dropdown-trigger -->
+									</td>
+								</tr>
+							</apex:repeat>
+							</tbody>
+						</table>
+					</apex:outputPanel>
+				</apex:form>
+      </span><!-- /.slds-scrollable-x -->
+							</div><!-- /.slds-col -->
+        <!-- Modal Application Settings -->
+        <div class="modal fade slds-modal slds-fade-in-open" id="modalNewAPIMapping">
+            <div class="modal-dialog slds-modal__container">
+                <div class="modal-content">
+                    <div class="slds-modal__header">
+                        <h2 class="slds-text-heading--medium">API Mapping</h2>
+                        <button class="slds-button slds-button--icon-inverse slds-modal__close" data-dismiss="modal">
+                            <svg aria-hidden="true" class="slds-button__icon slds-button__icon--large">
+                                <use xlink:href="{!URLFOR($Resource.SLDS_Icons, 'icons/action-sprite/svg/symbols.svg#close')}"></use>
+                            </svg>
+                            <span class="slds-assistive-text">Close</span>
+                        </button><!-- /.slds-button -->
+                    </div><!-- /.slds-modal__header -->
+                    <div class="slds-modal__content mapping-body">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade slds-modal slds-fade-in-open" id="modalNewAPIVariable">
+            <div class="modal-dialog slds-modal__container">
+                <div class="modal-content">
+                    <div class="slds-modal__header">
+                        <h2 class="slds-text-heading--medium">API Variable</h2>
+                        <button class="slds-button slds-button--icon-inverse slds-modal__close" data-dismiss="modal">
+                            <svg aria-hidden="true" class="slds-button__icon slds-button__icon--large">
+                                <use xlink:href="{!URLFOR($Resource.SLDS_Icons, 'icons/action-sprite/svg/symbols.svg#close')}"></use>
+                            </svg>
+                            <span class="slds-assistive-text">Close</span>
+                        </button><!-- /.slds-button -->
+                    </div><!-- /.slds-modal__header -->
+                    <div class="slds-modal__content api-variable-body">
+                    </div>
+                </div>
+            </div>
+        </div>
+            </apex:define>
+            <apex:define name="scripts">
+              <script type="text/javascript" src="//s3.amazonaws.com/package-assets/master/aui/lib/parsleyjs/dist/parsley.min.js"></script>
+                <script id="api-mapping-data" type="text/x-handlebars-template">
+                    <form id="api-mapping-form-input" data-parsley-validate="true">
+                        <div class="slds-col slds-p-vertical--medium slds-size--1-of-1 slds-container--center slds-container--small">
+                            <div class="slds-form-element slds-is-required">
+                                <label for="name" class="slds-form-element__label">Api Field</label>
+                                <div class="slds-form-element__control slds-m-bottom--medium">
+                                    <input type="text" required="true"  class="slds-input" value="{{{apiField}}}" name="apiField" data-parsley-required="true"/>
+                                </div>
+                            </div>
+                            <div class="slds-form-element slds-is-required">
+                                <label for="name" class="slds-form-element__label">Target Field</label>
+                                <div class="slds-form-element__control slds-m-bottom--medium">
+                                    <select size="1" class="slds-select" name="targetField">
+                                        {{#each fieldList}}
+                                        <option value="{{{this}}}" {{{selectedAttr this ../targetField}}}>{{{this}}}</option>
+                                        {{/each}}
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="slds-form-element">
+                                <label for="name" class="slds-form-element__label">Relationship Field</label>
+                                <div class="slds-form-element__control slds-m-bottom--medium">
+                                    <input type="text" class="slds-input" value="{{{relationshipField}}}" name="relationshipField"/>
+                                </div>
+                            </div>
+                            <div class="slds-modal__footer slds-text-align--right">
+                                <a class="slds-button slds-button--neutral" data-dismiss="modal">{!$Label.Cancel}</a>
+                                <button class="slds-button slds-button--neutral slds-button--brand save-mapping-config" href="#">Save</button>
+                            </div>
+                        </div>
+                    </form>
+                </script>
+                <script id="api-variable-data" type="text/x-handlebars-template">
+                    <form id="api-variable-form-input" data-parsley-validate="true">
+                        <div class="slds-col slds-p-vertical--medium slds-size--1-of-1 slds-container--center slds-container--small">
+                            <div class="slds-form-element slds-is-required">
+                                <label for="name" class="slds-form-element__label">Field Name</label>
+                                <div class="slds-form-element__control slds-m-bottom--medium">
+                                    <input type="text" required="true"  class="slds-input" value="{{{fieldName}}}" name="fieldName" data-parsley-required="true"/>
+                                </div>
+                            </div>
+                            <div class="slds-form-element">
+                                <label for="name" class="slds-form-element__label">Field Value</label>
+                                <div class="slds-form-element__control slds-m-bottom--medium">
+                                    <input type="text" class="slds-input" value="{{{fieldValue}}}" name="fieldValue"/>
+                                </div>
+                            </div>
+                            <div class="slds-form-element">
+                                <label for="name" class="slds-form-element__label">Default Value</label>
+                                <div class="slds-form-element__control slds-m-bottom--medium">
+                                    <input type="text" class="slds-input" value="{{{defaultValue}}}" name="defaultValue"/>
+                                </div>
+                            </div>
+                            <div class="slds-form-element">
+                                <label for="name" class="slds-form-element__label">Is Required</label>
+                                <div class="slds-form-element__control slds-m-bottom--medium">
+                                    <input type="checkbox" class="slds-input" value="{{{this.isRequired}}}" name="isRequired"/>
+                                </div>
+                            </div>
+                            <div class="slds-modal__footer slds-text-align--right">
+                                <a class="slds-button slds-button--neutral" data-dismiss="modal">{!$Label.Cancel}</a>
+                                <button class="slds-button slds-button--neutral slds-button--brand save-variable-config" href="#">Save</button>
+                            </div>
+                        </div>
+                    </form>
+                </script>
+                <script type="text/javascript">
+                    Handlebars.registerHelper('selectedAttr', function(a, b, opts) {
+                        if(a == b) // Or === depending on your needs
+                            return "selected";
+                        else
+                            return "";
+                    });
+                   var mappingConfig = {};
+                   var variableConfig = {};
+
+                   $(document).ready(function(){
+
+                     $(document).on('click','.save-mapping-config',function(e){
+                       e.preventDefault();
+                         var form = $('#api-mapping-form-input').parsley();
+                         if (form.validate()) {
+                             $("#api-mapping-form-input").serializeObject();
+                             Visualforce.remoting.Manager.invokeAction(
+                                 '{!$RemoteAction.AdminApiResourceController.saveMapping}',
+                                 JSON.stringify(mappingConfig),
+                                 function(result,event){
+                                     if (event.status) {
+                                         location.reload();
+                                     }
+                                 }, {escape: false});
+                         }
+                     });
+
+                     $(document).on('click','.save-variable-config',function(e){
+                         e.preventDefault();
+                         var form = $('#api-variable-form-input').parsley();
+                         if (form.validate()) {
+                             $("#api-variable-form-input").serializeVariableObject();
+                             Visualforce.remoting.Manager.invokeAction(
+                                 '{!$RemoteAction.AdminApiResourceController.saveVariable}',
+                                 JSON.stringify(variableConfig),
+                                 function(result,event){
+                                     if (event.status) {
+                                         location.reload();
+                                     }
+                                 }, {escape: false});
+                         }
+                     });
+
+                     $(document).on('click','.new-api-mapping',function(e){
+                       e.preventDefault();
+                         mappingConfig = JSON.parse('{!JSENCODE(ApiMappingObjJSON)}');
+                         var apiServiceModalTemplateHTML = $("#api-mapping-data").html();
+                         var apiServiceModalTemplate = Handlebars.compile(apiServiceModalTemplateHTML);
+                         $('.mapping-body').html(apiServiceModalTemplate(mappingConfig));
+                         $('#modalNewAPIMapping').modal('show');
+                     });
+
+                     $(document).on('click','.new-api-variable',function(e){
+                         e.preventDefault();
+                         variableConfig = JSON.parse('{!JSENCODE(ApiVariableObjJSON)}');
+                         var apiServiceModalTemplateHTML = $("#api-variable-data").html();
+                         var apiServiceModalTemplate = Handlebars.compile(apiServiceModalTemplateHTML);
+                         $('.api-variable-body').html(apiServiceModalTemplate(mappingConfig));
+                         $('#modalNewAPIVariable').modal('show');
+                     });
+
+                     $(document).on('click','.edit-api-mapping',function(e){
+                       e.preventDefault();
+                       var mappingId = $(this).data('id');
+                       var targetSObject = $(this).data('targetSObject');
+                         Visualforce.remoting.Manager.invokeAction(
+                             '{!$RemoteAction.AdminApiResourceController.apiMappingToEdit}',
+                              mappingId,
+                              targetSObject,
+                             function(result,event){
+                                 if (event.status) {
+                                     var apiServiceModalTemplateHTML = $("#api-mapping-data").html();
+                                     var apiServiceModalTemplate = Handlebars.compile(apiServiceModalTemplateHTML);
+                                     $('.mapping-body').html(apiServiceModalTemplate(JSON.parse(result)));
+                                     $('#modalNewAPIMapping').modal('show');
+                                 }
+                             }, {escape: false});
+                     });
+                   });
+
+                    $.fn.serializeObject = function()
+                    {
+                        var a = this.serializeArray();
+                        $.each(a, function() {
+                            if (this.name !== undefined && this.value != '') {
+                                var inputObj = $("[name='"+this.name+"']");
+                                if (inputObj.prop('type') == 'checkbox') {
+                                  mappingConfig[this.name] = inputObj.prop('checked');
+                                }
+                                else {
+                                  mappingConfig[this.name] = this.value;
+                                }
+                            }
+                        });
+                    };
+
+                    $.fn.serializeVariableObject = function()
+                    {
+                        var a = this.serializeArray();
+                        $.each(a, function() {
+                            if (this.name !== undefined && this.value != '') {
+                                var inputObj = $("[name='"+this.name+"']");
+                                if (inputObj.prop('type') == 'checkbox') {
+                                    variableConfig[this.name] = inputObj.prop('checked');
+                                }
+                                else {
+                                  variableConfig[this.name] = this.value;
+                                }
+                            }
+                        });
+                    };
+                </script>
+            </apex:define>
+        </apex:composition>
+    </html>
+</apex:page>

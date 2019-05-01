@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Access Permissions control the accessibility of content accessed via the API.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Badge_Type__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>** Conditionally Required ** If &quot;User Restricted Access Rule&quot; is unchecked, a link to the Badge Type required to access the content is required.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** Conditionally Required ** If &quot;User Restricted Access Rule&quot; is unchecked, a link to the Badge Type required to access the content is required.</inlineHelpText>
+        <label>Badge Type</label>
+        <referenceTo>Badge_Type__c</referenceTo>
+        <relationshipLabel>Access Permissions</relationshipLabel>
+        <relationshipName>Access_Permissions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Catalog__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Link to the related Catalog that the Display Permission is controlling.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Link to the related Catalog that the Display Permission is controlling.</inlineHelpText>
+        <label>Catalog</label>
+        <referenceTo>Catalog__c</referenceTo>
+        <relationshipLabel>Access Permissions</relationshipLabel>
+        <relationshipName>Access_Permissions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Icon__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** Icon for the related Badge Type with Badge Name.</description>
+        <externalId>false</externalId>
+        <formula>IF(Badge_Type__c != null, Badge_Type__r.Icon__c, &quot;Image Not Available&quot;) &amp; &quot; &quot; &amp;  HYPERLINK(&quot;/&quot; &amp; Badge_Type__c, Badge_Type__r.Name, &quot;_tab&quot;)</formula>
+        <inlineHelpText>** System Calculated ** Icon for the related Badge Type with Badge Name.</inlineHelpText>
+        <label>Enabled Badge Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Item_Class__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Link to the controlled Item Class -- when linked to an Item Class the Access Permission will clone itself by default to all Items created as a child to the Item Class.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Link to the controlled Item Class -- when linked to an Item Class the Access Permission will clone itself by default to all Items created as a child to the Item Class.</inlineHelpText>
+        <label>Item Class</label>
+        <referenceTo>Item_Class__c</referenceTo>
+        <relationshipLabel>Default Access Permissions</relationshipLabel>
+        <relationshipName>Access_Permissions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Item__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>When linked to an Item - the Access Permission serves as validation for wether the purchasing Account or Contact is allowed to be assigned and/or sold the Item.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When linked to an Item - the Access Permission serves as validation for wether the purchasing Account or Contact is allowed to be assigned and/or sold the Item.</inlineHelpText>
+        <label>Item</label>
+        <referenceTo>Item__c</referenceTo>
+        <relationshipLabel>Access Permissions</relationshipLabel>
+        <relationshipName>Access_Permissions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Page__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Link to the related Page that the Display Permission is controlling.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Link to the related Page that the Display Permission is controlling.</inlineHelpText>
+        <label>Page</label>
+        <referenceTo>PagesApi__Page__c</referenceTo>
+        <relationshipLabel>Access Permissions</relationshipLabel>
+        <relationshipName>Access_Permissions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Site__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Link to the related Site that the Display Permission is controlling.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Link to the related Site that the Display Permission is controlling.</inlineHelpText>
+        <label>Site</label>
+        <referenceTo>PagesApi__Site__c</referenceTo>
+        <relationshipLabel>Access Permissions</relationshipLabel>
+        <relationshipName>Access_Permissions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Store__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Link to the related Store that the Display Permission is controlling.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Link to the related Store that the Display Permission is controlling.</inlineHelpText>
+        <label>Store</label>
+        <referenceTo>Store__c</referenceTo>
+        <relationshipLabel>Access Permissions</relationshipLabel>
+        <relationshipName>Access_Permissions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Access Permission</label>
+    <nameField>
+        <displayFormat>{000000000}</displayFormat>
+        <label>Access Permission ID</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Access Permissions</pluralLabel>
+    <searchLayouts>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <listViewButtons>Manage_Permissions</listViewButtons>
+        <lookupDialogsAdditionalFields>Catalog__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Store__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Badge_Type__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Badge_Type__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>Store__c</searchFilterFields>
+        <searchFilterFields>Catalog__c</searchFilterFields>
+        <searchFilterFields>Badge_Type__c</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <webLinks>
+        <fullName>Manage_Permissions</fullName>
+        <availability>online</availability>
+        <description>Manage Access Permissions for a record in bulk edit mode.</description>
+        <displayType>massActionButton</displayType>
+        <linkType>page</linkType>
+        <masterLabel>Manage Permissions</masterLabel>
+        <openType>replace</openType>
+        <page>access_permissions</page>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+    </webLinks>
+</CustomObject>

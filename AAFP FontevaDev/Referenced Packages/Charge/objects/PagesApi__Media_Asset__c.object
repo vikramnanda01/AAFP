@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Display_Order__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Controls the order in which the images display in the Store.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Controls the order in which the images display in the Store.</inlineHelpText>
+        <label>RESERVED</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Default__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, this is the item&apos;s default image.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, this is the item&apos;s default image.</inlineHelpText>
+        <label>RESERVED</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Item__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Image applicable to selected item.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Image applicable to selected item.</inlineHelpText>
+        <label>RESERVED</label>
+        <referenceTo>Item__c</referenceTo>
+        <relationshipLabel>Media Assets</relationshipLabel>
+        <relationshipName>Media_Assets</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

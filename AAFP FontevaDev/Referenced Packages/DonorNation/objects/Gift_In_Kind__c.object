@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Record and receipt non-cash gifts including gifts in kind, and stock gifts.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The account (organization or household) providing the non-cash gift.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The account (organization or household) providing the non-cash gift.</inlineHelpText>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Gifts In-Kind</relationshipLabel>
+        <relationshipName>Gifts_In_Kind</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Asset_Sale_Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total amount the asset was sold for, not including sales agent commissions and other sales related costs.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total amount the asset was sold for, not including sales agent commissions and other sales related costs.</inlineHelpText>
+        <label>Asset Sale Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Business_Group__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>**System Calculated/Override/Required** Link to the related Business Group.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated/Override/Required** Link to the related Business Group.</inlineHelpText>
+        <label>Business Group</label>
+        <referenceTo>OrderApi__Business_Group__c</referenceTo>
+        <relationshipLabel>Gifts In-Kind</relationshipLabel>
+        <relationshipName>Gifts_In_Kind</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Calculated_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** Total of Gift In Kind Value + Net Asset Value. Provides a single column for reporting on the value of the non-cash gifts.</description>
+        <externalId>false</externalId>
+        <formula>GIK_Value__c + Net_Asset_Value__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>**System Calculated** Total of Gift In Kind Value + Net Asset Value. Provides a single column for reporting on the value of the non-cash gifts.
+GIK_Value__c + Net_Asset_Value__c</inlineHelpText>
+        <label>Calculated Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Category__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**Required** Select a category for the non-cash gift. This specifies the type of good, service, or asset donated.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Required** Select a category for the non-cash gift. This specifies the type of good, service, or asset donated.</inlineHelpText>
+        <label>Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Securities</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Mutual Funds</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Closely Held Stock</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>IRA Charitable Rollover</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Other Assets</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Goods</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Services</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The contact (individual person) providing the non-cash gift.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The contact (individual person) providing the non-cash gift.</inlineHelpText>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Gifts In-Kind</relationshipLabel>
+        <relationshipName>Gifts_In_Kind</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Date_Expected__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date the non-cash gift is expected to be received.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date the non-cash gift is expected to be received.</inlineHelpText>
+        <label>Date Expected</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_Received__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date the non-cash gift was received.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date the non-cash gift was received.</inlineHelpText>
+        <label>Date Received</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_Sold__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date the asset was sold.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date the asset was sold.</inlineHelpText>
+        <label>Date Sold</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Free form text field for notes/description of the non-cash gift.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Free form text field for notes/description of the non-cash gift.</inlineHelpText>
+        <label>Description</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Do_Not_Acknowledge__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Primary indicator for non-cash gifts that should not be acknowledged. Default is unchecked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Primary indicator for non-cash gifts that should not be acknowledged. Default is unchecked.</inlineHelpText>
+        <label>Do Not Acknowledge</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Donor_Link__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** A link to the related donor&apos;s record as determined by the value of the &quot;Entity&quot; field.</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Entity__c,&quot;Account&quot;),HYPERLINK(&quot;/&quot; &amp; Account__r.Id, Account__r.Name), HYPERLINK(&quot;/&quot; &amp; Contact__r.Id, Contact__r.FirstName &amp; &quot; &quot; &amp; Contact__r.LastName))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>**System Calculated** A link to the related donor&apos;s record as determined by the value of the &quot;Entity&quot; field.</inlineHelpText>
+        <label>Donor</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Entity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**Required** Select &quot;Account&quot; if the provider of the non-cash gift is an account, select &quot;Contact&quot; if the provided is a contact.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Required** Select &quot;Account&quot; if the provider of the non-cash gift is an account, select &quot;Contact&quot; if the provided is a contact.</inlineHelpText>
+        <label>Entity</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Contact</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Account</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Expected_Asset_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The expected value of the asset at the time of commitment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The expected value of the asset at the time of commitment.</inlineHelpText>
+        <label>Expected Asset Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Fund__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>**System Calculated/Override/Required** The fund related to the non-cash gift.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated/Override/Required** The fund related to the non-cash gift.</inlineHelpText>
+        <label>Fund</label>
+        <referenceTo>OrderApi__Item__c</referenceTo>
+        <relationshipLabel>Gifts In-Kind</relationshipLabel>
+        <relationshipName>Gifts_In_Kind</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>GIK_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total value of the goods and/or services provided.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total value of the goods and/or services provided.</inlineHelpText>
+        <label>Goods/Services Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Is_Acknowledged__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Primary indicator for non-cash gifts that have been acknowledged. Default is unchecked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Primary indicator for non-cash gifts that have been acknowledged. Default is unchecked.</inlineHelpText>
+        <label>Is Acknowledged</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Net_Asset_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** Asset Sale Amount - (Sales Agent Commission + Other Costs of Sale)</description>
+        <externalId>false</externalId>
+        <formula>Asset_Sale_Amount__c - (Sales_Agent_Commission__c + Other_Costs_of_Sale__c )</formula>
+        <inlineHelpText>**System Calculated** Asset Sale Amount - (Sales Agent Commission + Other Costs of Sale)</inlineHelpText>
+        <label>Net Asset Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Other_Costs_of_Sale__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Other fees and costs incurred related to the asset.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Other fees and costs incurred related to the asset.</inlineHelpText>
+        <label>Other Costs of Sale</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Received_Asset_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total value of the asset on the day it was received.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total value of the asset on the day it was received.</inlineHelpText>
+        <label>Received Asset Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Agent_Commission__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total commission paid to the sales agent of the asset.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total commission paid to the sales agent of the asset.</inlineHelpText>
+        <label>Sales Agent Commission</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Agent_Company__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the company employing the sales agent responsible for selling the asset.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the company employing the sales agent responsible for selling the asset.</inlineHelpText>
+        <label>Sales Agent Company</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Agent_Contact__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the primary sales agent for the asset.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the primary sales agent for the asset.</inlineHelpText>
+        <label>Sales Agent Contact</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Agent_Email__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The email address for the sales agent related to the asset.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The email address for the sales agent related to the asset.</inlineHelpText>
+        <label>Sales Agent Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Agent_Fax__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The fax number for the sales agent related to the asset.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The fax number for the sales agent related to the asset.</inlineHelpText>
+        <label>Sales Agent Fax</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Agent_Phone__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The phone number for the sales agent related to the asset.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The phone number for the sales agent related to the asset.</inlineHelpText>
+        <label>Sales Agent Phone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**Required** The current status of non-cash gifts defaults to committed and is required for all non-cash gifts.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Required** The current status of non-cash gifts defaults to committed and is required for all non-cash gifts.</inlineHelpText>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Committed</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Received</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Sold</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>On Hold</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Stock_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the stock/security (if applicable) for gifts of stock.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the stock/security (if applicable) for gifts of stock.</inlineHelpText>
+        <label>Stock Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Stock_Symbol__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The ticker (stock) symbol for the security.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The ticker (stock) symbol for the security.</inlineHelpText>
+        <label>Stock Symbol</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Gift In-Kind</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>Contact__c</columns>
+        <columns>Description__c</columns>
+        <columns>Status__c</columns>
+        <columns>Category__c</columns>
+        <columns>Fund__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>{000000000}</displayFormat>
+        <label>Non-Cash Gift ID</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Gifts In-Kind</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Account__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Contact__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Category__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Fund__c</customTabListAdditionalFields>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Account__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Contact__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Description__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Category__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Fund__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Account__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Contact__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Description__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Status__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Category__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Fund__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>Account__c</searchFilterFields>
+        <searchFilterFields>Category__c</searchFilterFields>
+        <searchFilterFields>Contact__c</searchFilterFields>
+        <searchFilterFields>Date_Expected__c</searchFilterFields>
+        <searchFilterFields>Date_Received__c</searchFilterFields>
+        <searchFilterFields>Date_Sold__c</searchFilterFields>
+        <searchFilterFields>Donor_Link__c</searchFilterFields>
+        <searchFilterFields>Entity__c</searchFilterFields>
+        <searchFilterFields>Fund__c</searchFilterFields>
+        <searchFilterFields>Business_Group__c</searchFilterFields>
+        <searchResultsAdditionalFields>Account__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Contact__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Category__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Fund__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

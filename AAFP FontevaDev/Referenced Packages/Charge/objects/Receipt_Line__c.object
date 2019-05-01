@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Receipt Lines apply cash related to either refunds or payments to Invoices or Items.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fieldSets>
+        <fullName>Receipt_Line_Fieldset</fullName>
+        <availableFields>
+            <field>Activation_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Auto_Calculate_Activation_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Business_Group__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Calculate_Shipping_Details__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>CreatedById</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>CreatedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>End_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>GL_Account__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Id</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Invoice_Balance_Due__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Invoice_Customer_Link__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Invoice_Due_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Invoice__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>IsDeleted</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Is_Refund__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Is_Renewal__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Is_Shipping_Rate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Is_Tax__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Item_Class__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Item__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>LastModifiedById</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>LastModifiedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Price_Override__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Price_Rule__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Receipt_Line__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Receipt__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Shipping_City__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Shipping_Contact__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Shipping_Country__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Shipping_Postal_Code__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Shipping_State__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Shipping_Street__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Subscription_Plan__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Subscription__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Subtotal__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>SystemModstamp</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Tax_Override__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Tax_Percent__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>A custom fieldset containing the default fields for a receipt&apos;s details.</description>
+        <displayedFields>
+            <field>Quantity__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Line_Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>List_Price__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Sale_Price__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Total__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Receipt Line Fieldset</label>
+    </fieldSets>
+    <fields>
+        <fullName>Activation_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** System Calculated Override Conditionally Required ** The date the Subscription will be activated is calculated based on conditions set on the related Subscription Plan and can be manually over-ridden if &quot;Auto Calculate Activation Date&quot; is unchecked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated Override Conditionally Required ** The date the Subscription will be activated is calculated based on conditions set on the related Subscription Plan and can be manually over-ridden if &quot;Auto Calculate Activation Date&quot; is unchecked.</inlineHelpText>
+        <label>Activation Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Auto_Calculate_Activation_Date__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>** System Calculated Override ** Valid if the Receipt Line is related to a &quot;Subscription&quot; Item. When checked, the system will automatically calculate the &quot;Activation Date&quot; based on conditions set on the selected &quot;Subscription Plan&quot;. Defaults checked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated Override ** Valid if the Receipt Line is related to a &quot;Subscription&quot; Item. When checked, the system will automatically calculate the &quot;Activation Date&quot; based on conditions set on the selected &quot;Subscription Plan&quot;. Defaults checked.</inlineHelpText>
+        <label>Auto Calculate Activation Date</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Business_Group__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>**System Calculated/Override** Link to the related Business Group.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated/Override** Link to the related Business Group.</inlineHelpText>
+        <label>Business Group</label>
+        <referenceTo>Business_Group__c</referenceTo>
+        <relationshipName>Receipt_Details</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Calculate_Shipping_Details__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Default checked. Copies the shipping information from the receipt.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Default checked. Copies the shipping information from the receipt.</inlineHelpText>
+        <label>Calculate Shipping Details</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>This field is populated to show the related contact.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is populated to show the related contact.</inlineHelpText>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Receipt Lines</relationshipLabel>
+        <relationshipName>Receipt_Lines</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>End_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** System Calculated Override Conditionally Required ** The date the Subscription will be ended is calculated based on conditions set on the related Subscription Plan and Activation Date.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated Override Conditionally Required ** The date the Subscription will be ended is calculated based on conditions set on the related Subscription Plan and Activation Date.</inlineHelpText>
+        <label>End Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>GL_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>**System Calculated/Required/Override** Link to the related GL Account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated/Required/Override** Link to the related GL Account.</inlineHelpText>
+        <label>GL Account</label>
+        <referenceTo>GL_Account__c</referenceTo>
+        <relationshipName>Receipt_Lines</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Invoice_Balance_Due__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** The balance due for the linked Invoice (if applicable).</description>
+        <externalId>false</externalId>
+        <formula>Invoice__r.Balance_Due__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>**System Calculated** The balance due for the linked Invoice (if applicable).</inlineHelpText>
+        <label>Invoice Balance Due</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Invoice_Customer_Link__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** The customer for the linked Invoice (if applicable).</description>
+        <externalId>false</externalId>
+        <formula>Invoice__r.Customer_Link__c</formula>
+        <inlineHelpText>**System Calculated** The customer for the linked Invoice (if applicable).</inlineHelpText>
+        <label>Invoice Customer</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Invoice_Due_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** The due date for the linked Invoice (if applicable).</description>
+        <externalId>false</externalId>
+        <formula>Invoice__r.Due_Date__c</formula>
+        <inlineHelpText>**System Calculated** The due date for the linked Invoice (if applicable).</inlineHelpText>
+        <label>Invoice Due Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Invoice_Line__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Relates the receipt line to the invoice line.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Relates the receipt line to the invoice line.</inlineHelpText>
+        <label>Invoice Line</label>
+        <referenceTo>Invoice_Line__c</referenceTo>
+        <relationshipLabel>Receipt Lines</relationshipLabel>
+        <relationshipName>Receipt_Lines</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Invoice__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Link to related Invoice that the customer is paying.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Link to related Invoice that the customer is paying.</inlineHelpText>
+        <label>Invoice</label>
+        <referenceTo>Invoice__c</referenceTo>
+        <relationshipLabel>Payments &amp; Refunds</relationshipLabel>
+        <relationshipName>Receipt_Lines</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Is_Refund__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** Checked when the parent Receipt is a &quot;Refund&quot;</description>
+        <externalId>false</externalId>
+        <formula>ISPICKVAL(Receipt__r.Type__c,&quot;Refund&quot;)</formula>
+        <inlineHelpText>**System Calculated** Checked when the parent Receipt is a &quot;Refund&quot;</inlineHelpText>
+        <label>Is Refund</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Renewal__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, related Receipt Line is considered as &quot;Subscription Renewal&quot;.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, related Receipt Line is considered as &quot;Subscription Renewal&quot;.</inlineHelpText>
+        <label>Is Renewal</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Shipping_Rate__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Defines the Receipt Line that is being used for shipping.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines the Receipt Line that is being used for shipping.</inlineHelpText>
+        <label>Is Shipping Rate</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Tax__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Defines the Receipt Line that is being used for tax.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines the Receipt Line that is being used for tax.</inlineHelpText>
+        <label>Is Tax</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Item_Class__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>** System Calculated / Override ** Link to the related Item Class.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated / Override ** Link to the related Item Class.</inlineHelpText>
+        <label>Item Class</label>
+        <referenceTo>Item_Class__c</referenceTo>
+        <relationshipLabel>Receipt Lines</relationshipLabel>
+        <relationshipName>Receipt_Lines</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Item__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>**Required** Link to related Item.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Required** Link to related Item.</inlineHelpText>
+        <label>Item</label>
+        <referenceTo>Item__c</referenceTo>
+        <relationshipName>Receipt_Lines</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Line_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated/Override** The line description by default populates with general information from either the linked Item or the linked Invoice.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated/Override** The line description by default populates with general information from either the linked Item or the linked Invoice.</inlineHelpText>
+        <label>Line Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>List_Price__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** The value of the &quot;Price&quot; field for the related Item.</description>
+        <externalId>false</externalId>
+        <formula>Item__r.Price__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>**System Calculated** The value of the &quot;Price&quot; field for the related Item.</inlineHelpText>
+        <label>List Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Price_Override__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, the system will derive the Sale Price from the most appropriate Price Rule. Default checked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, the system will derive the Sale Price from the most appropriate Price Rule. Default checked.</inlineHelpText>
+        <label>Price Override</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Price_Rule__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>**System Calculated/Override** Link to related Price Rule applied for the related Item.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated/Override** Link to related Price Rule applied for the related Item.</inlineHelpText>
+        <label>Price Rule</label>
+        <referenceTo>Price_Rule__c</referenceTo>
+        <relationshipName>Receipt_Lines</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Quantity__c</fullName>
+        <defaultValue>1</defaultValue>
+        <deprecated>false</deprecated>
+        <description>**Required** Quantity of Items. Default 1.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Required** Quantity of Items. Default 1.</inlineHelpText>
+        <label>Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Receipt_Line__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Link to related parent Receipt Line.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Link to related parent Receipt Line.</inlineHelpText>
+        <label>Parent Receipt Line</label>
+        <referenceTo>Receipt_Line__c</referenceTo>
+        <relationshipLabel>Packaged Items</relationshipLabel>
+        <relationshipName>Receipt_Lines</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Receipt__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**Required** All Receipt details require a parent receipt that summarizes all receipt lines.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Required** All Receipt details require a parent receipt that summarizes all receipt lines.</inlineHelpText>
+        <label>Receipt</label>
+        <referenceTo>Receipt__c</referenceTo>
+        <relationshipName>Receipt_Lines</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>true</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Sale_Price__c</fullName>
+        <defaultValue>0.00</defaultValue>
+        <deprecated>false</deprecated>
+        <description>**System Calculated/Override** The Sale Price (per unit) for the related Item. Default 0.00.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated/Override** The Sale Price (per unit) for the related Item. Default 0.00.</inlineHelpText>
+        <label>Sale Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Shipping_City__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Optional shipping city for the item&apos;s ordered on the receipt line. If left blank, the value of this field will be updated with the value of the parent receipt&apos;s &quot;Shipping City&quot; field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Optional shipping city for the item&apos;s ordered on the receipt line. If left blank, the value of this field will be updated with the value of the parent receipt&apos;s &quot;Shipping City&quot; field.</inlineHelpText>
+        <label>Shipping City</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Shipping_Contact__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Optional shipping contact for the item&apos;s ordered on the receipt line. If left blank, the value of this field will be updated with the value of the parent receipt&apos;s &quot;Shipping Contact&quot; field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Optional shipping contact for the item&apos;s ordered on the receipt line. If left blank, the value of this field will be updated with the value of the parent receipt&apos;s &quot;Shipping Contact&quot; field.</inlineHelpText>
+        <label>Shipping Contact</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Shipping_Country__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Optional shipping country for the item&apos;s ordered on the receipt line. If left blank, the value of this field will be updated with the value of the parent receipt&apos;s &quot;Shipping Country&quot; field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Optional shipping country for the item&apos;s ordered on the receipt line. If left blank, the value of this field will be updated with the value of the parent receipt&apos;s &quot;Shipping Country&quot; field.</inlineHelpText>
+        <label>Shipping Country</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Shipping_Postal_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Optional shipping postal code for the item&apos;s ordered on the receipt line. If left blank, the value of this field will be updated with the value of the parent receipt&apos;s &quot;Shipping Postal Code&quot; field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Optional shipping postal code for the item&apos;s ordered on the receipt line. If left blank, the value of this field will be updated with the value of the parent receipt&apos;s &quot;Shipping Postal Code&quot; field.</inlineHelpText>
+        <label>Shipping Postal Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Shipping_State__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Optional shipping state for the item&apos;s ordered on the receipt line. If left blank, the value of this field will be updated with the value of the parent receipt&apos;s &quot;Shipping State&quot; field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Optional shipping state for the item&apos;s ordered on the receipt line. If left blank, the value of this field will be updated with the value of the parent receipt&apos;s &quot;Shipping State&quot; field.</inlineHelpText>
+        <label>Shipping State</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Shipping_Street__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Optional shipping street for the item&apos;s ordered on the receipt line. If left blank, the value of this field will be updated with the value of the parent receipt&apos;s &quot;Shipping Street&quot; field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Optional shipping street for the item&apos;s ordered on the receipt line. If left blank, the value of this field will be updated with the value of the parent receipt&apos;s &quot;Shipping Street&quot; field.</inlineHelpText>
+        <label>Shipping Street</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Subscription_Plan__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>** Conditionally Required ** Link to the related plan that controls Activation and Expiration dates related to any Subscription Item. Required when the Receipt Line is linked to a Item that is the child of a &quot;Subscription&quot; Item Class.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** Conditionally Required ** Link to the related plan that controls Activation and Expiration dates related to any Subscription Item. Required when the Receipt Line is linked to a Item that is the child of a &quot;Subscription&quot; Item Class.</inlineHelpText>
+        <label>Subscription Plan</label>
+        <referenceTo>Subscription_Plan__c</referenceTo>
+        <relationshipName>Receipt_Lines</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Subscription__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Link to the Subscription that is being upgraded or renewed.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Link to the Subscription that is being upgraded or renewed.</inlineHelpText>
+        <label>Subscription (Upgrade/Renew)</label>
+        <referenceTo>Subscription__c</referenceTo>
+        <relationshipName>Receipt_Lines</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Subtotal__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** Sale Price * Quantity</description>
+        <externalId>false</externalId>
+        <formula>Sale_Price__c * Quantity__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>**System Calculated** Sale Price * Quantity</inlineHelpText>
+        <label>Subtotal</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Tax_Override__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field is used to override any tax calculations by the system.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is used to override any tax calculations by the system.</inlineHelpText>
+        <label>Tax Override</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Tax_Percent__c</fullName>
+        <defaultValue>0.00</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Combined with the Parent Receipt Line&apos;s Sales Price, this field is used to calculate the tax amount for the related item.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Combined with the Parent Receipt Line&apos;s Sales Price, this field is used to calculate the tax amount for the related item.</inlineHelpText>
+        <label>Tax Percent</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Total__c</fullName>
+        <defaultValue>0.00</defaultValue>
+        <deprecated>false</deprecated>
+        <description>**Required** Total amount for the Receipt Line. Default is 0.00.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Required** Total amount for the Receipt Line. Default is 0.00.</inlineHelpText>
+        <label>Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <label>Receipt Line</label>
+    <nameField>
+        <displayFormat>{0000000000}</displayFormat>
+        <label>Receipt Line ID</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Receipt Lines</pluralLabel>
+    <searchLayouts>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Receipt__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Item__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>GL_Account__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Business_Group__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Total__c</lookupDialogsAdditionalFields>
+        <lookupFilterFields>Receipt__c</lookupFilterFields>
+        <lookupFilterFields>Item__c</lookupFilterFields>
+        <lookupFilterFields>GL_Account__c</lookupFilterFields>
+        <lookupFilterFields>Business_Group__c</lookupFilterFields>
+        <lookupFilterFields>Total__c</lookupFilterFields>
+        <lookupPhoneDialogsAdditionalFields>Receipt__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Item__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>GL_Account__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Business_Group__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Total__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>Receipt__c</searchFilterFields>
+        <searchFilterFields>Item__c</searchFilterFields>
+        <searchFilterFields>GL_Account__c</searchFilterFields>
+        <searchFilterFields>Business_Group__c</searchFilterFields>
+        <searchFilterFields>Total__c</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

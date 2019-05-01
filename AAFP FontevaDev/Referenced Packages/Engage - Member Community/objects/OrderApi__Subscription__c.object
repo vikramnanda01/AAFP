@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <fullName>MembershipDetails</fullName>
+        <description>Used in Portal Membership History Component</description>
+        <displayedFields>
+            <field>OrderApi__Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OrderApi__Item__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OrderApi__Current_Term_Start_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OrderApi__Current_Term_End_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OrderApi__Days_To_Lapse__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>MembershipDetails</label>
+    </fieldSets>
+    <fields>
+        <fullName>Hide_In_Portal__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, the related subscription will not be visible in the portal.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, the related subscription will not be visible in the portal.</inlineHelpText>
+        <label>DEPRECATED</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Subscription_Management_Page_Override__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the page name to be directed upon clicking the Manage button for the subscription&apos;s tile in the member portal&apos;s profile page.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the page name to be directed upon clicking the Manage button for the subscription&apos;s tile in the member portal&apos;s profile page.</inlineHelpText>
+        <label>DEPRECATED</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>

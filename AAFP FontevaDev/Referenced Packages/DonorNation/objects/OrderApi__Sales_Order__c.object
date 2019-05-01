@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <fieldSets>
+        <fullName>Default_Donation_Memory_Fields</fullName>
+        <description>Default Donation Memory Fields</description>
+        <displayedFields>
+            <field>Tribute_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Tribute_Honoree__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Tribute_Notification_Method__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Tribute_Person_to_Notify__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Tribute_Notification_Email__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Tribute_Notification_Phone__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Tribute_Notification_Street__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Tribute_Notification_City__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Tribute_Notification_State__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Tribute_Notification_Postal_Code__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Tribute_Message__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Tribute_Notification_Country__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Default Donation Memory Fields</label>
+    </fieldSets>
+    <fields>
+        <fullName>Acknowledged_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date a gift was acknowledged.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date a gift was acknowledged.</inlineHelpText>
+        <label>Acknowledged Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Acknowledgement_Method__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Select the method of acknowledgement for the gift.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the method of acknowledgement for the gift.</inlineHelpText>
+        <label>Acknowledgement Method</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Email</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Letter</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Not Acknowledged</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Phone</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Do_Not_Acknowledge__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Do not acknowledge this gift. When checked, the &quot;Is Gift Acknowledged&quot; flag will be unable to be checked and cause a validation message to display to the user.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Do not acknowledge this gift. When checked, the &quot;Is Gift Acknowledged&quot; flag will be unable to be checked and cause a validation message to display to the user.</inlineHelpText>
+        <label>Do Not Acknowledge</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Forecast_Category__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**Required** Select the category forecast category for the gift opportunity, used to classify the gift opportunities by best case, committed, open, won, lost, and on hold.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Required** Select the category forecast category for the gift opportunity, used to classify the gift opportunities by best case, committed, open, won, lost, and on hold.</inlineHelpText>
+        <label>Forecast Category</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>On Hold</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Closed Won</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Closed Lost</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Best Case</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Comitted</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Forecasted_Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**Required** The initial forecasted gift amount for the opportunity. This field is only editable when gift opportunities are created.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Required** The initial forecasted gift amount for the opportunity. This field is only editable when gift opportunities are created.</inlineHelpText>
+        <label>Forecasted Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Forecasted_Close_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**Required** The date the gift opportunity is projected to close.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Required** The date the gift opportunity is projected to close.</inlineHelpText>
+        <label>Forecasted Close Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Gift_Match_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The account that is matching the gift on the linked gift match opportunity record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The account that is matching the gift on the linked gift match opportunity record.</inlineHelpText>
+        <label>Gift Match Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Sales Orders (Gift Match Account)</relationshipLabel>
+        <relationshipName>Matched_Gifts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Gift_Match_Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The amount of the gift that will be matched.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The amount of the gift that will be matched.</inlineHelpText>
+        <label>Gift Match Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Gift_Match_Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The contact related to the linked gift match opportunity.</description>
+        <externalId>false</externalId>
+        <label>Gift Match Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Matched Gifts</relationshipLabel>
+        <relationshipName>Matched_Gifts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Gift_Matching_Company__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Gift Matching Company</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Gift_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Gift Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Major Gift</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Grant</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Planned Giving</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Corporate Gift Match</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Personal Gift Match</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Grant_LOI_Submitted__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Date the LOI was submitted for the grant.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date the LOI was submitted for the grant.</inlineHelpText>
+        <label>Grant LOI Submitted</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Grant_Open_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date the foundation started accepting applications for the grant.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date the foundation started accepting applications for the grant.</inlineHelpText>
+        <label>Grant Open Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Grant_Proposal_Deadline__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Date the proposal is due for the grant.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date the proposal is due for the grant.</inlineHelpText>
+        <label>Grant Proposal Deadline</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Grant_Proposal_Response_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date the foundation accepted/rejected the grant proposal.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date the foundation accepted/rejected the grant proposal.</inlineHelpText>
+        <label>Grant Proposal Response Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Grant_Proposal_Submitted__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date the proposal was submitted for the grant.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date the proposal was submitted for the grant.</inlineHelpText>
+        <label>Grant Proposal Submitted</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Grant_Term__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the term in months for the grant.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the term in months for the grant.</inlineHelpText>
+        <label>Grant Term (Months)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Acknowledged__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Primary indicator for the acknowledgement status for the gift.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Primary indicator for the acknowledgement status for the gift.</inlineHelpText>
+        <label>Is Acknowledged</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Won__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>**System Calculated/Override** Checked when the value of the Fundraising Preferences custom setting field &quot;Gift Opportunity Closed Won Stages&quot; for the running user matches the stage of the record, otherwise the field is unchecked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated/Override** Checked when the value of the Fundraising Preferences custom setting field &quot;Gift Opportunity Closed Won Stages&quot; for the running user matches the stage of the record, otherwise the field is unchecked.</inlineHelpText>
+        <label>Is Won</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Source__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Select the option that best describes the source of the gift opportunity record from the list of provided values.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the option that best describes the source of the gift opportunity record from the list of provided values.</inlineHelpText>
+        <label>Source</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Board Member</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Event</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Foundation</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Fundraiser</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Personal Solicitation</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Referral</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Staff</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Volunteer</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Stage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**Required** Dependent picklist for the Pipeline Category picklist field used for more specific categorization of opportunities.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Required** Dependent picklist for the Pipeline Category picklist field used for more specific categorization of opportunities.</inlineHelpText>
+        <label>Stage</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Gift_Type__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Major Gift - Cultivating</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Major Gift - Soliciting</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Major Gift - On Hold</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Major Gift - Won</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Major Gift - Lost</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Gift Match - Pending Submission</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Gift Match - Submitted</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Gift Match - Confirmed</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Gift Match - Received</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Gift Match - Disqualified</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Grant - Researching</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Grant - Developing LOI</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Grant - LOI Submitted</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Grant - Proposal Development</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Grant - Proposal Submitted</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Grant - Proposal Accepted</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Grant - Proposal Declined</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Planned Gift - Cultivating</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Planned Gift - Soliciting</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Planned Gift - Committed</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Planned Gift - Received</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Major Gift</controllingFieldValue>
+                <valueName>Major Gift - Cultivating</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Major Gift</controllingFieldValue>
+                <valueName>Major Gift - Soliciting</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Major Gift</controllingFieldValue>
+                <valueName>Major Gift - On Hold</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Major Gift</controllingFieldValue>
+                <valueName>Major Gift - Won</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Major Gift</controllingFieldValue>
+                <valueName>Major Gift - Lost</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Grant</controllingFieldValue>
+                <valueName>Grant - Researching</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Grant</controllingFieldValue>
+                <valueName>Grant - Developing LOI</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Grant</controllingFieldValue>
+                <valueName>Grant - LOI Submitted</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Grant</controllingFieldValue>
+                <valueName>Grant - Proposal Development</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Grant</controllingFieldValue>
+                <valueName>Grant - Proposal Submitted</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Grant</controllingFieldValue>
+                <valueName>Grant - Proposal Accepted</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Grant</controllingFieldValue>
+                <valueName>Grant - Proposal Declined</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Planned Giving</controllingFieldValue>
+                <valueName>Planned Gift - Cultivating</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Planned Giving</controllingFieldValue>
+                <valueName>Planned Gift - Soliciting</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Planned Giving</controllingFieldValue>
+                <valueName>Planned Gift - Committed</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Planned Giving</controllingFieldValue>
+                <valueName>Planned Gift - Received</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Corporate Gift Match</controllingFieldValue>
+                <controllingFieldValue>Personal Gift Match</controllingFieldValue>
+                <valueName>Gift Match - Pending Submission</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Corporate Gift Match</controllingFieldValue>
+                <controllingFieldValue>Personal Gift Match</controllingFieldValue>
+                <valueName>Gift Match - Submitted</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Corporate Gift Match</controllingFieldValue>
+                <controllingFieldValue>Personal Gift Match</controllingFieldValue>
+                <valueName>Gift Match - Confirmed</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Corporate Gift Match</controllingFieldValue>
+                <controllingFieldValue>Personal Gift Match</controllingFieldValue>
+                <valueName>Gift Match - Received</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Corporate Gift Match</controllingFieldValue>
+                <controllingFieldValue>Personal Gift Match</controllingFieldValue>
+                <valueName>Gift Match - Disqualified</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tax_Deductible_Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** The sum of the tax deductible amount field for related transaction lines.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated** The sum of the tax deductible amount field for related transaction lines.</inlineHelpText>
+        <label>Tax Deductible Amount</label>
+        <summarizedField>OrderApi__Sales_Order_Line__c.Tax_Deductible_Amount__c</summarizedField>
+        <summaryForeignKey>OrderApi__Sales_Order_Line__c.OrderApi__Sales_Order__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Tribute_Honoree__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the honoree for the tribute.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the honoree for the tribute.</inlineHelpText>
+        <label>Tribute Honoree</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tribute_Message__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The custom message the donor wishes to use for the tribute acknowledgement.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The custom message the donor wishes to use for the tribute acknowledgement.</inlineHelpText>
+        <label>Tribute Message</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Tribute_Notification_City__c</fullName>
+        <deprecated>false</deprecated>
+        <description>City used to acknowledge the tribute on the gift record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>City used to acknowledge the tribute on the gift record.</inlineHelpText>
+        <label>Tribute Notification City</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tribute_Notification_Country__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Country used to acknowledge the tribute on the gift record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Country used to acknowledge the tribute on the gift record.</inlineHelpText>
+        <label>Tribute Notification Country</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tribute_Notification_Email__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Email used to acknowledge the tribute on the gift record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Email used to acknowledge the tribute on the gift record.</inlineHelpText>
+        <label>Tribute Notification Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tribute_Notification_Method__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Select the notification method used to acknowledge the tribute on the gift record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the notification method used to acknowledge the tribute on the gift record.</inlineHelpText>
+        <label>Tribute Notification Method</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Email</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Mail</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Phone</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tribute_Notification_Phone__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Phone used to acknowledge the tribute on the gift record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Phone used to acknowledge the tribute on the gift record.</inlineHelpText>
+        <label>Tribute Notification Phone</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Tribute_Notification_Postal_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Postal Code used to acknowledge the tribute on the gift record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Postal Code used to acknowledge the tribute on the gift record.</inlineHelpText>
+        <label>Tribute Notification Postal Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tribute_Notification_State__c</fullName>
+        <deprecated>false</deprecated>
+        <description>State used to acknowledge the tribute on the gift record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>State used to acknowledge the tribute on the gift record.</inlineHelpText>
+        <label>Tribute Notification State</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tribute_Notification_Street__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Street used to acknowledge the tribute on the gift record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Street used to acknowledge the tribute on the gift record.</inlineHelpText>
+        <label>Tribute Notification Street</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tribute_Notified__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Check the field when the tribute person to notify has been notified.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check the field when the tribute person to notify has been notified.</inlineHelpText>
+        <label>Tribute Notified</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Tribute_Person_to_Notify__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The person to notify regarding the tribute on the gift record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The person to notify regarding the tribute on the gift record.</inlineHelpText>
+        <label>Tribute Person to Notify</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tribute_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Tribute Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>In Honor Of</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>In Memory of</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+</CustomObject>

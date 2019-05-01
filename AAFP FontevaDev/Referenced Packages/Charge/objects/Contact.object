@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <fullName>Manage_Members_Display_Fieldset</fullName>
+        <description>A custom fieldset containing the default fields to display in the manage members table.</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Email</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Manage Members Display Fieldset</label>
+    </fieldSets>
+    <fields>
+        <fullName>Annual_Engagement_Score__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Aggregates the Contact&apos;s active engagement scores from it&apos;s badge records for the current year.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Aggregates the Contact&apos;s active engagement scores from it&apos;s badge records for the current year.</inlineHelpText>
+        <label>Annual Engagement Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Assistant_Do_Not_Call__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Do Not Call the Contact&apos;s Assistant Phone.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Do Not Call the Contact&apos;s Assistant Phone.</inlineHelpText>
+        <label>Assistant Do Not Call</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Assistant_Email_Opt_Out__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The Contact&apos;s Assistant will not receive email communications.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Contact&apos;s Assistant will not receive email communications.</inlineHelpText>
+        <label>Assistant Email Opt Out</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Assistant_Email__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Contact&apos;s Assistant Email address.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Contact&apos;s Assistant Email address.</inlineHelpText>
+        <label>Assistant Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Badges__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field lists all the active badges in alphabetical order including all badges inherited from it&apos;s parent account or it&apos;s parent account through flowdown (when enabled)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field lists all the active badges in alphabetical order including all badges inherited from it&apos;s parent account or it&apos;s parent account through flowdown (when enabled)</inlineHelpText>
+        <label>Badges</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Home_Do_Not_Call__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Do Not Call the Contact&apos;s Home Phone.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Do Not Call the Contact&apos;s Home Phone.</inlineHelpText>
+        <label>Home Do Not Call</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Primary_Contact__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>Id == Account.Primary_Contact__r.Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is Primary Contact</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Lifetime_Engagement_Score__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Aggregates the Contact&apos;s active engagement scores from it&apos;s badge records.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Aggregates the Contact&apos;s active engagement scores from it&apos;s badge records.</inlineHelpText>
+        <label>Lifetime Engagement Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mobile_Do_Not_Call__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Do Not Call the Contact&apos;s Mobile Phone.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Do Not Call the Contact&apos;s Mobile Phone.</inlineHelpText>
+        <label>Mobile Do Not Call</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Other_Do_Not_Call__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Do Not Call the Contact&apos;s Other Phone.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Do Not Call the Contact&apos;s Other Phone.</inlineHelpText>
+        <label>Other Do Not Call</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Other_Email_Opt_Out__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Contact will not receive communications to their Other Email.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Contact will not receive communications to their Other Email.</inlineHelpText>
+        <label>Other Email Opt Out</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Other_Email__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Other/Additional Email for the Contact.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Other/Additional Email for the Contact.</inlineHelpText>
+        <label>Other Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Outstanding_Credits__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** The sum of the Credit Memo Balance Due field for all Credit Memos linked to this customer.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated ** The sum of the Credit Memo Balance Due field for all Credit Memos linked to this customer.</inlineHelpText>
+        <label>Outstanding Credits</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Personal_Email_Opt_Out__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Contact will not receive communications to their Personal Email.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Contact will not receive communications to their Personal Email.</inlineHelpText>
+        <label>Personal Email Opt Out</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Personal_Email__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Personal/Home Email address for the Contact.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Personal/Home Email address for the Contact.</inlineHelpText>
+        <label>Personal Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Potential_Duplicate_Contacts__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Potential Duplicate Contacts</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Preferred_Email_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**Defaults to Personal Email** Select the Preferred Email Type for the Contact. The value of the corresponding email field will update the standard Contact Email field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Defaults to Personal Email** Select the Preferred Email Type for the Contact. The value of the corresponding email field will update the standard Contact Email field.</inlineHelpText>
+        <label>Preferred Email Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Personal</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Work</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Assistant</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Preferred_Email__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** The Preferred Email for the Contact is calculated by mapping the Preferred Email Type to it&apos;s corresponding field&apos;s value.</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Preferred_Email_Type__c,&quot;Personal&quot;) &amp;&amp; NOT(Personal_Email_Opt_Out__c), Personal_Email__c,
+IF(ISPICKVAL(Preferred_Email_Type__c,&quot;Work&quot;) &amp;&amp; NOT(Work_Email_Opt_Out__c), Work_Email__c,
+IF(ISPICKVAL(Preferred_Email_Type__c,&quot;Other&quot;) &amp;&amp; NOT(Other_Email_Opt_Out__c),Other_Email__c,
+IF(ISPICKVAL(Preferred_Email_Type__c,&quot;Assistant&quot;) &amp;&amp; NOT(Assistant_Email_Opt_Out__c),Assistant_Email__c, &apos;&apos;))))</formula>
+        <inlineHelpText>**System Calculated** The Preferred Email for the Contact is calculated by mapping the Preferred Email Type to it&apos;s corresponding field&apos;s value.</inlineHelpText>
+        <label>Preferred Email</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Preferred_Phone_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**Defaults to Personal Email** Select the Preferred Phone Type for the Contact. The value of the corresponding phone field will update the standard Contact Phone field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Defaults to Personal Email** Select the Preferred Phone Type for the Contact. The value of the corresponding phone field will update the standard Contact Phone field.</inlineHelpText>
+        <label>Preferred Phone Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Mobile</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Home</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Work</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Assistant</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Preferred_Phone__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** The Preferred Phone for the Contact is calculated by mapping the Preferred Phone Type to it&apos;s corresponding field&apos;s value.</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Preferred_Phone_Type__c,&quot;Mobile&quot;) &amp;&amp; NOT(Mobile_Do_Not_Call__c), MobilePhone,
+IF(ISPICKVAL(Preferred_Phone_Type__c,&quot;Home&quot;) &amp;&amp; NOT(Home_Do_Not_Call__c), HomePhone,
+IF(ISPICKVAL(Preferred_Phone_Type__c,&quot;Work&quot;) &amp;&amp; NOT(Work_Do_Not_Call__c),Work_Phone__c,
+IF(ISPICKVAL(Preferred_Phone_Type__c,&quot;Other&quot;) &amp;&amp; NOT(Other_Do_Not_Call__c),OtherPhone,
+IF(ISPICKVAL(Preferred_Phone_Type__c,&quot;Assistant&quot;) &amp;&amp; NOT(Assistant_Do_Not_Call__c),AssistantPhone,
+&apos;&apos;)))))</formula>
+        <inlineHelpText>**System Calculated** The Preferred Phone for the Contact is calculated by mapping the Preferred Phone Type to it&apos;s corresponding field&apos;s value.</inlineHelpText>
+        <label>Preferred Phone</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Price_Rules_Usages__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** SYSTEM ** JSON of price rules</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** SYSTEM ** JSON of price rules</inlineHelpText>
+        <label>SYSTEM</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Privacy_Settings__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**Defaults to private** This field sets the visibility settings when contact search is enabled.
+            Public: Any user in the system can search. Private: Searchable by authenticated users only. Unlisted: Can not be searched at all.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Defaults to private** This field sets the visibility settings when contact search is enabled.
+            Public: Any user in the system can search. Private: Searchable by authenticated users only. Unlisted: Can not be searched at all.</inlineHelpText>
+        <label>Privacy Settings</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>public</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>private</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>unlisted</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sync_Address_Billing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, the system will overwrite the parent account&apos;s billing address with the value of the contact&apos;s mailing address. Default is unchecked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, the system will overwrite the parent account&apos;s billing address with the value of the contact&apos;s mailing address. Default is unchecked.</inlineHelpText>
+        <label>Sync Address w/Account (Billing)</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Sync_Address_Shipping__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, the system will overwrite the parent account&apos;s shipping address with the value of the contact&apos;s mailing address. Default is unchecked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, the system will overwrite the parent account&apos;s shipping address with the value of the contact&apos;s mailing address. Default is unchecked.</inlineHelpText>
+        <label>Sync Address w/Account (Shipping)</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Sync_Email__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, the system will overwrite the parent account&apos;s phone with the value of the contact&apos;s preferred phone. Default is unchecked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, the system will overwrite the parent account&apos;s phone with the value of the contact&apos;s preferred phone. Default is unchecked.</inlineHelpText>
+        <label>Sync Preferred Email w/Account</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Sync_Phone__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, the system will overwrite the parent account&apos;s phone with the value of the contact&apos;s preferred phone. Default is unchecked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, the system will overwrite the parent account&apos;s phone with the value of the contact&apos;s preferred phone. Default is unchecked.</inlineHelpText>
+        <label>Sync Preferred Phone w/Account</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Work_Do_Not_Call__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Do Not Call the Contact&apos;s Work Phone.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Do Not Call the Contact&apos;s Work Phone.</inlineHelpText>
+        <label>Work Do Not Call</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Work_Email_Opt_Out__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Contact will not receive communications to their Work Email.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Contact will not receive communications to their Work Email.</inlineHelpText>
+        <label>Work Email Opt Out</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Work_Email__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Work/Business Email for the Contact.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Work/Business Email for the Contact.</inlineHelpText>
+        <label>Work Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Work_Phone__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Work Phone for the Contact.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Work Phone for the Contact.</inlineHelpText>
+        <label>Work Phone</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Phone</type>
+    </fields>
+</CustomObject>

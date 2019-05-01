@@ -1,0 +1,41 @@
+<apex:page showHeader="false"
+  standardStylesheets="false"
+  docType="html-5.0"
+  cache="false"
+  applyHtmlTag="false"
+  applyBodyTag="false"
+  title="{!$Label.cpbase__genericerrortitle}"
+  controller="CPBase.ErrorController">
+
+  <apex:composition template="CPBase__error_template">
+    <apex:define name="title">
+      <div>
+        <apex:outputPanel rendered="{!siteObj != null && !ISBLANK(siteObj.Generic_Error_Title__c) }">
+          {!siteObj.CPBase__Generic_Error_Title__c}
+        </apex:outputPanel>
+        <apex:outputPanel rendered="{!siteObj == null || ISBLANK(siteObj.Generic_Error_Title__c) }">
+          {!$Label.cpbase__genericerrortitle}
+        </apex:outputPanel>
+      </div>
+      <div>
+        {!$Site.ErrorMessage}
+      </div>
+    </apex:define>
+    <apex:define name="error">
+      <i class="btr bt-times"></i>
+    </apex:define>
+    <apex:define name="description">
+      <div>
+        <apex:outputPanel rendered="{!siteObj != null && !ISBLANK(siteObj.Generic_Error_Description__c) }">
+          <apex:outputField value="{!siteObj.CPBase__Generic_Error_Description__c}"/>
+        </apex:outputPanel>
+        <apex:outputPanel rendered="{!siteObj == null || ISBLANK(siteObj.Generic_Error_Description__c) }">
+          {!$Label.cpbase__genericerrordescription}
+        </apex:outputPanel>
+      </div>
+      <div>
+        {!$Site.ErrorDescription}
+      </div>
+    </apex:define>
+  </apex:composition>
+</apex:page>

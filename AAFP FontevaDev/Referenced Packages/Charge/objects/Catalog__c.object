@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Primary control for the display of a group of Items in a Store</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Catalog_Filters__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Lists the filters to be displayed in the left side of the page when on the current catalog. Displays as defined in the field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Lists the filters to be displayed in the left side of the page when on the current catalog. Displays as defined in the field.</inlineHelpText>
+        <label>Catalog Filters</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Catalog__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Link to the parent Item Catalog record. Use Item Catalog hierarchies to better organize your products and streamline your customer&apos;s online shopping cart experience.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Link to the parent Item Catalog record. Use Item Catalog hierarchies to better organize your products and streamline your customer&apos;s online shopping cart experience.</inlineHelpText>
+        <label>Parent Catalog</label>
+        <referenceTo>Catalog__c</referenceTo>
+        <relationshipLabel>Child Catalogs</relationshipLabel>
+        <relationshipName>Catalogs</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Optional description for the Item Catalog</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Optional description for the Item Catalog</inlineHelpText>
+        <label>Description</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Display_Featured_Items__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Checking this box displays all featured items within this catalog and any child catalogs at the top of the page.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Checking this box displays all featured items within this catalog and any child catalogs at the top of the page.</inlineHelpText>
+        <label>RESERVED</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Display_Order__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Display order of catalogs that will be displayed on campaign pages</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Display order of catalogs that will be displayed on campaign pages</inlineHelpText>
+        <label>Display Order</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Enable_Access_Permissions__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked access to the Catalog is controlled by the related user-defined Access Permissions. Defaults unchecked - essentially enabling all public and authenticated Users access to the Catalog and related content.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked access to the Catalog is controlled by the related user-defined Access Permissions. Defaults unchecked - essentially enabling all public and authenticated Users access to the Catalog and related content.</inlineHelpText>
+        <label>Enable Access Permissions</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Published__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, the Catalog will be made available for display via the API. Defaults unchecked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, the Catalog will be made available for display via the API. Defaults unchecked.</inlineHelpText>
+        <label>Is Published</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Placeholder_Image__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Image to display if item does not have it&apos;s own image</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Image to display if item does not have it&apos;s own image</inlineHelpText>
+        <label>Placeholder Image</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Store__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>** Required ** Link to related Store</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** Required ** Link to related Store</inlineHelpText>
+        <label>Store</label>
+        <referenceTo>Store__c</referenceTo>
+        <relationshipLabel>Catalogs</relationshipLabel>
+        <relationshipName>Catalogs</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Catalog</label>
+    <nameField>
+        <label>Catalog Name</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Catalogs</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Catalog__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Store__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Is_Published__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Enable_Access_Permissions__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Description__c</customTabListAdditionalFields>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Catalog__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Is_Published__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Catalog__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Is_Published__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Catalog__c</searchFilterFields>
+        <searchFilterFields>Is_Published__c</searchFilterFields>
+        <searchResultsAdditionalFields>Catalog__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Is_Published__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

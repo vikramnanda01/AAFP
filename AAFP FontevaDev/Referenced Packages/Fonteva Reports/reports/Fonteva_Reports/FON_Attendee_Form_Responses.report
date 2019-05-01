@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>PagesApi__Form_Response__c.PagesApi__Field_Responses__r$Name</field>
+    </columns>
+    <columns>
+        <field>PagesApi__Form_Response__c$EventApi__Attendee__c.EventApi__Full_Name__c</field>
+    </columns>
+    <columns>
+        <field>PagesApi__Form_Response__c.PagesApi__Field_Responses__r$PagesApi__Field_Group__c</field>
+    </columns>
+    <columns>
+        <field>PagesApi__Form_Response__c.PagesApi__Field_Responses__r$PagesApi__Field__c</field>
+    </columns>
+    <columns>
+        <field>PagesApi__Form_Response__c.PagesApi__Field_Responses__r$PagesApi__Response__c</field>
+    </columns>
+    <description>DO NOT ALTER FILTERS: This report feeds the custom link that dynamically shows reports from any Event record detail.  To report on submitted forms for Event Attendees.</description>
+    <filter>
+        <criteriaItems>
+            <column>PagesApi__Form_Response__c$EventApi__Attendee__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>PagesApi__Form_Response__c$EventApi__Attendee__c.EventApi__Event__c.Id</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>a1R1N000004RZKM</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>PagesApi__Form_Response__c$EventApi__Attendee__c.EventApi__Event__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>PagesApi__Form_Response__c$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>FON - Attendee Form Responses (LINK)</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>FON_Form_Responses__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>PagesApi__Form_Response__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

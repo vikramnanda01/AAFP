@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Configure Badge Types to assign to Contacts to allow greater control and flexibility around pricing and content accessibility.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Optional description of the Badge Type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Optional description of the Badge Type</inlineHelpText>
+        <label>Description</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>8</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Enable_Badge_Flow_down__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked and when the badge is assigned to an account, all contacts of that account, child accounts, and child account&apos;s contacts will inherit the benefits. Limited to only one level of child accounts.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked and when the badge is assigned to an account, all contacts of that account, child accounts, and child account&apos;s contacts will inherit the benefits. Limited to only one level of child accounts.</inlineHelpText>
+        <label>Enable Badge Flow-down</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Engagement_Score__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The engagement score that is to be assigned to the entity&apos;s badge record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The engagement score that is to be assigned to the entity&apos;s badge record.</inlineHelpText>
+        <label>Engagement Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Icon_Location__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** System Calculated Override ** Override the default Badge Type icon with a custom image to distinguish the Badge Type from other Badge Types.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated Override ** Override the default Badge Type icon with a custom image to distinguish the Badge Type from other Badge Types.</inlineHelpText>
+        <label>Icon Location</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Icon__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** Badge Image Icon -- displayed in most Contact Badge list views.</description>
+        <externalId>false</externalId>
+        <formula>IMAGE(IF(ISBLANK(Icon_Location__c),&apos;https://res.cloudinary.com/fonteva-inc/image/upload/v1402119417/default-badge-icon-small_iz1fox.png&apos;,Image_Location__c), Name,12,12)</formula>
+        <inlineHelpText>** System Calculated ** Badge Image Icon -- displayed in most Contact Badge list views.</inlineHelpText>
+        <label>Icon</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Image_Location__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Distinguish the Badge Type from other Badge Types by providing the URL to a securely hosted image to use as the Badge Type Image.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Distinguish the Badge Type from other Badge Types by providing the URL to a securely hosted image to use as the Badge Type Image.</inlineHelpText>
+        <label>Image Location</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Image__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** Preview the Badge Image configured for the Badge Type.</description>
+        <externalId>false</externalId>
+        <formula>IMAGE(IF(ISBLANK(Image_Location__c),&apos;http://res.cloudinary.com/fonteva-inc/image/upload/q_100/a_0/v1402118862/default-badge-icon_gvwczr.png&apos;,Image_Location__c),  Name)</formula>
+        <inlineHelpText>** System Calculated ** Preview the Badge Image configured for the Badge Type.</inlineHelpText>
+        <label>Image</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked the Badge Type is active and available for assignment to a Contact</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked the Badge Type is active and available for assignment to a Contact</inlineHelpText>
+        <label>Is Active</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Published__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, Contacts assigned Badge related to the Badge Type will have the option to display the Badge on their Community Profile (valid only if Fonteva Communities is enabled for your environment - contact your administrator if you have any questions)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, Contacts assigned Badge related to the Badge Type will have the option to display the Badge on their Community Profile (valid only if Fonteva Communities is enabled for your environment - contact your administrator if you have any questions)</inlineHelpText>
+        <label>Is Published</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Public_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The contents of this field will publish to the community portal.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The contents of this field will publish to the community portal.</inlineHelpText>
+        <label>Public Description</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Short_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Optional (but highly recommended) short description used on reports and to provide context to end users looking at a list of Contacts assigned to various badges.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Optional (but highly recommended) short description used on reports and to provide context to end users looking at a list of Contacts assigned to various badges.</inlineHelpText>
+        <label>Short Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Badge Type</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Description__c</columns>
+        <columns>Is_Published__c</columns>
+        <columns>Is_Active__c</columns>
+        <columns>Icon__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Badge Name</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Badge Types</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Icon__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Is_Active__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Is_Published__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Description__c</customTabListAdditionalFields>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Is_Active__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Is_Published__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Description__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Is_Active__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Is_Published__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Description__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Is_Active__c</searchFilterFields>
+        <searchFilterFields>Is_Published__c</searchFilterFields>
+        <searchResultsAdditionalFields>Is_Active__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Is_Published__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Description__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

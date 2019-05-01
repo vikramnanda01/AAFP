@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Event_Display_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** Event Display Name</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated** Event Display Name</inlineHelpText>
+        <label>SYSTEM</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Event_Duration_Text__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** Event Duration Text</description>
+        <externalId>false</externalId>
+        <formula>EventApi__Event__r.Event_Duration_Text__c</formula>
+        <inlineHelpText>**System Calculated** Event Duration Text</inlineHelpText>
+        <label>SYSTEM</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Event_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** Event Display Name</description>
+        <externalId>false</externalId>
+        <formula>EventApi__Event__r.EventApi__Display_Name__c</formula>
+        <inlineHelpText>**System Calculated** Event Display Name</inlineHelpText>
+        <label>SYSTEM</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>

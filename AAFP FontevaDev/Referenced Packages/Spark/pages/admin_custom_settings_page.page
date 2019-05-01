@@ -1,0 +1,17 @@
+<apex:page tabStyle="Framework__tab" 
+    sidebar="false" 
+    showHeader="true" 
+    docType="html-5.0" 
+    cache="false" 
+    controller="Framework.AdminCustomSettingsPageController">
+  <apex:composition template="Framework__admin">
+      <apex:define name="title">{!sp.Label__c}</apex:define>
+      <apex:define name="main">
+        <div class="row">
+          <div class="col-md-12">
+            <apex:dynamicComponent componentValue="{!dynamicPage}" rendered="{!isValid}"/>
+          </div>
+        </div>
+      </apex:define>
+  </apex:composition>
+</apex:page>

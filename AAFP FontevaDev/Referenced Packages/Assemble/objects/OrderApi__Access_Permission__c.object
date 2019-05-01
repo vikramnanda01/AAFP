@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Event_Category__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** Link to the Event Category configured with the Access Permission.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated ** Link to the Event Category configured with the Access Permission.</inlineHelpText>
+        <label>Event Category</label>
+        <referenceTo>Event_Category__c</referenceTo>
+        <relationshipLabel>Access Permissions (Template)</relationshipLabel>
+        <relationshipName>Access_Permissions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Event_Status_Page__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** The link to the Event Status Page configured with the Access Permission.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated ** The link to the Event Status Page required for Access Permission.</inlineHelpText>
+        <label>Event Status Page</label>
+        <referenceTo>Event_Status_Page__c</referenceTo>
+        <relationshipLabel>Page Access Permissions</relationshipLabel>
+        <relationshipName>Page_Access_Permissions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Event__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Link to the Event related to the configured Access Permission.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Link to the Event related to the configured Access Permission.</inlineHelpText>
+        <label>Event</label>
+        <referenceTo>Event__c</referenceTo>
+        <relationshipLabel>Access Permissions</relationshipLabel>
+        <relationshipName>Access_Permissions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Registration_Group__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** Link to the Registration Group configured with the Access Permission.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated ** Link to the Registration Group configured with the Access Permission.</inlineHelpText>
+        <label>Registration Group</label>
+        <referenceTo>Registration_Group__c</referenceTo>
+        <relationshipLabel>Access Permissions</relationshipLabel>
+        <relationshipName>Access_Permissions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Schedule_Item__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** Link to the Schedule Item configured with the Access Permission.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated ** Link to the Schedule Item configured with the Access Permission.</inlineHelpText>
+        <label>Schedule Item</label>
+        <referenceTo>Schedule_Item__c</referenceTo>
+        <relationshipLabel>Access Permissions</relationshipLabel>
+        <relationshipName>Access_Permissions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Sponsor_Package__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** The link to the Sponsor Package configured with the Access Permission.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated ** The link to the Sponsor Package configured with the Access Permission.</inlineHelpText>
+        <label>Sponsor Package</label>
+        <referenceTo>Sponsor_Package__c</referenceTo>
+        <relationshipLabel>Access Permissions</relationshipLabel>
+        <relationshipName>Access_Permissions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Ticket_Type__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** The link to the Ticket Type configured with the Access Permission.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated ** The link to the Ticket Type configured with the Access Permission.</inlineHelpText>
+        <label>Ticket Type</label>
+        <referenceTo>Ticket_Type__c</referenceTo>
+        <relationshipLabel>Access Permissions</relationshipLabel>
+        <relationshipName>Access_Permissions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

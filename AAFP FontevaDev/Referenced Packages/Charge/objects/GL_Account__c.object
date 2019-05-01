@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>GL Accounting codes used for linking debits and credits with the appropriate codes.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Business_Group__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**Required** Master-Detail Relationship to Business Group.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Required** Master-Detail Relationship to Business Group.</inlineHelpText>
+        <label>Business Group</label>
+        <referenceTo>Business_Group__c</referenceTo>
+        <relationshipLabel>Chart of Accounts</relationshipLabel>
+        <relationshipName>GL_Accounts</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>true</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Detail__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Customize the detail pick-list to assist you in categorizing the GL Accounts in accounting reports.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Customize the detail pick-list to assist you in categorizing the GL Accounts in accounting reports.</inlineHelpText>
+        <label>Detail</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Report_Category__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Accounts Payable (A/P)</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Accounts Receivable (A/R)</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Bank</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Credit Card</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Current Liabilities</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Equity</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Fixed Assets</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Long-term Liabilities</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Other Assets</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Other Current Assets</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Income</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Other Income</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Cost of Goods Sold</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Expense</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Other Expense</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Contributions/Pledges Receivable</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Other Receivables</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Direct Contributions</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Refunds Payable (R/P)</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Balance Sheet</controllingFieldValue>
+                <valueName>Accounts Payable (A/P)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Balance Sheet</controllingFieldValue>
+                <valueName>Accounts Receivable (A/R)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Balance Sheet</controllingFieldValue>
+                <valueName>Bank</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Balance Sheet</controllingFieldValue>
+                <valueName>Credit Card</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Balance Sheet</controllingFieldValue>
+                <valueName>Current Liabilities</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Balance Sheet</controllingFieldValue>
+                <valueName>Equity</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Balance Sheet</controllingFieldValue>
+                <valueName>Fixed Assets</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Balance Sheet</controllingFieldValue>
+                <valueName>Long-term Liabilities</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Balance Sheet</controllingFieldValue>
+                <valueName>Other Assets</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Balance Sheet</controllingFieldValue>
+                <valueName>Other Current Assets</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Balance Sheet</controllingFieldValue>
+                <valueName>Contributions/Pledges Receivable</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Balance Sheet</controllingFieldValue>
+                <valueName>Other Receivables</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Balance Sheet</controllingFieldValue>
+                <valueName>Refunds Payable (R/P)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Income Statement</controllingFieldValue>
+                <valueName>Income</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Income Statement</controllingFieldValue>
+                <valueName>Other Income</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Income Statement</controllingFieldValue>
+                <valueName>Cost of Goods Sold</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Income Statement</controllingFieldValue>
+                <valueName>Expense</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Income Statement</controllingFieldValue>
+                <valueName>Other Expense</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Income Statement</controllingFieldValue>
+                <valueName>Direct Contributions</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Report_Category__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**Do Not Modify Picklist Values** Select the appropriate report category for the GL Account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Do Not Modify Picklist Values** Select the appropriate report category for the GL Account.</inlineHelpText>
+        <label>Report Category</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Balance Sheet</fullName>
+                    <color>#0B6FCE</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Income Statement</fullName>
+                    <color>#78C953</color>
+                    <default>true</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Select the appropriate type for the GL Account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the appropriate type for the GL Account.</inlineHelpText>
+        <label>Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Report_Category__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Asset</fullName>
+                    <color>#0B6FCE</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Capital</fullName>
+                    <color>#78C953</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Cost of Goods Sold</fullName>
+                    <color>#E27001</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Equity</fullName>
+                    <color>#A845DC</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Expenses</fullName>
+                    <color>#F3D904</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Income</fullName>
+                    <color>#A53711</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Liability</fullName>
+                    <color>#66E9BD</color>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Balance Sheet</controllingFieldValue>
+                <valueName>Asset</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Balance Sheet</controllingFieldValue>
+                <valueName>Capital</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Balance Sheet</controllingFieldValue>
+                <valueName>Equity</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Balance Sheet</controllingFieldValue>
+                <valueName>Liability</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Income Statement</controllingFieldValue>
+                <valueName>Cost of Goods Sold</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Income Statement</controllingFieldValue>
+                <valueName>Expenses</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Income Statement</controllingFieldValue>
+                <valueName>Income</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <label>GL Account</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Business_Group__c</columns>
+        <columns>Report_Category__c</columns>
+        <columns>Type__c</columns>
+        <columns>Detail__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Description</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>GL Accounts</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Report_Category__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Detail__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Business_Group__c</customTabListAdditionalFields>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Report_Category__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Detail__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Business_Group__c</lookupDialogsAdditionalFields>
+        <lookupFilterFields>NAME</lookupFilterFields>
+        <lookupFilterFields>Type__c</lookupFilterFields>
+        <lookupFilterFields>Report_Category__c</lookupFilterFields>
+        <lookupFilterFields>Detail__c</lookupFilterFields>
+        <lookupFilterFields>Business_Group__c</lookupFilterFields>
+        <lookupPhoneDialogsAdditionalFields>Report_Category__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Type__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Detail__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Business_Group__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Report_Category__c</searchFilterFields>
+        <searchFilterFields>Type__c</searchFilterFields>
+        <searchFilterFields>Detail__c</searchFilterFields>
+        <searchFilterFields>Business_Group__c</searchFilterFields>
+        <searchResultsAdditionalFields>Report_Category__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Detail__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Business_Group__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

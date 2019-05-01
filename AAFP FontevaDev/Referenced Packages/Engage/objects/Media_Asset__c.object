@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <content>media_asset</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Upload documents, photographs, animations, videos, music, stylesheets, and javascript files for use in any Fonteva Community.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Download_Link__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Download the asset (opens new tab based on browser settings and behavior).</description>
+        <externalId>false</externalId>
+        <formula>HYPERLINK( Path__c , &quot;Click to Download&quot;, &quot;_tab&quot; )</formula>
+        <inlineHelpText>Download the asset (opens new tab based on browser settings and behavior).</inlineHelpText>
+        <label>Download Link</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Extension__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** System Calculated Required ** The extension of the file.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated Required ** The extension of the file.</inlineHelpText>
+        <label>Extension</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Filename__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** Required ** The name of the file.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** Required ** The name of the file.</inlineHelpText>
+        <label>Filename</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MIME_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** MIME types form a standard way of classifying file types on the Internet. The MIME Type of the related asset is required.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated ** MIME types form a standard way of classifying file types on the Internet. The MIME Type of the related asset is required.</inlineHelpText>
+        <label>MIME Type</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Media_Asset_Collection__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to the Media Asset Collection Object, acts as a grouping parent</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Group the similar Media Assets into one by selecting the right Collection</inlineHelpText>
+        <label>Media Asset Collection</label>
+        <referenceTo>Media_Asset_Collection__c</referenceTo>
+        <relationshipLabel>Media Assets</relationshipLabel>
+        <relationshipName>Media_Assets</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Path__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The location of the media asset.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The location of the media asset.</inlineHelpText>
+        <label>Path</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Short_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Short description about the image that has been uploaded</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A short description about the image to show up in components like Carousels, etc</inlineHelpText>
+        <label>Short Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Title__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The title for the media asset</description>
+        <externalId>false</externalId>
+        <inlineHelpText>80 character String that can mainly serve as a title when the asset is used in sites, pages, etc</inlineHelpText>
+        <label>Title</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Media Asset</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Filename__c</columns>
+        <columns>MIME_Type__c</columns>
+        <columns>Path__c</columns>
+        <columns>Title__c</columns>
+        <columns>Short_Description__c</columns>
+        <columns>Download_Link__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>Asset ID</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Media</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Title__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Path__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Media_Asset_Collection__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>MIME_Type__c</customTabListAdditionalFields>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Title__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Path__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Media_Asset_Collection__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>MIME_Type__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Title__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Media_Asset_Collection__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Filename__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Extension__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>MIME_Type__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Download_Link__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Title__c</searchFilterFields>
+        <searchFilterFields>Filename__c</searchFilterFields>
+        <searchFilterFields>Media_Asset_Collection__c</searchFilterFields>
+        <searchFilterFields>Extension__c</searchFilterFields>
+        <searchFilterFields>MIME_Type__c</searchFilterFields>
+        <searchResultsAdditionalFields>Title__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Path__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Media_Asset_Collection__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>MIME_Type__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

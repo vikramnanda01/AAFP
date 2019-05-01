@@ -1,0 +1,2059 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>API</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>API</shortDescription>
+        <value>API</value>
+    </labels>
+    <labels>
+        <fullName>API_Documentation</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>API_Documentation</shortDescription>
+        <value>API Documentation</value>
+    </labels>
+    <labels>
+        <fullName>API_Documentation_Description</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>API_Documentation_Description</shortDescription>
+        <value>I/O documents for Spark, including an example API Service integration with Twitter.</value>
+    </labels>
+    <labels>
+        <fullName>API_Endpoint</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>API_Endpoint</shortDescription>
+        <value>Endpoint</value>
+    </labels>
+    <labels>
+        <fullName>API_Field_API_Resource</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>API_Field_API_Resource</shortDescription>
+        <value>API Field</value>
+    </labels>
+    <labels>
+        <fullName>API_Grouping</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>API_Grouping</shortDescription>
+        <value>API Grouping</value>
+    </labels>
+    <labels>
+        <fullName>API_Groupings</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>API_Groupings</shortDescription>
+        <value>API Groupings</value>
+    </labels>
+    <labels>
+        <fullName>API_Mappings</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>API_Mappings</shortDescription>
+        <value>API Mappings</value>
+    </labels>
+    <labels>
+        <fullName>API_Object</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>API_Object</shortDescription>
+        <value>API Object</value>
+    </labels>
+    <labels>
+        <fullName>API_Object_Key_Field</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>API_Object_Key_Field</shortDescription>
+        <value>API Object Key Field</value>
+    </labels>
+    <labels>
+        <fullName>API_Resource</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>API_Resource</shortDescription>
+        <value>API Resource</value>
+    </labels>
+    <labels>
+        <fullName>API_Resource_Api_Object</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>API_Resource_Api_Object</shortDescription>
+        <value>API Object</value>
+    </labels>
+    <labels>
+        <fullName>API_Resource_Api_Object_Key</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>API_Resource_Api_Object_Key</shortDescription>
+        <value>API Object External ID</value>
+    </labels>
+    <labels>
+        <fullName>API_Resource_Name</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>API_Resource_Name</shortDescription>
+        <value>API Resource Name</value>
+    </labels>
+    <labels>
+        <fullName>API_Resource_Target_SObject</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>API_Resource_Target_SObject</shortDescription>
+        <value>Target Custom Object</value>
+    </labels>
+    <labels>
+        <fullName>API_Resource_Target_SObject_Key</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>API_Resource_Target_SObject_Key</shortDescription>
+        <value>Custom Object External ID</value>
+    </labels>
+    <labels>
+        <fullName>API_Resources</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>API_Resources</shortDescription>
+        <value>API Resources</value>
+    </labels>
+    <labels>
+        <fullName>API_Service</fullName>
+        <categories>API, Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>API Service</shortDescription>
+        <value>API Service</value>
+    </labels>
+    <labels>
+        <fullName>API_Service_ApexClass</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>API_Service_ApexClass</shortDescription>
+        <value>Vendor Auth Apex Class</value>
+    </labels>
+    <labels>
+        <fullName>API_Service_AuthType</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>API_Service_AuthType</shortDescription>
+        <value>Auth Type</value>
+    </labels>
+    <labels>
+        <fullName>API_Service_Connection</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>API_Service_Connection</shortDescription>
+        <value>API Service Connection</value>
+    </labels>
+    <labels>
+        <fullName>API_Service_Connection_Configs</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>API_Service_Connection_Configs</shortDescription>
+        <value>API Service Connection Configs</value>
+    </labels>
+    <labels>
+        <fullName>API_Service_Connections</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>API_Service_Connections</shortDescription>
+        <value>API Service Connections</value>
+    </labels>
+    <labels>
+        <fullName>API_Service_Description</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>API Service Description</shortDescription>
+        <value>Manage API services, resources, and mappings. Connect external systems through configuration not code.</value>
+    </labels>
+    <labels>
+        <fullName>API_Service_Key</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>API_Service_Key</shortDescription>
+        <value>API Service Key</value>
+    </labels>
+    <labels>
+        <fullName>API_Service_Name</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>API_Service_Name</shortDescription>
+        <value>Display Name</value>
+    </labels>
+    <labels>
+        <fullName>API_Services</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>API_Services</shortDescription>
+        <value>API Services</value>
+    </labels>
+    <labels>
+        <fullName>API_Variables</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>API_Variables</shortDescription>
+        <value>API Variables</value>
+    </labels>
+    <labels>
+        <fullName>Access_Manager</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Access_Manager</shortDescription>
+        <value>Access Manager</value>
+    </labels>
+    <labels>
+        <fullName>Access_Manager_Description</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Access_Manager_Description</shortDescription>
+        <value>Fix problems caused by Field Level Security, Apex Class Access, Visualforce Page Access, and CRUD permissions</value>
+    </labels>
+    <labels>
+        <fullName>Action</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Action</shortDescription>
+        <value>Action</value>
+    </labels>
+    <labels>
+        <fullName>Action_API_Resource</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Action_API_Resource</shortDescription>
+        <value>Action</value>
+    </labels>
+    <labels>
+        <fullName>Action_Applications</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Action_Applications</shortDescription>
+        <value>Action</value>
+    </labels>
+    <labels>
+        <fullName>Actions</fullName>
+        <categories>admin_rollups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Actions</shortDescription>
+        <value>Actions</value>
+    </labels>
+    <labels>
+        <fullName>Activate</fullName>
+        <categories>admin_app</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Activate</shortDescription>
+        <value>Activate</value>
+    </labels>
+    <labels>
+        <fullName>Active</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Active</shortDescription>
+        <value>Active</value>
+    </labels>
+    <labels>
+        <fullName>Active_Applications</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Active_Applications</shortDescription>
+        <value>Active</value>
+    </labels>
+    <labels>
+        <fullName>Add</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Add</shortDescription>
+        <value>Add</value>
+    </labels>
+    <labels>
+        <fullName>Address_City</fullName>
+        <categories>address</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Address_City</shortDescription>
+        <value>City</value>
+    </labels>
+    <labels>
+        <fullName>Address_Country</fullName>
+        <categories>address</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Address_Country</shortDescription>
+        <value>Country</value>
+    </labels>
+    <labels>
+        <fullName>Address_Enter_Manual_Address</fullName>
+        <categories>address</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Address_Enter_Manual_Address</shortDescription>
+        <value>Enter Address Manually</value>
+    </labels>
+    <labels>
+        <fullName>Address_Postal_Code</fullName>
+        <categories>address</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Address_Postal_Code</shortDescription>
+        <value>Zip Code</value>
+    </labels>
+    <labels>
+        <fullName>Address_Province</fullName>
+        <categories>address</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Address_Province</shortDescription>
+        <value>State</value>
+    </labels>
+    <labels>
+        <fullName>Address_Street</fullName>
+        <categories>address</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Address_Street</shortDescription>
+        <value>Street</value>
+    </labels>
+    <labels>
+        <fullName>Admin_MDAPI_Tools</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Admin_MDAPI_Tools</shortDescription>
+        <value>Metadata Tools</value>
+    </labels>
+    <labels>
+        <fullName>Admin_Rollups_Description</fullName>
+        <categories>admin_rollups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Admin_Rollups_Description</shortDescription>
+        <value>Description</value>
+    </labels>
+    <labels>
+        <fullName>Admin_Rollups_Run</fullName>
+        <categories>admin_rollups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Admin_Rollups_Run</shortDescription>
+        <value>Run</value>
+    </labels>
+    <labels>
+        <fullName>Apex_Class</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Apex_Class</shortDescription>
+        <value>Apex Class</value>
+    </labels>
+    <labels>
+        <fullName>Apex_Component</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Apex_Component</shortDescription>
+        <value>Apex Component</value>
+    </labels>
+    <labels>
+        <fullName>Api_Router_Error_Message_Key</fullName>
+        <categories>framework_api_router</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Api_Router_Error_Message_Key</shortDescription>
+        <value>message</value>
+    </labels>
+    <labels>
+        <fullName>App</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>App</shortDescription>
+        <value>App</value>
+    </labels>
+    <labels>
+        <fullName>Application_Analytics</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Application Analytics</shortDescription>
+        <value>Application Analytics</value>
+    </labels>
+    <labels>
+        <fullName>Application_Analytics_Description</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Application Analytics Description</shortDescription>
+        <value>Monitor and report on the performance and usage of any Framework app installed in your environment.</value>
+    </labels>
+    <labels>
+        <fullName>Apps</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Apps</shortDescription>
+        <value>Apps</value>
+    </labels>
+    <labels>
+        <fullName>Apps_Description</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Apps Description</shortDescription>
+        <value>Manage all Framework registered apps and associated configurations, services, and licenses.</value>
+    </labels>
+    <labels>
+        <fullName>Are_You_Sure</fullName>
+        <categories>framework_config</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Are_You_Sure</shortDescription>
+        <value>Are You Sure?</value>
+    </labels>
+    <labels>
+        <fullName>Auth_Type</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Auth_Type</shortDescription>
+        <value>Auth Type</value>
+    </labels>
+    <labels>
+        <fullName>Authentication_Service</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Authentication_Service</shortDescription>
+        <value>Authentication Service</value>
+    </labels>
+    <labels>
+        <fullName>Authorization_Code_URL</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Authorization_Code_URL</shortDescription>
+        <value>Authorization Code URL</value>
+    </labels>
+    <labels>
+        <fullName>Back</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Back</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>Batched</fullName>
+        <categories>admin_rollups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Batched</shortDescription>
+        <value>Batched</value>
+    </labels>
+    <labels>
+        <fullName>Browse</fullName>
+        <categories>file_upload</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Browse</shortDescription>
+        <value>Browse</value>
+    </labels>
+    <labels>
+        <fullName>Cancel</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Cannot_Instantiate_Api_Router_Class</fullName>
+        <categories>framework_api_router</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cannot_Instantiate_Api_Router_Class</shortDescription>
+        <value>Cannot Instantiate Api Router Class</value>
+    </labels>
+    <labels>
+        <fullName>Child_Batch_Scope</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Child_Batch_Scope</shortDescription>
+        <value>Child Batch Scope</value>
+    </labels>
+    <labels>
+        <fullName>Child_Field</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Child_Field</shortDescription>
+        <value>Child Field</value>
+    </labels>
+    <labels>
+        <fullName>Child_SObject</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Child_SObject</shortDescription>
+        <value>Child SObject</value>
+    </labels>
+    <labels>
+        <fullName>Clear</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Clear</shortDescription>
+        <value>Clear</value>
+    </labels>
+    <labels>
+        <fullName>Clear_All_Button_Routing_Rules</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Clear All Configurations Button</shortDescription>
+        <value>Clear All Configurations</value>
+    </labels>
+    <labels>
+        <fullName>Clear_All_Configurations</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Clear_All_Configurations</shortDescription>
+        <value>Clear All Configurations</value>
+    </labels>
+    <labels>
+        <fullName>Clear_All_Configurations_Description</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Clear_All_Configurations_Description</shortDescription>
+        <value>Clearing the configurations will cause applications running on Spark Framework to fail. Are you sure you want to clear all configurations?</value>
+    </labels>
+    <labels>
+        <fullName>Clear_Prompt_Header_Routing_Rules</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Clear Prompt Header</shortDescription>
+        <value>Clear All Configurations?</value>
+    </labels>
+    <labels>
+        <fullName>Clear_Prompt_Message_Routing_Rules</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Clear Configuration Prompt Message</shortDescription>
+        <value>Clearing the configurations will cause applications running on Spark Framework to fail. Are you sure you want to clear all configurations?</value>
+    </labels>
+    <labels>
+        <fullName>Client_ID</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Client_ID</shortDescription>
+        <value>Client ID</value>
+    </labels>
+    <labels>
+        <fullName>Client_Secret</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Client_Secret</shortDescription>
+        <value>Client Secret</value>
+    </labels>
+    <labels>
+        <fullName>Close</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Close</shortDescription>
+        <value>Close</value>
+    </labels>
+    <labels>
+        <fullName>Configuration</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Configuration</shortDescription>
+        <value>Configuration</value>
+    </labels>
+    <labels>
+        <fullName>Configurations</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Configurations</shortDescription>
+        <value>Configurations</value>
+    </labels>
+    <labels>
+        <fullName>Configure</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Configure</shortDescription>
+        <value>Configure</value>
+    </labels>
+    <labels>
+        <fullName>Connect</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Connect</shortDescription>
+        <value>Connect</value>
+    </labels>
+    <labels>
+        <fullName>Connection_Name</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Connection_Name</shortDescription>
+        <value>Connection Name</value>
+    </labels>
+    <labels>
+        <fullName>Core_Config</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Core_Config</shortDescription>
+        <value>Core Config</value>
+    </labels>
+    <labels>
+        <fullName>Create</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Create</shortDescription>
+        <value>Create</value>
+    </labels>
+    <labels>
+        <fullName>Create_URI</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Create_URI</shortDescription>
+        <value>Create URI</value>
+    </labels>
+    <labels>
+        <fullName>Create_URI_Verb</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Create_URI_Verb</shortDescription>
+        <value>Create URI Verb</value>
+    </labels>
+    <labels>
+        <fullName>Critical_Updates_Applications</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Critical_Updates_Applications</shortDescription>
+        <value>Critical Updates</value>
+    </labels>
+    <labels>
+        <fullName>Custom_Domain</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom_Domain</shortDescription>
+        <value>Custom Domain</value>
+    </labels>
+    <labels>
+        <fullName>Custom_Scripts</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Scripts</shortDescription>
+        <value>Custom Scripts</value>
+    </labels>
+    <labels>
+        <fullName>Custom_Scripts_Applications</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom_Scripts_Applications</shortDescription>
+        <value>Custom Scripts</value>
+    </labels>
+    <labels>
+        <fullName>Dashboard</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Dashboard</shortDescription>
+        <value>Dashboard</value>
+    </labels>
+    <labels>
+        <fullName>Debug_Mode</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Debug_Mode</shortDescription>
+        <value>Debug Mode</value>
+    </labels>
+    <labels>
+        <fullName>Del</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Del (Delete)</shortDescription>
+        <value>Del</value>
+    </labels>
+    <labels>
+        <fullName>Delete</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>Delete_API_Mapping_API_Resource</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete_API_Mapping_API_Resource</shortDescription>
+        <value>Delete API Mapping</value>
+    </labels>
+    <labels>
+        <fullName>Delete_API_Mapping_Description_API_Resource</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete_API_Mapping_Description_API_Resource</shortDescription>
+        <value>Would you like to delete the Api Mapping?</value>
+    </labels>
+    <labels>
+        <fullName>Delete_API_Variable_API_Resource</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete_API_Variable_API_Resource</shortDescription>
+        <value>Delete API Variable</value>
+    </labels>
+    <labels>
+        <fullName>Delete_API_Variable_Description_API_Resource</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete_API_Variable_Description_API_Resource</shortDescription>
+        <value>Would you like to delete the Api Variable?</value>
+    </labels>
+    <labels>
+        <fullName>Delete_Config_Alert_Description</fullName>
+        <categories>framework_config</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete_Config_Alert_Description</shortDescription>
+        <value>This will delete all of the Framework configurations</value>
+    </labels>
+    <labels>
+        <fullName>Delete_URI</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete_URI</shortDescription>
+        <value>Delete URI</value>
+    </labels>
+    <labels>
+        <fullName>Delete_URI_Verb</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete_URI_Verb</shortDescription>
+        <value>Delete URI Verb</value>
+    </labels>
+    <labels>
+        <fullName>Deploy</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Deploy</shortDescription>
+        <value>Deploy</value>
+    </labels>
+    <labels>
+        <fullName>Description</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Description</shortDescription>
+        <value>Description</value>
+    </labels>
+    <labels>
+        <fullName>Description_Applications</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Description_Applications</shortDescription>
+        <value>Description</value>
+    </labels>
+    <labels>
+        <fullName>Description_Routing_Rules</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Routing Rules description</shortDescription>
+        <value>Routing rules control the behavior of how the system routes logic for processing when objects are inserted, updated, and deleted from the database. Routing rules can be created to extend the behavior of out-of-the-box MemberNation functionality, or turned off all together.</value>
+    </labels>
+    <labels>
+        <fullName>Diagnostics</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Diagnostics</shortDescription>
+        <value>Diagnostics</value>
+    </labels>
+    <labels>
+        <fullName>Disable</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Disable</shortDescription>
+        <value>Disable</value>
+    </labels>
+    <labels>
+        <fullName>Disabled</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Disabled</shortDescription>
+        <value>Disabled</value>
+    </labels>
+    <labels>
+        <fullName>Dismiss</fullName>
+        <categories>admin_app</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Dismiss</shortDescription>
+        <value>Dismiss</value>
+    </labels>
+    <labels>
+        <fullName>Dismissed</fullName>
+        <categories>admin_app</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Dismissed</shortDescription>
+        <value>Dismissed</value>
+    </labels>
+    <labels>
+        <fullName>Dismissed_Applications</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Dismissed_Applications</shortDescription>
+        <value>Dismissed</value>
+    </labels>
+    <labels>
+        <fullName>Dispatch_Object</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Dispatch_Object</shortDescription>
+        <value>Dispatch Object</value>
+    </labels>
+    <labels>
+        <fullName>Dispatch_Objects</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Dispatch_Objects</shortDescription>
+        <value>Dispatch Objects</value>
+    </labels>
+    <labels>
+        <fullName>Dispatcher_Blocked_Execution_Message_Prefix</fullName>
+        <categories>system messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Dispatcher_Blocked_Execution_Message_Prefix</shortDescription>
+        <value>The current user does not have permission to</value>
+    </labels>
+    <labels>
+        <fullName>Dispatcher_Blocked_Execution_Message_Suffix</fullName>
+        <categories>system messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Dispatcher_Blocked_Execution_Message_Prefix</shortDescription>
+        <value>records.</value>
+    </labels>
+    <labels>
+        <fullName>Display_Name</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Display_Name</shortDescription>
+        <value>Display Name</value>
+    </labels>
+    <labels>
+        <fullName>Edit</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Edit</shortDescription>
+        <value>Edit</value>
+    </labels>
+    <labels>
+        <fullName>Edit_API_Resource</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Edit_API_Resource</shortDescription>
+        <value>Edit</value>
+    </labels>
+    <labels>
+        <fullName>Enable</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable</shortDescription>
+        <value>Enable</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Async_Rollups</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Async_Rollups</shortDescription>
+        <value>Enable Async Rollups</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Batching</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Batching</shortDescription>
+        <value>Enable Batching</value>
+    </labels>
+    <labels>
+        <fullName>Enabled</fullName>
+        <categories>admin_rollups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enabled</shortDescription>
+        <value>Enabled</value>
+    </labels>
+    <labels>
+        <fullName>Endpoint</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Endpoint</shortDescription>
+        <value>Endpoint</value>
+    </labels>
+    <labels>
+        <fullName>ErrorAccessDenied</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Access Denied Error Message</shortDescription>
+        <value>Access denied! You do not have permission to access this feature.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorAppDisabled</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>App Disabled Error Message</shortDescription>
+        <value>A registered app that controls some or all of the operation you requested is currently disabled. Contact an administrator for support.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorBadHTTPCall</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Non 200 HTTP Response Error Message</shortDescription>
+        <value>A non 200 HTTP response code was returned from vendor webservice. Please contact your administrator for support.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorCoreDisabled</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Core Disabled Error Message</shortDescription>
+        <value>Fonteva core services are currently disabled. Contact your administrator for support.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorDatabaseSecurity</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Database Security Error Message</shortDescription>
+        <value>You do not have permission to perform this operation.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorFieldLevelSecurity</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Field Level Security Error Message</shortDescription>
+        <value>Error! You do not have permission to access this field. Contact your administrator for support.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorGovernorLimit</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Governor Limit Error Message</shortDescription>
+        <value>The system has met or exceeded a limit related to the operation you requested.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorInvalidArgument</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid Argument Error Message</shortDescription>
+        <value>Invalid Argument passed into method</value>
+    </labels>
+    <labels>
+        <fullName>ErrorInvalidJSON</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cannot Parse Invalid JSON Error Message</shortDescription>
+        <value>The JSON provided was invalid and could not be parsed. Please check the JSON to make sure it is of valid format.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorNoResultsFound</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Results Found Error Message</shortDescription>
+        <value>No results found!</value>
+    </labels>
+    <labels>
+        <fullName>ErrorObjectDisabled</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Object Disabled Error Message</shortDescription>
+        <value>Disabled registered objects were sent for update or insert in your requested operation. Please contact your administrator for support.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorRecordAccess</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Record Access Error Message</shortDescription>
+        <value>You do not have permission to access this record. Please contact your administrator for support.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorTrialExpired</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Trial Expired Error Message</shortDescription>
+        <value>Your trial has expired, to continue using this feature contact your administrator and request license(s) to be purchased.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorTriggersDisabled</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Triggers Disabled Error Message</shortDescription>
+        <value>Warning! Triggers are currently disabled. Performing this operation may cause unexpected results. If you have questions, contact your administrator for support.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorUnregisteredApp</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Unregistered App Error Message</shortDescription>
+        <value>Unregistered application! You must register all apps that use the Fonteva API.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorUnregisteredObject</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Unregistered Object Error Message</shortDescription>
+        <value>Unregistered object! All custom or standard objects using the Fonteva API must be registered with Fonteva Services (via API) prior to use.</value>
+    </labels>
+    <labels>
+        <fullName>Execution_Order</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Execution_Order</shortDescription>
+        <value>Execution Order</value>
+    </labels>
+    <labels>
+        <fullName>Extend</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Extend</shortDescription>
+        <value>Extend</value>
+    </labels>
+    <labels>
+        <fullName>Field_API_Name_API_Resource</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Field_API_Name_API_Resource</shortDescription>
+        <value>Field API Name</value>
+    </labels>
+    <labels>
+        <fullName>Field_API_Value_API_Resource</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Field_API_Value_API_Resource</shortDescription>
+        <value>Field API Value</value>
+    </labels>
+    <labels>
+        <fullName>File_Upload_Placeholder</fullName>
+        <categories>file_upload</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>File_Upload_Placeholder</shortDescription>
+        <value>Browse for files or paste in a URL</value>
+    </labels>
+    <labels>
+        <fullName>Filter</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filter</shortDescription>
+        <value>Filter</value>
+    </labels>
+    <labels>
+        <fullName>Fonteva_Description</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fonteva_Description</shortDescription>
+        <value>Fonteva&apos;s corporate website with information on products and solutions, news and events, and the Fonteva blog.</value>
+    </labels>
+    <labels>
+        <fullName>Fonteva_URL</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fonteva_URL</shortDescription>
+        <value>Fonteva.com</value>
+    </labels>
+    <labels>
+        <fullName>Found</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Found</shortDescription>
+        <value>Found</value>
+    </labels>
+    <labels>
+        <fullName>Framework</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Framework</shortDescription>
+        <value>Framework</value>
+    </labels>
+    <labels>
+        <fullName>FrameworkAdmin</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Admin</shortDescription>
+        <value>Admin</value>
+    </labels>
+    <labels>
+        <fullName>Framework_Admin</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Framework Admin</shortDescription>
+        <value>Framework Admin</value>
+    </labels>
+    <labels>
+        <fullName>Framework_Settings_Description</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Framework Settings Description</shortDescription>
+        <value>Enable and disable Framework services by User, Profile, or for all Users in your environment.</value>
+    </labels>
+    <labels>
+        <fullName>FreeCurrencyValue</fullName>
+        <categories>Currency</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FreeCurrencyValue</shortDescription>
+        <value>Free</value>
+    </labels>
+    <labels>
+        <fullName>HTTP_Method_For_Token</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HTTP_Method_For_Token</shortDescription>
+        <value>HTTP Method To Get Token</value>
+    </labels>
+    <labels>
+        <fullName>Header_Vars</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Header_Vars</shortDescription>
+        <value>Header Vars</value>
+    </labels>
+    <labels>
+        <fullName>Help</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Help</shortDescription>
+        <value>Help</value>
+    </labels>
+    <labels>
+        <fullName>Help_API_Endpoint</fullName>
+        <categories>Admin, Help Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Help_API_Endpoint</shortDescription>
+        <value>The base endpoint for the API Service, used by default for all connections and resources that are linked to this service.</value>
+    </labels>
+    <labels>
+        <fullName>Help_API_Service_Key</fullName>
+        <categories>Admin, Help Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Help_API_Service_Key</shortDescription>
+        <value>Unique alpha-numeric key for the api service.</value>
+    </labels>
+    <labels>
+        <fullName>Help_API_Service_Name</fullName>
+        <categories>Admin, Help Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Help_API_Service_Name</shortDescription>
+        <value>User friendly name for the API Service - as it would appear to end users.</value>
+    </labels>
+    <labels>
+        <fullName>Help_Registered_App</fullName>
+        <categories>Admin, Help Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Help_Registered_App</shortDescription>
+        <value>All Framework configurations are linked to a registered app. Select the app from the picklist that you would like to link the configuration too.</value>
+    </labels>
+    <labels>
+        <fullName>Help_Resources_Description</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Help Resources Description</shortDescription>
+        <value>Access Framework API documentation, user guides, and support resources.</value>
+    </labels>
+    <labels>
+        <fullName>Hide_Active_Dismissed_Applications</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Hide_Active_Dismissed_Applications</shortDescription>
+        <value>Hide Active &amp; Dismissed</value>
+    </labels>
+    <labels>
+        <fullName>Http_Verb</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Http_Verb</shortDescription>
+        <value>Http Verb</value>
+    </labels>
+    <labels>
+        <fullName>Icon_Image_URL</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Icon_Image_URL</shortDescription>
+        <value>Icon Image URL</value>
+    </labels>
+    <labels>
+        <fullName>Install_Successfully_Run</fullName>
+        <categories>admin_app</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Install_Successfully_Run</shortDescription>
+        <value>Package Installed Sucessfully</value>
+    </labels>
+    <labels>
+        <fullName>Is_Default</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Is_Default</shortDescription>
+        <value>Is Default</value>
+    </labels>
+    <labels>
+        <fullName>Is_Enabled</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Is_Enabled</shortDescription>
+        <value>Is Enabled</value>
+    </labels>
+    <labels>
+        <fullName>Is_Managed</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Is_Managed</shortDescription>
+        <value>Is Managed</value>
+    </labels>
+    <labels>
+        <fullName>Is_Masked</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Is_Masked</shortDescription>
+        <value>Is Masked</value>
+    </labels>
+    <labels>
+        <fullName>Label</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label</shortDescription>
+        <value>Label</value>
+    </labels>
+    <labels>
+        <fullName>License_Usage</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>License Usage</shortDescription>
+        <value>License Usage</value>
+    </labels>
+    <labels>
+        <fullName>Location</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Location</shortDescription>
+        <value>Location</value>
+    </labels>
+    <labels>
+        <fullName>Login</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login</shortDescription>
+        <value>Login</value>
+    </labels>
+    <labels>
+        <fullName>Login_Dialog_URL</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Dialog_URL</shortDescription>
+        <value>Login Dialog URL</value>
+    </labels>
+    <labels>
+        <fullName>Marketplace</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Marketplace</shortDescription>
+        <value>Product Updates</value>
+    </labels>
+    <labels>
+        <fullName>MarketplaceMaintanencePagelabel1</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Marketplace Maintenance Page Label1</shortDescription>
+        <value>Product Updates is down for maintenance.</value>
+    </labels>
+    <labels>
+        <fullName>MarketplaceMaintanencePagelabel2</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Marketplace Maintanence Page Label2</shortDescription>
+        <value>Please check back later.</value>
+    </labels>
+    <labels>
+        <fullName>Marketplace_Description</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Marketplace Description</shortDescription>
+        <value>Click to install any Framework app in the Framework Product Updates</value>
+    </labels>
+    <labels>
+        <fullName>Multidrag_Error_HasMore</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom_Domain</shortDescription>
+        <value>Group &quot;{0}&quot; has {1} more item(s) than allowed</value>
+    </labels>
+    <labels>
+        <fullName>Multidrag_Error_Required</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom_Domain</shortDescription>
+        <value>Group &quot;{0}&quot; needs at least {1} item(s) to be added</value>
+    </labels>
+    <labels>
+        <fullName>Name</fullName>
+        <categories>admin_rollups</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>Name_Applications</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Name_Applications</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>Namespace</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Namespace</shortDescription>
+        <value>Namespace</value>
+    </labels>
+    <labels>
+        <fullName>New</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New</shortDescription>
+        <value>New</value>
+    </labels>
+    <labels>
+        <fullName>New_API_Mapping_API_Resource</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New_API_Mapping_API_Resource</shortDescription>
+        <value>New API Mapping</value>
+    </labels>
+    <labels>
+        <fullName>New_API_Service</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New_API_Service</shortDescription>
+        <value>New API Service</value>
+    </labels>
+    <labels>
+        <fullName>New_API_Variable_API_Resource</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New_API_Variable_API_Resource</shortDescription>
+        <value>New API Variable</value>
+    </labels>
+    <labels>
+        <fullName>New_Object</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New_Object</shortDescription>
+        <value>New Object</value>
+    </labels>
+    <labels>
+        <fullName>New_Rollup_Summary_Fields</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New_Rollup_Summary_Fields</shortDescription>
+        <value>New Rollup Summary Fields</value>
+    </labels>
+    <labels>
+        <fullName>New_Routing_Rule_Button_Routing_Rules</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New Routing Rule Button</shortDescription>
+        <value>New Routing Rule</value>
+    </labels>
+    <labels>
+        <fullName>Next</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Next</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>No</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No</shortDescription>
+        <value>No</value>
+    </labels>
+    <labels>
+        <fullName>Objects</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Objects</shortDescription>
+        <value>Objects</value>
+    </labels>
+    <labels>
+        <fullName>Objects_Description</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Objects Description</shortDescription>
+        <value>Manage custom objects registered with the Framework in your environment.</value>
+    </labels>
+    <labels>
+        <fullName>Online_Help</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Online_Help</shortDescription>
+        <value>Online Help</value>
+    </labels>
+    <labels>
+        <fullName>Online_Help_Description</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Online_Help_Description</shortDescription>
+        <value>Comprehensive user and administrator documentation for all Fonteva apps.</value>
+    </labels>
+    <labels>
+        <fullName>Online_Helper</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Online_Helper</shortDescription>
+        <value>Online Helper</value>
+    </labels>
+    <labels>
+        <fullName>Operation</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Operation</shortDescription>
+        <value>Operation</value>
+    </labels>
+    <labels>
+        <fullName>Parent_Batch_Scope</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Parent_Batch_Scope</shortDescription>
+        <value>Parent Batch Scope</value>
+    </labels>
+    <labels>
+        <fullName>Parent_Field</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Parent_Field</shortDescription>
+        <value>Parent Field</value>
+    </labels>
+    <labels>
+        <fullName>Parent_SObject</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Parent_SObject</shortDescription>
+        <value>Parent SObject</value>
+    </labels>
+    <labels>
+        <fullName>Password</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Password</shortDescription>
+        <value>Password</value>
+    </labels>
+    <labels>
+        <fullName>Please_Select_Dependent_Picklist</fullName>
+        <categories>dependent_picklist</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Please_Select_Dependent_Picklist</shortDescription>
+        <value>-- Please Select --</value>
+    </labels>
+    <labels>
+        <fullName>Preferences</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Preferences</shortDescription>
+        <value>Preferences</value>
+    </labels>
+    <labels>
+        <fullName>Quick_Links</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quick Links</shortDescription>
+        <value>Quick Links</value>
+    </labels>
+    <labels>
+        <fullName>Read_URI</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Read_URI</shortDescription>
+        <value>Read URI</value>
+    </labels>
+    <labels>
+        <fullName>Read_URI_Verb</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Read_URI_Verb</shortDescription>
+        <value>Read URI Verb</value>
+    </labels>
+    <labels>
+        <fullName>Refresh_Token_URL</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Refresh_Token_URL</shortDescription>
+        <value>Refresh Token URL</value>
+    </labels>
+    <labels>
+        <fullName>Registered_App</fullName>
+        <categories>Admin, Help Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Registered_App</shortDescription>
+        <value>Registered App</value>
+    </labels>
+    <labels>
+        <fullName>Registered_Apps</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Registered Apps</shortDescription>
+        <value>Registered Apps</value>
+    </labels>
+    <labels>
+        <fullName>Registered_Objects</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Registered Objects</shortDescription>
+        <value>Registered Objects</value>
+    </labels>
+    <labels>
+        <fullName>Relationship_Field</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Relationship_Field</shortDescription>
+        <value>Relationship Field</value>
+    </labels>
+    <labels>
+        <fullName>Remove</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Remove</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>Remove_API_Resource</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Remove_API_Resource</shortDescription>
+        <value>Remove</value>
+    </labels>
+    <labels>
+        <fullName>Request_Token_URL</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Request_Token_URL</shortDescription>
+        <value>Request Token URL</value>
+    </labels>
+    <labels>
+        <fullName>Resources</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Resources</shortDescription>
+        <value>Resources</value>
+    </labels>
+    <labels>
+        <fullName>Rich_Text_Source_Header</fullName>
+        <categories>rich_text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rich_Text_Source_Header</shortDescription>
+        <value>Source Editor</value>
+    </labels>
+    <labels>
+        <fullName>Rich_Text_Upload_Image</fullName>
+        <categories>rich_text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rich_Text_Upload_Image</shortDescription>
+        <value>Image</value>
+    </labels>
+    <labels>
+        <fullName>Rich_Text_Upload_Image_Header</fullName>
+        <categories>rich_text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rich_Text_Upload_Image_Header</shortDescription>
+        <value>Upload Image</value>
+    </labels>
+    <labels>
+        <fullName>Rich_Text_Upload_Image_Height</fullName>
+        <categories>rich_text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rich_Text_Upload_Image_Height</shortDescription>
+        <value>Height</value>
+    </labels>
+    <labels>
+        <fullName>Rich_Text_Upload_Image_Width</fullName>
+        <categories>rich_text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rich_Text_Upload_Image_Width</shortDescription>
+        <value>Width</value>
+    </labels>
+    <labels>
+        <fullName>Rollup_Summary_Field</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rollup Summary Field</shortDescription>
+        <value>Rollup Summary Field</value>
+    </labels>
+    <labels>
+        <fullName>Rollup_Summary_Fields</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rollup Summary Fields</shortDescription>
+        <value>Rollup Summary Fields</value>
+    </labels>
+    <labels>
+        <fullName>Rollup_Summary_Fields_Description</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rollup Summary Fields Description</shortDescription>
+        <value>Configure fields to aggregate data (Sum, Min, Max, Avg, and Count) from child objects through lookup relationships.</value>
+    </labels>
+    <labels>
+        <fullName>Routing_Rules</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Routing Rules</shortDescription>
+        <value>Routing Rules</value>
+    </labels>
+    <labels>
+        <fullName>Routing_Rules_Description</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Routing Rules Description</shortDescription>
+        <value>Configure logic processing and dispatch services for Framework objects.</value>
+    </labels>
+    <labels>
+        <fullName>Run</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Run</shortDescription>
+        <value>Run</value>
+    </labels>
+    <labels>
+        <fullName>SOQL_Limit</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOQL_Limit</shortDescription>
+        <value>SOQL Limit</value>
+    </labels>
+    <labels>
+        <fullName>SObject_Name</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SObject_Name</shortDescription>
+        <value>SObject Name</value>
+    </labels>
+    <labels>
+        <fullName>Save</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>Scope</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Scope</shortDescription>
+        <value>Scope</value>
+    </labels>
+    <labels>
+        <fullName>Script_Successfully_Run</fullName>
+        <categories>admin_app</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Script_Successfully_Run</shortDescription>
+        <value>Script has run successfully.</value>
+    </labels>
+    <labels>
+        <fullName>Select_None</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select_None</shortDescription>
+        <value>-- None --</value>
+    </labels>
+    <labels>
+        <fullName>Services</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Services</shortDescription>
+        <value>Services</value>
+    </labels>
+    <labels>
+        <fullName>Settings</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Settings</shortDescription>
+        <value>Settings</value>
+    </labels>
+    <labels>
+        <fullName>Settings_Pages</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Settings Pages</shortDescription>
+        <value>Settings Pages</value>
+    </labels>
+    <labels>
+        <fullName>Settings_Pages_Applications</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Settings_Pages_Applications</shortDescription>
+        <value>Settings Pages</value>
+    </labels>
+    <labels>
+        <fullName>Setup_Object_API_Resource</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Setup_Object_API_Resource</shortDescription>
+        <value>Setup Object</value>
+    </labels>
+    <labels>
+        <fullName>Status_Applications</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Status_Applications</shortDescription>
+        <value>Status</value>
+    </labels>
+    <labels>
+        <fullName>Success</fullName>
+        <categories>admin_app</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Success</shortDescription>
+        <value>Success</value>
+    </labels>
+    <labels>
+        <fullName>Summary</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Summary</shortDescription>
+        <value>Summary</value>
+    </labels>
+    <labels>
+        <fullName>System_Logs</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System_Logs</shortDescription>
+        <value>System Logs</value>
+    </labels>
+    <labels>
+        <fullName>Target_Field_API_Resource</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Target_Field_API_Resource</shortDescription>
+        <value>Target Field</value>
+    </labels>
+    <labels>
+        <fullName>Target_Related_Lookup_Field</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Target_Related_Lookup_Field</shortDescription>
+        <value>Target Related Lookup Field</value>
+    </labels>
+    <labels>
+        <fullName>Target_SObject</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Target_SObject</shortDescription>
+        <value>Target SObject</value>
+    </labels>
+    <labels>
+        <fullName>Target_SObject_Key_Field</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Target_SObject_Key_Field</shortDescription>
+        <value>Target SObject Key Field</value>
+    </labels>
+    <labels>
+        <fullName>Tools</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tools</shortDescription>
+        <value>Tools</value>
+    </labels>
+    <labels>
+        <fullName>Triggers_Enabled</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Triggers_Enabled</shortDescription>
+        <value>Triggers Enabled</value>
+    </labels>
+    <labels>
+        <fullName>URI_Mapping_API_Resource</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>URI_Mapping_API_Resource</shortDescription>
+        <value>URI Mapping</value>
+    </labels>
+    <labels>
+        <fullName>Update_URI</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Update_URI</shortDescription>
+        <value>Update URI</value>
+    </labels>
+    <labels>
+        <fullName>Update_URI_Verb</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Update_URI_Verb</shortDescription>
+        <value>Update URI Verb</value>
+    </labels>
+    <labels>
+        <fullName>Uploading_File_Upload</fullName>
+        <categories>file_upload</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Uploading_File_Upload</shortDescription>
+        <value>Uploading...</value>
+    </labels>
+    <labels>
+        <fullName>Username</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Username</shortDescription>
+        <value>Username</value>
+    </labels>
+    <labels>
+        <fullName>Validation_Disabled</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validation_Disabled</shortDescription>
+        <value>Validation Disabled</value>
+    </labels>
+    <labels>
+        <fullName>Value</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Value</shortDescription>
+        <value>Value</value>
+    </labels>
+    <labels>
+        <fullName>View_All</fullName>
+        <categories>Admin</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>View All</shortDescription>
+        <value>View All</value>
+    </labels>
+    <labels>
+        <fullName>WarningUnregisteredApp</fullName>
+        <categories>Warning Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WarningUnregisteredApp</shortDescription>
+        <value>Unregistered App! No registered app configuration found for this object in Framework.</value>
+    </labels>
+    <labels>
+        <fullName>WarningUnregisteredObject</fullName>
+        <categories>Warning Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WarningUnregisteredObject</shortDescription>
+        <value>Unregistered Object Sent for Dispatch! You must register all custom and standard objects prior to using them with the Framework!</value>
+    </labels>
+</CustomLabels>

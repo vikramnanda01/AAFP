@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <content>pricerule</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <content>pricerule</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>pricerule</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Flexible price rules allow you to configure custom price scenarios for items based on a variety of different rules.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Current_Num_Available__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A running total of the number of times this rule can be used prior to the rule expiring (if applicable).</description>
+        <externalId>false</externalId>
+        <formula>IF(Max_Num_Available__c &gt; 0 &amp;&amp; (Max_Num_Available__c - Num_Times_Used__c &gt;= 0), Max_Num_Available__c - Num_Times_Used__c, null)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>A running total of the number of times this rule can be used prior to the rule expiring (if applicable).</inlineHelpText>
+        <label>Current Num Available</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>End_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>If a pricing rule is date-driven what date does this rule expire and become an inactive price for the product?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If a pricing rule is date-driven what date does this rule expire and become an inactive price for the product?</inlineHelpText>
+        <label>End Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Is_Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked the Price Rule is considered available for assignment and is considered when auto-calculating the appropriate price for a Item on Invoices, Sales Orders, Receipts, and EPayments. Defaults checked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked the Price Rule is considered available for assignment and is considered when auto-calculating the appropriate price for a Item on Invoices, Sales Orders, Receipts, and EPayments. Defaults checked.</inlineHelpText>
+        <label>Is Active</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Default__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>All products must have one and only one default price assigned. This is used as the catch all when calculating the appropriate price to charge customers when purchasing the product.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>All products must have one and only one default price assigned. This is used as the catch all when calculating the appropriate price to charge customers when purchasing the product.</inlineHelpText>
+        <label>Is Default</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Promotional_Price__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>By checking this field this price will be shown in the eStore as the promotional price with the price rule name.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>By checking this field this price will be shown in the eStore as the promotional price with the price rule name.</inlineHelpText>
+        <label>Is Promotional Price</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Item_Class__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Link to the Item Class -- only valid if the Price Rule is not linked to a Item. When linked to a Item Class the Price Rule will automatically be created for all Items created as a child of the Item Class.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Link to the Item Class -- only valid if the Price Rule is not linked to a Item. When linked to a Item Class the Price Rule will automatically be created for all Items created as a child of the Item Class.</inlineHelpText>
+        <label>Item Class</label>
+        <referenceTo>Item_Class__c</referenceTo>
+        <relationshipLabel>Default Price Rules</relationshipLabel>
+        <relationshipName>Price_Rules</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Item__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The item the price rule record is assigning a price for.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The item the price rule record is assigning a price for.</inlineHelpText>
+        <label>Item</label>
+        <referenceTo>Item__c</referenceTo>
+        <relationshipLabel>Pricing Rules</relationshipLabel>
+        <relationshipName>Price_Rules</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Limit_Per_Account__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Limits the total number of times the price rule can be used by the account or any contacts on the account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Limits the total number of times the price rule can be used by the account or any contacts on the account.</inlineHelpText>
+        <label>Limit Per Account</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Limit_Per_Contact__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Limits the number of times the price rule can be used by each contact.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Limits the number of times the price rule can be used by each contact.</inlineHelpText>
+        <label>Limit Per Contact</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Max_Assignments__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the maximum quantity that can be assigned for this rule to apply to a purchase of the item. Leave blank to not constrain rule by maximum assignments.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the maximum quantity that can be assigned for this rule to apply to a purchase of the item. Leave blank to not constrain rule by maximum assignments.</inlineHelpText>
+        <label>Max Assignments</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Max_Num_Available__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The maximum number of times this rule can be used. Typically used to incentivize customers to purchase products early or for flash/date-driven sales. Leave blank if you do not want to limit the number of times the rule can be applied.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The maximum number of times this rule can be used. Typically used to incentivize customers to purchase products early or for flash/date-driven sales. Leave blank if you do not want to limit the number of times the rule can be applied.</inlineHelpText>
+        <label>Max Num Available</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Max_Quantity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the maximum quantity that can not be exceeded for this rule to apply to be valid for any given transaction scenario. Leave blank to disable max quantity as a constraint for the rule.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the maximum quantity that can not be exceeded for this rule to apply to be valid for any given transaction scenario. Leave blank to disable max quantity as a constraint for the rule.</inlineHelpText>
+        <label>Max Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Min_Assignments__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the minimum quantity that must be assigned for this rule to apply to a purchase of the item. Leave blank to not constrain rule by minimum assignments.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the minimum quantity that must be assigned for this rule to apply to a purchase of the item. Leave blank to not constrain rule by minimum assignments.</inlineHelpText>
+        <label>Min Assignments</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Min_Quantity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the minimum quantity that must be purchased for this rule to apply to a purchase of the item. Leave blank to not constrain rule assignement by minimum quantity.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the minimum quantity that must be purchased for this rule to apply to a purchase of the item. Leave blank to not constrain rule assignement by minimum quantity.</inlineHelpText>
+        <label>Min Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Num_Times_Used__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The number of times this rule has been applied as the price rule for the product on a transaction.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The number of times this rule has been applied as the price rule for the product on a transaction.</inlineHelpText>
+        <label>Num Times Used</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Price__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter the price for the pricing rule.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the price for the pricing rule.</inlineHelpText>
+        <label>Price</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Required_Badge_Types__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Comma separated list of Badge Types required to be considered eligible for the Price Rule.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Comma separated list of Badge Types required to be considered eligible for the Price Rule.</inlineHelpText>
+        <label>Required Badge Types</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Required_Source_Codes__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Comma separated list of Source Codes required to be considered eligible for the Price Rule.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Comma separated list of Source Codes required to be considered eligible for the Price Rule.</inlineHelpText>
+        <label>Required Source Codes</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Required_Subscription_Plans__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Select the Subscription Plan that must be selected for this rule to apply to the purchase of the item. Leave blank to not constrain rule by Subscription Plan.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the Subscription Plan that must be selected for this rule to apply to the purchase of the item. Leave blank to not constrain rule by Subscription Plan.</inlineHelpText>
+        <label>Required Subscription Plans</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Start_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>If a pricing rule is date-driven what date does this rule become an active/available price for the item?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If a pricing rule is date-driven what date does this rule become an active/available price for the item?</inlineHelpText>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Tax_Inclusive_Price__c</fullName>
+        <deprecated>false</deprecated>
+        <description>SYSTEM * The value in this field defines the price when Show Tax Inclusive Pricing is marked true on the store.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>SYSTEM * The value in this field defines the price when Show Tax Inclusive Pricing is marked true on the store.</inlineHelpText>
+        <label>Tax Inclusive Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <label>Price Rule</label>
+    <nameField>
+        <label>Price Rule Name</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Price Rules</pluralLabel>
+    <searchLayouts>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Item__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Item_Class__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Price__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Num_Times_Used__c</lookupDialogsAdditionalFields>
+        <lookupFilterFields>NAME</lookupFilterFields>
+        <lookupFilterFields>Is_Default__c</lookupFilterFields>
+        <lookupFilterFields>Item__c</lookupFilterFields>
+        <lookupFilterFields>Item_Class__c</lookupFilterFields>
+        <lookupFilterFields>Price__c</lookupFilterFields>
+        <lookupPhoneDialogsAdditionalFields>Item__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Item_Class__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Num_Times_Used__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Price__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Item__c</searchFilterFields>
+        <searchFilterFields>Item_Class__c</searchFilterFields>
+        <searchFilterFields>Is_Default__c</searchFilterFields>
+        <searchFilterFields>Num_Times_Used__c</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>Read</sharingModel>
+</CustomObject>

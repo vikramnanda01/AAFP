@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <content>package_item</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <content>package_item</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>package_item</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Package Items allow one Item to bundle other Items.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Calculate_Pricing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Denotes a required Package Item Price has to be calculated.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Denotes a required Package Item Price has to be calculated.</inlineHelpText>
+        <label>Calculate Pricing</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Display_Button_Label__c</fullName>
+        <defaultValue>$Label.orderapi__package_item_default_add_to_cart_button_label</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The label to display for the &quot;Add to Cart&quot; button in the shopping cart. Defaults to &quot;Add to Cart&quot;.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The label to display for the &quot;Add to Cart&quot; button in the shopping cart. Defaults to &quot;Add to Cart&quot;.</inlineHelpText>
+        <label>Add To Cart Button Label</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Display_Instructions__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The shopping cart instructions displays above the package item view.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The shopping cart instructions displays above the package item view.</inlineHelpText>
+        <label>Display Instructions</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Display_Item__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>By checking this field you are choosing the item to be displayed on the shopping cart, checkout, and receipt pages.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>By checking this field you are choosing the item to be displayed on the shopping cart, checkout, and receipt pages.</inlineHelpText>
+        <label>Display Item</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Display_Label__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The shopping cart label replaces the default &quot;Package Item&quot; label which will render if no other label is provided.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The shopping cart label replaces the default &quot;Package Item&quot; label which will render if no other label is provided.</inlineHelpText>
+        <label>Display Label</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Display_Order__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The integer value of the order the system will use to render the package item views in the shopping cart.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The integer value of the order the system will use to render the package item views in the shopping cart.</inlineHelpText>
+        <label>Display Order</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Foreign_Key_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>System Field, For Coding purposes only. Used to efficiently insert package items and its related child package items in our system.</description>
+        <externalId>true</externalId>
+        <inlineHelpText>System Field, For Coding purposes only. Used to efficiently insert package items and its related child package items in our system.</inlineHelpText>
+        <label>SYSTEM</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Group_Header__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Text that will display in the front end as the group label.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Text that will display in the front end as the group label.</inlineHelpText>
+        <label>Group Header</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Group_Instructions_Text__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Text that will display below the group label in the front end.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Text that will display below the group label in the front end.</inlineHelpText>
+        <label>Group Instructions</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Is_Group__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, this package item is the Additional Item group.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, this package item is the Additional Item group.</inlineHelpText>
+        <label>SYSTEM</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Recommended__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, this item will display in the recommended item component on the parent item&apos;s detail page.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, this item will display in the recommended item component on the parent item&apos;s detail page.</inlineHelpText>
+        <label>Is Recommended</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Denotes a required Package Item when the Package (Item) is selected in the parent Sales Order Line.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Denotes a required Package Item when the Package (Item) is selected in the parent Sales Order Line.</inlineHelpText>
+        <label>Is Required</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Item_Class__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Link to the Item Class that contains Items that are either required or optional for selection as part of a sale of the Package Item. The requirement for selection of the Item related to the Item Class is controlled by the &quot;Is Optional&quot; field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Link to the Item Class that contains Items that are either required or optional for selection as part of a sale of the Package Item. The requirement for selection of the Item related to the Item Class is controlled by the &quot;Is Optional&quot; field.</inlineHelpText>
+        <label>Item Class</label>
+        <referenceTo>Item_Class__c</referenceTo>
+        <relationshipLabel>Package Items (Do Not Display)</relationshipLabel>
+        <relationshipName>Package_Items</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Item__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>** Conditionally Required ** Link to the Item that is included in the Package.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** Conditionally Required ** Link to the Item that is included in the Package. Required when the Package Item is not linked to a Item Class.</inlineHelpText>
+        <label>Item</label>
+        <referenceTo>Item__c</referenceTo>
+        <relationshipLabel>Packages</relationshipLabel>
+        <relationshipName>Packages</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Maximum_Quantity_Per_Item__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>** For Package Item for Item Classes only ** Identifies the maximum quantity of a single Item that can be selected when selecting Items from this Item Class. Defaults 0. The value of 0 is infinite.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** For Package Item for Item Classes only ** Identifies the maximum quantity of a single Item that can be selected when selecting Items from this Item Class. Defaults 0. The value of 0 is infinite.</inlineHelpText>
+        <label>Maximum Quantity Per Item</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Maximum_Quantity__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Identifies the maximum quantity of Packaged Items that can be selected when selecting this Item or Items from this Item Class. Defaults 0. The value of 0 is infinite.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies the maximum quantity of Packaged Items that can be selected when selecting this Item or Items from this Item Class. Defaults 0. The value of 0 is infinite.</inlineHelpText>
+        <label>Maximum Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Minimum_Quantity__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Identifies the minimum quantity of Packaged Items that must be selected when selecting this Item or Items from this Item Class. Defaults 0. The value of 0 has no minimum.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies the minimum quantity of Packaged Items that must be selected when selecting this Item or Items from this Item Class. Defaults 0. The value of 0 has no minimum.</inlineHelpText>
+        <label>Minimum Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_Free_Items__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Number of items from the group an end user can select and the item&apos;s price will be $0.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Number of items from the group an end user can select and the item&apos;s price will be $0.</inlineHelpText>
+        <label>Number of Free Items</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Package_Item__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The selected package item here is the group created in the Additional Item tab on the Advanced Settings Builder.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The selected package item here is the group created in the Additional Item tab on the Advanced Settings Builder.</inlineHelpText>
+        <label>Package Item</label>
+        <referenceTo>Package_Item__c</referenceTo>
+        <relationshipLabel>Package Items</relationshipLabel>
+        <relationshipName>Package_Items</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Package__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** Required ** The Item that packages the Item linked in the &quot;Packaged Item&quot; field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** Required ** The Item that packages the Item linked in the &quot;Packaged Item&quot; field.</inlineHelpText>
+        <label>Package (Item)</label>
+        <referenceTo>Item__c</referenceTo>
+        <relationshipLabel>Package Items</relationshipLabel>
+        <relationshipName>Package_Items</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>true</writeRequiresMasterRead>
+    </fields>
+    <label>Package Item</label>
+    <nameField>
+        <displayFormat>{000000000}</displayFormat>
+        <label>Package Item ID</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Package Items</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

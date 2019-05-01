@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Area_of_greatest_need_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Provide the name of default fund, e.g., Area of Greatest Need</shortDescription>
+        <value>** Optional ** Provide the name of the default fund, e.g., Area of Greatest Need</value>
+    </labels>
+    <labels>
+        <fullName>Area_of_greatest_need_label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Area_of_greatest_need_label</shortDescription>
+        <value>Label: Area of Greatest Need</value>
+    </labels>
+    <labels>
+        <fullName>Carousel_Config_assetsPerRow_Description</fullName>
+        <categories>Carousel, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Carousel_Config_assetsPerRow_Description</shortDescription>
+        <value>** Required ** The Assets per Row. Default is 2</value>
+    </labels>
+    <labels>
+        <fullName>Carousel_Config_assetsPerRow_Label</fullName>
+        <categories>Carousel, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Carousel_Config_assetsPerRow_Label</shortDescription>
+        <value>Select Assets per a Row</value>
+    </labels>
+    <labels>
+        <fullName>Carousel_Config_assets_Description</fullName>
+        <categories>Carousel, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Carousel_Config_assets_Description</shortDescription>
+        <value>** Required ** The Media Asset Records.</value>
+    </labels>
+    <labels>
+        <fullName>Carousel_Config_assets_Label</fullName>
+        <categories>Carousel, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Carousel_Config_assets_Label</shortDescription>
+        <value>Select the Media Asset Records</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Add_Cart_Description</fullName>
+        <categories>donations, ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Provide text to display on the Add to Cart Button</shortDescription>
+        <value>** Optional ** Provide text to display on the Add to Cart Button</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Add_Cart_Label</fullName>
+        <categories>donations, ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Add To Cart Label</shortDescription>
+        <value>Label: Add to Cart</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Catalog_Description</fullName>
+        <categories>donations, ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select the Parent Catalog for the Catalog containing the donation items</shortDescription>
+        <value>** Required ** Select the Parent Catalog of the Catalog that contains the donation items</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Catalog_Label</fullName>
+        <categories>donations, ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog</shortDescription>
+        <value>Select Catalog</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_Add_Donation_Description</fullName>
+        <categories>ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_Donation_Add_Donation_Description</shortDescription>
+        <value>Add Donation Button Label</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_Add_Donation_Label</fullName>
+        <categories>ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_Donation_Add_Donation_Label</shortDescription>
+        <value>Add Donation Label</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_Amount_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Provide text to describe the donation amount field</shortDescription>
+        <value>** Required ** Provide text to describe the donation amount field</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_Amount_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_Donation_Amount_Label</shortDescription>
+        <value>Label: Donation Amount</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_Days_Remaining_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_Donation_Days_Remaining_Label</shortDescription>
+        <value>Days Remaining</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_DefaultFund_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select the default fund</shortDescription>
+        <value>** Conditional ** Required to use the Default Fund. Provide the Salesforce Item ID from the Item URL.</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_DefaultFund_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_Donation_DefaultFund_Label</shortDescription>
+        <value>Select Area of Greatest Need Fund</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_DonationCampaignEndDate_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_Donation_DonationCampaignEndDate_Description</shortDescription>
+        <value>** Optional ** Provide the date the donation campaign will end</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_DonationCampaignEndDate_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_Donation_DonationCampaignEndDate_Label</shortDescription>
+        <value>Enter Donation End Date</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_DonationDescription_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CProvide a description of the donation campaign</shortDescription>
+        <value>** Optional ** Provide a description of the donation campaign</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_DonationDescription_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_Donation_DonationDescription_Label</shortDescription>
+        <value>Enter Donation Description</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_DonationSummary_Description</fullName>
+        <categories>ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_Donation_DonationSummary_Description</shortDescription>
+        <value>Label for the donation summary section</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_DonationSummary_Label</fullName>
+        <categories>ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_Donation_DonationSummary_Label</shortDescription>
+        <value>Donation Summary Label</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_DonationType_Description</fullName>
+        <categories>ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_Donation_DonationType_Description</shortDescription>
+        <value>Donation type either single or multiple</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_DonationType_Label</fullName>
+        <categories>ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_Donation_DonationType_Label</shortDescription>
+        <value>Type</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_EnableOtherAmount_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Provide text to describe the other donation amount</shortDescription>
+        <value>** Optional ** Provide text to describe the field Other donation amount field</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_EnableOtherAmount_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_Donation_EnableOtherAmount_Label</shortDescription>
+        <value>Enable Other Amount</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_FrequencyPayments_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_Donation_FrequencyPayments_Description</shortDescription>
+        <value>** Conditional ** Used for recurring payments. Provide text for the label describing the frequency of payments picklist</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_FrequencyPayments_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_Donation_FrequencyPayments_Label</shortDescription>
+        <value>Frequency Of Payments Label</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_NumberDonations_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_Donation_NumberDonations_Label</shortDescription>
+        <value>Donations</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_NumberOfPayments_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_Donation_NumberOfPayments_Description</shortDescription>
+        <value>** Optional ** Provide text for the label describing the number of donation payments distributions</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_NumberOfPayments_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_Donation_NumberOfPayments_Label</shortDescription>
+        <value>Evergreen Number Of Payments Label</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_OneTimeDonation_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Provide the label text for a single time donation</shortDescription>
+        <value>** Optional ** Provide the label for the button used for selecting a one tme donation</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_OneTimeDonation_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_Donation_OneTimeDonation_Label</shortDescription>
+        <value>Label: One Time Donation</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_RecurringDonation_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Provide the label text for recurring donations</shortDescription>
+        <value>** Optional ** Provide the label for the button used for selecting a recurring donation</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_RecurringDonation_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_Donation_RecurringDonation_Label</shortDescription>
+        <value>Label: Monthly Donation</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_SelectAmount_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Required ** Provide the text for the donation amount header</shortDescription>
+        <value>** Optional ** Provide the text for the donation amount header</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_SelectAmount_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_Donation_SelectAmount_Label</shortDescription>
+        <value>Header: Donate</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_SuggestedLevelOfGiving_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Comma separated list of numbers, with no spaces between numbers, e.g., 20,40,60</shortDescription>
+        <value>** Optional ** Provide a comma separated list of numbers, with no spaces between numbers, e.g., 20,40,60</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_SuggestedLevelOfGiving_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_Donation_SuggestedLevelOfGiving_Label</shortDescription>
+        <value>Enter Suggested Level of Giving</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_SupportingFunds_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Provide text to use as a label for the funds</shortDescription>
+        <value>** Required ** Provide text to use as a label for the funds to be used</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_SupportingFunds_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_Donation_SupportingFunds_Label</shortDescription>
+        <value>Label: Available Funds</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_Total_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_Donation_Total_Label</shortDescription>
+        <value>Total</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_Type_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Provide text to describe the donation amount field</shortDescription>
+        <value>** Required ** Provide text to describe the donation amount field</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_Type_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_Donation_Type_Label</shortDescription>
+        <value>Label: Donation Type</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_YourDonation_Description</fullName>
+        <categories>ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_Donation_YourDonation_Description</shortDescription>
+        <value>Donation Amount that needs to be given</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Donation_YourDonation_Label</fullName>
+        <categories>ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_Donation_YourDonation_Label</shortDescription>
+        <value>Your Donation Label</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Instructions_Description</fullName>
+        <categories>donations, ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Provide customized instructions on the page</shortDescription>
+        <value>** Optional ** Provide customized instructions on the page</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Instructions_Label</fullName>
+        <categories>donations, ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Instructions</shortDescription>
+        <value>Enter Instructions</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_JSCallback_Description</fullName>
+        <categories>campaign page builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_JSCallback_Description</shortDescription>
+        <value>** Optional ** Enter a JS Callback function that is on the page when the called Salesorder is updated</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_JSCallback_Label</fullName>
+        <categories>campaign page builder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_JSCallback_Label</shortDescription>
+        <value>JS Callback Function</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_No_Search_Results_Header_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Provide error message text when the search does not return any values</shortDescription>
+        <value>** Optional ** Provide a text to use as the error message when the search does not return any values</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_No_Search_Results_Header_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_No_Search_Results_Header_Label</shortDescription>
+        <value>Label: No Search Results Header</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Search_Results_Header_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Provide text to describe the search results</shortDescription>
+        <value>** Conditional ** Required when Fund Search Type is set to Fund Table. Provide text to describe the search results.</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Search_Results_Header_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Catalog_Display_Config_Search_Results_Header_Label</shortDescription>
+        <value>Label: Search Results Header</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Title_Description</fullName>
+        <categories>donations, ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enter the title of the donation campaign</shortDescription>
+        <value>** Required ** Enter the title of the donation campaign</value>
+    </labels>
+    <labels>
+        <fullName>Catalog_Display_Config_Title_Label</fullName>
+        <categories>donations, ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Title</shortDescription>
+        <value>Enter Title</value>
+    </labels>
+    <labels>
+        <fullName>Choose_from_a_list_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Display funds in a list</shortDescription>
+        <value>** Optional ** Text to describe the list funds on the page</value>
+    </labels>
+    <labels>
+        <fullName>Choose_from_a_list_label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Choose_from_a_list_label</shortDescription>
+        <value>Label: Choose From a List</value>
+    </labels>
+    <labels>
+        <fullName>Company_Match_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Provide text to describe company donation matching</shortDescription>
+        <value>** Optional ** Provide text to describe ccompany donation matching</value>
+    </labels>
+    <labels>
+        <fullName>Company_Match_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Company_Match_Label</shortDescription>
+        <value>Label: Company Match</value>
+    </labels>
+    <labels>
+        <fullName>Continue_Modal_Button_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Provide the text to use for the Continue Button description.</shortDescription>
+        <value>** Optional ** Used on the Fund Search window when the Fund Search Type is Search. Provide the text to use for the Continue Button description.</value>
+    </labels>
+    <labels>
+        <fullName>Continue_Modal_Button_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Continue_Modal_Button_Label</shortDescription>
+        <value>Label: Continue Modal Button</value>
+    </labels>
+    <labels>
+        <fullName>Custom_CSS_Description</fullName>
+        <categories>Carousel, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Provide inline CSS to override default styles on the donation component</shortDescription>
+        <value>** Optional ** Provide inline CSS to override default styles on the donation component</value>
+    </labels>
+    <labels>
+        <fullName>Custom_CSS_Label</fullName>
+        <categories>donation, css</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom_CSS_Label</shortDescription>
+        <value>Enter Custom CSS</value>
+    </labels>
+    <labels>
+        <fullName>Donation_Checkout_Loading_Text</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Donation_Checkout_Loading_Text</shortDescription>
+        <value>Loading... Please Wait...</value>
+    </labels>
+    <labels>
+        <fullName>Donation_No_Item_Selected</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Donation_No_Item_Selected</shortDescription>
+        <value>Please select a fund with a minimum donation amount.</value>
+    </labels>
+    <labels>
+        <fullName>Donation_Search_Item</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Donation_Search_Item</shortDescription>
+        <value>Search Item...</value>
+    </labels>
+    <labels>
+        <fullName>Filter_By_Category_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Provide description for Filter By Category</shortDescription>
+        <value>** Contitional ** Used when Fund Search type is Fund Table. Provide description for Filter By Category</value>
+    </labels>
+    <labels>
+        <fullName>Filter_By_Category_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filter_By_Category_Label</shortDescription>
+        <value>Label: Filter By Category</value>
+    </labels>
+    <labels>
+        <fullName>Fund_Search_Desccription</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fund_Search_Desccription</shortDescription>
+        <value>** Optional ** Provide text to describe the Fund Search</value>
+    </labels>
+    <labels>
+        <fullName>Fund_Search_Header_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enter text to use as the header for the Fund Search</shortDescription>
+        <value>** Optional ** Used when Fund Search type is Search. Enter text to use as the header for the Fund Search.</value>
+    </labels>
+    <labels>
+        <fullName>Fund_Search_Header_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fund_Search_Header_Label</shortDescription>
+        <value>Header: Fund Search</value>
+    </labels>
+    <labels>
+        <fullName>Fund_Search_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fund_Search_Label</shortDescription>
+        <value>Select Fund Search Type</value>
+    </labels>
+    <labels>
+        <fullName>Fund_Table_Missing_Amount_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error message when no amount specified for fund and Donate button is clicked</shortDescription>
+        <value>** Optional ** Provide text to use as the error message on the Fund table when the selected fund does not have an amount specified and Donate button is clicked</value>
+    </labels>
+    <labels>
+        <fullName>Fund_Table_Missing_Amount_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fund_Table_Missing_Amount_Label</shortDescription>
+        <value>Error Title: Fund Table No Amount</value>
+    </labels>
+    <labels>
+        <fullName>Fund_Table_No_Description_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fund_Table_No_Description_Description</shortDescription>
+        <value>** Optional ** Provide error message text to display when no search returns no results</value>
+    </labels>
+    <labels>
+        <fullName>Fund_Table_No_Description_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Title: Missing Amount</shortDescription>
+        <value>Error Title: Missing Amount.</value>
+    </labels>
+    <labels>
+        <fullName>Header_Preferences_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Provide text for Additional Donation Items page header</shortDescription>
+        <value>** Conditional ** Used with Company Matching and In Honor or Memory. Provide the text for Additional Donation Items page header.</value>
+    </labels>
+    <labels>
+        <fullName>Header_Preferences_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Header_Preferences_Label</shortDescription>
+        <value>Header: Options</value>
+    </labels>
+    <labels>
+        <fullName>Honor_Fieldset_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Provide the API name of the In Honor Field Set</shortDescription>
+        <value>** Conditional ** Required to display In Honor donation field. Provide the API name of the In Honor Field Set</value>
+    </labels>
+    <labels>
+        <fullName>Honor_Fieldset_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Honor_Fieldset_Label</shortDescription>
+        <value>In Honor and In Memory Fields</value>
+    </labels>
+    <labels>
+        <fullName>In_Honor_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Provide description to use for In Honor description</shortDescription>
+        <value>** Optional ** Provide description to use for In Honor description</value>
+    </labels>
+    <labels>
+        <fullName>In_Honor_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>In_Honor_Label</shortDescription>
+        <value>Label: In Honor Or Memory</value>
+    </labels>
+    <labels>
+        <fullName>Multiple_Donation_Header_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Provide text to enhance donation to more than one fund.</shortDescription>
+        <value>** Conditional ** Used when Fund Search Type is picklist and multiple funds are selected to receive donation. Provide text to describe the donation header section.</value>
+    </labels>
+    <labels>
+        <fullName>Multiple_Donation_Header_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Multiple_Donation_Header_Label</shortDescription>
+        <value>Header: Multiple Donation</value>
+    </labels>
+    <labels>
+        <fullName>Number_of_Payments_All_Time_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Number_of_Payments_All_Time_Description</shortDescription>
+        <value>** Conditional ** Provide the label text to identify the number of payments</value>
+    </labels>
+    <labels>
+        <fullName>Number_of_Payments_All_Time_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Number_of_Payments_All_Time_Label</shortDescription>
+        <value>Label: Number of Payments</value>
+    </labels>
+    <labels>
+        <fullName>Number_of_Payments_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Number_of_Payments_Description</shortDescription>
+        <value>Enter Number of Payments Options</value>
+    </labels>
+    <labels>
+        <fullName>Number_of_Payments_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Number_of_Payments_Label</shortDescription>
+        <value>Enter Number of Payments Options</value>
+    </labels>
+    <labels>
+        <fullName>Other_Donation_Description</fullName>
+        <categories>donation,css</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>** Optional ** Provide text for the Other field in Suggest Level of Giving</shortDescription>
+        <value>** Optional ** Provide text for the Other field in Suggest Level of Giving</value>
+    </labels>
+    <labels>
+        <fullName>Other_Donation_Label</fullName>
+        <categories>donation, css</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Other_Donation_Label</shortDescription>
+        <value>Label: Other Suggested Level of Giving</value>
+    </labels>
+    <labels>
+        <fullName>Progress_Bar_Type_Description</fullName>
+        <categories>donation,css</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Donation progress display valid values are Progress Bar, Thermometer, Text</shortDescription>
+        <value>** Optional ** Select the donation progress display method. Valid values include Progress Bar, Thermometer, or Text</value>
+    </labels>
+    <labels>
+        <fullName>Progress_Bar_Type_Label</fullName>
+        <categories>donation, css</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Progress_Bar_Type_Label</shortDescription>
+        <value>Select Progress Bar Type</value>
+    </labels>
+    <labels>
+        <fullName>Recurring_Donation_Start_Date_Label</fullName>
+        <categories>donation,css</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Recurring_Donation_Start_Date_Label</shortDescription>
+        <value>Start Date</value>
+    </labels>
+    <labels>
+        <fullName>Show_Campaign_Carousel_Description</fullName>
+        <categories>Carousel, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Show_Campaign_Carousel_Description</shortDescription>
+        <value>** Optional ** Insert the Media Asset collection ID from the URL of the Media Asset Collection. Displays a carousel of images</value>
+    </labels>
+    <labels>
+        <fullName>Show_Campaign_Carousel_Label</fullName>
+        <categories>donation, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Show_Campaign_Carousel_Label</shortDescription>
+        <value>Display Image Carousel</value>
+    </labels>
+    <labels>
+        <fullName>Show_Campaign_Progress_Description</fullName>
+        <categories>Carousel, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Display the progress to goal bar on the donation form</shortDescription>
+        <value>** Optional ** Display the progress to goal bar on the donation form</value>
+    </labels>
+    <labels>
+        <fullName>Show_Campaign_Progress_Label</fullName>
+        <categories>donation, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Show_Campaign_Progress_Label</shortDescription>
+        <value>Display Goal Progress Bar</value>
+    </labels>
+    <labels>
+        <fullName>Show_Campaign_Stats_Description</fullName>
+        <categories>Carousel, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total number and amount of donations for the campaign in context</shortDescription>
+        <value>** Optional ** Publishes the total number and amount of donations for the campaign in context</value>
+    </labels>
+    <labels>
+        <fullName>Show_Campaign_Stats_Label</fullName>
+        <categories>donation, Component Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Show_Campaign_Stats_Label</shortDescription>
+        <value>Display Campaign Stats</value>
+    </labels>
+    <labels>
+        <fullName>Show_SideBar_Description</fullName>
+        <categories>donation,css</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>** Optional ** Provide HTML inline styles to display in the sidebar</shortDescription>
+        <value>** Optional ** Provide description of the  to display in the sidebar</value>
+    </labels>
+    <labels>
+        <fullName>Show_SideBar_Label</fullName>
+        <categories>donation, css</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Show_SideBar_Label</shortDescription>
+        <value>Show Sidebar</value>
+    </labels>
+    <labels>
+        <fullName>SideBar_HTML_Description</fullName>
+        <categories>donation,css</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SideBar_HTML_Description</shortDescription>
+        <value>** Optional ** Provide HTML inline styles to display in the sidebar</value>
+    </labels>
+    <labels>
+        <fullName>SideBar_HTML_Label</fullName>
+        <categories>donation, css</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SideBar_HTML_Label</shortDescription>
+        <value>HTML: Side Bar</value>
+    </labels>
+    <labels>
+        <fullName>View_More_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Provide text to view additional information.</shortDescription>
+        <value>** Conditonal ** Provide text to view additional information. Only displays for items marked as Is Featured when the Fund Search Type is Fund Table.</value>
+    </labels>
+    <labels>
+        <fullName>View_More_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>View_More_Label</shortDescription>
+        <value>Label: View More</value>
+    </labels>
+    <labels>
+        <fullName>Warning_Amount_Message_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Provide error message text when submitting donation and no fund specified</shortDescription>
+        <value>** Optional ** Provide error message text to display when submitting donation and no fund specified</value>
+    </labels>
+    <labels>
+        <fullName>Warning_Amount_Message_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Warning_Amount_Message_Label</shortDescription>
+        <value>Error Message: No Fund Specified</value>
+    </labels>
+    <labels>
+        <fullName>Warning_Amount_Title_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>** Optional ** Provide error message text to display when no donation amount</shortDescription>
+        <value>** Optional ** Provide error message text to display when submitting donation for a fund and no donation amount specified</value>
+    </labels>
+    <labels>
+        <fullName>Warning_Amount_Title_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Warning_Amount_Title_Label</shortDescription>
+        <value>Error Title: No Donation Amount</value>
+    </labels>
+    <labels>
+        <fullName>Warning_Message_Description</fullName>
+        <categories>donation,css</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Provide text for removal of information error message</shortDescription>
+        <value>** Optional ** Provide text for removal of information error message</value>
+    </labels>
+    <labels>
+        <fullName>Warning_Message_Label</fullName>
+        <categories>donation, css</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Warning_Message_Label</shortDescription>
+        <value>Error Message: Donation Removal</value>
+    </labels>
+    <labels>
+        <fullName>Warning_Title_Description</fullName>
+        <categories>donation,css</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Provide text for the title of the removal of information error message field</shortDescription>
+        <value>** Optional ** Provide text for the title of the removal of information error message field</value>
+    </labels>
+    <labels>
+        <fullName>Warning_Title_Label</fullName>
+        <categories>donation, css</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Warning_Title_Label</shortDescription>
+        <value>Error Title: Donation Removal</value>
+    </labels>
+    <labels>
+        <fullName>Write_In_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Provide a description for the fund Write In field</shortDescription>
+        <value>** Optional ** Provide a description for the fund Write In field</value>
+    </labels>
+    <labels>
+        <fullName>Write_In_Fund_Description</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Provide the item ID from the Item URL for the Write In fund</shortDescription>
+        <value>** Conditional ** Required to use the Write In Fund. Provide the item ID from the Item URL for the Write In fund</value>
+    </labels>
+    <labels>
+        <fullName>Write_In_Fund_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Write_In_Fund_Label</shortDescription>
+        <value>Label: Write In Fund</value>
+    </labels>
+    <labels>
+        <fullName>Write_In_Label</fullName>
+        <categories>donations, ui elements, catalogtile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Write_In_Label</shortDescription>
+        <value>Label: Write In</value>
+    </labels>
+    <labels>
+        <fullName>cancelModalButtonLabel_Description</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>cancelModalButtonLabel_Description</shortDescription>
+        <value>Cancel Modal Button Label</value>
+    </labels>
+    <labels>
+        <fullName>cancelModalButtonLabel_Label</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>cancelModalButtonLabel_Label</shortDescription>
+        <value>Label: Cancel</value>
+    </labels>
+    <labels>
+        <fullName>companyInputPlaceHolder_Description</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>companyInputPlaceHolder_Description</shortDescription>
+        <value>Enter Company</value>
+    </labels>
+    <labels>
+        <fullName>companyInputPlaceHolder_Label</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>companyInputPlaceHolder_Label</shortDescription>
+        <value>Enter Company</value>
+    </labels>
+    <labels>
+        <fullName>companyNameLabel_Description</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>companyNameLabel_Description</shortDescription>
+        <value>Company Name Label</value>
+    </labels>
+    <labels>
+        <fullName>companyNameLabel_Label</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>companyNameLabel_Label</shortDescription>
+        <value>Label: Company Name</value>
+    </labels>
+    <labels>
+        <fullName>editFundTableDonationsLinkLabel_Description</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>editFundTableDonationsLinkLabel_Description</shortDescription>
+        <value>Edit fund table Donations</value>
+    </labels>
+    <labels>
+        <fullName>editFundTableDonationsLinkLabel_Label</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>editFundTableDonationsLinkLabel_Label</shortDescription>
+        <value>Edit</value>
+    </labels>
+    <labels>
+        <fullName>errorCatalogNotPublishedDescription_Description</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>errorCatalogNotPublishedDescription_Description</shortDescription>
+        <value>Catalog Not Published Description</value>
+    </labels>
+    <labels>
+        <fullName>errorCatalogNotPublishedDescription_Label</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>errorCatalogNotPublishedDescription_Label</shortDescription>
+        <value>Label: Catalog Not Published Description</value>
+    </labels>
+    <labels>
+        <fullName>errorCatalogNotPublishedTitle_Description</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>errorCatalogNotPublishedTitle_Description</shortDescription>
+        <value>Catalog Not Published Title</value>
+    </labels>
+    <labels>
+        <fullName>errorCatalogNotPublishedTitle_Label</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>errorCatalogNotPublishedTitle_Label</shortDescription>
+        <value>Label: Catalog Not Published</value>
+    </labels>
+    <labels>
+        <fullName>evergreenRecurringOverviewText_Description</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>evergreenRecurringOverviewText_Description</shortDescription>
+        <value>Everygreen Recurring Overview Description</value>
+    </labels>
+    <labels>
+        <fullName>evergreenRecurringOverviewText_Label</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>evergreenRecurringOverviewText_Label</shortDescription>
+        <value>Label: Multiple Donation Header</value>
+    </labels>
+    <labels>
+        <fullName>selectedItemCountLabel_Description</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>selectedItemCountLabel_Description</shortDescription>
+        <value>Selected Item Count Label</value>
+    </labels>
+    <labels>
+        <fullName>selectedItemCountLabel_Label</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>selectedItemCountLabel_Label</shortDescription>
+        <value>Label: Selected</value>
+    </labels>
+    <labels>
+        <fullName>selectedItemHeaderLabel_Description</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>selectedItemHeaderLabel_Description</shortDescription>
+        <value>Selected Item Header Label</value>
+    </labels>
+    <labels>
+        <fullName>selectedItemHeaderLabel_Label</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>selectedItemHeaderLabel_Label</shortDescription>
+        <value>Label: Selected Items</value>
+    </labels>
+    <labels>
+        <fullName>startDatePlaceHolder_Description</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>startDatePlaceHolder_Description</shortDescription>
+        <value>Start Date Placeholder</value>
+    </labels>
+    <labels>
+        <fullName>startDatePlaceHolder_Label</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>startDatePlaceHolder_Label</shortDescription>
+        <value>Start Date Placeholder</value>
+    </labels>
+    <labels>
+        <fullName>termedRecurringOverviewText_Description</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>termedRecurringOverviewText_Description</shortDescription>
+        <value>Termed Recurring Overview Description</value>
+    </labels>
+    <labels>
+        <fullName>termedRecurringOverviewText_Label</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>termedRecurringOverviewText_Label</shortDescription>
+        <value>Label: Multiple Donation Header</value>
+    </labels>
+    <labels>
+        <fullName>warningNoFundsSelectedDescription_Description</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>warningNoFundsSelectedDescription_Description</shortDescription>
+        <value>No funds selected description</value>
+    </labels>
+    <labels>
+        <fullName>warningNoFundsSelectedDescription_Label</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>warningNoFundsSelectedDescription_Label</shortDescription>
+        <value>Label: No Funds Selected</value>
+    </labels>
+    <labels>
+        <fullName>warningNoFundsSelectedTitle_Description</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>warningNoFundsSelectedTitle_Description</shortDescription>
+        <value>No funds selected title</value>
+    </labels>
+    <labels>
+        <fullName>warningNoFundsSelectedTitle_Label</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>warningNoFundsSelectedTitle_Label</shortDescription>
+        <value>Label: No Funds Selected</value>
+    </labels>
+    <labels>
+        <fullName>writeInPlaceHolder_Description</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>writeInPlaceHolder_Description</shortDescription>
+        <value>Write in Placeholder</value>
+    </labels>
+    <labels>
+        <fullName>writeInPlaceHolder_Label</fullName>
+        <categories>donations,ui elements</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>writeInPlaceHolder_Label</shortDescription>
+        <value>Write in Placeholder</value>
+    </labels>
+</CustomLabels>

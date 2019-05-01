@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Active_Ticket_Type_Count__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Total number of active ticket types</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Total number of active ticket types.</inlineHelpText>
+        <label>SYSTEM</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Event_Duration_Text__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** System Calculated** Event Duration Calculated based on start and end date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated** Event Duration Calculated based on start and end date</inlineHelpText>
+        <label>SYSTEM</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>

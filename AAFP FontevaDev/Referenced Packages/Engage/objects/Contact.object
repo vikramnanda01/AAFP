@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Cookie_Usage_Accepted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, the Contact has accepted the Cookie Usage Prompt and will not be prompted again.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, the Contact has accepted the Cookie Usage Prompt and will not be prompted again.</inlineHelpText>
+        <label>Cookie Usage Accepted</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Site__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Select the Site you wish to use as the default Site for the Contact.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the Site you wish to use as the default Site for the Contact.</inlineHelpText>
+        <label>Site</label>
+        <referenceTo>Site__c</referenceTo>
+        <relationshipLabel>Contacts</relationshipLabel>
+        <relationshipName>Contacts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

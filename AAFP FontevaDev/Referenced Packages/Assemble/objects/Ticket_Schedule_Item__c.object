@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Junction object to configure Schedule Items and link them to ticket types.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Disable_Registration__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, attendees cannot register for this schedule item. Useful for breaks, meals, and other schedule items that are not sessions.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, attendees cannot register for this schedule item. Useful for breaks, meals, and other schedule items that are not sessions.</inlineHelpText>
+        <label>Disable Registration</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Hide_During_Registration__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Checking this field removes this session from the registration&apos;s agenda page.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Checking this field removes this session from the registration&apos;s agenda page.</inlineHelpText>
+        <label>Hide During Registration</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Required_for_Registration__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Checking this field automatically includes this session for purchase during registration.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Checking this field automatically includes this session for purchase during registration.</inlineHelpText>
+        <label>Required for Registration</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Schedule_Item__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field relates the Ticket Type Scheduled Item to the Scheduled Item.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field relates the Ticket Type Scheduled Item to the Scheduled Item.</inlineHelpText>
+        <label>Schedule Item</label>
+        <referenceTo>Schedule_Item__c</referenceTo>
+        <relationshipLabel>Ticket Type Schedule Items</relationshipLabel>
+        <relationshipName>Ticket_Type_Schedule_Items</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Ticket_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field relates the Ticket Type Scheduled Item to the Ticket Type.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field relates the Ticket Type Scheduled Item to the Ticket Type.</inlineHelpText>
+        <label>Ticket Type</label>
+        <referenceTo>Ticket_Type__c</referenceTo>
+        <relationshipLabel>Ticket Type Schedule Items</relationshipLabel>
+        <relationshipName>Ticket_Type_Schedule_Items</relationshipName>
+        <relationshipOrder>1</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <label>Ticket Type Schedule Item</label>
+    <nameField>
+        <displayFormat>{0000000}</displayFormat>
+        <label>Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Ticket Type Schedule Items</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

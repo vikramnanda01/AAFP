@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Field Groups store data about the behavior of a set of fields published on a web form.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Allow_Users_to_Delete_Mapped_Records__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>** WARNING ** when checked, users will be able to delete records mapped to the field group even if they were not created by the form submitter.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** WARNING ** when checked, users will be able to delete records mapped to the field group even if they were not created by the form submitter.</inlineHelpText>
+        <label>Allow Users to Delete Mapped Records</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DML_Operation__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value specified in this field either creates new records (&quot;Insert&quot;) or updates existing records (&quot;Upsert&quot;).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value specified in this field either creates new records (&quot;Insert&quot;) or updates existing records (&quot;Upsert&quot;).</inlineHelpText>
+        <label>Database Operation</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Insert</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Upsert</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Form__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>**Required** Identifies the field group&apos;s related form.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Required** Identifies the field group&apos;s related form.</inlineHelpText>
+        <label>Form</label>
+        <referenceTo>Form__c</referenceTo>
+        <relationshipLabel>Field Groups</relationshipLabel>
+        <relationshipName>Field_Groups</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Instructions__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The content entered in this field is displayed to end users to assist in entering data into the fields contained in the field group.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The content entered in this field is displayed to end users to assist in entering data into the fields contained in the field group.</inlineHelpText>
+        <label>Instructions</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Is_Multiple__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enables multiple record entries for an object on the form (like a related list).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enables multiple record entries for an object on the form (like a related list).</inlineHelpText>
+        <label>Allow Multiple Entries</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Mapped_Object__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Specifies the target object to which records are created or updated for this field group.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Specifies the target object to which records are created or updated for this field group.</inlineHelpText>
+        <label>Mapped Object</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mapped_Relationship_Field__c</fullName>
+        <deprecated>false</deprecated>
+        <description>When linked to a parent field group, this field stores the api name of the lookup or master-detail field that links the two objects together.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When linked to a parent field group, this field stores the api name of the lookup or master-detail field that links the two objects together.</inlineHelpText>
+        <label>Mapped Relationship Field</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Order__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Identifies the order the Field Group is displayed on the form (Sorted Ascending).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies the order the Field Group is displayed on the form (Sorted Ascending).</inlineHelpText>
+        <label>Order</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Parent_Field_Group__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Specifies the Parent Object for this Field Group&apos;s records.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Specifies the Parent Object for this Field Group&apos;s records.</inlineHelpText>
+        <label>Parent Field Group</label>
+        <referenceTo>Field_Group__c</referenceTo>
+        <relationshipLabel>Child Field Groups</relationshipLabel>
+        <relationshipName>Field_Groups</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SOQL_Filter__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Defines the filter criteria used to retrieve existing records for this Field Group.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines the filter criteria used to retrieve existing records for this Field Group.</inlineHelpText>
+        <label>SOQL Filter</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Field Group</label>
+    <nameField>
+        <label>Field Group Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Field Groups</pluralLabel>
+    <searchLayouts>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Mapped_Object__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Form__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Parent_Field_Group__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Order__c</lookupDialogsAdditionalFields>
+        <lookupFilterFields>NAME</lookupFilterFields>
+        <lookupFilterFields>Mapped_Object__c</lookupFilterFields>
+        <lookupFilterFields>Form__c</lookupFilterFields>
+        <lookupFilterFields>Parent_Field_Group__c</lookupFilterFields>
+        <lookupFilterFields>Order__c</lookupFilterFields>
+        <lookupPhoneDialogsAdditionalFields>Mapped_Object__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Form__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Parent_Field_Group__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Order__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Mapped_Object__c</searchFilterFields>
+        <searchFilterFields>Form__c</searchFilterFields>
+        <searchFilterFields>Parent_Field_Group__c</searchFilterFields>
+        <searchFilterFields>Order__c</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

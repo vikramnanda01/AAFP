@@ -1,0 +1,25 @@
+<apex:page id="ReceiptInvoice" controller="LTE.ReceiptsController"
+           docType="html-5.0"
+           showHeader="false"
+           standardStylesheets="false"
+           applyBodyTag="false"
+           action="{!redirect}"
+           applyHtmlTag="false" renderAs="{!renderAs}" contentType="{!contentType}">
+
+	<html>
+    <body>
+      <apex:outputPanel rendered="{!AND(NOT(isAppUpdateActivated),isReceipt)}" layout="none">
+        <OrderApi:receipt receiptId="{!$CurrentPage.parameters.id}"/>
+      </apex:outputPanel>
+      <apex:outputPanel rendered="{!AND(NOT(isAppUpdateActivated),isInvoice)}" layout="none">
+        <OrderApi:invoice invoiceId="{!$CurrentPage.parameters.id}"/>
+      </apex:outputPanel>
+      <apex:outputPanel rendered="{!and(isAppUpdateActivated, or(isReceipt, isInvoice))}" layout="none">
+        <OrderApi:new_receipt_invoice recInvId="{!$CurrentPage.parameters.id}"/>
+      </apex:outputPanel>
+      <apex:outputPanel rendered="{!isProformaInvoice}" layout="none">
+        <OrderApi:proforma_invoice_email_pdf soId="{!$CurrentPage.parameters.soId}"/>
+      </apex:outputPanel>
+    </body>
+	</html>
+</apex:page>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Invited_Attendee__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Contains Invited Attendee reference for RSVP Event</description>
+        <externalId>false</externalId>
+        <label>Invited Attendee</label>
+        <referenceTo>EventApi__Attendee__c</referenceTo>
+        <relationshipLabel>Registration Groups</relationshipLabel>
+        <relationshipName>Registration_Groups</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

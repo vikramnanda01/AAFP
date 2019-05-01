@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Primary control object for publishing online stores</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Account_Match_Criteria__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Defines the matching rule for an account. If &quot;All Accounts&quot; is selected, the user can search by &quot;Account Search Result Fields CSV&quot;. If &quot;Domain Matching&quot; is selected, the system will automatically find an account for the contact using the given email.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines the matching rule for an account. If &quot;All Accounts&quot; is selected, the user can search by &quot;Account Search Result Fields CSV&quot;. If &quot;Domain Matching&quot; is selected, the system will automatically find an account for the contact using the given email.</inlineHelpText>
+        <label>Account Match Criteria</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>All Accounts</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Domain Matching</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Account_Search_Result_Fields_CSV__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Result fields will be displayed when searching for an account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Result fields will be displayed when searching for an account.</inlineHelpText>
+        <label>Account Search Result Fields CSV</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Additional_Payment_Types__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Json structured list of additional payment types displayed on the checkout page.
+[
+      {
+            &quot;label&quot; : &quot;&lt;Name of the tab&gt;&quot;,
+            &quot;link&quot; : &quot;&lt;link where the page has to be navigated&gt;&quot;,
+            &quot;button_label&quot; : &quot;&lt;label of the button&gt;&quot;
+      }
+]</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Json structured list of additional payment types displayed on the checkout page.
+[{
+            &quot;label&quot; : &quot;&lt;Name of the tab&gt;&quot;,
+            &quot;link&quot; : &quot;&lt;link where the page has to be navigated&gt;&quot;,
+            &quot;button_label&quot; : &quot;&lt;label of the button&gt;&quot;
+}]</inlineHelpText>
+        <label>Additional Payment Types</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Business_Group__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>** System Calculated Required Override ** Link to the related Business Group.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated Required Override ** Link to the related Business Group.</inlineHelpText>
+        <label>Business Group</label>
+        <referenceTo>Business_Group__c</referenceTo>
+        <relationshipLabel>Stores</relationshipLabel>
+        <relationshipName>Stores</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Contact_Match_Custom_Field__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Specify any field on the Contact object (custom fields accepted) that you wish to use to match unauthenticated users to existing Contact records.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Specify any field on the Contact object (custom fields accepted) that you wish to use to match unauthenticated users to existing Contact records.</inlineHelpText>
+        <label>Contact Match Custom Field</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact_Match_Rule__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Select the contact match rule to use when matching unauthenticated users to existing Contact records.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the contact match rule to use when matching unauthenticated users to existing Contact records.</inlineHelpText>
+        <label>Contact Match Rule</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>EMAIL</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>AND</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>OR</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>CUSTOM</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>NONE</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Default_Checkout__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Specifies whether customers will see guest checkout (&quot;Guest Checkout&quot;) or login to account (&quot;Account Login&quot;) as their first option during checkout.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Specifies whether customers will see guest checkout (&quot;Guest Checkout&quot;) or login to account (&quot;Account Login&quot;) as their first option during checkout.</inlineHelpText>
+        <label>Default Checkout</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Guest Checkout</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Account Login</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Default_Store_Listing__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field defines the default view for the store listing page.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field defines the default view for the store listing page.</inlineHelpText>
+        <label>Default Store Listing</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Large Tile</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Small Tile</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>List</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Optional Store description</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Optional Store description</inlineHelpText>
+        <label>Description</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>8</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Enable_Access_Permissions__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked access to the Store is controlled by the related user-defined Access Permissions. Defaults unchecked - essentially enabling all public and authenticated Users access to the Store and related content.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked access to the Store is controlled by the related user-defined Access Permissions. Defaults unchecked - essentially enabling all public and authenticated Users access to the Store and related content.</inlineHelpText>
+        <label>RESERVED</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Enable_Account_Search__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When this field is checked, users can either search for an account or have their domain matched to an account. This is available for new user/contact functionality on authentication pages only.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When this field is checked, users can either search for an account or have their domain matched to an account.</inlineHelpText>
+        <label>Enable Account Search</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Enable_Enhanced_List_View__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Checking this box displays the enhanced list view inside the estore.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Checking this box displays the enhanced list view inside the estore.</inlineHelpText>
+        <label>Enable Enhanced List View</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Enable_Guest_Checkout__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enables the Guest Checkout</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, unauthenticated users will be allowed to process transactions without creating new user accounts in the system</inlineHelpText>
+        <label>Enable Guest Checkout</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Enable_Guest_Save_Payment__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable the ability to save payment on a guest checkout</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable the ability to save payment on a guest checkout</inlineHelpText>
+        <label>Enable Guest Save Payment</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Enable_Invoice_Payment_Option__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, users will be allowed to select Invoice Me as a method of payment for an order.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, users will be allowed to select Invoice Me as a method of payment for an order.</inlineHelpText>
+        <label>Enable Invoice Payment Option</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Enable_Item_Facebook_Sharing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, this field will display the social icon to share items on their respective platform.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, this field will display the social icon to share items on their respective platform.</inlineHelpText>
+        <label>RESERVED</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Enable_Item_Instagram_Sharing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, this field will display the social icon to share items on their respective platform.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, this field will display the social icon to share items on their respective platform.</inlineHelpText>
+        <label>RESERVED</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Enable_Item_Link_Sharing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, this field will display the social icon to share items on their respective platform.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, this field will display the social icon to share items on their respective platform.</inlineHelpText>
+        <label>RESERVED</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Enable_Item_Twitter_Sharing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, this field will display the social icon to share items on their respective platform.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, this field will display the social icon to share items on their respective platform.</inlineHelpText>
+        <label>RESERVED</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Enable_Large_Tile_View__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Checking this box displays the large tile view in the estore.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Checking this box displays the large tile view in the estore.</inlineHelpText>
+        <label>Enable Large Tile View</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Enable_Proforma_Invoice_Payment_Option__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, enables a portal user to send a proforma invoice email.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, enables a portal user to send a proforma invoice email.</inlineHelpText>
+        <label>Enable Proforma Invoice Payment Option</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Enable_Small_Tile_View__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Checking this box displays the small tile view in the estore.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Checking this box displays the small tile view in the estore.</inlineHelpText>
+        <label>Enable Small Tile View</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Enable_Tax_Inclusive_Pricing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Checking this field will display the price as the sum of the default price and the default tax rate for all items displayed in this site.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Checking this field will display the price as the sum of the default price and the default tax rate for all items displayed in this site.</inlineHelpText>
+        <label>Enable Tax Inclusive Pricing</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Gateway__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Link to default Payment Gateway for related Store.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Link to default Payment Gateway for related Store.</inlineHelpText>
+        <label>Payment Gateway</label>
+        <referenceTo>Payment_Gateway__c</referenceTo>
+        <relationshipLabel>Stores</relationshipLabel>
+        <relationshipName>Payment_Gateway_Stores</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Guest_Checkout_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to the Account Record for Guest Checkout Contacts to be linked to</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The default Account to use as a parent to any new Contact records created from guest (unauthenticated) users.</inlineHelpText>
+        <label>Guest Checkout Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Stores</relationshipLabel>
+        <relationshipName>Stores</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Is_Published__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, the Store will be made available for display via the API. Defaults unchecked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, the Store will be made available for display via the API. Defaults unchecked.</inlineHelpText>
+        <label>Is Published</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>New_Contact_Account_Owner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>** Conditionally Required ** The user to be assigned as the owner of any new account or contact created when checking out as a guest in this store. Required when the store is configured to enable guest checkout.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** Conditionally Required ** The user to be assigned as the owner of any new account or contact created when checking out as a guest in this store. Required when the store is configured to enable guest checkout.</inlineHelpText>
+        <label>New Contact/Account Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Stores</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>New_Contact_Fieldset_CSV__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The API Name of the Contact Object Fieldsets to display to users checking out as a guest/unauthenticated user. Note! First Name, Last Name, and Email are displayed by default.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The API Name of the Contact Object Fieldsets to display to users checking out as a guest/unauthenticated user. Note! First Name, Last Name, and Email are displayed by default.</inlineHelpText>
+        <label>New Contact Fieldset(s) CSV</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>New_Contact_Parent_Account_Rule__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** Conditionally Required ** The account to use as the parent of new contacts created when checking out as a guest in this store. Required when the store is configured to enable guest checkout.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** Conditionally Required ** The account to use as the parent of new contacts created when checking out as a guest in this store. Required when the store is configured to enable guest checkout.</inlineHelpText>
+        <label>New Contact Parent Account Rule</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Guest Checkout Account</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Person Account</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>New_User_Profile_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>System generated ID that is generated by Salesforce to be used for all new users. If not specified the default on the community will be used.</inlineHelpText>
+        <label>New User Profile ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Payment_Confirmation_Message_HTML__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter a message to display to users after successfully processing payment on the checkout page. Custom HTML or plain text are acceptible forms of input.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter a message to display to users after successfully processing payment on the checkout page. Custom HTML or plain text are acceptible forms of input.</inlineHelpText>
+        <label>Payment Confirmation Message HTML</label>
+        <length>100000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>15</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Require_Contact_Match_Custom_Field__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Whenc checked, the field defined in the Contact Match Custom Field will be required when checking out as a guest/unauthenticated user.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, the field defined in the Contact Match Custom Field will be required when checking out as a guest/unauthenticated user.</inlineHelpText>
+        <label>Require Contact Match Custom Field</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Theme__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>SYSTEM</label>
+        <referenceTo>PagesApi__Theme__c</referenceTo>
+        <relationshipLabel>Stores</relationshipLabel>
+        <relationshipName>Stores</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>eStore_Sort_Fields__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Defines the fields used to sort the results in the eStore listing page. Please provide API names of fields to sort by.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines the fields used to sort the results in the eStore listing page. Please provide API names of fields to sort by.</inlineHelpText>
+        <label>eStore Sort Fields</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <label>Store</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Business_Group__c</columns>
+        <columns>Enable_Access_Permissions__c</columns>
+        <columns>Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Store Name</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Stores</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Business_Group__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Default_Checkout__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>New_Contact_Account_Owner__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>New_Contact_Parent_Account_Rule__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Contact_Match_Rule__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Guest_Checkout_Account__c</customTabListAdditionalFields>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Business_Group__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Description__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Business_Group__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Description__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Business_Group__c</searchFilterFields>
+        <searchResultsAdditionalFields>Business_Group__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Description__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Attendee__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** Link between the Field Response and the Attendee. Used to display registration question answers.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated ** Link between the Field Response and the Attendee. Used to display registration question answers.</inlineHelpText>
+        <label>Attendee</label>
+        <referenceTo>Attendee__c</referenceTo>
+        <relationshipLabel>Registration Form Details</relationshipLabel>
+        <relationshipName>Field_Responses</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Speaker__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** Link between the Field Response and the Speaker. Used to display Speaker Contract &amp; Agreement information on the Speaker record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated ** Link between the Field Response and the Speaker. Used to display Speaker Contract &amp; Agreement information on the Speaker record.</inlineHelpText>
+        <label>Speaker</label>
+        <referenceTo>Speaker__c</referenceTo>
+        <relationshipLabel>Speaker Agreement Details</relationshipLabel>
+        <relationshipName>Field_Responses</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Sponsor__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** Link between the Field Response and the Sponsor. Used to display Sponsor Contract &amp; Agreement information on the Sponsor record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated ** Link between the Field Response and the Sponsor. Used to display Sponsor Contract &amp; Agreement information on the Sponsor record.</inlineHelpText>
+        <label>Sponsor</label>
+        <referenceTo>Sponsor__c</referenceTo>
+        <relationshipLabel>Sponsor Agreement Details</relationshipLabel>
+        <relationshipName>Field_Responses</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

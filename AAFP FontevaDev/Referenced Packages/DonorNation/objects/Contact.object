@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Active_Recurring_Gift__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>**System Calculated Field** Indicates wether this contact has an active recurring gift opportunity.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated Field** Indicates wether this contact has an active recurring gift opportunity.</inlineHelpText>
+        <label>Active Recurring Gift</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Auto_Calculate_Contact_Greetings__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Default value for new contacts is true. When set to true the system will auto update the contact&apos;s personal greeting, personal recognition name, and formal greeting with the system default format. Personal = FirstName, Personal Recognition Name = Salutation FirstName LastName, Formal Greeting = Personal Recognition Name</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Default value for new contacts is true. When set to true the system will auto update the contact&apos;s personal greeting, personal recognition name, and formal greeting with the system default formats.</inlineHelpText>
+        <label>Auto Calculate Contact Greetings</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Auto_Calculate_Current_Ask_Amount__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Default value for new contacts is true. When set to true the system will auto update the contact&apos;s current ask amount with the amount of the contact&apos;s last gift if the last gift amount is greater than 0.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Default value for new contacts is true. When set to true the system will auto update the contact&apos;s current ask amount with the amount of the contact&apos;s last gift if the last gift amount is greater than 0.</inlineHelpText>
+        <label>Auto Calculate Current Ask Amount</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Current_Ask_Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>What is the target current ask amount for this person?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>What is the target current ask amount for this person?</inlineHelpText>
+        <label>Current Ask Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Deceased__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>check if the contact is deceased</description>
+        <externalId>false</externalId>
+        <inlineHelpText>check if the contact is deceased</inlineHelpText>
+        <label>Deceased</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Default_Greeting_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>*DO NOT CHANGE*</description>
+        <externalId>false</externalId>
+        <inlineHelpText>*DO NOT CHANGE*</inlineHelpText>
+        <label>Default Greeting Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Personal Greeting</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Formal Greeting</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Personal Recognition Name</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Default_Greeting__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Default_Greeting_Type__c,&quot;Personal Greeting&quot;), Personal_Greeting__c,
+IF(ISPICKVAL(Default_Greeting_Type__c,&quot;Personal Recognition Name&quot;), Personal_Recognition_Name__c,
+IF(ISPICKVAL(Default_Greeting_Type__c,&quot;Formal Greeting&quot;), Formal_Greeting__c,Personal_Greeting__c)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Default Greeting</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Direct_Mail_Opt_Out__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Exclude this contact from all direct mail campaigns.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Exclude this contact from all direct mail campaigns.</inlineHelpText>
+        <label>Direct Mail Opt Out</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Do_Not_Solicit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Do not solicit this contact. By default when flagged the contact will be excluded from all campaigns.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Do not solicit this contact. By default when flagged the contact will be excluded from all campaigns.</inlineHelpText>
+        <label>Do Not Solicit</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>First_Gift_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated Field** Calculates the first gift received date for all related gifts.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated Field** Calculates the first gift received date for all related gifts.</inlineHelpText>
+        <label>First Gift Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Formal_Greeting__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Formal Greeting for the contact</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Formal Greeting for the contact</inlineHelpText>
+        <label>Formal Greeting</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Gift_Opportunities__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>**System Calculated Field** Counts the total number of related gift opportunities (Sales Orders with type &quot;Gift Opportunity&quot;) -- for the contact.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated Field** Counts the total number of related gift opportunities (Sales Orders with type &quot;Gift Opportunity&quot;) -- for the contact.</inlineHelpText>
+        <label>Gift Opportunities</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Gifts_Outstanding__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>**System Calculated Field** Sum of the balance due for all outstanding pledges.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated Field** Sum of the balance due for all outstanding pledges.</inlineHelpText>
+        <label>Gifts Outstanding</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Gifts_Received__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>**System Calculated Field** Sum of hard credits.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated Field** Sum of hard credits.</inlineHelpText>
+        <label>Gifts Received</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Gifts_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>Gifts_Outstanding__c + Gifts_Received__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Gifts Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Include_in_Household_Greetings__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If set to true, the contact will be included on all household greetings. This flag will automatically populate to true if the contact is the primary contact on a related account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If set to true, the contact will be included on all household greetings. This flag will automatically populate to true if the contact is the primary contact on a related account.</inlineHelpText>
+        <label>Include in Household Greetings</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Languages__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Languages that the contact can speak.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Languages that the contact can speak.</inlineHelpText>
+        <label>Languages</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Largest_Gift__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated Field** Calculates the largest gift amount for all related gifts.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated Field** Calculates the largest gift amount for all related gifts.</inlineHelpText>
+        <label>Largest Gift</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Last_Gift_Amount__c</fullName>
+        <defaultValue>0.00</defaultValue>
+        <deprecated>false</deprecated>
+        <description>**System Calculated Field** Calculates the amount of the last gift received from the related contact.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated Field** Calculates the amount of the last gift received from the related contact.</inlineHelpText>
+        <label>Last Gift Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Last_Gift_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated Field** Calculates the last gift date for all related gifts.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated Field** Calculates the last gift date for all related gifts.</inlineHelpText>
+        <label>Last Gift Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Personal_Greeting__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Personal greeting to be used for communications and solicitations to the contact.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Personal greeting to be used for communications and solicitations to the contact.</inlineHelpText>
+        <label>Personal Greeting</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Personal_Recognition_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>If this person gives anonymously, or preferrs to be recognized by a different name in donor acknowledgement materials, what is it?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If this person gives anonymously, or preferrs to be recognized by a different name in donor acknowledgement materials, what is it?</inlineHelpText>
+        <label>Personal Recognition Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Primary_Relationship_Manager__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Select the person who is responsible for owning this relationship with this constituent. This will create a new record in this contacts relationship related list.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the person who is responsible for owning this relationship with this constituent. This will create a new record in this contacts relationship related list.</inlineHelpText>
+        <label>Primary Relationship Manager</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Relationship Manager (Contacts)</relationshipLabel>
+        <relationshipName>Contacts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Primary__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates wether this contact is the primary contact for the related account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates wether this contact is the primary contact for the related account.</inlineHelpText>
+        <label>Primary</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Spouse__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Spouse</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Contacts (Spouse)</relationshipLabel>
+        <relationshipName>Spouse_Contacts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Suffix__c</fullName>
+        <deprecated>false</deprecated>
+        <description>List of common academic, honorary, professional, and generational suffixes.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>List of common academic, honorary, professional, and generational suffixes.</inlineHelpText>
+        <label>Suffix</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CPA</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>D.D.S.</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>D.M.D.</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>D.V.M.</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Ed.D.</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Esq.</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>II</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>III</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>IV</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Jr.</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>M.D.</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Ph.D.</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>R.N.</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>R.N.C.</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Ret.</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Sr.</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>USA</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>USAF</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>USAFR</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>USAR</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>USCG</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>USMC</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>USMCR</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>USN</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>USNR</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+</CustomObject>

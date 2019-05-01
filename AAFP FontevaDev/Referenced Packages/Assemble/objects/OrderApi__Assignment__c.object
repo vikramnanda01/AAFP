@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Contact_Created_By_System__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field will be automatically checked when the contact is created while registering for an event.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field will be automatically checked when the contact is created while registering for an event..</inlineHelpText>
+        <label>Contact Created By System</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Other_Information__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Other information needed to configure the assignment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Other information needed to configure the assignment.</inlineHelpText>
+        <label>Other Information</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>8</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Register_Site_Url__c</fullName>
+        <deprecated>false</deprecated>
+        <description>URL endpoint to be used for email registrants.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>URL endpoint to be used for email registrants.</inlineHelpText>
+        <label>Register Site Url</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Registration_Group__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The registration group this assignment belongs to for invitations that may need to be sent out.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The registration group this assignment belongs to for invitations that may need to be sent out.</inlineHelpText>
+        <label>Registration Group</label>
+        <referenceTo>Registration_Group__c</referenceTo>
+        <relationshipLabel>Assignments</relationshipLabel>
+        <relationshipName>Assignments</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Seat__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Linked to the related seat.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Linked to the related seat.</inlineHelpText>
+        <label>Seat</label>
+        <referenceTo>Seat__c</referenceTo>
+        <relationshipLabel>Assignments</relationshipLabel>
+        <relationshipName>Assignments</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

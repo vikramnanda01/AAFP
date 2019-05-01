@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Assignments track Contacts assigned to purchases of Items (Only available when Items are available for Assignment - determined by the parent Item Class)</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Assigned_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** System Calculated Required Override ** Defaults to the parent Sales Order Line.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated Required Override ** Defaults to the parent Sales Order Line.</inlineHelpText>
+        <label>Assigned Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Assignment_Role__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>** System Calculated Required Override ** Link to the Role for the assigned Contact on record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated Required Override ** Link to the Role for the assigned Contact on record.</inlineHelpText>
+        <label>Assignment Role</label>
+        <referenceTo>Assignment_Role__c</referenceTo>
+        <relationshipLabel>Assignments</relationshipLabel>
+        <relationshipName>Assignments</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Company_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Contact company name.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Contact company name.</inlineHelpText>
+        <label>Company Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>** Required ** Link to assigned Contact record</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** Required ** Link to assigned Contact record</inlineHelpText>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Sales Activities</relationshipLabel>
+        <relationshipName>Assignments</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Optional description for the Assignment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Optional description for the Assignment.</inlineHelpText>
+        <label>Description</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>8</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Email__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** Conditionally Required ** The email address to send notifications to regarding the &quot;Assigned To&quot; record -- required if &quot;Receives Email Notifications&quot; is checked. Defaults to the related Contact&apos;s &quot;Preferred Email&quot;.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** Conditionally Required ** The email address to send notifications to regarding the &quot;Assigned To&quot; record -- required if &quot;Receives Email Notifications&quot; is checked. Defaults to the related Contact&apos;s &quot;Preferred Email&quot;.</inlineHelpText>
+        <label>Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>First_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Contact first name.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Contact first name.</inlineHelpText>
+        <label>First Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Full_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Contact full name.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Contact full name.</inlineHelpText>
+        <label>Full Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, the Contact is considered &quot;Active&quot;. Defaults checked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, the Contact is considered &quot;Active&quot;. Defaults checked.</inlineHelpText>
+        <label>Is Active</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Primary__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, the Assignment is considered &quot;Primary&quot;.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, the Assignment is considered &quot;Primary&quot;.</inlineHelpText>
+        <label>Is Primary</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Unassigned__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** This checkbox will auto check to true when a Subscriber (Assignment) is marked as &quot;Is Active&quot; unchecked AND is related to a &quot;Is Active&quot; checked Subscription.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated ** This checkbox will auto check to true when a Subscriber (Assignment) is marked as &quot;Is Active&quot; unchecked AND is related to a &quot;Is Active&quot; checked Subscription.</inlineHelpText>
+        <label>Is Unassigned</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Item_Class__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** Link to related Item Class.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated ** Link to related Item Class.</inlineHelpText>
+        <label>Item Class</label>
+        <referenceTo>Item_Class__c</referenceTo>
+        <relationshipLabel>Assignments</relationshipLabel>
+        <relationshipName>Assignments</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Item__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** Link to related Item.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated ** Link to related Item.</inlineHelpText>
+        <label>Item</label>
+        <referenceTo>Item__c</referenceTo>
+        <relationshipLabel>Assignments</relationshipLabel>
+        <relationshipName>Assignments</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Last_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Contact last name.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Contact last name.</inlineHelpText>
+        <label>Last Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mailing_City__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Contact mailing city.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Contact mailing city.</inlineHelpText>
+        <label>Mailing City</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mailing_Country__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Contact mailing country.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Contact mailing country.</inlineHelpText>
+        <label>Mailing Country</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mailing_Postal_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Contact mailing postal code.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Contact mailing postal code.</inlineHelpText>
+        <label>Mailing Postal Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mailing_State__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Contact mailing postal code.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Contact mailing postal code.</inlineHelpText>
+        <label>Mailing State</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mailing_Street__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Contact mailing street.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Contact mailing street.</inlineHelpText>
+        <label>Mailing Street</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Phone__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Contact phone.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Contact phone.</inlineHelpText>
+        <label>Phone</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Receives_Email_Notifications__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked the linked Contact will be copied on all emails sent regarding the &quot;Assigned To&quot; record. Defaults to the value of the same field on the related &quot;Role&quot; configuration.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked the linked Contact will be copied on all emails sent regarding the &quot;Assigned To&quot; record. Defaults to the value of the same field on the related &quot;Role&quot; configuration.</inlineHelpText>
+        <label>Receives Email Notifications</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Order_Line__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>** Required ** Assignments must be linked to a source Sales Order Line</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** Required ** Assignments must be linked to a source Sales Order Line</inlineHelpText>
+        <label>Sales Order Line (Source)</label>
+        <referenceTo>Sales_Order_Line__c</referenceTo>
+        <relationshipLabel>Assignments</relationshipLabel>
+        <relationshipName>Assignments</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Subscription_Line__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** Link to related Subscription Line.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated ** Link to related Subscription Line.</inlineHelpText>
+        <label>Subscription Line</label>
+        <referenceTo>Subscription_Line__c</referenceTo>
+        <relationshipLabel>Assignments</relationshipLabel>
+        <relationshipName>Assignments</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Subscription__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Link to related Subscription for the subscribing customer.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Link to related Subscription for the subscribing customer.</inlineHelpText>
+        <label>Subscription</label>
+        <referenceTo>Subscription__c</referenceTo>
+        <relationshipLabel>Subscribers</relationshipLabel>
+        <relationshipName>Assignments</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Term__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Link to related Term for the subscribing customer.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Link to related Term for the subscribing customer.</inlineHelpText>
+        <label>Term</label>
+        <referenceTo>Renewal__c</referenceTo>
+        <relationshipLabel>Assignments</relationshipLabel>
+        <relationshipName>Assignments</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Title__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Contact title.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Contact title.</inlineHelpText>
+        <label>Title</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Unassigned_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date the Contact was unassigned.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date the Contact was unassigned.</inlineHelpText>
+        <label>Unassigned Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <label>Assignment</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Is_Active__c</columns>
+        <columns>Contact__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>{00000000}</displayFormat>
+        <label>Assignment ID</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Assignments</pluralLabel>
+    <searchLayouts>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Contact__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Assignment_Role__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Assigned_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Unassigned_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Is_Active__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Contact__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Assignment_Role__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Assigned_Date__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Unassigned_Date__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Is_Active__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>Contact__c</searchFilterFields>
+        <searchFilterFields>Assignment_Role__c</searchFilterFields>
+        <searchFilterFields>Assigned_Date__c</searchFilterFields>
+        <searchFilterFields>Unassigned_Date__c</searchFilterFields>
+        <searchFilterFields>Is_Active__c</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <startsWith>Vowel</startsWith>
+</CustomObject>

@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Transactions store all debits and credits for double-entry accounting.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>**System Calculated/Override** Inherited from the Account on the linked source record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated/Override** Inherited from the Account on the linked source record.</inlineHelpText>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Transactions</relationshipLabel>
+        <relationshipName>Transactions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Batch__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>**System Calculated/Override** Link to the related Batch for the Transaction.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated/Override** Link to the related Batch for the Transaction.</inlineHelpText>
+        <label>Batch</label>
+        <referenceTo>Batch__c</referenceTo>
+        <relationshipLabel>Transactions</relationshipLabel>
+        <relationshipName>Transactions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Business_Group__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** Link to related Business Group.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated** Link to related Business Group.</inlineHelpText>
+        <label>Business Group</label>
+        <referenceTo>Business_Group__c</referenceTo>
+        <relationshipLabel>Transactions (Summary)</relationshipLabel>
+        <relationshipName>Transactions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>**System Calculated/Override** Inherited from the Contact on the linked source record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated/Override** Inherited from the Contact on the linked source record.</inlineHelpText>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Transactions</relationshipLabel>
+        <relationshipName>Transactions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Credit_Memo_Line__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>**System Calculated/Override** Link to the Credit Memo Line record, when an overpayment is used.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated/Override** Link to the Credit Memo Line record, when an overpayment is used.</inlineHelpText>
+        <label>Credit Memo Line</label>
+        <referenceTo>Credit_Memo_Line__c</referenceTo>
+        <relationshipLabel>Transactions</relationshipLabel>
+        <relationshipName>Transactions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Credit_Memo__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>**System Calculated/Override** Link to the Credit Memo record, when an overpayment is made.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated/Override** Link to the Credit Memo record, when an overpayment is made.</inlineHelpText>
+        <label>Credit Memo</label>
+        <referenceTo>Credit_Memo__c</referenceTo>
+        <relationshipLabel>Transactions</relationshipLabel>
+        <relationshipName>Transactions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Customer_Link__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** Hyperlink to the customer detail record, either the Account or Contact as determined by the entity field.</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Entity__c,&quot;Contact&quot;),
+HYPERLINK(&quot;/&quot; &amp; Contact__r.Id,  Contact__r.FirstName &amp; &quot; &quot; &amp; Contact__r.LastName, &quot;&quot;),
+HYPERLINK(&quot;/&quot; &amp; Account__r.Id,  Account__r.Name, &quot;&quot;))</formula>
+        <inlineHelpText>**System Calculated** Hyperlink to the customer detail record, either the Account or Contact as determined by the entity field.</inlineHelpText>
+        <label>Customer</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date the Transaction was posted.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date the Transaction was posted.</inlineHelpText>
+        <label>Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Entity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**Required/Do not modify picklist values** Select either &quot;Account&quot; or &quot;Contact&quot; as the appropriate entity related to the Transaction.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Required/Do not modify picklist values** Select either &quot;Account&quot; or &quot;Contact&quot; as the appropriate entity related to the Transaction.</inlineHelpText>
+        <label>Entity</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Contact</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Account</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Invoice__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>**System Calculated/Override** Link to the source Invoice for the Transaction.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated/Override** Link to the source Invoice for the Transaction.</inlineHelpText>
+        <label>Invoice</label>
+        <referenceTo>Invoice__c</referenceTo>
+        <relationshipLabel>Transactions</relationshipLabel>
+        <relationshipName>Transactions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Is_Valid__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** Validates that Total Debits = Total Credits for all Transaction Lines.</description>
+        <externalId>false</externalId>
+        <formula>((Total_Credits__c &gt; 0) &amp;&amp; (Total_Credits__c ==  Total_Debits__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>**System Calculated** Validates that Total Debits = Total Credits for all Transaction Lines.</inlineHelpText>
+        <label>Is Valid</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Memo__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Transaction description or memo.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Transaction description or memo.</inlineHelpText>
+        <label>Memo</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Num_Lines__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** COUNT of related Transaction Lines.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated** COUNT of related Transaction Lines.</inlineHelpText>
+        <label>Num Lines</label>
+        <summaryForeignKey>Transaction_Line__c.Transaction__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Receipt_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** The value of the &quot;Type&quot; field for the linked receipt (where applicable).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated** The value of the &quot;Type&quot; field for the linked receipt (where applicable).</inlineHelpText>
+        <label>Receipt Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Payment</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Refund</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Receipt__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>**System Calculated/Override** Link to the source Receipt for the Transaction.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated/Override** Link to the source Receipt for the Transaction.</inlineHelpText>
+        <label>Receipt</label>
+        <referenceTo>Receipt__c</referenceTo>
+        <relationshipLabel>Transaction (Summary)</relationshipLabel>
+        <relationshipName>Transactions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Order__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Link to related Sales Order.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Link to related Sales Order.</inlineHelpText>
+        <label>Sales Order</label>
+        <referenceTo>Sales_Order__c</referenceTo>
+        <relationshipLabel>Transactions (Summary)</relationshipLabel>
+        <relationshipName>Transactions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Source_Code__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Link to related Source Code.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Link to related Source Code.</inlineHelpText>
+        <label>Source Code</label>
+        <referenceTo>Source_Code__c</referenceTo>
+        <relationshipLabel>Transactions</relationshipLabel>
+        <relationshipName>Transactions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Subscription__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>** System Calculated Override ** Link to the related Subscription.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated Override ** Link to the related Subscription.</inlineHelpText>
+        <label>Subscription</label>
+        <referenceTo>Subscription__c</referenceTo>
+        <relationshipLabel>Transactions</relationshipLabel>
+        <relationshipName>Transactions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Total_Credits__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** SUM of related &quot;Credit&quot; Transaction Lines.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated** SUM of related &quot;Credit&quot; Transaction Lines.</inlineHelpText>
+        <label>Total Credits</label>
+        <summarizedField>Transaction_Line__c.Credit__c</summarizedField>
+        <summaryForeignKey>Transaction_Line__c.Transaction__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_Debits__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** SUM of related &quot;Debit&quot; Transaction Lines.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated** SUM of related &quot;Debit&quot; Transaction Lines.</inlineHelpText>
+        <label>Total Debits</label>
+        <summarizedField>Transaction_Line__c.Debit__c</summarizedField>
+        <summaryForeignKey>Transaction_Line__c.Transaction__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated/Override** A &quot;Receivable&quot; Transaction occurs when an Invoice is posted, a &quot;Cash&quot; Transaction occurs when payment is received for an Invoice or Sales Order. Paid Invoices will have at least one &quot;Receivable&quot; and one &quot;Cash&quot; Transaction.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated/Override** A &quot;Receivable&quot; Transaction occurs when an Invoice is posted, a &quot;Cash&quot; Transaction occurs when payment is received for an Invoice or Sales Order. Paid Invoices will have at least one &quot;Receivable&quot; and one &quot;Cash&quot; Transaction.</inlineHelpText>
+        <label>Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Receivable</fullName>
+                    <color>#0B6FCE</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Cash</fullName>
+                    <color>#78C953</color>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Adjustment</fullName>
+                    <color>#641CCF</color>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Transaction</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Type__c</columns>
+        <columns>Date__c</columns>
+        <columns>Customer_Link__c</columns>
+        <columns>Batch__c</columns>
+        <columns>Business_Group__c</columns>
+        <columns>Memo__c</columns>
+        <columns>Total_Debits__c</columns>
+        <columns>Total_Credits__c</columns>
+        <columns>Is_Valid__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>{0000000000}</displayFormat>
+        <label>Transaction Number</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Transactions</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Customer_Link__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Batch__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Business_Group__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Memo__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Num_Lines__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Total_Debits__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Total_Credits__c</customTabListAdditionalFields>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Customer_Link__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Memo__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Total_Debits__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Total_Credits__c</lookupDialogsAdditionalFields>
+        <lookupFilterFields>NAME</lookupFilterFields>
+        <lookupFilterFields>Customer_Link__c</lookupFilterFields>
+        <lookupFilterFields>Business_Group__c</lookupFilterFields>
+        <lookupFilterFields>Type__c</lookupFilterFields>
+        <lookupFilterFields>Date__c</lookupFilterFields>
+        <lookupFilterFields>Batch__c</lookupFilterFields>
+        <lookupPhoneDialogsAdditionalFields>Customer_Link__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Type__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Date__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Memo__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Total_Debits__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Total_Credits__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Customer_Link__c</searchFilterFields>
+        <searchFilterFields>Business_Group__c</searchFilterFields>
+        <searchFilterFields>Type__c</searchFilterFields>
+        <searchFilterFields>Date__c</searchFilterFields>
+        <searchFilterFields>Memo__c</searchFilterFields>
+        <searchFilterFields>Batch__c</searchFilterFields>
+        <searchResultsAdditionalFields>Customer_Link__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Memo__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Num_Lines__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Total_Debits__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Total_Credits__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Account_Email__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The default/primary email for the account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The default/primary email for the account.</inlineHelpText>
+        <label>Account Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Annual_Engagement_Score__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Aggregates the Account&apos;s active engagement scores from it&apos;s badge records for the current year.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Aggregates the Account&apos;s active engagement scores from it&apos;s badge records for the current year.</inlineHelpText>
+        <label>Annual Engagement Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Disable_Badge_Flow_down__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, this field disables any inheritance of flow-down badges from the parent account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, this field disables any inheritance of flow-down badges from the parent account.</inlineHelpText>
+        <label>Disable Badge Flow-down</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Lifetime_Engagement_Score__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Aggregates the Account&apos;s active engagement scores from it&apos;s badge records.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Aggregates the Account&apos;s active engagement scores from it&apos;s badge records.</inlineHelpText>
+        <label>Lifetime Engagement Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Outstanding_Credits__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** The sum of the Credit Memo Balance Due field for all Credit Memos linked to this customer.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated ** The sum of the Credit Memo Balance Due field for all Credit Memos linked to this customer.</inlineHelpText>
+        <label>Outstanding Credits</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Price_Rules_Usages__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** SYSTEM ** JSON of price rules</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** SYSTEM ** JSON of price rules</inlineHelpText>
+        <label>SYSTEM</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Primary_Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The Primary Contact for the Account will auto-populate on all Account Transactions, Payments, etc... by default.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Primary Contact for the Account will auto-populate on all Account Transactions, Payments, etc... by default.</inlineHelpText>
+        <label>Primary Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Primary Contact Accounts</relationshipLabel>
+        <relationshipName>Primary_Contact_Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Privacy_Settings__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**Defaults to private** This field sets the visibility settings when account search is enabled.
+            Public: Any user in the system can search. Private: Searchable by authenticated users only. Unlisted: Can not be searched at all.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Defaults to private** This field sets the visibility settings when account search is enabled.
+            Public: Any user in the system can search. Private: Searchable by authenticated users only. Unlisted: Can not be searched at all.</inlineHelpText>
+        <label>Privacy Settings</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>public</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>private</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>unlisted</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Restrict_Assignment_Visibility__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field restricts a contacts ability to see other contacts related to this account when purchasing items that have assignments enabled.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field restricts a contacts ability to see other contacts related to this account when purchasing items that have assignments enabled.</inlineHelpText>
+        <label>Restrict Assignment Visibility</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+</CustomObject>

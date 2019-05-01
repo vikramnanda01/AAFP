@@ -1,0 +1,1165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Receipts track Customer Payments and Refunds.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fieldSets>
+        <fullName>Receipt_Header_Fieldset</fullName>
+        <availableFields>
+            <field>Account__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Action_Information__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Applied_Amount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Balance__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Batch__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Billing_City__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Billing_Contact__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Billing_Country__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Billing_Postal_Code__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Billing_State__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Billing_Street__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Business_Group__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Calculate_Billing_Details__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Calculate_Memo__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Calculate_Shipping_Details__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Contact__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>CreatedById</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>CreatedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Deposit_Account__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>EPayment__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Entity__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Gateway_Transaction_Id__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Id</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>IsDeleted</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Is_Payment__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Is_Posted__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Is_Refund__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Memo__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>OwnerId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Payment_Gateway__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Payment_Method_Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Payment_Method__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Payment_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Posted_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Process_Refund__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Receipt__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Reference_Number__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Refund__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Sales_Order__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Shipping_City__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Shipping_Contact__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Shipping_Country__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Shipping_Postal_Code__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Shipping_State__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Shipping_Street__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Source_Code__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>A custom fieldset containing the default fields for a receipt&apos;s header.</description>
+        <displayedFields>
+            <field>Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Customer_Link__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Total__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Receipt Header</label>
+    </fieldSets>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>**System Calculated/Override/Required** The account the payment was received from or the refund was sent to.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated/Override/Required** The account the payment was received from or the refund was sent to.</inlineHelpText>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Receipts</relationshipLabel>
+        <relationshipName>Receipts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Action_Information__c</fullName>
+        <deprecated>false</deprecated>
+        <description>JSON Field that will store action information such as custom links that may need to be displayed.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>JSON Field that will store action information such as custom links that may need to be displayed.</inlineHelpText>
+        <label>Action Information</label>
+        <length>2500</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Applied_Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** The total amount of the payment that has been applied to transactions.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated** The total amount of the payment that has been applied to transactions.</inlineHelpText>
+        <label>Applied Amount</label>
+        <summarizedField>Receipt_Line__c.Total__c</summarizedField>
+        <summaryForeignKey>Receipt_Line__c.Receipt__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Balance__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** The difference between the Payment Amount and the Applied Amount.</description>
+        <externalId>false</externalId>
+        <formula>Total__c - Applied_Amount__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>**System Calculated** The difference between the Payment Amount and the Applied Amount.</inlineHelpText>
+        <label>Balance</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Batch__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>**Best Practice** Associate all receipts with a financial batch.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Best Practice** Associate all receipts with a financial batch.</inlineHelpText>
+        <label>Batch</label>
+        <referenceTo>Batch__c</referenceTo>
+        <relationshipLabel>Receipts</relationshipLabel>
+        <relationshipName>Receipts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Billing_City__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value of this field will be updated with the Account&apos;s Billing City or Contact&apos;s Mailing City, based on &quot;Entity&quot; if not defined on record entry.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value of this field will be updated with the Account&apos;s Billing City or Contact&apos;s Mailing City, based on &quot;Entity&quot; if not defined on record entry.</inlineHelpText>
+        <label>Billing City</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Billing_Contact__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value of this field will be updated with the Account or Contact, based on &quot;Entity&quot; if not defined on record entry.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value of this field will be updated with the Account or Contact, based on &quot;Entity&quot; if not defined on record entry.</inlineHelpText>
+        <label>Billing Contact</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Billing_Country__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value of this field will be updated with the Account&apos;s Billing Country or Contact&apos;s Mailing Country, based on &quot;Entity&quot; if not defined on record entry.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value of this field will be updated with the Account&apos;s Billing Country or Contact&apos;s Mailing Country, based on &quot;Entity&quot; if not defined on record entry.</inlineHelpText>
+        <label>Billing Country</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Billing_Postal_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value of this field will be updated with the Account&apos;s Billing Postal Code or Contact&apos;s Mailing Postal Code, based on &quot;Entity&quot; if not defined on record entry.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value of this field will be updated with the Account&apos;s Billing Postal Code or Contact&apos;s Mailing Postal Code, based on &quot;Entity&quot; if not defined on record entry.</inlineHelpText>
+        <label>Billing Postal Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Billing_State__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value of this field will be updated with the Account&apos;s Billing State or Contact&apos;s Mailing State, based on &quot;Entity&quot; if not defined on record entry.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value of this field will be updated with the Account&apos;s Billing State or Contact&apos;s Mailing State, based on &quot;Entity&quot; if not defined on record entry.</inlineHelpText>
+        <label>Billing State</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Billing_Street__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value of this field will be updated with the Account&apos;s Billing Address or Contact&apos;s Mailing Address, based on &quot;Entity&quot; if not defined on record entry.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value of this field will be updated with the Account&apos;s Billing Address or Contact&apos;s Mailing Address, based on &quot;Entity&quot; if not defined on record entry.</inlineHelpText>
+        <label>Billing Street</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Business_Group__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>**System Calculated/Override/Required** Link to the related Business Group auto-populates if not specified on record creation based upon the user&apos;s &quot;Default Business Group&quot; setting on the custom settings object.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated/Override/Required** Link to the related Business Group auto-populates if not specified on record creation based upon the user&apos;s &quot;Default Business Group&quot; setting on the custom settings object.</inlineHelpText>
+        <label>Business Group</label>
+        <referenceTo>Business_Group__c</referenceTo>
+        <relationshipLabel>Receipts</relationshipLabel>
+        <relationshipName>Receipts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Calculate_Billing_Details__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked the system will calculate billing details automatically. If entity is &quot;Contact&quot; the mailing address of the contact is used, otherwise the account&apos;s billing address is used. The contact on the invoice will populate the billing contact field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked the system will calculate billing details automatically. If entity is &quot;Contact&quot; the mailing address of the contact is used, otherwise the account&apos;s billing address is used. The contact on the invoice will populate the billing contact field.</inlineHelpText>
+        <label>Calculate Billing Details</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Calculate_Memo__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked the system will populate the memo for the receipt making it easy to have helpful memo&apos;s to both customers and accountants.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked the system will populate the memo for the receipt making it easy to have helpful memo&apos;s to both customers and accountants.</inlineHelpText>
+        <label>Calculate Memo</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Calculate_Shipping_Details__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If checked the system will calculate shipping details automatically. If entity is &quot;Contact&quot; the mailing address of the contact is used, otherwise the account&apos;s shipping address is used. The contact on the receipt will populate the shipping contact field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked the system will calculate billing details automatically. If entity is &quot;Contact&quot; the mailing address of the contact is used, otherwise the account&apos;s billing address is used. The contact on the invoice will populate the billing contact field.</inlineHelpText>
+        <label>Calculate Shipping Details</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>**System Calculated/Override/Required** The contact the payment was received from or the refund is being sent to.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated/Override/Required** The contact the payment was received from or the refund is being sent to.</inlineHelpText>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Receipts</relationshipLabel>
+        <relationshipName>Receipts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Customer_Link__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** A link to the record the system considers the &quot;Customer&quot;  as determined by the &quot;Entity&quot; field.</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Entity__c,&quot;Account&quot;), Account__r.Name, Contact__r.FirstName &amp; &quot; &quot; &amp; Contact__r.LastName)</formula>
+        <inlineHelpText>**System Calculated** A link to the record the system considers the &quot;Customer&quot;  as determined by the &quot;Entity&quot; field.</inlineHelpText>
+        <label>Customer</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Date__c</fullName>
+        <defaultValue>today()</defaultValue>
+        <deprecated>false</deprecated>
+        <description>**Required** The Date the Receipt was processed. Default&apos;s to the Date the Entry was created.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Required** The Date the Receipt was processed. Default&apos;s to the Date the Entry was created.</inlineHelpText>
+        <label>Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Deposit_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>**Required** The GL account associated with the bank account the funds will be deposited into.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Required** The GL account associated with the bank account the funds will be deposited into.</inlineHelpText>
+        <label>Deposit Account</label>
+        <referenceTo>GL_Account__c</referenceTo>
+        <relationshipLabel>Receipts</relationshipLabel>
+        <relationshipName>Receipts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>EPayment__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** When receipts are created from payment activities the source a link to the source payment activity will populate in this field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated** When receipts are created from payment activities the source a link to the source payment activity will populate in this field.</inlineHelpText>
+        <label>E-Payment (Source)</label>
+        <referenceTo>EPayment__c</referenceTo>
+        <relationshipLabel>Receipts</relationshipLabel>
+        <relationshipName>Receipts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Entity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**Required** The entity the system should consider the &quot;Customer&quot; related to the record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Required** The entity the system should consider the &quot;Customer&quot; related to the record.</inlineHelpText>
+        <label>Entity</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Contact</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Account</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Gateway_Transaction_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** The transaction ID reported from your payment gateway. Use this key as a unique key for payment reconciliation between your merchant services provider and our database.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated ** The transaction ID reported from your payment gateway. Use this key as a unique key for payment reconciliation between your merchant services provider and our database.</inlineHelpText>
+        <label>Gateway Transaction Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Payment__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** Checked when the Receipt is related to a customer payment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated** Checked when the Receipt is related to a customer payment.</inlineHelpText>
+        <label>Is Payment</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Posted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Default unchecked. When checked, the receipt will create a new cash transaction (journal entry) and the posted date will populate with the value of today&apos;s date.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Default unchecked. When checked, the receipts will create a new cash transaction (journal entry) and the posted date will populate with the value of today&apos;s date.</inlineHelpText>
+        <label>Is Posted</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Refund__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Checked when the Receipt is for a customer refund</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Checked when the Receipt is for a customer refund</inlineHelpText>
+        <label>Is Refund</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Memo__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Customer-facing memo for the receipt.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Customer-facing memo for the receipt.</inlineHelpText>
+        <label>Memo</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Payment_Gateway__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to payment gateway, populates automatically for all epayment transactions.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Lookup to payment gateway, populates automatically for all epayment transactions.</inlineHelpText>
+        <label>Payment Gateway</label>
+        <referenceTo>Payment_Gateway__c</referenceTo>
+        <relationshipLabel>Receipts</relationshipLabel>
+        <relationshipName>Receipts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Payment_Method_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** Derived from the source ePayment.</description>
+        <externalId>false</externalId>
+        <formula>IF (EPayment__c != null,
+
+IF (EPayment__r.Payment_Method_Type__c == &apos;credit_card&apos;,
+
+UPPER(EPayment__r.Card_Type__c) &amp; &quot; **&quot; &amp; EPayment__r.Last_Four_Digits__c &amp; &quot; (&quot; &amp; TEXT(EPayment__r.Month__c) &amp; &quot;/&quot; &amp; TEXT(EPayment__r.Year__c) &amp; &quot;)&quot;,
+
+EPayment__r.Bank_Name__c  &amp; &quot; &quot; &amp; EPayment__r.Bank_Account_Type__c &amp; &quot; &quot; &amp; EPayment__r.Bank_Account_Number__c
+
+
+),&apos;N/A&apos;)</formula>
+        <inlineHelpText>** System Calculated ** Derived from the source ePayment.</inlineHelpText>
+        <label>Payment Method Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Payment_Method__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Use a saved payment method for the customer without having to enter in a new credit card or bank account (not supported for all gateways - check with your administrator to see if you are using a gateway that supports this functionality).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Use a saved payment method for the customer without having to enter in a new credit card or bank account (not supported for all gateways - check with your administrator to see if you are using a gateway that supports this functionality).</inlineHelpText>
+        <label>Payment Method</label>
+        <referenceTo>Payment_Method__c</referenceTo>
+        <relationshipLabel>Receipts</relationshipLabel>
+        <relationshipName>Receipts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Payment_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**Required** The payment type (Check, Credit Card, EFT, or Other).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Required** The payment type (Check, Credit Card, EFT, or Other).</inlineHelpText>
+        <label>Payment Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Check</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Credit Card</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>EFT</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Test</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Posted_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated/Override** Populates with the value of the date the &quot;Is Posted&quot; flag is checked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated/Override** Populates with the value of the date the &quot;Is Posted&quot; flag is checked.</inlineHelpText>
+        <label>Posted Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Process_Refund__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Checking this flag will process the refund.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Checking this flag will process the refund.</inlineHelpText>
+        <label>Process Refund</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Receipt__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>**System Caluclated** Lookup to the reciept for which you are refunding.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Caluclated** Lookup to the reciept for which you are refunding.</inlineHelpText>
+        <label>Receipt</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Receipt__c.Is_Payment__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Receipt__c</referenceTo>
+        <relationshipLabel>Refunds</relationshipLabel>
+        <relationshipName>Refunds</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Reference_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**Required** The check number or credit card/bank authorization code related to the payment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Required** The check number or credit card/bank authorization code related to the payment.</inlineHelpText>
+        <label>Reference Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Refund__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Checking this flag will create a refund record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Checking this flag will create a refund record.</inlineHelpText>
+        <label>Refund</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Order__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>**System Calculated/Override** Link to related Sales Order.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated/Override** Link to related Sales Order.</inlineHelpText>
+        <label>Sales Order</label>
+        <referenceTo>Sales_Order__c</referenceTo>
+        <relationshipLabel>Receipts</relationshipLabel>
+        <relationshipName>Receipts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Shipping_City__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value of this field will be updated with the Account&apos;s Shipping City or Contact&apos;s Mailing City, based on &quot;Entity&quot; if not defined on record entry.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value of this field will be updated with the Account&apos;s Shipping City or Contact&apos;s Mailing City, based on &quot;Entity&quot; if not defined on record entry.</inlineHelpText>
+        <label>Shipping City</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Shipping_Contact__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value of this field will be updated with the Account or Contact, based on &quot;Entity&quot; if not defined on record entry.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value of this field will be updated with the Account or Contact, based on &quot;Entity&quot; if not defined on record entry.</inlineHelpText>
+        <label>Shipping Contact</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Shipping_Country__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value of this field will be updated with the Account&apos;s Shipping Country or Contact&apos;s Mailing Country, based on &quot;Entity&quot; if not defined on record entry.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value of this field will be updated with the Account&apos;s Shipping Country or Contact&apos;s Mailing Country, based on &quot;Entity&quot; if not defined on record entry.</inlineHelpText>
+        <label>Shipping Country</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Shipping_Postal_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value of this field will be updated with the Account&apos;s Shipping Postal Code or Contact&apos;s Mailing Postal Code, based on &quot;Entity&quot; if not defined on record entry.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value of this field will be updated with the Account&apos;s Shipping Postal Code or Contact&apos;s Mailing Postal Code, based on &quot;Entity&quot; if not defined on record entry.</inlineHelpText>
+        <label>Shipping Postal Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Shipping_State__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value of this field will be updated with the Account&apos;s Shipping State or Contact&apos;s Mailing State, based on &quot;Entity&quot; if not defined on record entry.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value of this field will be updated with the Account&apos;s Shipping State or Contact&apos;s Mailing State, based on &quot;Entity&quot; if not defined on record entry.</inlineHelpText>
+        <label>Shipping State</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Shipping_Street__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated/Conditional** Shipping Street derives from the Contact Mailing Street or the Account Billing Street when Calculate Shipping Details is checked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated/Conditional** Shipping Street derives from the Contact Mailing Street or the Account Billing Street when Calculate Shipping Details is checked.</inlineHelpText>
+        <label>Shipping Street</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Source_Code__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Optional source code for the receipt. This will populate on all invoices related to the receipt. If a source code is already on an invoice the receipt is applied to, the original source code will not be updated with the value of the source code on the receipt.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Populates on all invoices related to the receipt. If a source code is already assigned to an invoice the receipt is applied to, the invoice will not be updated with the new source code.</inlineHelpText>
+        <label>Source Code</label>
+        <referenceTo>Source_Code__c</referenceTo>
+        <relationshipLabel>Receipts</relationshipLabel>
+        <relationshipName>Receipts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Total__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>**Conditionally Required** Receipt Total, required to post receipt to GL (Transactions).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Conditionally Required** Receipt Total, required to post receipt to GL (Transactions).</inlineHelpText>
+        <label>Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**Required/Do Not Modify Picklist Values** &quot;Cash Receipt&quot; receipts are used to record inbound cash such as customer payments. &quot;Cash Payment&quot; receipts are used to record outbound cash such as refunds.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Required/Do Not Modify Picklist Values** &quot;Cash Receipt&quot; receipts are used to record inbound cash such as customer payments. &quot;Cash Payment&quot; receipts are used to record outbound cash such as refunds.</inlineHelpText>
+        <label>Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Payment</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Refund</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Receipt</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Type__c</columns>
+        <columns>Customer_Link__c</columns>
+        <columns>Business_Group__c</columns>
+        <columns>Batch__c</columns>
+        <columns>Deposit_Account__c</columns>
+        <columns>Payment_Type__c</columns>
+        <columns>Date__c</columns>
+        <columns>Is_Posted__c</columns>
+        <columns>Posted_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>{0000000000}</displayFormat>
+        <label>Receipt Number</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Receipts</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Customer_Link__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Batch__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Deposit_Account__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Payment_Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Reference_Number__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Posted_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Total__c</customTabListAdditionalFields>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Customer_Link__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Payment_Method__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Reference_Number__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Total__c</lookupDialogsAdditionalFields>
+        <lookupFilterFields>NAME</lookupFilterFields>
+        <lookupFilterFields>Customer_Link__c</lookupFilterFields>
+        <lookupFilterFields>Type__c</lookupFilterFields>
+        <lookupFilterFields>Date__c</lookupFilterFields>
+        <lookupFilterFields>Payment_Type__c</lookupFilterFields>
+        <lookupFilterFields>Reference_Number__c</lookupFilterFields>
+        <lookupPhoneDialogsAdditionalFields>Customer_Link__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Payment_Type__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Reference_Number__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Total__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Customer_Link__c</searchFilterFields>
+        <searchFilterFields>Type__c</searchFilterFields>
+        <searchFilterFields>Date__c</searchFilterFields>
+        <searchFilterFields>Payment_Type__c</searchFilterFields>
+        <searchFilterFields>Reference_Number__c</searchFilterFields>
+        <searchFilterFields>Batch__c</searchFilterFields>
+        <searchResultsAdditionalFields>Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Customer_Link__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Payment_Method__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Reference_Number__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Total__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <startsWith>Vowel</startsWith>
+    <webLinks>
+        <fullName>Create_Refund</fullName>
+        <availability>online</availability>
+        <description>Creates a Refund Record</description>
+        <displayType>button</displayType>
+        <linkType>page</linkType>
+        <masterLabel>Create Refund</masterLabel>
+        <openType>replace</openType>
+        <page>create_refund</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>Customer_Receipt</fullName>
+        <availability>online</availability>
+        <description>View the Receipt as it will display to the customer.</description>
+        <displayType>button</displayType>
+        <linkType>page</linkType>
+        <masterLabel>Customer Receipt</masterLabel>
+        <openType>replace</openType>
+        <page>receipt</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>Process_Refund</fullName>
+        <availability>online</availability>
+        <description>Processes a refund Record</description>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Process Refund</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/31.0/connection.js&quot;)}
+var rec = new sforce.SObject(&quot;{!$Setup.App_Config__c.Namespace_Prefix__c}Receipt__c&quot;);
+rec.Id = &quot;{!Receipt__c.Id}&quot;;
+if({!Receipt__c.Is_Refund__c}) {
+rec.{!$Setup.App_Config__c.Namespace_Prefix__c}Process_Refund__c = true;
+sforce.connection.update([rec]);
+}
+location.reload(true);</url>
+    </webLinks>
+</CustomObject>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Badges are assigned to Contacts either automatically (Badge Workflow) or manually. Badges can enable Contacts for special Price Rules - as well as permission to read, update, or delete certain content types.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Link to the assigned Account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Link to the assigned Account.</inlineHelpText>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Badges</relationshipLabel>
+        <relationshipName>Badges</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Assignment__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** Badges can be auto-assigned to Contacts based on &quot;Assignment&quot; the link to the &quot;Assignment&quot; record is used to auto-unassign the badge when the Contact has been &quot;Unassigned&quot;.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated ** Badges can be auto-assigned to Contacts based on &quot;Assignment&quot; the link to the &quot;Assignment&quot; record is used to auto-unassign the badge when the Contact has been &quot;Unassigned&quot;.</inlineHelpText>
+        <label>Assignment</label>
+        <referenceTo>Assignment__c</referenceTo>
+        <relationshipLabel>Badges</relationshipLabel>
+        <relationshipName>Badges</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Awarded_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** System Calculated Required Override ** The date the Badge Type was assigned to the Contact. Defaults to today&apos;s date if no other value provided on record creation.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated Required Override ** The date the Badge Type was assigned to the Contact. Defaults to today&apos;s date if no other value provided on record creation.</inlineHelpText>
+        <label>Awarded Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Badge_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** Value of the &quot;Short Description&quot; field for the linked Badge Type.</description>
+        <externalId>false</externalId>
+        <formula>Badge_Type__r.Short_Description__c</formula>
+        <inlineHelpText>** System Calculated ** Value of the &quot;Short Description&quot; field for the linked Badge Type.</inlineHelpText>
+        <label>Badge Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Badge_Type_Icon__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** Icon with link anchored by the Badge Type Name to the Badge Type assigned to the Contact.</description>
+        <externalId>false</externalId>
+        <formula>IF(Badge_Type__c != null, Badge_Type__r.Icon__c, &quot;Image Not Available&quot;) &amp; &quot; &quot; &amp; HYPERLINK(LEFT($Api.Enterprise_Server_URL_410 , FIND(&apos;/services&apos;, $Api.Enterprise_Server_URL_410)) &amp; Id, Badge_Type__r.Name, &quot;_tab&quot;)</formula>
+        <inlineHelpText>** System Calculated ** Icon with link anchored by the Badge Type Name to the Badge Type assigned to the Contact.</inlineHelpText>
+        <label>Badge</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Badge_Type__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Badge Type</label>
+        <referenceTo>Badge_Type__c</referenceTo>
+        <relationshipLabel>Badges</relationshipLabel>
+        <relationshipName>Badges</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Badge_Workflow__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** Link to related Badge Workflow that auto-assigned the Badge Type to the Contact.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated ** Link to related Badge Workflow that auto-assigned the Badge Type to the Contact.</inlineHelpText>
+        <label>Badge Workflow</label>
+        <referenceTo>Badge_Workflow__c</referenceTo>
+        <relationshipLabel>Assigned Badges</relationshipLabel>
+        <relationshipName>Badges</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Link to the assigned Contact.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Link to the assigned Contact.</inlineHelpText>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Badges</relationshipLabel>
+        <relationshipName>Badges</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Engagement_Score__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The numerical engagement score assigned for receiving the badge.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The numerical engagement score assigned for receiving the badge.</inlineHelpText>
+        <label>Engagement Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Expired_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** The date the Badge Type was un-assigned from the Contact.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated ** The date the Badge Type was un-assigned from the Contact.</inlineHelpText>
+        <label>Expired Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Is_Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, the Badge is considered &quot;Awarded&quot; and &quot;Active&quot; and will be considered when calculating any permission or pricing configurations related to the linked Badge Type. Defaults checked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, the Badge is considered &quot;Awarded&quot; and &quot;Active&quot; and will be considered when calculating any permission or pricing configurations related to the linked Badge Type. Defaults checked.</inlineHelpText>
+        <label>Is Active</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Item__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** Link to related Item that was related to the Assignment or the Sales Order Line that invoked the workflow that auto-assigned the Badge Type to the Contact.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated ** Link to related Item that was related to the Assignment or the Sales Order Line that invoked the workflow that auto-assigned the Badge Type to the Contact.</inlineHelpText>
+        <label>Item</label>
+        <referenceTo>Item__c</referenceTo>
+        <relationshipLabel>Badges (DO NOT DISPLAY)</relationshipLabel>
+        <relationshipName>Badges</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Order_Line__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** Link to related Sales Order Line that invoked the workflow that auto-assigned the Badge Type to the Contact.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated ** Link to related Sales Order Line that invoked the workflow that auto-assigned the Badge Type to the Contact.</inlineHelpText>
+        <label>Sales Order Line</label>
+        <referenceTo>Sales_Order_Line__c</referenceTo>
+        <relationshipLabel>Badges</relationshipLabel>
+        <relationshipName>Badges</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Badge</label>
+    <nameField>
+        <displayFormat>{00000000}</displayFormat>
+        <label>Badge ID</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Badges</pluralLabel>
+    <searchLayouts>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Contact__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Badge_Type_Icon__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Badge_Description__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Awarded_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Expired_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Is_Active__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Contact__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Badge_Type_Icon__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Badge_Description__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Awarded_Date__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Expired_Date__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Is_Active__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Contact__c</searchFilterFields>
+        <searchFilterFields>Badge_Type_Icon__c</searchFilterFields>
+        <searchFilterFields>Badge_Description__c</searchFilterFields>
+        <searchFilterFields>Awarded_Date__c</searchFilterFields>
+        <searchFilterFields>Expired_Date__c</searchFilterFields>
+        <searchFilterFields>Is_Active__c</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

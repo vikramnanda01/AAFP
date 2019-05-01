@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <content>MenuItem</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <content>MenuItem</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Menu Items create a hierarchy of links to pages, urls, actions, topics, and objects.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Default_List_View__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** Required for Type Salesforce Object ** Defines the API name of the List View used for the Salesforce object page</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** Required for Type Salesforce Object ** Defines the API name of the List View used for the Salesforce object page</inlineHelpText>
+        <label>Default List View</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Display_Order__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The numerical value defined in this field dictates the order this menu item will display in the member community.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The numerical value defined in this field dictates the order this menu item will display in the member community.</inlineHelpText>
+        <label>Display Order</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Enable_Access_Permissions__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field restricts the visibility of the menu item to those site users that have the defined badges.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field restricts the visibility of the menu item to those site users that have the defined badges.</inlineHelpText>
+        <label>Enable Access Permissions</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Profile_Menu_Item__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Defines the menu item to be the profile navigational item.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines the menu item to be the profile navigational item.</inlineHelpText>
+        <label>Is Profile Menu Item</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Object_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** Required for Type Salesforce Object ** Defines the API name of the object used for the Salesforce object page</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** Required for Type Salesforce Object ** Defines the API name of the object used for the Salesforce object page</inlineHelpText>
+        <label>Object Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Open_Link_in_New_Tab__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>** Used for Type External URL ** When checked, the menu item will create a new tab in the browser for navigation to the URL destination.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** Used for Type External URL ** When checked, the menu item will create a new tab in the browser for navigation to the URL destination.</inlineHelpText>
+        <label>Open Link in New Tab</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Open_Link_in_Same_Tab__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>** Used for Type External URL ** When checked, the menu item will create a new tab in the browser for navigation to the URL destination.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** Used for Type External URL ** When checked, the menu item will create a new tab in the browser for navigation to the URL destination.</inlineHelpText>
+        <label>Open Link in Same Tab</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Parent_Menu_Item__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Populated when a menu item is displayed as a drop down for navigation in the community.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Populated when a menu item is displayed as a drop down for navigation in the community.</inlineHelpText>
+        <label>Parent Menu Item</label>
+        <referenceTo>Menu_Item__c</referenceTo>
+        <relationshipName>Menu_Items</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Profile_Menu_Item_Component__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field defines the component to be displayed for the profile menu item.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field defines the component to be displayed for the profile menu item.</inlineHelpText>
+        <label>Profile Menu Item Component</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Publicly_Available__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked this menu item is displayed to unauthenticated users.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked this menu item is displayed to unauthenticated users.</inlineHelpText>
+        <label>Publicly Available</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Site__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>** Required ** Relates the menu items to the site.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** Required ** Relates the menu items to the site.</inlineHelpText>
+        <label>Community Site</label>
+        <referenceTo>Site__c</referenceTo>
+        <relationshipLabel>Community Menu Items</relationshipLabel>
+        <relationshipName>Community_Menu_Items</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <defaultValue>&quot;Community Page&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Defines the type of menu navigation for this Menu Item.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines the type of menu navigation for this Menu Item.</inlineHelpText>
+        <label>Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>External URL</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Menu Label</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Salesforce Object</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Community Page</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Global Action</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+                <value>
+                    <fullName>Navigational Topic</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>URL__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** Required for Type External URL ** This field references URL field for navigation.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** Required for Type External URL ** This field references URL field for navigation.</inlineHelpText>
+        <label>URL</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <label>Community Menu Item</label>
+    <nameField>
+        <label>Community Menu Item Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Community Menu Items</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

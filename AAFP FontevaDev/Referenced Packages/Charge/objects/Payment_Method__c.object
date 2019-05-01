@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <content>payment_methods</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <content>payment_methods</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <content>payment_methods</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>payment_methods</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Credit Card and E-Check tokens stored for accounts and contacts.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>API_Response__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** API Response from the callout to create/cancel a payment method.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated** API Response from the callout to create/cancel a payment method.</inlineHelpText>
+        <label>API Response</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>**System Calculated/Override** Link to the Billing Account for the Payment Method if Entity = &quot;Account&quot; otherwise the Billing Contact&apos;s Parent Account will be linked to the Payment Method.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated/Override** Link to the Billing Account for the Payment Method if Entity = &quot;Account&quot; otherwise the Billing Contact&apos;s Parent Account will be linked to the Payment Method.</inlineHelpText>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Payment Methods</relationshipLabel>
+        <relationshipName>Payment_Methods</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Bank_Account_Holder_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Bank account holder type for the echeck or direct debit payment method (when supported by your payment gateway).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Bank account holder type for the echeck or direct debit payment method (when supported by your payment gateway).</inlineHelpText>
+        <label>Bank Account Holder Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bank_Account_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The bank account type for echeck or direct debit payments (when supported by your payment gateway).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The bank account type for echeck or direct debit payments (when supported by your payment gateway).</inlineHelpText>
+        <label>Bank Account Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bank_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The bank name for echeck or direct debit payments (when supported by your payment gateway).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The bank name for echeck or direct debit payments (when supported by your payment gateway).</inlineHelpText>
+        <label>Bank Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bank_Routing_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The bank account routing number for echeck or direct debit payments (when supported by your payment gateway).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The bank account routing number for echeck or direct debit payments (when supported by your payment gateway).</inlineHelpText>
+        <label>Bank Routing Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Billing_City__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Billing City for the customer&apos;s Payment Method.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Billing City for the customer&apos;s Payment Method.</inlineHelpText>
+        <label>Billing City</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Billing_Country__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Billing Country for the customer&apos;s Payment Method.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Billing Country for the customer&apos;s Payment Method.</inlineHelpText>
+        <label>Billing Country</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Billing_Postal_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Billing Postal Code for the customer&apos;s Payment Method.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Billing Postal Code for the customer&apos;s Payment Method.</inlineHelpText>
+        <label>Billing Postal Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Billing_State__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Billing State for the customer&apos;s Payment Method.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Billing State for the customer&apos;s Payment Method.</inlineHelpText>
+        <label>Billing State</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Billing_Street__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Billing Street for the customer&apos;s Payment Method.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Billing Street for the customer&apos;s Payment Method.</inlineHelpText>
+        <label>Billing Street</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Card_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System API Calculated** Visa, MasterCard, American Express, etc...</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System API Calculated** Visa, MasterCard, American Express, etc...</inlineHelpText>
+        <label>Card Type</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>**System Calculated/Override** Link to the Billing Contact for the Payment Method.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated/Override** Link to the Billing Contact for the Payment Method.</inlineHelpText>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Payment Methods</relationshipLabel>
+        <relationshipName>Payment_Methods</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Custom_Payment_Method__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** Link to the custom payment method associated with this payment method</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated** Link to the custom payment method associated with this payment method</inlineHelpText>
+        <label>Custom Payment Method</label>
+        <referenceTo>Payment_Method__c</referenceTo>
+        <relationshipLabel>Custom Payment Method</relationshipLabel>
+        <relationshipName>Custom_Payment_Method</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Custom_Payment_Type__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** Link to the custom payment associated with this payment method</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated** Link to the custom payment associated with this payment method</inlineHelpText>
+        <label>Custom Payment Type</label>
+        <referenceTo>Custom_Payment_Type__c</referenceTo>
+        <relationshipLabel>Custom Payment Type</relationshipLabel>
+        <relationshipName>Custom_Payment_Type</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Customer_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** The Salesforce Record ID of the Contact or Account linked to the Payment Method.</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Entity__c,&quot;Contact&quot;),Contact__c,Account__c)</formula>
+        <inlineHelpText>** System Calculated ** The Salesforce Record ID of the Contact or Account linked to the Payment Method.</inlineHelpText>
+        <label>Customer ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** Link to the customer&apos;s record, controlled by the &quot;Entity&quot; field.</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Entity__c,&quot;Account&quot;),HYPERLINK(&quot;/&quot; &amp; Account__r.Id, Account__r.Name), HYPERLINK(&quot;/&quot; &amp; Contact__r.Id, Contact__r.FirstName &amp; &quot; &quot; &amp; Contact__r.LastName))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>**System Calculated** Link to the customer&apos;s record, controlled by the &quot;Entity&quot; field.</inlineHelpText>
+        <label>Customer</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** The description of the customer payment method.</description>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK( Number__c ),&quot;&quot;,&quot;- &quot;&amp;RIGHT(Number__c,7) )&amp;
+
+            IF(ISBLANK( Card_Type__c ),&quot;&quot;,&quot; ...&quot; &amp; Card_Type__c)&amp;
+
+            IF(OR(ISBLANK( Month__c ),ISBLANK( Year__c )), &quot;&quot;, &quot; (&quot; &amp; TEXT(Month__c) &amp; &quot;/&quot; &amp; TEXT(Year__c) &amp; &quot;)&quot;)</formula>
+        <inlineHelpText>**System Calculated** The description of the customer payment method.</inlineHelpText>
+        <label>Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Eligible_for_Card_Updater__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, the payment method is available for the Card on File Updater service where Fonteva will update any expired or changed cards in your ePayment vault so that any future transactions are processed uninterrupted.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, the payment method is available for the Card on File Updater service where Fonteva will update any expired or changed cards in your ePayment vault so that any future transactions are processed uninterrupted.</inlineHelpText>
+        <label>Eligible for Card Updater</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Email__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** The email address of the customer used to transact with the api.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated** The email address of the customer used to transact with the api.</inlineHelpText>
+        <label>Email</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Entity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**Required** Select &quot;Account&quot; if the invoice should be billed to the related account, select &quot;Contact&quot; if the invoice should be sent to the related &quot;Contact&quot;.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Required** Select &quot;Account&quot; if the invoice should be billed to the related account, select &quot;Contact&quot; if the invoice should be sent to the related &quot;Contact&quot;.</inlineHelpText>
+        <label>Entity</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Contact</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Account</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Exp_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** Credit Card Expiration Date.</description>
+        <externalId>false</externalId>
+        <formula>IF(MONTH( DATE(VALUE(TEXT(Year__c)),VALUE(TEXT(Month__c)),1) ) = 12,DATE( YEAR( DATE(VALUE(TEXT(Year__c)),VALUE(TEXT(Month__c)),1) ), 12, 31 ),DATE( YEAR( DATE(VALUE(TEXT(Year__c)),VALUE(TEXT(Month__c)),1) ), MONTH ( DATE(VALUE(TEXT(Year__c)),VALUE(TEXT(Month__c)),1) ) + 1, 1 ) - 1 )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>**System Calculated** Credit Card Expiration Date.</inlineHelpText>
+        <label>Expiration Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>First_Six_Digits__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The first six (6) digits of the payment method (credit card or bank account number).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The first six (6) digits of the payment method (credit card or bank account number).</inlineHelpText>
+        <label>First Six Digits</label>
+        <length>6</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Full_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** The full name of the customer.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated** The full name of the customer.</inlineHelpText>
+        <label>Full Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>**System API Calculated** Checked when the Payment Method is deemed as a valid payment method by your Gateway (Payment Processor). Default checked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System API Calculated** Checked when the Payment Method is deemed as a valid payment method by your Gateway (Payment Processor). Default checked.</inlineHelpText>
+        <label>Is Active</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Declined__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Checked when the last transaction for the Payment Method was declined by your Payment Gateway. Default unchecked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Checked when the last transaction for the Payment Method was declined by your Payment Gateway. Default unchecked.</inlineHelpText>
+        <label>Is Declined</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Expired__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** Checked if the Payment Method Type is Credit Card and Today&apos;s Date is past the Card Expiration Date. Default unchecked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated** Checked if the Payment Method Type is Credit Card and Today&apos;s Date is past the Card Expiration Date. Default unchecked.</inlineHelpText>
+        <label>Is Expired</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Restricted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Restircts the payment methods display to only purchased items. Default unchecked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Restircts the payment methods display to only purchased items. Default unchecked.</inlineHelpText>
+        <label>Is Restricted</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Third_Party__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, payment method will not be displayed during checkout and credit card payment methods. Defaults unchecked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, payment method will not be displayed during checkout and credit card payment methods. Defaults unchecked.</inlineHelpText>
+        <label>Is Third Party</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Valid__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Checked when the Payment Method is deemed valid by your Payment Gateway otherwise unchecked. Default checked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Checked when the Payment Method is deemed valid by your Payment Gateway otherwise unchecked. Default checked.</inlineHelpText>
+        <label>Is Valid</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Last_Four_Digits__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The last four (4) digits of the payment method (credit card or bank account number).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The last four (4) digits of the payment method (credit card or bank account number).</inlineHelpText>
+        <label>Last Four Digits</label>
+        <length>4</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Month__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** MM value for the Credit Card Expiration Month.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated** MM value for the Credit Card Expiration Month.</inlineHelpText>
+        <label>Month</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** Masked account number displaying X for all but the last four characters which are visible. Example: XXXX-XXXX-XXXX-1234</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated** Masked account number displaying X for all but the last four characters which are visible. Example: XXXX-XXXX-XXXX-1234</inlineHelpText>
+        <label>Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Override_Edit__c</fullName>
+        <deprecated>false</deprecated>
+        <description>URL field that overrides the default behavior of edit. If this filed populated, user will be redirected to provided url</description>
+        <externalId>false</externalId>
+        <inlineHelpText>URL field that overrides the default behavior of edit. If this filed populated, user will be redirected to provided url</inlineHelpText>
+        <label>Override Edit</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Payment_Method_Token__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System API Calculated** API Token for the Payment Method.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System API Calculated** API Token for the Payment Method.</inlineHelpText>
+        <label>Payment Method Token</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Payment_Method_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System API Calculated** The type of payment method formatted for API transactions.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System API Calculated** The type of payment method formatted for API transactions.</inlineHelpText>
+        <label>Payment Method Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Phone__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** The phone number sent to the gateway (optional/additional customer data)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated** The phone number sent to the gateway (optional/additional customer data)</inlineHelpText>
+        <label>Phone</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Year__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** YYYY value for the Credit Card Expiration Year.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated** YYYY value for the Credit Card Expiration Year.</inlineHelpText>
+        <label>Year</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Payment Method</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Customer__c</columns>
+        <columns>Payment_Method_Type__c</columns>
+        <columns>Card_Type__c</columns>
+        <columns>Number__c</columns>
+        <columns>Exp_Date__c</columns>
+        <columns>Payment_Method_Token__c</columns>
+        <columns>Is_Valid__c</columns>
+        <columns>Is_Active__c</columns>
+        <columns>Eligible_for_Card_Updater__c</columns>
+        <columns>API_Response__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>{0000000000}</displayFormat>
+        <label>Payment Method ID</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Payment Methods</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Customer__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Payment_Method_Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Card_Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Number__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Exp_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Payment_Method_Token__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Is_Valid__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Is_Active__c</customTabListAdditionalFields>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Customer__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Description__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Is_Valid__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Is_Declined__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Is_Expired__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Is_Active__c</lookupDialogsAdditionalFields>
+        <lookupFilterFields>Account__c</lookupFilterFields>
+        <lookupFilterFields>Contact__c</lookupFilterFields>
+        <lookupFilterFields>Payment_Method_Type__c</lookupFilterFields>
+        <lookupFilterFields>Card_Type__c</lookupFilterFields>
+        <lookupFilterFields>Number__c</lookupFilterFields>
+        <lookupFilterFields>Exp_Date__c</lookupFilterFields>
+        <lookupPhoneDialogsAdditionalFields>Customer__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Description__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Is_Declined__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Is_Expired__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Is_Active__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Is_Valid__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Exp_Date__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>Contact__c</searchFilterFields>
+        <searchFilterFields>Account__c</searchFilterFields>
+        <searchFilterFields>Payment_Method_Type__c</searchFilterFields>
+        <searchFilterFields>Card_Type__c</searchFilterFields>
+        <searchFilterFields>Number__c</searchFilterFields>
+        <searchFilterFields>Exp_Date__c</searchFilterFields>
+        <searchResultsAdditionalFields>Payment_Method_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Customer__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Number__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>First_Six_Digits__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Last_Four_Digits__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Card_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Exp_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Is_Valid__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <webLinks>
+        <fullName>Manage_Payment_Methods_Account</fullName>
+        <availability>online</availability>
+        <description>Display on the Account related lists to manage payment methods linked to the record in context.</description>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Manage Payment Methods</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/31.0/connection.js&quot;)}
+            window.open(&apos;{!$Site.Prefix}/apex/{!$Setup.App_Config__c.Namespace_Prefix__c}payment_methods?customerid={!Account.Id}&apos;);</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Manage_Payment_Methods_Contact</fullName>
+        <availability>online</availability>
+        <description>Display on the Contact related lists to manage payment methods linked to the contact record in context.</description>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Manage Payment Methods</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/31.0/connection.js&quot;)}
+            window.open(&apos;{!$Site.Prefix}/apex/{!$Setup.App_Config__c.Namespace_Prefix__c}payment_methods?customerid={!Contact.Id}&apos;);</url>
+    </webLinks>
+</CustomObject>

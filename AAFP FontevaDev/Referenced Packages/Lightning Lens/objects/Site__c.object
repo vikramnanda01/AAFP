@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <content>Site</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Sites are a collection of pages displayed in the lightning community.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Address_Book_Instructions__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field displays as instructional text on the Address Book page in the community.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field displays as instructional text on the Address Book page in the community.</inlineHelpText>
+        <label>Address Book Instructions</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Assign_Members_Contact_Field_Set__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field defines the field set to be used for the Add Member button on the assignments component.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field defines the field set to be used for the Add Member button on the assignments component.</inlineHelpText>
+        <label>Assign Members Contact Field Set</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Badges_Instructions__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field displays as instructional text on the badge page in the community.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field displays as instructional text on the badge page in the community.</inlineHelpText>
+        <label>Badges Instructions</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Captcha_Lightning_Component__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Defines the component that will be displayed for the captcha.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines the component that will be displayed for the captcha.</inlineHelpText>
+        <label>Captcha Lightning Component</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Community_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Defines the Community that houses this site.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines the Community that houses this site.</inlineHelpText>
+        <label>Community ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Community_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field helps retrieve the community ID to relate the site to the appropriate community. Enter the exact community name here to have the community id populated in its field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field helps retrieve the community ID to relate the site to the appropriate community. Enter the exact community name here to have the community id populated in its field.</inlineHelpText>
+        <label>Community Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cookie_Decline_Redirect_URL__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Required if Enable Cookie Prompt is checked. Field contains the URL to redirect to if the prompt is not accepted. This is conditionally required.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Required if Enable Cookie Prompt is checked. Field contains the URL to redirect to if the prompt is not accepted. This is conditionally required.</inlineHelpText>
+        <label>Cookie Decline Redirect URL</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Create_Account_Override_URL__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Providing a URL will hide the &quot;Create a user account&quot; checkbox on the authentication page and display the provided URL link in its place.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Providing a URL will hide the &quot;Create a user account&quot; checkbox on the authentication page and display the provided URL link in its place.</inlineHelpText>
+        <label>Create Account Override URL</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Default_Event_Listing__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field defines the default view for the event listing page.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field defines the default view for the event listing page.</inlineHelpText>
+        <label>Default Event Listing</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Large Tile</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Small Tile</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>List</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Geo</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Tile</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Display_Enhanced_List_View__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Check this field to display the enhanced list view in the event listing page.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this field to display the enhanced list view in the event listing page.</inlineHelpText>
+        <label>Display Enhanced List View</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Display_Geo_Location__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Check this field to display the geo-location view in the event listing page.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this field to display the geo-location view in the event listing page.</inlineHelpText>
+        <label>Display Geo Location View</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Display_Large_Tile_View__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Check this field to display the large tile view in the event listing page.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this field to display the large tile view in the event listing page.</inlineHelpText>
+        <label>Display Large Tile View</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Display_Small_Tile_View__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Check this field to display the small tile view in the event listing page.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this field to display the small tile view in the event listing page.</inlineHelpText>
+        <label>Display Small Tile View</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Enable_Access_Permissions__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Combined with access permissions, this field restricts visibility to the site.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Combined with access permissions, this field restricts visibility to the site.</inlineHelpText>
+        <label>RESERVED</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Enable_Captcha__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>By checking this field, a captcha will be presented to users using the Create Account and Continue as Guest pages.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>By checking this field, a captcha will be presented to users using the Create Account and Continue as Guest pages.</inlineHelpText>
+        <label>Enable Captcha</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Enable_Cookie_Prompt__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, the Site will display a prompt asking the user to accept the use of cookies. If not accepted, the user will be redirected to an external site.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, the Site will display a prompt asking the user to accept the use of cookies. If not accepted, the user will be redirected to an external site.</inlineHelpText>
+        <label>Enable Cookie Prompt</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Enable_Event_Listing_Filter__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>By checking this field, filters will be enabled for the event listing.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>By checking this field, filters will be enabled for the event listing.</inlineHelpText>
+        <label>Enable Event Listing Filter</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Event_Listing_Filters__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field holds the values for the fields that are used as filters in the Event Listing.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field holds the values for the fields that are used as filters in the Event Listing.</inlineHelpText>
+        <label>Event Listing Filters</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Event_Sort_Fields__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Defines the fields used to sort the results in the Events listing page.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines the fields used to sort the results in the Events listing page.</inlineHelpText>
+        <label>Event Sort Fields</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Featured_Event_Carousel_Timer__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value defined in this field controls the frequency, in seconds, at which the banner scrolls from one image to the next.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value defined in this field controls the frequency, in seconds, at which the banner scrolls from one image to the next.</inlineHelpText>
+        <label>Featured Event Carousel Timer</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Geo_Location_Radius_Filter_Values_CSV__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Enter comma separated values you wish to display as a radius filter when using the Geo-Location view. Example &quot;5, 10, 25, 50, 100&quot;.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter comma separated values you wish to display as a radius filter when using the Geo-Location view. Example &quot;5, 10, 25, 50, 100&quot;.</inlineHelpText>
+        <label>Geo Location Radius Filter Values</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Geo_Location_Radius_Filter_Values__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enter comma separated values you wish to display as a radius filter when using the Geo-Location view. Example &quot;5, 10, 25, 50, 100&quot;.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter comma separated values you wish to display as a radius filter when using the Geo-Location view. Example &quot;5, 10, 25, 50, 100&quot;.</inlineHelpText>
+        <label>DEPRECATED</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Invoices_Instructions__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Text displays on the Invoices Page in the community.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Text displays on the Invoices Page in the community.</inlineHelpText>
+        <label>Invoices Instructions</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Is_Default__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Used as the default site when no site is found on various pages in the community.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Used as the default site when no site is found on various pages in the community.</inlineHelpText>
+        <label>RESERVED</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Published__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, the Site will be published and made available to the appropriate audience. Defaults unchecked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, the Site will be published and made available to the appropriate audience. Defaults unchecked.</inlineHelpText>
+        <label>RESERVED</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Logo_Image__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Image to be displayed for the logo.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Image to be displayed for the logo.</inlineHelpText>
+        <label>Logo Image</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Logo_Target_URL__c</fullName>
+        <deprecated>false</deprecated>
+        <description>When logo is clicked, user brought to the page populated here.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When logo is clicked, user brought to the page populated here.</inlineHelpText>
+        <label>Logo Target URL</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Manage_Subscription_Instructions__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field displays as instructional text on the subscription page in the community.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field displays as instructional text on the subscription page in the community.</inlineHelpText>
+        <label>Manage Subscription Instructions</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>My_Info_Instructions__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field displays as instructional text on the My Info page in the community.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field displays as instructional text on the My Info page in the community.</inlineHelpText>
+        <label>My Info Instructions</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Payment_Method_Instructions__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field displays as instructional text on the Payment Method page in the community.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field displays as instructional text on the Payment Method page in the community.</inlineHelpText>
+        <label>Payment Method Instructions</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Payments_Page_Instructions__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field displays as instructional text on the Payments page in the community.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field displays as instructional text on the Payments page in the community.</inlineHelpText>
+        <label>Payments Page Instructions</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Profile_Contact_Fieldset_CSV__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Comma separated field set names that will be displayed in the Community on the My Info page.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Comma separated field set names that will be displayed in the Community on the My Info page.</inlineHelpText>
+        <label>Profile Contact Fieldset(s) CSV</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Site_URL__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field defines the URL for the related community.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field defines the URL for the related community.</inlineHelpText>
+        <label>Site URL</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Store__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Defines the store to be used for this site.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines the store to be used for this site.</inlineHelpText>
+        <label>Store</label>
+        <referenceTo>OrderApi__Store__c</referenceTo>
+        <relationshipName>Sites</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Community Site</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Community_Name__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>Community Site Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Community Sites</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

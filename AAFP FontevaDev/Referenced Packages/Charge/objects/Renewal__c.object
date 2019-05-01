@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Terms track the Subscription terms, dates for all Customer Subscriptions.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Relates the Term to the Account</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Relates the Term to the Account</inlineHelpText>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Terms</relationshipLabel>
+        <relationshipName>Terms</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Active_Assignments__c</fullName>
+        <deprecated>false</deprecated>
+        <description>System Calculated ** Counts the number of assignments that are marked active for the term.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>System Calculated ** Counts the number of assignments that are marked active for the term.</inlineHelpText>
+        <label>Active Assignments</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Assignments_Allowed__c</fullName>
+        <deprecated>false</deprecated>
+        <description>System Calculated ** The number of Assignments allowed for the term.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>System Calculated ** The number of Assignments allowed for the term.</inlineHelpText>
+        <label>Assignments Allowed</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cancellation_Requested__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field is checked when the customer requests to cancel their membership. To enable this in the community, enable cancellations on the item.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is checked when the customer requests to cancel their membership. To enable this in the community, enable cancellations on the item.</inlineHelpText>
+        <label>Cancellation Requested</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Relates the Term to the Contact</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Relates the Term to the Contact</inlineHelpText>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Terms</relationshipLabel>
+        <relationshipName>Terms</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Days_To_Lapse__c</fullName>
+        <deprecated>false</deprecated>
+        <description>System Calculated ** Defines the remaining number of days until the end of the Term.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>System Calculated ** Defines the remaining number of days until the end of the Term.</inlineHelpText>
+        <label>Days to Lapse</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Dues_Total__c</fullName>
+        <deprecated>false</deprecated>
+        <description>System Calculated ** The sum of the &quot;Total&quot; field for all related Subscription Lines.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>System Calculated ** The sum of the &quot;Total&quot; field for all related Subscription Lines.</inlineHelpText>
+        <label>Dues Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Entity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>System Calculated Required Override ** Select &quot;Account&quot; if the primary subscriber is the linked Account, otherwise select &quot;Contact&quot;. Defaults to the value of the same field on the Sales Order Line that created the Subscription.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>System Calculated Required Override ** Select &quot;Account&quot; if the primary subscriber is the linked Account, otherwise select &quot;Contact&quot;. Defaults to the value of the same field on the Sales Order Line that created the Subscription.</inlineHelpText>
+        <label>Entity</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Account</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Contact</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Grace_Period_End_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This date is calculated by the Term End Date plus the number of days defined on the Subscription Plan&apos;s Grace Period field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This date is calculated by the Term End Date plus the number of days defined on the Subscription Plan&apos;s Grace Period field.</inlineHelpText>
+        <label>Grace Period End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Is_Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Defines the active subscription term.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines the active subscription term.</inlineHelpText>
+        <label>Is Active</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Changed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>System Calculated ** This field identifies terms that have been changed and needed a new term created as a result.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>System Calculated ** This field identifies terms that have been changed and needed a new term created as a result.</inlineHelpText>
+        <label>RESERVED</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Item__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>System Calculated Required Override ** Link to the primary &quot;Subscription&quot; Item.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>System Calculated Required Override ** Link to the primary &quot;Subscription&quot; Item.</inlineHelpText>
+        <label>Item</label>
+        <referenceTo>Item__c</referenceTo>
+        <relationshipLabel>Terms</relationshipLabel>
+        <relationshipName>Terms</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Last_Amendment_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>System Calculated ** The date the Subscription was last amended.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>System Calculated ** The date the Subscription was last amended.</inlineHelpText>
+        <label>RESERVED</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Next_Invoice_Due_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>System Calculated ** The date the next invoice is due for the Subscription.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>System Calculated ** The date the next invoice is due for the Subscription.</inlineHelpText>
+        <label>Next Invoice Due Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Next_Scheduled_Payment_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>System Calculated ** The date the next payment is scheduled to be processed for the Subscription.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>System Calculated ** The date the next payment is scheduled to be processed for the Subscription.</inlineHelpText>
+        <label>Next Scheduled Payment Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Next_Term_Renewed_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field defines the date that the subscription term was renewed to a new term.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field defines the date that the subscription term was renewed to a new term.</inlineHelpText>
+        <label>Next Term Renewed Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Previous_Term__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>System Calculated ** Defines the next term to be activated as a result of a renewal purchase.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>System Calculated ** Defines the next term to be activated as a result of a renewal purchase.</inlineHelpText>
+        <label>Previous Term</label>
+        <referenceTo>Renewal__c</referenceTo>
+        <relationshipLabel>Next Term</relationshipLabel>
+        <relationshipName>Next_Term</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Renewal_Sales_Order__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>System Calculated ** The Sales Order defined in this field was generated by the system for the next renewal.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>System Calculated ** The Sales Order defined in this field was generated by the system for the next renewal.</inlineHelpText>
+        <label>Renewal Sales Order</label>
+        <referenceTo>Sales_Order__c</referenceTo>
+        <relationshipLabel>Terms</relationshipLabel>
+        <relationshipName>RenewalSalesOrders</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Renewed_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** System Calculated Required Override ** The date the customer renewed the Subscription.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated Required Override ** The date the customer renewed the Subscription.</inlineHelpText>
+        <label>Paid Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Order_Line__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** Related Sales Order Line(source).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated ** Related Sales Order Line(source).</inlineHelpText>
+        <label>Sales Order Line</label>
+        <referenceTo>Sales_Order_Line__c</referenceTo>
+        <relationshipLabel>Terms</relationshipLabel>
+        <relationshipName>Renewals</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Order__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** Related Sales Order (source).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated ** Related Sales Order (source).</inlineHelpText>
+        <label>Sales Order</label>
+        <referenceTo>Sales_Order__c</referenceTo>
+        <relationshipLabel>Terms</relationshipLabel>
+        <relationshipName>Renewals</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Subscription_Plan__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>System Calculated Required Override ** Link to the Subscription Plan.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated ** Link to related Subscription Plan</inlineHelpText>
+        <label>Subscription Plan</label>
+        <referenceTo>Subscription_Plan__c</referenceTo>
+        <relationshipLabel>Terms</relationshipLabel>
+        <relationshipName>Renewals</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Subscription__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** System Calculated Required ** Link to related Subscription</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated Required ** Link to related Subscription</inlineHelpText>
+        <label>Subscription</label>
+        <referenceTo>Subscription__c</referenceTo>
+        <relationshipLabel>Terms</relationshipLabel>
+        <relationshipName>Renewals</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Term_End_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** System Calculated Required Override ** The date the term ends.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated Required Override ** The date the term ends.</inlineHelpText>
+        <label>Term End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Term_Start_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** System Calculated Required Override ** The date the term begins.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated Required Override ** The date the term begins.</inlineHelpText>
+        <label>Term Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <label>Term</label>
+    <nameField>
+        <displayFormat>{000000000}</displayFormat>
+        <label>Term ID</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Terms</pluralLabel>
+    <searchLayouts>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Subscription__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Renewed_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Subscription_Plan__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Term_Start_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Term_End_Date__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Subscription__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Renewed_Date__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Subscription_Plan__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Term_Start_Date__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Term_End_Date__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Subscription__c</searchFilterFields>
+        <searchFilterFields>Renewed_Date__c</searchFilterFields>
+        <searchFilterFields>Subscription_Plan__c</searchFilterFields>
+        <searchFilterFields>Term_Start_Date__c</searchFilterFields>
+        <searchFilterFields>Term_End_Date__c</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

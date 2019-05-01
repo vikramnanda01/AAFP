@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Directory_Preferences__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The JSON is used to hide the fields on the directory detail view.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The JSON is used to hide the fields on the directory detail view.</inlineHelpText>
+        <label>Directory Preferences</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+</CustomObject>

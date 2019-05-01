@@ -1,0 +1,1427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Access_Permission_Redirect_Text</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Join Process Access Permission redirect text</shortDescription>
+        <value>Click back button to redirect to the previous page</value>
+    </labels>
+    <labels>
+        <fullName>Access_Permissions</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Access Permissions</shortDescription>
+        <value>Access Permissions</value>
+    </labels>
+    <labels>
+        <fullName>Access_Permissions_drag_drop_text</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Access Permissions drag drop text</shortDescription>
+        <value>Drag Badges to the right to grant access</value>
+    </labels>
+    <labels>
+        <fullName>Add_Group</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Add_Group</shortDescription>
+        <value>Add Group</value>
+    </labels>
+    <labels>
+        <fullName>Add_Item</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Add_Item</shortDescription>
+        <value>Add Item</value>
+    </labels>
+    <labels>
+        <fullName>Add_Step</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Add_Step</shortDescription>
+        <value>Add Step</value>
+    </labels>
+    <labels>
+        <fullName>Add_To_Order</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Add_To_Order</shortDescription>
+        <value>Add To Order</value>
+    </labels>
+    <labels>
+        <fullName>Application_Builder</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Application Builder</shortDescription>
+        <value>Application Builder</value>
+    </labels>
+    <labels>
+        <fullName>Assignments_Back</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Assignments_Back</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>Assignments_Cancel</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Assignments_Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Authentication</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Authentication</shortDescription>
+        <value>Authentication</value>
+    </labels>
+    <labels>
+        <fullName>Back</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Back</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>Badge_Type_Modal_Instructions</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Badge_Type_Modal_Instructions</shortDescription>
+        <value>Grant access to the item by draging Badge Types to the right</value>
+    </labels>
+    <labels>
+        <fullName>Badge_Type_Title</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Badge_Type_Title</shortDescription>
+        <value>Select Badge Type</value>
+    </labels>
+    <labels>
+        <fullName>Badge_Types</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Badge_Types</shortDescription>
+        <value>Badge Types</value>
+    </labels>
+    <labels>
+        <fullName>Button_Label</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Button_Label</shortDescription>
+        <value>Button Label</value>
+    </labels>
+    <labels>
+        <fullName>Cancel</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Cancel_Return_to_Process_Builder</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel_Return_to_Process_Builder</shortDescription>
+        <value>Cancel &amp; Return to Process Builder</value>
+    </labels>
+    <labels>
+        <fullName>Close</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Close</shortDescription>
+        <value>Close</value>
+    </labels>
+    <labels>
+        <fullName>Confirmation</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Confirmation</shortDescription>
+        <value>Confirmation</value>
+    </labels>
+    <labels>
+        <fullName>Could_Not_Create_User</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Could_Not_Create_User</shortDescription>
+        <value>Could Not Create User</value>
+    </labels>
+    <labels>
+        <fullName>Criteria_Type</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Criteria_Type</shortDescription>
+        <value>Criteria Type</value>
+    </labels>
+    <labels>
+        <fullName>Criteria_Type_Help_Text</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Criteria_Type_Help_Text</shortDescription>
+        <value>defines the type of criteria used to filter items.</value>
+    </labels>
+    <labels>
+        <fullName>Custom_Page</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom_Page</shortDescription>
+        <value>Custom Page</value>
+    </labels>
+    <labels>
+        <fullName>Default_Site_Is_Mandatory</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Default_Site_Is_Mandatory</shortDescription>
+        <value>Site Configuration Missing: Please add default site and publish it.</value>
+    </labels>
+    <labels>
+        <fullName>Delete</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>Deleted_Field</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Deleted_Field</shortDescription>
+        <value>Deleted Field</value>
+    </labels>
+    <labels>
+        <fullName>Deleted_Fields</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Deleted_Fields</shortDescription>
+        <value>Deleted Fields</value>
+    </labels>
+    <labels>
+        <fullName>Deleting</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Deleting</shortDescription>
+        <value>Deleting...</value>
+    </labels>
+    <labels>
+        <fullName>Disable_Navigation_Button</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Disable Navigation Button</shortDescription>
+        <value>Navigation</value>
+    </labels>
+    <labels>
+        <fullName>Disable_Navigation_Button_Help_Text</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Disable_Navigation_Button_Help_Text</shortDescription>
+        <value>By selecting Item, your members will see navigation buttons next to the items in the marketing page. By selecting Step, your members will only see a navigation button at the bottom of the page.</value>
+    </labels>
+    <labels>
+        <fullName>Dynamic_Item_Selection</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Dynamic_Item_Selection</shortDescription>
+        <value>Dynamic Item Selection</value>
+    </labels>
+    <labels>
+        <fullName>Edit_In_Salesforce</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Edit In Salesforce</shortDescription>
+        <value>Edit In Salesforce</value>
+    </labels>
+    <labels>
+        <fullName>Email</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email</shortDescription>
+        <value>Email</value>
+    </labels>
+    <labels>
+        <fullName>Email_Required</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email_Required</shortDescription>
+        <value>Email Required</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Access_Permissions</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Access_Permissions</shortDescription>
+        <value>Enable Access Permissions</value>
+    </labels>
+    <labels>
+        <fullName>Enable_Access_Permissions_Help_Text</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable_Access_Permissions_Help_Text</shortDescription>
+        <value>When checked the join process will be restricted to only those contacts that have the defined badges.</value>
+    </labels>
+    <labels>
+        <fullName>Error</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error</shortDescription>
+        <value>Error!</value>
+    </labels>
+    <labels>
+        <fullName>Error_Title</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error_Title</shortDescription>
+        <value>Error occurred while loading a Visualforce page.</value>
+    </labels>
+    <labels>
+        <fullName>Exit</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Exit</shortDescription>
+        <value>Exit</value>
+    </labels>
+    <labels>
+        <fullName>Filter_Criteria</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filter_Criteria</shortDescription>
+        <value>Filter Criteria</value>
+    </labels>
+    <labels>
+        <fullName>Filter_Criteria_Field_Label</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filter Criteria Field Label</shortDescription>
+        <value>Field</value>
+    </labels>
+    <labels>
+        <fullName>Filter_Criteria_Instructions</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filter_Criteria_Instructions</shortDescription>
+        <value>Define the Criteria for the selected Item</value>
+    </labels>
+    <labels>
+        <fullName>Filter_Criteria_Object_Label</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filter Criteria Operator Label</shortDescription>
+        <value>Object</value>
+    </labels>
+    <labels>
+        <fullName>Filter_Criteria_Operator_Label</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filter Criteria Operator Label</shortDescription>
+        <value>Operator</value>
+    </labels>
+    <labels>
+        <fullName>Filter_Criteria_Title</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filter_Criteria_Title</shortDescription>
+        <value>Create Filter</value>
+    </labels>
+    <labels>
+        <fullName>Filter_Criteria_Value_Label</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filter Criteria Value Label</shortDescription>
+        <value>Value</value>
+    </labels>
+    <labels>
+        <fullName>Final_Step</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Final Step</shortDescription>
+        <value>Final Step</value>
+    </labels>
+    <labels>
+        <fullName>Final_Step_Button_Label</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Final_Step_Button_Label</shortDescription>
+        <value>Final Step Button Label</value>
+    </labels>
+    <labels>
+        <fullName>Final_Step_Button_Label_Help_Text</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Final_Step_Button_Label_Help_Text</shortDescription>
+        <value>Button label text when redirected after Final Step</value>
+    </labels>
+    <labels>
+        <fullName>Final_Step_Help_Text</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Final_Step_Help_Text</shortDescription>
+        <value>This is the Final Step of your process and will be redirected to the standard member nation checkout page</value>
+    </labels>
+    <labels>
+        <fullName>Final_Step_Help_Text_Confirmation</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Final_Step_Help_Text_Confirmation</shortDescription>
+        <value>This is the Final Step of your process</value>
+    </labels>
+    <labels>
+        <fullName>Final_Step_URL_Help_Text</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Final_Step_URL_Help_Text</shortDescription>
+        <value>Navigation URL to redirect after Final Step</value>
+    </labels>
+    <labels>
+        <fullName>Final_Step_Url</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Final Step Url</shortDescription>
+        <value>Final Step Url</value>
+    </labels>
+    <labels>
+        <fullName>First_Name</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>First_Name</shortDescription>
+        <value>First Name</value>
+    </labels>
+    <labels>
+        <fullName>First_Name_Required</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>First_Name_Required</shortDescription>
+        <value>First Name Required</value>
+    </labels>
+    <labels>
+        <fullName>First_Step</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>First_Step</shortDescription>
+        <value>First Step</value>
+    </labels>
+    <labels>
+        <fullName>First_Step_Validating_Message</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>First_Step_Validating_Message</shortDescription>
+        <value>Please choose the first step of the process before publishing it.</value>
+    </labels>
+    <labels>
+        <fullName>Forgot_Password_Link_Anchor</fullName>
+        <categories>forgot password</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Forgot_Password</shortDescription>
+        <value>Forgot Password?</value>
+    </labels>
+    <labels>
+        <fullName>Form</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Form</shortDescription>
+        <value>Form</value>
+    </labels>
+    <labels>
+        <fullName>Forms_Back</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Forms_Back</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>Forms_Cancel</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Forms_Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Group_Label</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Group Label</shortDescription>
+        <value>Group Label</value>
+    </labels>
+    <labels>
+        <fullName>Group_Label_Help</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Group Label Help</shortDescription>
+        <value>Item Group Label</value>
+    </labels>
+    <labels>
+        <fullName>Instructions</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Instructions</shortDescription>
+        <value>Instructions</value>
+    </labels>
+    <labels>
+        <fullName>Instructions_Help</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Instructions_Help</shortDescription>
+        <value>The value in this field will be presented under the title at the top of the page.</value>
+    </labels>
+    <labels>
+        <fullName>Instructions_Help_Text</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Instructions_Help_Text</shortDescription>
+        <value>The value in this field will be presented under the title at the top of the page.</value>
+    </labels>
+    <labels>
+        <fullName>Invalid_Username_Password</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid_Username_Password</shortDescription>
+        <value>Invalid username or password.</value>
+    </labels>
+    <labels>
+        <fullName>Is_Default</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Is_Default</shortDescription>
+        <value>Is Default</value>
+    </labels>
+    <labels>
+        <fullName>Is_Published</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Is_Published</shortDescription>
+        <value>Is Published</value>
+    </labels>
+    <labels>
+        <fullName>Is_Published_Help_Text</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Is_Published_Help_Text</shortDescription>
+        <value>When checked this field makes the join process page visible to end users.</value>
+    </labels>
+    <labels>
+        <fullName>Is_Required_Match_Rule</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Is_Required_Match_Rule</shortDescription>
+        <value>Is Required</value>
+    </labels>
+    <labels>
+        <fullName>Item</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Item</shortDescription>
+        <value>Item</value>
+    </labels>
+    <labels>
+        <fullName>Item_Count</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Item_Count</shortDescription>
+        <value>Item Count</value>
+    </labels>
+    <labels>
+        <fullName>Item_Description</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Item_Description</shortDescription>
+        <value>Item Description</value>
+    </labels>
+    <labels>
+        <fullName>Item_Description_Help</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Item_Description_Help</shortDescription>
+        <value>The description displayed for this item.</value>
+    </labels>
+    <labels>
+        <fullName>Item_Group</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Item_Group</shortDescription>
+        <value>Create Item Group and Items for your Marketing Page.</value>
+    </labels>
+    <labels>
+        <fullName>Item_Help_Text</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Item_Help_Text</shortDescription>
+        <value>Used for product flow steps, this field defines the item for the item flow.</value>
+    </labels>
+    <labels>
+        <fullName>Item_Label</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Item_Label</shortDescription>
+        <value>Item Label</value>
+    </labels>
+    <labels>
+        <fullName>Item_Label_Help</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Item_Label_Help</shortDescription>
+        <value>Item Label</value>
+    </labels>
+    <labels>
+        <fullName>Item_Search</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Item_Search</shortDescription>
+        <value>Item Search</value>
+    </labels>
+    <labels>
+        <fullName>Item_Search_Help</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Item_Search_Help</shortDescription>
+        <value>Defines the item for the related step.</value>
+    </labels>
+    <labels>
+        <fullName>Item_Selection</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Item_Selection</shortDescription>
+        <value>Item Selection</value>
+    </labels>
+    <labels>
+        <fullName>Item_Selection_Type</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Item_Selection_Type</shortDescription>
+        <value>Item Selection Type</value>
+    </labels>
+    <labels>
+        <fullName>Items</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Items</shortDescription>
+        <value>Items</value>
+    </labels>
+    <labels>
+        <fullName>Join_Process_Builder</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Join Process Builder</shortDescription>
+        <value>Join Process Builder</value>
+    </labels>
+    <labels>
+        <fullName>Join_Process_Display_Name</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Join_Process_Display_Name</shortDescription>
+        <value>Join Process Display Name</value>
+    </labels>
+    <labels>
+        <fullName>Join_Process_Display_Name_Help_Text</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Join_Process_Display_Name_Help_Text</shortDescription>
+        <value>The name that will be presented at the top of the page.</value>
+    </labels>
+    <labels>
+        <fullName>Join_Process_Not_Visible</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Join Process Not Visible Button Text</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>Last_Name</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Last_Name</shortDescription>
+        <value>Last Name</value>
+    </labels>
+    <labels>
+        <fullName>Last_Name_Required</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Last_Name_Required</shortDescription>
+        <value>Last Name Required</value>
+    </labels>
+    <labels>
+        <fullName>Loading</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Loading</shortDescription>
+        <value>Loading...</value>
+    </labels>
+    <labels>
+        <fullName>Login</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login</shortDescription>
+        <value>Login</value>
+    </labels>
+    <labels>
+        <fullName>Login_Button_Label</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Button_Label</shortDescription>
+        <value>Login Button Label</value>
+    </labels>
+    <labels>
+        <fullName>Login_Button_Label_Help_Text</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Button_Label_Help_Text</shortDescription>
+        <value>Login Section Button Label</value>
+    </labels>
+    <labels>
+        <fullName>Login_Instructions</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Instructions</shortDescription>
+        <value>Login Instructions</value>
+    </labels>
+    <labels>
+        <fullName>Login_Instructions_Help</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Instructions</shortDescription>
+        <value>Instructions on the Login Section</value>
+    </labels>
+    <labels>
+        <fullName>Login_New_Member</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_New_Member</shortDescription>
+        <value>Login / New Member</value>
+    </labels>
+    <labels>
+        <fullName>Login_Password_Required_Message</fullName>
+        <categories>login,validation message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Password_Required_Message</shortDescription>
+        <value>Password is required.</value>
+    </labels>
+    <labels>
+        <fullName>Login_Title</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Title</shortDescription>
+        <value>Login Title</value>
+    </labels>
+    <labels>
+        <fullName>Login_Title_Help_Text</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Title_Help_Text</shortDescription>
+        <value>Title for the Login Section</value>
+    </labels>
+    <labels>
+        <fullName>Login_Username_Required_Message</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Login_Username_Required_Message</shortDescription>
+        <value>Email is required.</value>
+    </labels>
+    <labels>
+        <fullName>Marketing</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Marketing</shortDescription>
+        <value>Marketing</value>
+    </labels>
+    <labels>
+        <fullName>Marketing_Item</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Marketing_Item</shortDescription>
+        <value>Marketing Item</value>
+    </labels>
+    <labels>
+        <fullName>Marketing_Step</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Marketing Step</shortDescription>
+        <value>Marketing Step</value>
+    </labels>
+    <labels>
+        <fullName>Navigation_Button_Label</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Navigation_Button_Label</shortDescription>
+        <value>Navigation Button Label</value>
+    </labels>
+    <labels>
+        <fullName>Navigation_Button_Label_Help_Text</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Navigation_Button_Label_Help_Text</shortDescription>
+        <value>The Next Step Navigation button label</value>
+    </labels>
+    <labels>
+        <fullName>Navigation_Button_URL</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Navigation_Button_URL</shortDescription>
+        <value>Navigation URL</value>
+    </labels>
+    <labels>
+        <fullName>Navigation_Button_URL_Help_Text</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Navigation_Button_URL_Help_Text</shortDescription>
+        <value>Navigation URL that needs to be redirected from this step</value>
+    </labels>
+    <labels>
+        <fullName>New_Page</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New_Page</shortDescription>
+        <value>New Page</value>
+    </labels>
+    <labels>
+        <fullName>New_User_Button_Label</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New_User_Button_Label</shortDescription>
+        <value>New User Button Label</value>
+    </labels>
+    <labels>
+        <fullName>New_User_Button_Label_Help_Text</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New_User_Button_Label_Help_Text</shortDescription>
+        <value>New User Section Button Label</value>
+    </labels>
+    <labels>
+        <fullName>New_User_Instructions</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New_User_Instructions</shortDescription>
+        <value>New User Instructions</value>
+    </labels>
+    <labels>
+        <fullName>New_User_Instructions_Help</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New_User_Instructions_Help</shortDescription>
+        <value>Instructions on the New User Section</value>
+    </labels>
+    <labels>
+        <fullName>New_User_Title</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New_User_Title</shortDescription>
+        <value>New User Title</value>
+    </labels>
+    <labels>
+        <fullName>New_User_Title_Help_Text</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New_User_Title_Help_Text</shortDescription>
+        <value>Title for the New User Section</value>
+    </labels>
+    <labels>
+        <fullName>Next</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Next</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>Next_Step</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Next_Step</shortDescription>
+        <value>Next Step</value>
+    </labels>
+    <labels>
+        <fullName>Next_Step_Button_Label</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Next_Step_Button_Label</shortDescription>
+        <value>Next Step Button Label</value>
+    </labels>
+    <labels>
+        <fullName>Next_Step_Button_Label_Help_Text</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Next_Step_Button_Label_Help_Text</shortDescription>
+        <value>Defines the button label for the next step on every step.</value>
+    </labels>
+    <labels>
+        <fullName>Next_Step_Lookup</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Next_Step_Lookup</shortDescription>
+        <value>Next Step Lookup</value>
+    </labels>
+    <labels>
+        <fullName>Next_Step_Lookup_Help_Text</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Next_Step_Lookup_Help_Text</shortDescription>
+        <value>This is the step that is redirected after the current step is submitted.</value>
+    </labels>
+    <labels>
+        <fullName>No_Id_Error_Message</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>When an id is not passed to the page</shortDescription>
+        <value>You must pass a record id to access this page.</value>
+    </labels>
+    <labels>
+        <fullName>No_Next_Step</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No_Next_Step</shortDescription>
+        <value>No Next Step</value>
+    </labels>
+    <labels>
+        <fullName>No_Results_Found</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No_Results_Found</shortDescription>
+        <value>No Results Found</value>
+    </labels>
+    <labels>
+        <fullName>Ordering_Instructions</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ordering_Instructions</shortDescription>
+        <value>Order Item Groups and Items by dragging them.</value>
+    </labels>
+    <labels>
+        <fullName>Package_Item_Added_Quantity</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Package_Item_Added_Quantity</shortDescription>
+        <value>Added {{item}} to cart.</value>
+    </labels>
+    <labels>
+        <fullName>Package_Item_Class_Required</fullName>
+        <categories>Item</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Package_Item_Class_Required</shortDescription>
+        <value>You need to purchase at least one item out of the group.</value>
+    </labels>
+    <labels>
+        <fullName>Package_Item_Max_Required</fullName>
+        <categories>store_checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Package_Item_Max_Required</shortDescription>
+        <value>The maximum quantity for this item is</value>
+    </labels>
+    <labels>
+        <fullName>Package_Item_Min_Required</fullName>
+        <categories>store_checkout</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Package_Item_Min_Required</shortDescription>
+        <value>The minimum quantity for this item is</value>
+    </labels>
+    <labels>
+        <fullName>Package_Items</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Package_Items</shortDescription>
+        <value>Additional</value>
+    </labels>
+    <labels>
+        <fullName>Page_Size</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Page_Size</shortDescription>
+        <value>Page Size</value>
+    </labels>
+    <labels>
+        <fullName>Page_Title</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Page_Title</shortDescription>
+        <value>Page Title</value>
+    </labels>
+    <labels>
+        <fullName>Page_Title_Help</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Page_Title_Help</shortDescription>
+        <value>Defines the page title text that is displayed at the top of the page.</value>
+    </labels>
+    <labels>
+        <fullName>Page_Title_Help_Text</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Page_Title_Help_Text</shortDescription>
+        <value>Defines the page title text that is displayed at the top of the page.</value>
+    </labels>
+    <labels>
+        <fullName>Password</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Password</shortDescription>
+        <value>Password</value>
+    </labels>
+    <labels>
+        <fullName>Password_Required</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Password_Required</shortDescription>
+        <value>Password Required</value>
+    </labels>
+    <labels>
+        <fullName>Payment</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Payment</shortDescription>
+        <value>Payment</value>
+    </labels>
+    <labels>
+        <fullName>Payment_Due</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Payment Due</shortDescription>
+        <value>Payment Due at Checkout</value>
+    </labels>
+    <labels>
+        <fullName>Please_Wait_Updating_Item_Prices</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Please_Wait_Updating_Item_Prices</shortDescription>
+        <value>Please wait, updating item prices...</value>
+    </labels>
+    <labels>
+        <fullName>Please_Wait_Updating_Total_Price</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Please_Wait_Updating_Total_Price</shortDescription>
+        <value>Please wait, updating total price...</value>
+    </labels>
+    <labels>
+        <fullName>Previous_Step</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Previous Step</shortDescription>
+        <value>Previous Step</value>
+    </labels>
+    <labels>
+        <fullName>Proceed_to_Next_Step</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Proceed_to_Next_Step</shortDescription>
+        <value>Proceed to Next Step</value>
+    </labels>
+    <labels>
+        <fullName>Product_Flow</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product_Flow</shortDescription>
+        <value>Product Flow</value>
+    </labels>
+    <labels>
+        <fullName>Profile_Id_Is_Mandatory</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Profile_Id_Is_Mandatory</shortDescription>
+        <value>Profile Configuration Missing: Please add profile Id on store and/or site.</value>
+    </labels>
+    <labels>
+        <fullName>Qualifying_Questions</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Qualifying_Questions</shortDescription>
+        <value>Qualifying Questions</value>
+    </labels>
+    <labels>
+        <fullName>Quantity</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quantity</shortDescription>
+        <value>Quantity</value>
+    </labels>
+    <labels>
+        <fullName>Replace_with</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Replace_with</shortDescription>
+        <value>Replace with</value>
+    </labels>
+    <labels>
+        <fullName>Required_Package_Item_Text</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Required_Package_Item_Text</shortDescription>
+        <value>This item requires that you also purchase</value>
+    </labels>
+    <labels>
+        <fullName>Save</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>Save_Continue</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save &amp; Continue</shortDescription>
+        <value>Save &amp; Continue</value>
+    </labels>
+    <labels>
+        <fullName>Save_Exit</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save &amp; Exit</shortDescription>
+        <value>Save &amp; Exit</value>
+    </labels>
+    <labels>
+        <fullName>Save_Return_to_Process_Builder</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save_Return_to_Process_Builder</shortDescription>
+        <value>Save &amp; Return to Process Builder</value>
+    </labels>
+    <labels>
+        <fullName>Saving</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Saving</shortDescription>
+        <value>Saving</value>
+    </labels>
+    <labels>
+        <fullName>Select_Badge_Types</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select_Badge_Types</shortDescription>
+        <value>Select Badge Types</value>
+    </labels>
+    <labels>
+        <fullName>Select_Existing_Form</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select_Existing_Forms</shortDescription>
+        <value>Select Existing Form</value>
+    </labels>
+    <labels>
+        <fullName>Select_Item</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select_Item</shortDescription>
+        <value>Select Item</value>
+    </labels>
+    <labels>
+        <fullName>Selected_Access_Permissions</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Selected_Access_Permissions</shortDescription>
+        <value>Selected Access Permissions</value>
+    </labels>
+    <labels>
+        <fullName>Selected_Badge_Types</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Selected_Badge_Types</shortDescription>
+        <value>Selected Badge Types</value>
+    </labels>
+    <labels>
+        <fullName>Selected_Badges</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Selected_Badges</shortDescription>
+        <value>Selected Badges</value>
+    </labels>
+    <labels>
+        <fullName>Selected_Filter</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Selected_Filter</shortDescription>
+        <value>Selected Filter</value>
+    </labels>
+    <labels>
+        <fullName>Selected_Filter_Criteria</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Selected_Filter_Criteria</shortDescription>
+        <value>Selected Filter Criteria</value>
+    </labels>
+    <labels>
+        <fullName>Site_Registration_Is_Not_Enabled</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site_Registration_Is_Not_Enabled</shortDescription>
+        <value>Site registration is not enabled.</value>
+    </labels>
+    <labels>
+        <fullName>Specific_Item_Selection</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Specific_Item_Selection</shortDescription>
+        <value>Specific Item Selection</value>
+    </labels>
+    <labels>
+        <fullName>Step</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Step</shortDescription>
+        <value>Step</value>
+    </labels>
+    <labels>
+        <fullName>Step_Types</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Step_Types</shortDescription>
+        <value>Step Types</value>
+    </labels>
+    <labels>
+        <fullName>Store</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Store</shortDescription>
+        <value>Store</value>
+    </labels>
+    <labels>
+        <fullName>Store_Help_Text</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Store_Help_Text</shortDescription>
+        <value>Defines the store that controls the authentication and payment rules used for this page.</value>
+    </labels>
+    <labels>
+        <fullName>Store_Name</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Store_Name</shortDescription>
+        <value>Store</value>
+    </labels>
+    <labels>
+        <fullName>Subscription_Plan</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Subscription Plan</shortDescription>
+        <value>Subscription Plan</value>
+    </labels>
+    <labels>
+        <fullName>Thank_You_For_Applying</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Thank_You_For_Applying</shortDescription>
+        <value>Thank You For Applying</value>
+    </labels>
+    <labels>
+        <fullName>User_Already_Exists</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>User_Already_Exists</shortDescription>
+        <value>User Already Exists</value>
+    </labels>
+    <labels>
+        <fullName>Username</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Username</shortDescription>
+        <value>Username</value>
+    </labels>
+    <labels>
+        <fullName>Validation_Error_To_View_Process</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Join Process validation error</shortDescription>
+        <value>You don&apos;t have access to view this Process</value>
+    </labels>
+    <labels>
+        <fullName>Visual_Force_Page_API_Name</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visual_Force_Page_API_Name</shortDescription>
+        <value>Visual Force Page API Name</value>
+    </labels>
+    <labels>
+        <fullName>Visual_Force_Page_API_Name_Help_Text</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visual_Force_Page_API_Name_Help_Text</shortDescription>
+        <value>Define the VF page to be used for this step.</value>
+    </labels>
+    <labels>
+        <fullName>Would_You_Like_To_Subscribe_For_Auto_Renewal</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Would_You_Like_To_Subscribe_For_Auto_Renewal</shortDescription>
+        <value>Would you like to subscribe for auto renewal?</value>
+    </labels>
+    <labels>
+        <fullName>of</fullName>
+        <categories>JoinApi</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>of</shortDescription>
+        <value>of</value>
+    </labels>
+</CustomLabels>

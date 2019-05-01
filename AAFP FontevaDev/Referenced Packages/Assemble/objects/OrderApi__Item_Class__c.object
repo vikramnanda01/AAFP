@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Event__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Link to related Event.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Link to related Event.</inlineHelpText>
+        <label>Event</label>
+        <referenceTo>Event__c</referenceTo>
+        <relationshipLabel>Item Classes</relationshipLabel>
+        <relationshipName>Item_Classes</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Is_Event_Session__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, Items linked to this Item Class may only be purchased if they are the direct child of a &quot;Registration&quot; record related to an &quot;Active&quot; Event. Defaults unchecked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, Items linked to this Item Class may only be purchased if they are the direct child of a &quot;Registration&quot; record related to an &quot;Active&quot; Event. Defaults unchecked.</inlineHelpText>
+        <label>Is Event Session</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Schedule_Item_Class__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** Checked if Item Class is related to Event Ticket Type.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated ** Checked if Item Class is related to Event Ticket Type.</inlineHelpText>
+        <label>Is Schedule Item Class</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Sponsor_Class__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** Checked if Item Class is related to Event Sponsor Package.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated ** Checked if Item Class is related to Event Sponsor Package.</inlineHelpText>
+        <label>Is Sponsor Class</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Ticket_Type_Class__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** Checked if Item Class is related to Event Ticket Type.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated ** Checked if Item Class is related to Event Ticket Type.</inlineHelpText>
+        <label>Is Ticket Type Class</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+</CustomObject>
